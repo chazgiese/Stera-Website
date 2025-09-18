@@ -57,7 +57,7 @@ export default function FilterDropdown({
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={clsx(
-          'flex items-center pl-4 pr-4 py-2 gap-2 rounded-3xl focus:bg-zinc-800 focus:outline-none focus:border-transparent transition-all duration-200 bg-white dark:bg-zinc-950 dark:text-zinc-400'
+          'flex items-center pl-4 pr-4 py-2 gap-2 rounded-3xl focus:bg-zinc-800 focus:outline-none focus:border-transparent transition-all duration-200 bg-zinc-100 dark:bg-zinc-950 dark:text-zinc-400'
         )}
         aria-haspopup="listbox"
         aria-expanded={isOpen}
@@ -78,7 +78,7 @@ export default function FilterDropdown({
           mt-1
           w-[144px]
           bg-white dark:bg-zinc-950
-          border border-zinc-300 dark:border-zinc-800 rounded-3xl
+          border border-zinc-300 dark:border-zinc-800 rounded-2xl
           shadow-lg
           overflow-hidden
           z-50">

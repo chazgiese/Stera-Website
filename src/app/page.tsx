@@ -6,7 +6,7 @@ import SearchBar from '@/components/SearchBar';
 import FilterDropdown from '@/components/FilterDropdown';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
-import { Github, Package, ExternalLink } from 'lucide-react';
+import { AstriskAlt } from 'stera-icons';
 
 export default function Home() {
   const [icons, setIcons] = useState<IconData[]>([]);
@@ -76,45 +76,36 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
+    <div className="min-h-screen bg-white dark:bg-zinc-950">
       {/* Header */}
-      <header className="bg-white dark:bg-zinc-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+      <header className="lg:fixed top-0 left-0 right-0 z-25 bg-white/60 dark:bg-zinc-950/10 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                  <Package className="w-5 h-5 text-white" />
-                </div>
-                <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                  Stera Icons
+                <AstriskAlt className="w-6 h-6 text-zinc-900 dark:text-zinc-100" />
+                <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+                  Stera
                 </h1>
               </div>
-              <span className="text-sm text-gray-500 dark:text-gray-400">
-                {icons.length} icons
-              </span>
             </div>
             
             <div className="flex items-center space-x-4">
               <a
-                href="https://www.npmjs.com/package/stera-icons"
+                href="https://www.figma.com/community/file/1548871823641702097/stera-icons"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+                className="flex items-center space-x-2 px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
               >
-                <Package className="w-4 h-4" />
-                <span>NPM</span>
-                <ExternalLink className="w-3 h-3" />
+                <span>Figma</span>
               </a>
               <a
                 href="https://github.com/chazgiese/Stera-Icons"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+                className="flex items-center space-x-2 px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
               >
-                <Github className="w-4 h-4" />
                 <span>GitHub</span>
-                <ExternalLink className="w-3 h-3" />
               </a>
             </div>
           </div>
@@ -122,19 +113,9 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         {/* Search and Filters */}
-        <div className="mb-8 space-y-6">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-              Browse & Discover Icons
-            </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-              Find the perfect icon for your project from our collection of {icons.length}+ icons
-            </p>
-          </div>
-        </div>
-        <div className="sticky top-2 z-10 flex gap-4 lg:max-w-2xl m-auto">
+        <div className="sticky top-2 z-50 flex gap-4 lg:max-w-lg m-auto">
             <SearchBar
               searchTerm={searchTerm}
               onSearchChange={setSearchTerm}
@@ -157,19 +138,15 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-16">
+      <footer className="mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-sm text-gray-500 dark:text-gray-400">
-            <p className="mb-2">
-              Built with Next.js, TypeScript, and Tailwind CSS
-            </p>
+          <div className="text-center text-sm text-zinc-500 dark:text-zinc-600">
             <p>
-              Icons from{' '}
               <a
                 href="https://www.npmjs.com/package/stera-icons"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-600 underline"
+                className="text-zinc-800 dark:text-zinc-200 dark:hover:text-zinc-400 hover:text-zinc-600"
               >
                 stera-icons
               </a>
@@ -178,9 +155,9 @@ export default function Home() {
                 href="https://github.com/chazgiese"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-600 underline"
+                className="text-zinc-800 dark:text-zinc-200 dark:hover:text-zinc-400 hover:text-zinc-600"
               >
-                Chaz Giese
+                chaz giese
               </a>
             </p>
           </div>

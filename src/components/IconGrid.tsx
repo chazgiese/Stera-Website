@@ -12,19 +12,18 @@ interface IconGridProps {
 export default function IconGrid({ icons, onIconClick, loading = false }: IconGridProps) {
   if (loading) {
     return (
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+      <div className="
+        grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-8
+        gap-4
+        pb-8
+      ">
         {Array.from({ length: 24 }).map((_, index) => (
           <div
             key={index}
-            className="bg-gray-200 dark:bg-gray-700 rounded-lg p-4 animate-pulse"
-          >
-            <div className="h-16 bg-gray-300 dark:bg-gray-600 rounded mb-3"></div>
-            <div className="h-4 bg-gray-300 dark:bg-gray-600 rounded mb-2"></div>
-            <div className="h-3 bg-gray-300 dark:bg-gray-600 rounded mb-2"></div>
-            <div className="flex gap-1 justify-center">
-              <div className="h-5 w-12 bg-gray-300 dark:bg-gray-600 rounded-full"></div>
-              <div className="h-5 w-8 bg-gray-300 dark:bg-gray-600 rounded-full"></div>
-            </div>
+            className="
+            bg-white dark:bg-zinc-900 rounded-lg p-4 h-24 animate-pulse flex items-center justify-center
+          ">
+            <div className="h-8 w-8 p-4 bg-zinc-100 dark:bg-zinc-800 rounded-3xl"></div>
           </div>
         ))}
       </div>
@@ -60,7 +59,11 @@ export default function IconGrid({ icons, onIconClick, loading = false }: IconGr
   }
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8 gap-4">
+    <div className="
+      grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-8
+      gap-4
+      pb-8
+    ">
       {icons.map((icon) => (
         <IconCard
           key={icon.name}
