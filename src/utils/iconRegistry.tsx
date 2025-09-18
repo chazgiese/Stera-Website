@@ -39,7 +39,7 @@ export async function loadIcon(iconName: string): Promise<React.ComponentType<Ic
     // Import from the main package instead of individual files
     const iconModule = await import('stera-icons');
     
-    // The icon is exported as a named export with the PascalCase name
+    // The icon is exported as a named export with the component name
     const IconComponent = (iconModule as Record<string, React.ComponentType<IconProps>>)[iconName];
     
     if (IconComponent) {

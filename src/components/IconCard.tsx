@@ -42,7 +42,7 @@ export default function IconCard({ icon, onIconClick }: IconCardProps) {
         <DynamicIcon 
           iconName={icon.name}
           size={32} 
-          className="text-gray-700 dark:text-gray-300 group-hover:text-zinc-500 transition-colors" 
+          className="text-gray-700 dark:text-gray-300 transition-colors" 
         />
       </div>
 
@@ -51,9 +51,14 @@ export default function IconCard({ icon, onIconClick }: IconCardProps) {
         {icon.name}
       </h3>
 
-      {/* Category Badge */}
-      <div className="text-xs text-gray-500 dark:text-gray-400 text-center mb-2">
-        {icon.category}
+      {/* Style and Category Badges */}
+      <div className="flex flex-col items-center gap-1 mb-2">
+        <div className="text-xs px-2 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+          {icon.style}
+        </div>
+        <div className="text-xs text-gray-500 dark:text-gray-400">
+          {icon.category}
+        </div>
       </div>
     </div>
   );

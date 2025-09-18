@@ -2,6 +2,7 @@ export interface IconData {
   name: string;
   tags: string[];
   category: string;
+  style: 'Regular' | 'Bold' | 'Filled';
 }
 
 export interface IconProps {

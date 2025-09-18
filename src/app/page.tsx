@@ -45,10 +45,11 @@ export default function Home() {
         icon.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         icon.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
 
-      // Style filter (All, Outline, Solid)
+      // Style filter (All, Regular, Bold, Filled)
       const matchesStyle = selectedFilter === 'All' || 
-        (selectedFilter === 'Outline' && icon.tags.includes('outline')) ||
-        (selectedFilter === 'Solid' && icon.tags.includes('solid'));
+        (selectedFilter === 'Regular' && icon.style === 'Regular') ||
+        (selectedFilter === 'Bold' && icon.style === 'Bold') ||
+        (selectedFilter === 'Filled' && icon.style === 'Filled');
 
       return matchesSearch && matchesStyle;
     });
@@ -57,10 +58,11 @@ export default function Home() {
   // Calculate counts for each filter
   const iconCounts = useMemo(() => {
     const totalCount = icons.length;
-    const outlineCount = icons.filter(icon => icon.tags.includes('outline')).length;
-    const solidCount = icons.filter(icon => icon.tags.includes('solid')).length;
+    const regularCount = icons.filter(icon => icon.style === 'Regular').length;
+    const boldCount = icons.filter(icon => icon.style === 'Bold').length;
+    const filledCount = icons.filter(icon => icon.style === 'Filled').length;
     
-    return { totalCount, outlineCount, solidCount };
+    return { totalCount, regularCount, boldCount, filledCount };
   }, [icons]);
 
   const handleIconClick = (icon: IconData) => {
@@ -131,8 +133,9 @@ export default function Home() {
               Find the perfect icon for your project from our collection of {icons.length}+ icons
             </p>
           </div>
-          <div className="flex gap-4 lg:max-w-2xl m-auto">
-          <SearchBar
+        </div>
+        <div className="sticky top-2 z-10 flex gap-4 lg:max-w-2xl m-auto">
+            <SearchBar
               searchTerm={searchTerm}
               onSearchChange={setSearchTerm}
             />
@@ -140,12 +143,11 @@ export default function Home() {
               selectedFilter={selectedFilter}
               onFilterChange={setSelectedFilter}
               totalCount={iconCounts.totalCount}
-              outlineCount={iconCounts.outlineCount}
-              solidCount={iconCounts.solidCount}
+              regularCount={iconCounts.regularCount}
+              boldCount={iconCounts.boldCount}
+              filledCount={iconCounts.filledCount}
             />
           </div>
-        </div>
-
         {/* Icon Grid */}
         <IconGrid
           icons={filteredIcons}
