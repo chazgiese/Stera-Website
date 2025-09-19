@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // For GitHub Pages deployment
-  basePath: process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS ? '/Stera-Site' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS ? '/Stera-Site/' : '',
+  basePath: process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS ? '/Stera-Website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS ? '/Stera-Website/' : '',
 };
 
 export default nextConfig;
