@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XBold, CopyBold, CheckmarkBold, DownloadBold } from 'stera-icons';
+import { XBold, CopyBold, CheckmarkBold, SaveBold } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 
@@ -44,10 +44,17 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
   const usageCode = `<${icon.name} size={${iconSize}} color="${iconColor}" />`;
   const jsxCode = `import React from 'react';\nimport { ${icon.name} } from 'stera-icons';\n\nexport default function MyComponent() {\n  return (\n    <div>\n      <${icon.name} size={${iconSize}} color="${iconColor}" />\n    </div>\n  );\n}`;
 
-  const downloadSVG = () => {
+  const getSVGData = () => {
     const svgElement = document.querySelector('#icon-preview svg');
     if (svgElement) {
-      const svgData = new XMLSerializer().serializeToString(svgElement);
+      return new XMLSerializer().serializeToString(svgElement);
+    }
+    return '';
+  };
+
+  const downloadSVG = () => {
+    const svgData = getSVGData();
+    if (svgData) {
       const blob = new Blob([svgData], { type: 'image/svg+xml' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -97,8 +104,25 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
 
           {/* Content */}
           <div className="p-6 overflow-y-auto max-h-[calc(90vh-120px)]">
-            <div className="grid grid-cols-1 gap-8">
-
+            <div className="grid grid-cols-1 gap-4">
+              <div className="flex gap-3">
+                {/* Download SVG Button */}
+                <button
+                  onClick={downloadSVG}
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
+                >
+                  <SaveBold className="w-4 h-4" />
+                  Download SVG
+                </button>
+                {/* Copy SVG Button */}
+                <button
+                  onClick={() => copyToClipboard(getSVGData(), 'svg')}
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
+                >
+                  <CopyBold className="w-4 h-4" />
+                  {copied === 'svg' ? 'Copied!' : 'Copy SVG'}
+                </button>
+              </div>
               {/* Code Examples */}
               <div className="space-y-6">
                 <div>
