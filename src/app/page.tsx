@@ -8,6 +8,7 @@ import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
 import { getIconStyle } from '@/utils/iconRegistry';
 import { AstriskAlt } from 'stera-icons';
+import iconData from '@/data/icons.json';
 
 export default function Home() {
   const [icons, setIcons] = useState<IconData[]>([]);
@@ -19,23 +20,15 @@ export default function Home() {
 
   // Load icons on mount
   useEffect(() => {
-    const loadIcons = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch('/data/icons.json');
-        if (!response.ok) {
-          throw new Error('Failed to fetch icons');
-        }
-        const iconData = await response.json();
-        setIcons(iconData);
-      } catch (error) {
-        console.error('Failed to load icons:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadIcons();
+    setLoading(true);
+    try {
+      // Use imported data directly for static export
+      setIcons(iconData as IconData[]);
+    } catch (error) {
+      console.error('Failed to load icons:', error);
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   // Filter icons based on search and style filter
