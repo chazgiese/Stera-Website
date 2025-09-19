@@ -66,3 +66,10 @@ export async function preloadIcons(iconNames: string[]): Promise<void> {
 export function clearIconCache(): void {
   iconCache.clear();
 }
+
+// Function to determine icon style from name
+export function getIconStyle(iconName: string): 'Regular' | 'Bold' | 'Filled' {
+  if (iconName.endsWith('Bold')) return 'Bold';
+  if (iconName.endsWith('Filled')) return 'Filled';
+  return 'Regular';
+}

@@ -46,6 +46,7 @@ export default function SearchBar({
             focus:outline-none
             dark:focus:bg-zinc-900
             focus:border-zinc-300
+            focus:dark:border-zinc-700
             transition-all duration-200
             dark:text-white"
         />

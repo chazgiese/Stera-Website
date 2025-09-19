@@ -6,6 +6,7 @@ import SearchBar from '@/components/SearchBar';
 import FilterDropdown from '@/components/FilterDropdown';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
+import { getIconStyle } from '@/utils/iconRegistry';
 import { AstriskAlt } from 'stera-icons';
 
 export default function Home() {
@@ -45,11 +46,14 @@ export default function Home() {
         icon.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         icon.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
 
+      // Determine style from icon name
+      const iconStyle = getIconStyle(icon.name);
+
       // Style filter (All, Regular, Bold, Filled)
       const matchesStyle = selectedFilter === 'All' || 
-        (selectedFilter === 'Regular' && icon.style === 'Regular') ||
-        (selectedFilter === 'Bold' && icon.style === 'Bold') ||
-        (selectedFilter === 'Filled' && icon.style === 'Filled');
+        (selectedFilter === 'Regular' && iconStyle === 'Regular') ||
+        (selectedFilter === 'Bold' && iconStyle === 'Bold') ||
+        (selectedFilter === 'Filled' && iconStyle === 'Filled');
 
       return matchesSearch && matchesStyle;
     });
@@ -58,9 +62,9 @@ export default function Home() {
   // Calculate counts for each filter
   const iconCounts = useMemo(() => {
     const totalCount = icons.length;
-    const regularCount = icons.filter(icon => icon.style === 'Regular').length;
-    const boldCount = icons.filter(icon => icon.style === 'Bold').length;
-    const filledCount = icons.filter(icon => icon.style === 'Filled').length;
+    const regularCount = icons.filter(icon => getIconStyle(icon.name) === 'Regular').length;
+    const boldCount = icons.filter(icon => getIconStyle(icon.name) === 'Bold').length;
+    const filledCount = icons.filter(icon => getIconStyle(icon.name) === 'Filled').length;
     
     return { totalCount, regularCount, boldCount, filledCount };
   }, [icons]);

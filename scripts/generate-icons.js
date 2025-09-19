@@ -1,6 +1,15 @@
 const fs = require('fs');
 const path = require('path');
 
+// Validation function to check if icon exists in stera-icons
+function validateIconExists(iconName, availableIcons) {
+  if (!availableIcons.has(iconName)) {
+    console.warn(`⚠️  Warning: Icon "${iconName}" not found in stera-icons package`);
+    return false;
+  }
+  return true;
+}
+
 // Load the stera-icons metadata
 const metadataPath = path.join(__dirname, '..', 'node_modules', 'stera-icons', 'dist', 'icons.meta.json');
 const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
@@ -103,18 +112,35 @@ function generateTags(iconName, metadata) {
 // Generate all icon data
 function generateIconData() {
   const Icons = require('stera-icons');
-  const result = Object.entries(Icons).map(([name]) => {
+  const availableIcons = new Set(Object.keys(Icons));
+  
+  console.log(`📦 Found ${availableIcons.size} icons in stera-icons package`);
+  
+  const result = [];
+  const invalidIcons = [];
+  
+  Object.entries(Icons).forEach(([name]) => {
+    // Validate that the icon actually exists
+    if (!validateIconExists(name, availableIcons)) {
+      invalidIcons.push(name);
+      return; // Skip invalid icons
+    }
+    
     const metadata = metadataMap.get(name);
     
-    
-    return {
+    result.push({
       name,
       tags: generateTags(name, metadata),
       category: getCategory(name),
-    };
+    });
   });
   
+  if (invalidIcons.length > 0) {
+    console.error(`❌ Found ${invalidIcons.length} invalid icons that will be skipped:`);
+    invalidIcons.forEach(icon => console.error(`   - ${icon}`));
+  }
   
+  console.log(`✅ Generated data for ${result.length} valid icons`);
   return result;
 }
 
@@ -122,13 +148,42 @@ function generateIconData() {
 const icons = generateIconData();
 
 // Create the data directory if it doesn't exist
-const dataDir = path.join(__dirname, '..', 'src', 'data');
-if (!fs.existsSync(dataDir)) {
-  fs.mkdirSync(dataDir, { recursive: true });
+const srcDataDir = path.join(__dirname, '..', 'src', 'data');
+const publicDataDir = path.join(__dirname, '..', 'public', 'data');
+
+[srcDataDir, publicDataDir].forEach(dir => {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+});
+
+// Write the icons data to both locations
+const srcOutputPath = path.join(srcDataDir, 'icons.json');
+const publicOutputPath = path.join(publicDataDir, 'icons.json');
+
+try {
+  const iconsJson = JSON.stringify(icons, null, 2);
+  
+  // Write to src/data
+  fs.writeFileSync(srcOutputPath, iconsJson);
+  console.log(`✅ Generated ${icons.length} icons data to ${srcOutputPath}`);
+  
+  // Write to public/data (for frontend access)
+  fs.writeFileSync(publicOutputPath, iconsJson);
+  console.log(`✅ Synced icons data to ${publicOutputPath}`);
+  
+  // Verify both files are identical
+  const srcContent = fs.readFileSync(srcOutputPath, 'utf8');
+  const publicContent = fs.readFileSync(publicOutputPath, 'utf8');
+  
+  if (srcContent === publicContent) {
+    console.log(`✅ Verified data consistency between src and public directories`);
+  } else {
+    console.error(`❌ Data inconsistency detected between src and public directories`);
+    process.exit(1);
+  }
+  
+} catch (error) {
+  console.error(`❌ Error writing icon data:`, error.message);
+  process.exit(1);
 }
-
-// Write the icons data to a JSON file
-const outputPath = path.join(dataDir, 'icons.json');
-fs.writeFileSync(outputPath, JSON.stringify(icons, null, 2));
-
-console.log(`Generated ${icons.length} icons data to ${outputPath}`);
