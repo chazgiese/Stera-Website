@@ -5,15 +5,14 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "build:static": "node scripts/generate-icons.js && next build",
     "start": "next start",
     "lint": "eslint",
-    "export": "next build && next export",
     "generate-icons": "node scripts/generate-icons.js",
     "sync-icons": "node scripts/sync-icons.js",
     "postinstall": "npm run generate-icons"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.544.0",
     "next": "15.5.3",

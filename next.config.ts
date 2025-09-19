@@ -1,14 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  // Vercel handles optimization automatically
   images: {
-    unoptimized: true,
+    // Enable image optimization for Vercel
+    formats: ['image/webp', 'image/avif'],
   },
-  // For GitHub Pages deployment
-  basePath: process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS ? '/Stera-Website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS ? '/Stera-Website/' : '',
 };
 
 export default nextConfig;
