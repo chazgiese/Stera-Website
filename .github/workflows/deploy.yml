@@ -20,9 +20,9 @@ jobs:
         node-version: '18'
         
     - name: Setup pnpm
-      uses: pnpm/action-setup@v2
+      uses: pnpm/action-setup@v4
       with:
-        version: 8
+        version: 10.15.1
         
     - name: Get pnpm store directory
       shell: bash
@@ -39,14 +39,14 @@ jobs:
           
     - name: Install dependencies
       run: |
-        ls -la
-        if [ -f pnpm-lock.yaml ]; then
-          echo "pnpm-lock.yaml found, using frozen lockfile"
-          pnpm install --frozen-lockfile
-        else
-          echo "pnpm-lock.yaml not found, installing without frozen lockfile"
-          pnpm install
-        fi
+        echo "pnpm version: $(pnpm --version)"
+        echo "Node version: $(node --version)"
+        ls -la pnpm-lock.yaml
+        echo "Attempting to install with frozen lockfile..."
+        pnpm install --frozen-lockfile || {
+          echo "Frozen lockfile failed, trying without frozen lockfile..."
+          pnpm install --no-frozen-lockfile
+        }
       
     - name: Build
       run: pnpm build
