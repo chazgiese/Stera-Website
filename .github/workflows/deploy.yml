@@ -58,6 +58,15 @@ jobs:
         NODE_ENV: production
         GITHUB_ACTIONS: true
         
+    - name: Copy CNAME file
+      run: |
+        if [ -f CNAME ]; then
+          cp CNAME out/CNAME
+          echo "CNAME file copied to output directory"
+        else
+          echo "No CNAME file found"
+        fi
+        
     - name: Setup Pages
       uses: actions/configure-pages@v4
       
