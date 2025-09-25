@@ -176,6 +176,50 @@
     "category": "Alerts"
   },
   {
+    "name": "AlertOctagon",
+    "tags": [
+      "AlertOctagon",
+      "alert",
+      "warning",
+      "error",
+      "stop",
+      "danger",
+      "critical",
+      "caution"
+    ],
+    "category": "Alerts"
+  },
+  {
+    "name": "AlertOctagonBold",
+    "tags": [
+      "AlertOctagonBold",
+      "alert",
+      "warning",
+      "error",
+      "stop",
+      "danger",
+      "critical",
+      "caution"
+    ],
+    "category": "Alerts"
+  },
+  {
+    "name": "AlertOctagonFilled",
+    "tags": [
+      "AlertOctagonFilled",
+      "filled",
+      "solid",
+      "alert",
+      "warning",
+      "error",
+      "stop",
+      "danger",
+      "critical",
+      "caution"
+    ],
+    "category": "Alerts"
+  },
+  {
     "name": "AlertSquare",
     "tags": [
       "AlertSquare",
@@ -300,6 +344,53 @@
       "character"
     ],
     "category": "Space"
+  },
+  {
+    "name": "Archive",
+    "tags": [
+      "Archive",
+      "archive",
+      "box",
+      "storage",
+      "save",
+      "files",
+      "drawer",
+      "organize",
+      "records"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ArchiveBold",
+    "tags": [
+      "ArchiveBold",
+      "archive",
+      "box",
+      "storage",
+      "save",
+      "files",
+      "drawer",
+      "organize",
+      "records"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ArchiveFilled",
+    "tags": [
+      "ArchiveFilled",
+      "filled",
+      "solid",
+      "archive",
+      "box",
+      "storage",
+      "save",
+      "files",
+      "drawer",
+      "organize",
+      "records"
+    ],
+    "category": "Other"
   },
   {
     "name": "Archway",
@@ -2677,6 +2768,56 @@
     "category": "Media"
   },
   {
+    "name": "AwardStar",
+    "tags": [
+      "AwardStar",
+      "award",
+      "achievement",
+      "recognition",
+      "prize",
+      "success",
+      "favorite",
+      "winner",
+      "best",
+      "trophy"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "AwardStarBold",
+    "tags": [
+      "AwardStarBold",
+      "award",
+      "achievement",
+      "recognition",
+      "prize",
+      "success",
+      "favorite",
+      "winner",
+      "best",
+      "trophy"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "AwardStarFilled",
+    "tags": [
+      "AwardStarFilled",
+      "filled",
+      "solid",
+      "award",
+      "achievement",
+      "recognition",
+      "prize",
+      "success",
+      "favorite",
+      "winner",
+      "best",
+      "trophy"
+    ],
+    "category": "Favorites"
+  },
+  {
     "name": "Bag",
     "tags": [
       "Bag",
@@ -2721,6 +2862,56 @@
     "category": "Shopping"
   },
   {
+    "name": "Banner",
+    "tags": [
+      "Banner",
+      "flag",
+      "heraldry",
+      "medieval",
+      "emblem",
+      "symbol",
+      "standard",
+      "crest",
+      "pennant",
+      "bookmark"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BannerBold",
+    "tags": [
+      "BannerBold",
+      "flag",
+      "heraldry",
+      "medieval",
+      "emblem",
+      "symbol",
+      "standard",
+      "crest",
+      "pennant",
+      "bookmark"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BannerFilled",
+    "tags": [
+      "BannerFilled",
+      "filled",
+      "solid",
+      "flag",
+      "heraldry",
+      "medieval",
+      "emblem",
+      "symbol",
+      "standard",
+      "crest",
+      "pennant",
+      "bookmark"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "BarcodeScan",
     "tags": [
       "BarcodeScan",
@@ -2757,6 +2948,53 @@
       "code"
     ],
     "category": "Technology"
+  },
+  {
+    "name": "Baseball",
+    "tags": [
+      "Baseball",
+      "sports",
+      "ball",
+      "baseball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "BaseballBold",
+    "tags": [
+      "BaseballBold",
+      "sports",
+      "ball",
+      "baseball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "BaseballFilled",
+    "tags": [
+      "BaseballFilled",
+      "filled",
+      "solid",
+      "sports",
+      "ball",
+      "baseball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
   },
   {
     "name": "Basket",
@@ -2801,6 +3039,53 @@
       "add to cart"
     ],
     "category": "Other"
+  },
+  {
+    "name": "Basketball",
+    "tags": [
+      "Basketball",
+      "sports",
+      "ball",
+      "basketball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "BasketballBold",
+    "tags": [
+      "BasketballBold",
+      "sports",
+      "ball",
+      "basketball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "BasketballFilled",
+    "tags": [
+      "BasketballFilled",
+      "filled",
+      "solid",
+      "sports",
+      "ball",
+      "basketball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
   },
   {
     "name": "Bell",
@@ -3261,6 +3546,53 @@
     "category": "Education"
   },
   {
+    "name": "Bottle",
+    "tags": [
+      "Bottle",
+      "drink",
+      "beverage",
+      "bottle",
+      "beer",
+      "soda",
+      "liquor",
+      "bar",
+      "alcohol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BottleBold",
+    "tags": [
+      "BottleBold",
+      "drink",
+      "beverage",
+      "bottle",
+      "beer",
+      "soda",
+      "liquor",
+      "bar",
+      "alcohol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BottleFilled",
+    "tags": [
+      "BottleFilled",
+      "filled",
+      "solid",
+      "drink",
+      "beverage",
+      "bottle",
+      "beer",
+      "soda",
+      "liquor",
+      "bar",
+      "alcohol"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "BrightnessHigh",
     "tags": [
       "BrightnessHigh",
@@ -3380,6 +3712,153 @@
       "display",
       "medium",
       "settings"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Browser",
+    "tags": [
+      "Browser",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BrowserBold",
+    "tags": [
+      "BrowserBold",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BrowserFilled",
+    "tags": [
+      "BrowserFilled",
+      "filled",
+      "solid",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BrowserPlus",
+    "tags": [
+      "BrowserPlus",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application",
+      "new",
+      "add",
+      "create",
+      "open"
+    ],
+    "category": "Actions"
+  },
+  {
+    "name": "BrowserPlusBold",
+    "tags": [
+      "BrowserPlusBold",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application",
+      "new",
+      "add",
+      "create",
+      "open"
+    ],
+    "category": "Actions"
+  },
+  {
+    "name": "BrowserPlusFilled",
+    "tags": [
+      "BrowserPlusFilled",
+      "filled",
+      "solid",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application",
+      "new",
+      "add",
+      "create",
+      "open"
+    ],
+    "category": "Actions"
+  },
+  {
+    "name": "BrowserX",
+    "tags": [
+      "BrowserX",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application",
+      "close",
+      "exit",
+      "cancel",
+      "dismiss"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BrowserXBold",
+    "tags": [
+      "BrowserXBold",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application",
+      "close",
+      "exit",
+      "cancel",
+      "dismiss"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BrowserXFilled",
+    "tags": [
+      "BrowserXFilled",
+      "filled",
+      "solid",
+      "browser",
+      "window",
+      "webpage",
+      "internet",
+      "tab",
+      "popup application",
+      "close",
+      "exit",
+      "cancel",
+      "dismiss"
     ],
     "category": "Other"
   },
@@ -3671,6 +4150,53 @@
       "media",
       "disabled",
       "off"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Can",
+    "tags": [
+      "Can",
+      "can",
+      "aluminum",
+      "drink",
+      "soda",
+      "beer",
+      "beverage",
+      "tin",
+      "packaging"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CanBold",
+    "tags": [
+      "CanBold",
+      "can",
+      "aluminum",
+      "drink",
+      "soda",
+      "beer",
+      "beverage",
+      "tin",
+      "packaging"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CanFilled",
+    "tags": [
+      "CanFilled",
+      "filled",
+      "solid",
+      "can",
+      "aluminum",
+      "drink",
+      "soda",
+      "beer",
+      "beverage",
+      "tin",
+      "packaging"
     ],
     "category": "Other"
   },
@@ -4007,9 +4533,9 @@
     "category": "Other"
   },
   {
-    "name": "Checkmark",
+    "name": "Check",
     "tags": [
-      "Checkmark",
+      "Check",
       "done",
       "complete",
       "finish",
@@ -4018,9 +4544,56 @@
     "category": "Status"
   },
   {
-    "name": "CheckmarkBold",
+    "name": "CheckBadge",
     "tags": [
-      "CheckmarkBold",
+      "CheckBadge",
+      "verified",
+      "badge",
+      "certification",
+      "approval",
+      "checkmark",
+      "seal",
+      "verified-account",
+      "trusted"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckBadgeBold",
+    "tags": [
+      "CheckBadgeBold",
+      "verified",
+      "badge",
+      "certification",
+      "approval",
+      "checkmark",
+      "seal",
+      "verified-account",
+      "trusted"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckBadgeFilled",
+    "tags": [
+      "CheckBadgeFilled",
+      "filled",
+      "solid",
+      "verified",
+      "badge",
+      "certification",
+      "approval",
+      "checkmark",
+      "seal",
+      "verified-account",
+      "trusted"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckBold",
+    "tags": [
+      "CheckBold",
       "done",
       "complete",
       "finish",
@@ -4029,9 +4602,9 @@
     "category": "Status"
   },
   {
-    "name": "CheckmarkCircle",
+    "name": "CheckCircle",
     "tags": [
-      "CheckmarkCircle",
+      "CheckCircle",
       "done",
       "complete",
       "finish",
@@ -4043,9 +4616,9 @@
     "category": "Status"
   },
   {
-    "name": "CheckmarkCircleBold",
+    "name": "CheckCircleBold",
     "tags": [
-      "CheckmarkCircleBold",
+      "CheckCircleBold",
       "done",
       "complete",
       "finish",
@@ -4057,9 +4630,9 @@
     "category": "Status"
   },
   {
-    "name": "CheckmarkCircleFilled",
+    "name": "CheckCircleFilled",
     "tags": [
-      "CheckmarkCircleFilled",
+      "CheckCircleFilled",
       "filled",
       "solid",
       "done",
@@ -4069,6 +4642,81 @@
       "input",
       "okay",
       "todo"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckFilled",
+    "tags": [
+      "CheckFilled",
+      "filled",
+      "solid",
+      "done",
+      "complete",
+      "finish",
+      "success"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckSquare",
+    "tags": [
+      "CheckSquare",
+      "done",
+      "complete",
+      "finish",
+      "success",
+      "input",
+      "okay",
+      "todo"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckSquareBold",
+    "tags": [
+      "CheckSquareBold",
+      "done",
+      "complete",
+      "finish",
+      "success",
+      "input",
+      "okay",
+      "todo"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckSquareFilled",
+    "tags": [
+      "CheckSquareFilled",
+      "filled",
+      "solid",
+      "done",
+      "complete",
+      "finish",
+      "success",
+      "input",
+      "okay",
+      "todo"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "Checkmark",
+    "tags": [
+      "Checkmark",
+      "outline",
+      "line"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "CheckmarkBold",
+    "tags": [
+      "CheckmarkBold",
+      "outline",
+      "line"
     ],
     "category": "Status"
   },
@@ -4077,55 +4725,7 @@
     "tags": [
       "CheckmarkFilled",
       "filled",
-      "solid",
-      "done",
-      "complete",
-      "finish",
-      "success"
-    ],
-    "category": "Status"
-  },
-  {
-    "name": "CheckmarkSquare",
-    "tags": [
-      "CheckmarkSquare",
-      "done",
-      "complete",
-      "finish",
-      "success",
-      "input",
-      "okay",
-      "todo"
-    ],
-    "category": "Status"
-  },
-  {
-    "name": "CheckmarkSquareBold",
-    "tags": [
-      "CheckmarkSquareBold",
-      "done",
-      "complete",
-      "finish",
-      "success",
-      "input",
-      "okay",
-      "todo"
-    ],
-    "category": "Status"
-  },
-  {
-    "name": "CheckmarkSquareFilled",
-    "tags": [
-      "CheckmarkSquareFilled",
-      "filled",
-      "solid",
-      "done",
-      "complete",
-      "finish",
-      "success",
-      "input",
-      "okay",
-      "todo"
+      "solid"
     ],
     "category": "Status"
   },
@@ -5845,6 +6445,156 @@
     "category": "Other"
   },
   {
+    "name": "Cli",
+    "tags": [
+      "Cli",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliBold",
+    "tags": [
+      "CliBold",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliCircle",
+    "tags": [
+      "CliCircle",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliCircleBold",
+    "tags": [
+      "CliCircleBold",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliCircleFilled",
+    "tags": [
+      "CliCircleFilled",
+      "filled",
+      "solid",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliFilled",
+    "tags": [
+      "CliFilled",
+      "filled",
+      "solid",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliSquare",
+    "tags": [
+      "CliSquare",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliSquareBold",
+    "tags": [
+      "CliSquareBold",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CliSquareFilled",
+    "tags": [
+      "CliSquareFilled",
+      "filled",
+      "solid",
+      "terminal",
+      "command",
+      "code",
+      "console",
+      "developer",
+      "shell",
+      "programming",
+      "bash",
+      "vim"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Clock",
     "tags": [
       "Clock",
@@ -6185,6 +6935,53 @@
     "category": "Technology"
   },
   {
+    "name": "CoffeeMug",
+    "tags": [
+      "CoffeeMug",
+      "coffee",
+      "tea",
+      "drink",
+      "beverage",
+      "mug",
+      "hot",
+      "refreshment",
+      "break"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CoffeeMugBold",
+    "tags": [
+      "CoffeeMugBold",
+      "coffee",
+      "tea",
+      "drink",
+      "beverage",
+      "mug",
+      "hot",
+      "refreshment",
+      "break"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CoffeeMugFilled",
+    "tags": [
+      "CoffeeMugFilled",
+      "filled",
+      "solid",
+      "coffee",
+      "tea",
+      "drink",
+      "beverage",
+      "mug",
+      "hot",
+      "refreshment",
+      "break"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Cog",
     "tags": [
       "Cog",
@@ -6224,6 +7021,97 @@
       "control"
     ],
     "category": "Settings"
+  },
+  {
+    "name": "Coin",
+    "tags": [
+      "Coin",
+      "money",
+      "coin",
+      "currency",
+      "cash",
+      "finance",
+      "payment",
+      "savings",
+      "token"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CoinBold",
+    "tags": [
+      "CoinBold",
+      "money",
+      "coin",
+      "currency",
+      "cash",
+      "finance",
+      "payment",
+      "savings",
+      "token"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CoinFilled",
+    "tags": [
+      "CoinFilled",
+      "filled",
+      "solid",
+      "money",
+      "coin",
+      "currency",
+      "cash",
+      "finance",
+      "payment",
+      "savings",
+      "token"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Command",
+    "tags": [
+      "Command",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "symbol",
+      "key",
+      "control",
+      "apple"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CommandBold",
+    "tags": [
+      "CommandBold",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "symbol",
+      "key",
+      "control",
+      "apple"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CommandFilled",
+    "tags": [
+      "CommandFilled",
+      "filled",
+      "solid",
+      "keyboard",
+      "shortcut",
+      "mac",
+      "symbol",
+      "key",
+      "control",
+      "apple"
+    ],
+    "category": "Other"
   },
   {
     "name": "CommentBubble",
@@ -6440,6 +7328,100 @@
     "category": "Other"
   },
   {
+    "name": "CreditCard",
+    "tags": [
+      "CreditCard",
+      "payment",
+      "credit",
+      "debit",
+      "card",
+      "purchase",
+      "checkout",
+      "transaction",
+      "finance"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "CreditCardAlt",
+    "tags": [
+      "CreditCardAlt",
+      "payment",
+      "credit",
+      "debit",
+      "card",
+      "purchase",
+      "checkout",
+      "transaction",
+      "finance"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "CreditCardAltBold",
+    "tags": [
+      "CreditCardAltBold",
+      "payment",
+      "credit",
+      "debit",
+      "card",
+      "purchase",
+      "checkout",
+      "transaction",
+      "finance"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "CreditCardAltFilled",
+    "tags": [
+      "CreditCardAltFilled",
+      "filled",
+      "solid",
+      "payment",
+      "credit",
+      "debit",
+      "card",
+      "purchase",
+      "checkout",
+      "transaction",
+      "finance"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "CreditCardBold",
+    "tags": [
+      "CreditCardBold",
+      "payment",
+      "credit",
+      "debit",
+      "card",
+      "purchase",
+      "checkout",
+      "transaction",
+      "finance"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "CreditCardFilled",
+    "tags": [
+      "CreditCardFilled",
+      "filled",
+      "solid",
+      "payment",
+      "credit",
+      "debit",
+      "card",
+      "purchase",
+      "checkout",
+      "transaction",
+      "finance"
+    ],
+    "category": "Edit"
+  },
+  {
     "name": "Crop",
     "tags": [
       "Crop",
@@ -6651,6 +7633,53 @@
     "category": "Other"
   },
   {
+    "name": "Cup",
+    "tags": [
+      "Cup",
+      "coffee",
+      "tea",
+      "drink",
+      "beverage",
+      "break",
+      "refreshment",
+      "cafe",
+      "mug"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CupBold",
+    "tags": [
+      "CupBold",
+      "coffee",
+      "tea",
+      "drink",
+      "beverage",
+      "break",
+      "refreshment",
+      "cafe",
+      "mug"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CupFilled",
+    "tags": [
+      "CupFilled",
+      "filled",
+      "solid",
+      "coffee",
+      "tea",
+      "drink",
+      "beverage",
+      "break",
+      "refreshment",
+      "cafe",
+      "mug"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "CurrencyCent",
     "tags": [
       "CurrencyCent",
@@ -6799,6 +7828,100 @@
       "dollar"
     ],
     "category": "Finance"
+  },
+  {
+    "name": "CurrencyEuro",
+    "tags": [
+      "CurrencyEuro",
+      "currency",
+      "euro",
+      "money",
+      "finance",
+      "payment",
+      "cash",
+      "price",
+      "symbol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurrencyEuroBold",
+    "tags": [
+      "CurrencyEuroBold",
+      "currency",
+      "euro",
+      "money",
+      "finance",
+      "payment",
+      "cash",
+      "price",
+      "symbol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurrencyEuroCircle",
+    "tags": [
+      "CurrencyEuroCircle",
+      "currency",
+      "euro",
+      "money",
+      "finance",
+      "payment",
+      "cash",
+      "price",
+      "symbol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurrencyEuroCircleBold",
+    "tags": [
+      "CurrencyEuroCircleBold",
+      "currency",
+      "euro",
+      "money",
+      "finance",
+      "payment",
+      "cash",
+      "price",
+      "symbol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurrencyEuroCircleFilled",
+    "tags": [
+      "CurrencyEuroCircleFilled",
+      "filled",
+      "solid",
+      "currency",
+      "euro",
+      "money",
+      "finance",
+      "payment",
+      "cash",
+      "price",
+      "symbol"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurrencyEuroFilled",
+    "tags": [
+      "CurrencyEuroFilled",
+      "filled",
+      "solid",
+      "currency",
+      "euro",
+      "money",
+      "finance",
+      "payment",
+      "cash",
+      "price",
+      "symbol"
+    ],
+    "category": "Other"
   },
   {
     "name": "Cursor",
@@ -7102,6 +8225,53 @@
       "stack",
       "server",
       "backend"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "DataTable",
+    "tags": [
+      "DataTable",
+      "table",
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns",
+      "layout",
+      "matrix"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "DataTableBold",
+    "tags": [
+      "DataTableBold",
+      "table",
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns",
+      "layout",
+      "matrix"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "DataTableFilled",
+    "tags": [
+      "DataTableFilled",
+      "filled",
+      "solid",
+      "table",
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns",
+      "layout",
+      "matrix"
     ],
     "category": "Other"
   },
@@ -8274,6 +9444,50 @@
     "category": "Visibility"
   },
   {
+    "name": "FileCabinet",
+    "tags": [
+      "FileCabinet",
+      "archive",
+      "storage",
+      "files",
+      "cabinet",
+      "drawers",
+      "organize",
+      "records"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FileCabinetBold",
+    "tags": [
+      "FileCabinetBold",
+      "archive",
+      "storage",
+      "files",
+      "cabinet",
+      "drawers",
+      "organize",
+      "records"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FileCabinetFilled",
+    "tags": [
+      "FileCabinetFilled",
+      "filled",
+      "solid",
+      "archive",
+      "storage",
+      "files",
+      "cabinet",
+      "drawers",
+      "organize",
+      "records"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Flag",
     "tags": [
       "Flag",
@@ -9441,6 +10655,56 @@
     "category": "Actions"
   },
   {
+    "name": "Football",
+    "tags": [
+      "Football",
+      "sports",
+      "ball",
+      "american football",
+      "rugby",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "FootballBold",
+    "tags": [
+      "FootballBold",
+      "sports",
+      "ball",
+      "american football",
+      "rugby",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "FootballFilled",
+    "tags": [
+      "FootballFilled",
+      "filled",
+      "solid",
+      "sports",
+      "ball",
+      "american football",
+      "rugby",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
     "name": "Ghost",
     "tags": [
       "Ghost",
@@ -10242,6 +11506,150 @@
     "category": "Home"
   },
   {
+    "name": "Hourglass",
+    "tags": [
+      "Hourglass",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "progress",
+      "half",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassBold",
+    "tags": [
+      "HourglassBold",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "progress",
+      "half",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassEmpty",
+    "tags": [
+      "HourglassEmpty",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "end",
+      "empty",
+      "expired",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassEmptyBold",
+    "tags": [
+      "HourglassEmptyBold",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "end",
+      "empty",
+      "expired",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassEmptyFilled",
+    "tags": [
+      "HourglassEmptyFilled",
+      "filled",
+      "solid",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "end",
+      "empty",
+      "expired",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassFilled",
+    "tags": [
+      "HourglassFilled",
+      "filled",
+      "solid",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "progress",
+      "half",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassFull",
+    "tags": [
+      "HourglassFull",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "start",
+      "full",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassFullBold",
+    "tags": [
+      "HourglassFullBold",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "start",
+      "full",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HourglassFullFilled",
+    "tags": [
+      "HourglassFullFilled",
+      "filled",
+      "solid",
+      "hourglass",
+      "time",
+      "timer",
+      "countdown",
+      "waiting",
+      "start",
+      "full",
+      "clock"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "IdHorizontal",
     "tags": [
       "IdHorizontal",
@@ -10552,6 +11960,94 @@
       "support",
       "guide",
       "about"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Key",
+    "tags": [
+      "Key",
+      "key",
+      "unlock",
+      "password",
+      "access",
+      "login",
+      "security",
+      "lock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "KeyAlt",
+    "tags": [
+      "KeyAlt",
+      "key",
+      "unlock",
+      "password",
+      "access",
+      "login",
+      "security",
+      "lock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "KeyAltBold",
+    "tags": [
+      "KeyAltBold",
+      "key",
+      "unlock",
+      "password",
+      "access",
+      "login",
+      "security",
+      "lock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "KeyAltFilled",
+    "tags": [
+      "KeyAltFilled",
+      "filled",
+      "solid",
+      "key",
+      "unlock",
+      "password",
+      "access",
+      "login",
+      "security",
+      "lock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "KeyBold",
+    "tags": [
+      "KeyBold",
+      "key",
+      "unlock",
+      "password",
+      "access",
+      "login",
+      "security",
+      "lock"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "KeyFilled",
+    "tags": [
+      "KeyFilled",
+      "filled",
+      "solid",
+      "key",
+      "unlock",
+      "password",
+      "access",
+      "login",
+      "security",
+      "lock"
     ],
     "category": "Other"
   },
@@ -11228,6 +12724,50 @@
     "category": "Security"
   },
   {
+    "name": "MacWindow",
+    "tags": [
+      "MacWindow",
+      "mac",
+      "window",
+      "browser",
+      "application",
+      "ui",
+      "interface",
+      "desktop"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MacWindowBold",
+    "tags": [
+      "MacWindowBold",
+      "mac",
+      "window",
+      "browser",
+      "application",
+      "ui",
+      "interface",
+      "desktop"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MacWindowFilled",
+    "tags": [
+      "MacWindowFilled",
+      "filled",
+      "solid",
+      "mac",
+      "window",
+      "browser",
+      "application",
+      "ui",
+      "interface",
+      "desktop"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "MapPin",
     "tags": [
       "MapPin",
@@ -11349,6 +12889,147 @@
       "map"
     ],
     "category": "Actions"
+  },
+  {
+    "name": "Matcha",
+    "tags": [
+      "Matcha",
+      "matcha",
+      "tea",
+      "drink",
+      "beverage",
+      "cafe",
+      "refreshment",
+      "bowl",
+      "saucer"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MatchaBold",
+    "tags": [
+      "MatchaBold",
+      "matcha",
+      "tea",
+      "drink",
+      "beverage",
+      "cafe",
+      "refreshment",
+      "bowl",
+      "saucer"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MatchaFilled",
+    "tags": [
+      "MatchaFilled",
+      "filled",
+      "solid",
+      "matcha",
+      "tea",
+      "drink",
+      "beverage",
+      "cafe",
+      "refreshment",
+      "bowl",
+      "saucer"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Medal",
+    "tags": [
+      "Medal",
+      "award",
+      "achievement",
+      "medal",
+      "prize",
+      "recognition",
+      "trophy",
+      "honor",
+      "badge"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MedalBold",
+    "tags": [
+      "MedalBold",
+      "award",
+      "achievement",
+      "medal",
+      "prize",
+      "recognition",
+      "trophy",
+      "honor",
+      "badge"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MedalFilled",
+    "tags": [
+      "MedalFilled",
+      "filled",
+      "solid",
+      "award",
+      "achievement",
+      "medal",
+      "prize",
+      "recognition",
+      "trophy",
+      "honor",
+      "badge"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MedalStar",
+    "tags": [
+      "MedalStar",
+      "award",
+      "achievement",
+      "medal",
+      "prize",
+      "recognition",
+      "trophy",
+      "honor",
+      "badge"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "MedalStarBold",
+    "tags": [
+      "MedalStarBold",
+      "award",
+      "achievement",
+      "medal",
+      "prize",
+      "recognition",
+      "trophy",
+      "honor",
+      "badge"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "MedalStarFilled",
+    "tags": [
+      "MedalStarFilled",
+      "filled",
+      "solid",
+      "award",
+      "achievement",
+      "medal",
+      "prize",
+      "recognition",
+      "trophy",
+      "honor",
+      "badge"
+    ],
+    "category": "Favorites"
   },
   {
     "name": "Menu",
@@ -12127,6 +13808,53 @@
       "compare"
     ],
     "category": "Location"
+  },
+  {
+    "name": "PaintPalette",
+    "tags": [
+      "PaintPalette",
+      "palette",
+      "color",
+      "paint",
+      "art",
+      "design",
+      "creative",
+      "drawing",
+      "tool"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "PaintPaletteBold",
+    "tags": [
+      "PaintPaletteBold",
+      "palette",
+      "color",
+      "paint",
+      "art",
+      "design",
+      "creative",
+      "drawing",
+      "tool"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "PaintPaletteFilled",
+    "tags": [
+      "PaintPaletteFilled",
+      "filled",
+      "solid",
+      "palette",
+      "color",
+      "paint",
+      "art",
+      "design",
+      "creative",
+      "drawing",
+      "tool"
+    ],
+    "category": "Art"
   },
   {
     "name": "Paperclip",
@@ -13030,6 +14758,100 @@
     "category": "Other"
   },
   {
+    "name": "Receipt",
+    "tags": [
+      "Receipt",
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "purchase",
+      "transaction",
+      "order",
+      "expense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ReceiptAlt",
+    "tags": [
+      "ReceiptAlt",
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "purchase",
+      "transaction",
+      "order",
+      "expense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ReceiptAltBold",
+    "tags": [
+      "ReceiptAltBold",
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "purchase",
+      "transaction",
+      "order",
+      "expense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ReceiptAltFilled",
+    "tags": [
+      "ReceiptAltFilled",
+      "filled",
+      "solid",
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "purchase",
+      "transaction",
+      "order",
+      "expense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ReceiptBold",
+    "tags": [
+      "ReceiptBold",
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "purchase",
+      "transaction",
+      "order",
+      "expense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ReceiptFilled",
+    "tags": [
+      "ReceiptFilled",
+      "filled",
+      "solid",
+      "receipt",
+      "bill",
+      "invoice",
+      "payment",
+      "purchase",
+      "transaction",
+      "order",
+      "expense"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Rectangle",
     "tags": [
       "Rectangle",
@@ -13802,6 +15624,47 @@
     "category": "Other"
   },
   {
+    "name": "Shield",
+    "tags": [
+      "Shield",
+      "security",
+      "protection",
+      "guard",
+      "privacy",
+      "safe",
+      "defense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ShieldBold",
+    "tags": [
+      "ShieldBold",
+      "security",
+      "protection",
+      "guard",
+      "privacy",
+      "safe",
+      "defense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ShieldFilled",
+    "tags": [
+      "ShieldFilled",
+      "filled",
+      "solid",
+      "security",
+      "protection",
+      "guard",
+      "privacy",
+      "safe",
+      "defense"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "SidebarLeft",
     "tags": [
       "SidebarLeft",
@@ -14226,6 +16089,103 @@
     "category": "Other"
   },
   {
+    "name": "SoccerBall",
+    "tags": [
+      "SoccerBall",
+      "sports",
+      "ball",
+      "soccer",
+      "football",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "SoccerBallBold",
+    "tags": [
+      "SoccerBallBold",
+      "sports",
+      "ball",
+      "soccer",
+      "football",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "SoccerBallFilled",
+    "tags": [
+      "SoccerBallFilled",
+      "filled",
+      "solid",
+      "sports",
+      "ball",
+      "soccer",
+      "football",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "SoccerField",
+    "tags": [
+      "SoccerField",
+      "sports",
+      "field",
+      "soccer",
+      "football",
+      "pitch",
+      "stadium",
+      "game",
+      "play"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SoccerFieldBold",
+    "tags": [
+      "SoccerFieldBold",
+      "sports",
+      "field",
+      "soccer",
+      "football",
+      "pitch",
+      "stadium",
+      "game",
+      "play"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SoccerFieldFilled",
+    "tags": [
+      "SoccerFieldFilled",
+      "filled",
+      "solid",
+      "sports",
+      "field",
+      "soccer",
+      "football",
+      "pitch",
+      "stadium",
+      "game",
+      "play"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Sparkle",
     "tags": [
       "Sparkle",
@@ -14256,9 +16216,103 @@
     "category": "Other"
   },
   {
+    "name": "SparkleCircle",
+    "tags": [
+      "SparkleCircle",
+      "sparkle",
+      "star",
+      "magic",
+      "highlight",
+      "new",
+      "special",
+      "clean",
+      "ai"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparkleCircleBold",
+    "tags": [
+      "SparkleCircleBold",
+      "sparkle",
+      "star",
+      "magic",
+      "highlight",
+      "new",
+      "special",
+      "clean",
+      "ai"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparkleCircleFilled",
+    "tags": [
+      "SparkleCircleFilled",
+      "filled",
+      "solid",
+      "sparkle",
+      "star",
+      "magic",
+      "highlight",
+      "new",
+      "special",
+      "clean",
+      "ai"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "SparkleFilled",
     "tags": [
       "SparkleFilled",
+      "filled",
+      "solid",
+      "sparkle",
+      "star",
+      "magic",
+      "highlight",
+      "new",
+      "special",
+      "clean",
+      "ai"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparkleSquare",
+    "tags": [
+      "SparkleSquare",
+      "sparkle",
+      "star",
+      "magic",
+      "highlight",
+      "new",
+      "special",
+      "clean",
+      "ai"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparkleSquareBold",
+    "tags": [
+      "SparkleSquareBold",
+      "sparkle",
+      "star",
+      "magic",
+      "highlight",
+      "new",
+      "special",
+      "clean",
+      "ai"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparkleSquareFilled",
+    "tags": [
+      "SparkleSquareFilled",
       "filled",
       "solid",
       "sparkle",
@@ -15028,6 +17082,53 @@
     "category": "Other"
   },
   {
+    "name": "TennisBall",
+    "tags": [
+      "TennisBall",
+      "sports",
+      "ball",
+      "tennis",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "TennisBallBold",
+    "tags": [
+      "TennisBallBold",
+      "sports",
+      "ball",
+      "tennis",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "TennisBallFilled",
+    "tags": [
+      "TennisBallFilled",
+      "filled",
+      "solid",
+      "sports",
+      "ball",
+      "tennis",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
     "name": "Text",
     "tags": [
       "Text",
@@ -15788,6 +17889,53 @@
     "category": "Other"
   },
   {
+    "name": "Toggles",
+    "tags": [
+      "Toggles",
+      "switch",
+      "settings",
+      "control",
+      "enable",
+      "disable",
+      "active",
+      "inactive",
+      "option"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TogglesBold",
+    "tags": [
+      "TogglesBold",
+      "switch",
+      "settings",
+      "control",
+      "enable",
+      "disable",
+      "active",
+      "inactive",
+      "option"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TogglesFilled",
+    "tags": [
+      "TogglesFilled",
+      "filled",
+      "solid",
+      "switch",
+      "settings",
+      "control",
+      "enable",
+      "disable",
+      "active",
+      "inactive",
+      "option"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Trash",
     "tags": [
       "Trash",
@@ -15937,6 +18085,53 @@
       "three sides",
       "symbol",
       "warning"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Trophy",
+    "tags": [
+      "Trophy",
+      "award",
+      "achievement",
+      "prize",
+      "winner",
+      "success",
+      "contest",
+      "competition",
+      "recognition"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TrophyBold",
+    "tags": [
+      "TrophyBold",
+      "award",
+      "achievement",
+      "prize",
+      "winner",
+      "success",
+      "contest",
+      "competition",
+      "recognition"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TrophyFilled",
+    "tags": [
+      "TrophyFilled",
+      "filled",
+      "solid",
+      "award",
+      "achievement",
+      "prize",
+      "winner",
+      "success",
+      "contest",
+      "competition",
+      "recognition"
     ],
     "category": "Other"
   },
@@ -16261,6 +18456,100 @@
     "category": "Other"
   },
   {
+    "name": "Volleyball",
+    "tags": [
+      "Volleyball",
+      "sports",
+      "ball",
+      "volleyball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "VolleyballBold",
+    "tags": [
+      "VolleyballBold",
+      "sports",
+      "ball",
+      "volleyball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "VolleyballFilled",
+    "tags": [
+      "VolleyballFilled",
+      "filled",
+      "solid",
+      "sports",
+      "ball",
+      "volleyball",
+      "game",
+      "play",
+      "activity",
+      "exercise",
+      "recreation"
+    ],
+    "category": "Sports"
+  },
+  {
+    "name": "Wand",
+    "tags": [
+      "Wand",
+      "wand",
+      "magic",
+      "tool",
+      "sparkle",
+      "spell",
+      "effect",
+      "special",
+      "highlight"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WandBold",
+    "tags": [
+      "WandBold",
+      "wand",
+      "magic",
+      "tool",
+      "sparkle",
+      "spell",
+      "effect",
+      "special",
+      "highlight"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WandFilled",
+    "tags": [
+      "WandFilled",
+      "filled",
+      "solid",
+      "wand",
+      "magic",
+      "tool",
+      "sparkle",
+      "spell",
+      "effect",
+      "special",
+      "highlight"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Warehouse",
     "tags": [
       "Warehouse",
@@ -16305,6 +18594,53 @@
     "category": "Home"
   },
   {
+    "name": "Watch",
+    "tags": [
+      "Watch",
+      "watch",
+      "time",
+      "clock",
+      "wristwatch",
+      "timer",
+      "schedule",
+      "hours",
+      "reminder"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WatchBold",
+    "tags": [
+      "WatchBold",
+      "watch",
+      "time",
+      "clock",
+      "wristwatch",
+      "timer",
+      "schedule",
+      "hours",
+      "reminder"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WatchFilled",
+    "tags": [
+      "WatchFilled",
+      "filled",
+      "solid",
+      "watch",
+      "time",
+      "clock",
+      "wristwatch",
+      "timer",
+      "schedule",
+      "hours",
+      "reminder"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Wifi",
     "tags": [
       "Wifi",
@@ -16345,6 +18681,144 @@
       "internet",
       "connectivity",
       "hotspot"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WifiSlash",
+    "tags": [
+      "WifiSlash",
+      "wifi",
+      "connection",
+      "offline",
+      "no-signal",
+      "disable",
+      "network",
+      "internet-off"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WifiSlashBold",
+    "tags": [
+      "WifiSlashBold",
+      "wifi",
+      "connection",
+      "offline",
+      "no-signal",
+      "disable",
+      "network",
+      "internet-off"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WifiSlashFilled",
+    "tags": [
+      "WifiSlashFilled",
+      "filled",
+      "solid",
+      "wifi",
+      "connection",
+      "offline",
+      "no-signal",
+      "disable",
+      "network",
+      "internet-off"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WineBottle",
+    "tags": [
+      "WineBottle",
+      "wine",
+      "bottle",
+      "drink",
+      "alcohol",
+      "beverage",
+      "liquor",
+      "bar",
+      "glass"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WineBottleBold",
+    "tags": [
+      "WineBottleBold",
+      "wine",
+      "bottle",
+      "drink",
+      "alcohol",
+      "beverage",
+      "liquor",
+      "bar",
+      "glass"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WineBottleFilled",
+    "tags": [
+      "WineBottleFilled",
+      "filled",
+      "solid",
+      "wine",
+      "bottle",
+      "drink",
+      "alcohol",
+      "beverage",
+      "liquor",
+      "bar",
+      "glass"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WineGlass",
+    "tags": [
+      "WineGlass",
+      "drink",
+      "beverage",
+      "bar",
+      "alcohol",
+      "cocktail",
+      "toast",
+      "celebration",
+      "glass"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WineGlassBold",
+    "tags": [
+      "WineGlassBold",
+      "drink",
+      "beverage",
+      "bar",
+      "alcohol",
+      "cocktail",
+      "toast",
+      "celebration",
+      "glass"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WineGlassFilled",
+    "tags": [
+      "WineGlassFilled",
+      "filled",
+      "solid",
+      "drink",
+      "beverage",
+      "bar",
+      "alcohol",
+      "cocktail",
+      "toast",
+      "celebration",
+      "glass"
     ],
     "category": "Other"
   },

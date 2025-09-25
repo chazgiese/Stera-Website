@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XBold, CopyBold, CheckmarkBold, SaveBold } from 'stera-icons';
+import { XBold, CopyBold, CheckBold, SaveBold } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 
@@ -137,7 +137,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                         onClick={() => copyToClipboard(importCode, 'import')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'import' ? <CheckmarkBold className="w-3 h-3" /> : <CopyBold className="w-3 h-3" />}
+                        {copied === 'import' ? <CheckBold className="w-3 h-3" /> : <CopyBold className="w-3 h-3" />}
                         {copied === 'import' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
