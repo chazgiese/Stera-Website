@@ -76,7 +76,7 @@ export default function FilterDropdown({
         <div className="absolute top-full left-0 mt-1 w-full bg-white dark:bg-zinc-800 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-lg z-50">
           <ul className="py-1" role="listbox">
             {filters.map((filter) => (
-              <li key={filter.key} role="option">
+              <li key={filter.key} role="option" aria-selected={selectedFilter === filter.key}>
                 <button
                   onClick={() => handleFilterSelect(filter.key)}
                   className={clsx(

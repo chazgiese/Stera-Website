@@ -84,7 +84,7 @@ export default function FilterDropdown({
           z-50">
           <ul className="py-1" role="listbox">
             {filters.map((filter) => (
-              <li key={filter.key} role="option">
+              <li key={filter.key} role="option" aria-selected={selectedFilter === filter.key}>
                 <button
                   onClick={() => handleFilterSelect(filter.key)}
                   className={clsx(

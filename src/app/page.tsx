@@ -67,10 +67,6 @@ export default function Home() {
     setIsModalOpen(true);
   };
 
-  const clearFilters = () => {
-    setSearchTerm('');
-    setSelectedFilter('All');
-  };
 
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-950">

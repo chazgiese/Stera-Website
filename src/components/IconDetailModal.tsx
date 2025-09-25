@@ -13,8 +13,8 @@ interface IconDetailModalProps {
 
 export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailModalProps) {
   const [copied, setCopied] = useState<string | null>(null);
-  const [iconSize, setIconSize] = useState(64);
-  const [iconColor, setIconColor] = useState('#000000');
+  const [iconSize] = useState(64);
+  const [iconColor] = useState('#000000');
 
   useEffect(() => {
     if (isOpen) {
@@ -42,7 +42,6 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
 
   const importCode = `import { ${icon.name} } from 'stera-icons';`;
   const usageCode = `<${icon.name} size={${iconSize}} color="${iconColor}" />`;
-  const jsxCode = `import React from 'react';\nimport { ${icon.name} } from 'stera-icons';\n\nexport default function MyComponent() {\n  return (\n    <div>\n      <${icon.name} size={${iconSize}} color="${iconColor}" />\n    </div>\n  );\n}`;
 
   const getSVGData = () => {
     const svgElement = document.querySelector('#icon-preview svg');
@@ -156,7 +155,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                         onClick={() => copyToClipboard(usageCode, 'usage')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'usage' ? <CheckmarkBold className="w-3 h-3" /> : <CopyBold className="w-3 h-3" />}
+                        {copied === 'usage' ? <CheckBold className="w-3 h-3" /> : <CopyBold className="w-3 h-3" />}
                         {copied === 'usage' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
