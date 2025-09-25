@@ -109,6 +109,12 @@ function generateTags(iconName, metadata) {
   return finalTags;
 }
 
+// List of backward-compatibility icons that should be excluded
+const DEPRECATED_ICONS = new Set([
+  'CheckmarkBold', // Deprecated in favor of CheckBold
+  // Add other deprecated icons here as needed
+]);
+
 // Generate all icon data
 function generateIconData() {
   const Icons = require('stera-icons');
@@ -118,8 +124,15 @@ function generateIconData() {
   
   const result = [];
   const invalidIcons = [];
+  const deprecatedIcons = [];
   
   Object.entries(Icons).forEach(([name]) => {
+    // Skip deprecated/backward-compatibility icons
+    if (DEPRECATED_ICONS.has(name)) {
+      deprecatedIcons.push(name);
+      return;
+    }
+    
     // Validate that the icon actually exists
     if (!validateIconExists(name, availableIcons)) {
       invalidIcons.push(name);
@@ -134,6 +147,11 @@ function generateIconData() {
       category: getCategory(name),
     });
   });
+  
+  if (deprecatedIcons.length > 0) {
+    console.log(`🚫 Excluded ${deprecatedIcons.length} deprecated/backward-compatibility icons:`);
+    deprecatedIcons.forEach(icon => console.log(`   - ${icon}`));
+  }
   
   if (invalidIcons.length > 0) {
     console.error(`❌ Found ${invalidIcons.length} invalid icons that will be skipped:`);

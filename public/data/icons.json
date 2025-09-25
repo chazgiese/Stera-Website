@@ -4712,15 +4712,6 @@
     "category": "Status"
   },
   {
-    "name": "CheckmarkBold",
-    "tags": [
-      "CheckmarkBold",
-      "outline",
-      "line"
-    ],
-    "category": "Status"
-  },
-  {
     "name": "CheckmarkFilled",
     "tags": [
       "CheckmarkFilled",
