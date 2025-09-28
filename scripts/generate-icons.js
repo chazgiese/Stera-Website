@@ -111,7 +111,9 @@ function generateTags(iconName, metadata) {
 
 // List of backward-compatibility icons that should be excluded
 const DEPRECATED_ICONS = new Set([
+  'Checkmark', // Deprecated in favor of Check
   'CheckmarkBold', // Deprecated in favor of CheckBold
+  'CheckmarkFilled', // Deprecated in favor of CheckFilled
   // Add other deprecated icons here as needed
 ]);
 

@@ -44,6 +44,47 @@
     "category": "Other"
   },
   {
+    "name": "AlarmClock",
+    "tags": [
+      "AlarmClock",
+      "pointer",
+      "arrow",
+      "select",
+      "click",
+      "navigation",
+      "mouse"
+    ],
+    "category": "Security"
+  },
+  {
+    "name": "AlarmClockBold",
+    "tags": [
+      "AlarmClockBold",
+      "pointer",
+      "arrow",
+      "select",
+      "click",
+      "navigation",
+      "mouse"
+    ],
+    "category": "Security"
+  },
+  {
+    "name": "AlarmClockFilled",
+    "tags": [
+      "AlarmClockFilled",
+      "filled",
+      "solid",
+      "pointer",
+      "arrow",
+      "select",
+      "click",
+      "navigation",
+      "mouse"
+    ],
+    "category": "Security"
+  },
+  {
     "name": "AlertCircle",
     "tags": [
       "AlertCircle",
@@ -434,6 +475,188 @@
       "container"
     ],
     "category": "Other"
+  },
+  {
+    "name": "ArrowBigDown",
+    "tags": [
+      "ArrowBigDown",
+      "arrow",
+      "down",
+      "direction",
+      "download",
+      "decrease",
+      "bottom",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigDownBold",
+    "tags": [
+      "ArrowBigDownBold",
+      "arrow",
+      "down",
+      "direction",
+      "download",
+      "decrease",
+      "bottom",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigDownFilled",
+    "tags": [
+      "ArrowBigDownFilled",
+      "filled",
+      "solid",
+      "arrow",
+      "down",
+      "direction",
+      "download",
+      "decrease",
+      "bottom",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigLeft",
+    "tags": [
+      "ArrowBigLeft",
+      "arrow",
+      "left",
+      "direction",
+      "back",
+      "previous",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigLeftBold",
+    "tags": [
+      "ArrowBigLeftBold",
+      "arrow",
+      "left",
+      "direction",
+      "back",
+      "previous",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigLeftFilled",
+    "tags": [
+      "ArrowBigLeftFilled",
+      "filled",
+      "solid",
+      "arrow",
+      "left",
+      "direction",
+      "back",
+      "previous",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigRight",
+    "tags": [
+      "ArrowBigRight",
+      "arrow",
+      "right",
+      "direction",
+      "next",
+      "forward",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigRightBold",
+    "tags": [
+      "ArrowBigRightBold",
+      "arrow",
+      "right",
+      "direction",
+      "next",
+      "forward",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigRightFilled",
+    "tags": [
+      "ArrowBigRightFilled",
+      "filled",
+      "solid",
+      "arrow",
+      "right",
+      "direction",
+      "next",
+      "forward",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigUp",
+    "tags": [
+      "ArrowBigUp",
+      "arrow",
+      "up",
+      "direction",
+      "caps lock",
+      "shift",
+      "uppercase",
+      "navigation",
+      "top",
+      "increase",
+      "keyboard",
+      "shortcut"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigUpBold",
+    "tags": [
+      "ArrowBigUpBold",
+      "arrow",
+      "up",
+      "direction",
+      "caps lock",
+      "shift",
+      "uppercase",
+      "navigation",
+      "top",
+      "increase",
+      "keyboard",
+      "shortcut"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigUpFilled",
+    "tags": [
+      "ArrowBigUpFilled",
+      "filled",
+      "solid",
+      "arrow",
+      "up",
+      "direction",
+      "caps lock",
+      "shift",
+      "uppercase",
+      "navigation",
+      "top",
+      "increase",
+      "keyboard",
+      "shortcut"
+    ],
+    "category": "Navigation"
   },
   {
     "name": "ArrowCircleDown",
@@ -1799,6 +2022,182 @@
     "category": "Navigation"
   },
   {
+    "name": "ArrowULeft",
+    "tags": [
+      "ArrowULeft",
+      "undo",
+      "back",
+      "return",
+      "previous",
+      "reverse",
+      "left",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowULeftBold",
+    "tags": [
+      "ArrowULeftBold",
+      "undo",
+      "back",
+      "return",
+      "previous",
+      "reverse",
+      "left",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowULeftFilled",
+    "tags": [
+      "ArrowULeftFilled",
+      "filled",
+      "solid",
+      "undo",
+      "back",
+      "return",
+      "previous",
+      "reverse",
+      "left",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowULeftTop",
+    "tags": [
+      "ArrowULeftTop",
+      "undo",
+      "back",
+      "return",
+      "previous",
+      "reverse",
+      "left",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowULeftTopBold",
+    "tags": [
+      "ArrowULeftTopBold",
+      "undo",
+      "back",
+      "return",
+      "previous",
+      "reverse",
+      "left",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowULeftTopFilled",
+    "tags": [
+      "ArrowULeftTopFilled",
+      "filled",
+      "solid",
+      "undo",
+      "back",
+      "return",
+      "previous",
+      "reverse",
+      "left",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowURight",
+    "tags": [
+      "ArrowURight",
+      "redo",
+      "forward",
+      "next",
+      "repeat",
+      "refresh",
+      "right",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowURightBold",
+    "tags": [
+      "ArrowURightBold",
+      "redo",
+      "forward",
+      "next",
+      "repeat",
+      "refresh",
+      "right",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowURightFilled",
+    "tags": [
+      "ArrowURightFilled",
+      "filled",
+      "solid",
+      "redo",
+      "forward",
+      "next",
+      "repeat",
+      "refresh",
+      "right",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowURightTop",
+    "tags": [
+      "ArrowURightTop",
+      "redo",
+      "forward",
+      "next",
+      "repeat",
+      "refresh",
+      "right",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowURightTopBold",
+    "tags": [
+      "ArrowURightTopBold",
+      "redo",
+      "forward",
+      "next",
+      "repeat",
+      "refresh",
+      "right",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowURightTopFilled",
+    "tags": [
+      "ArrowURightTopFilled",
+      "filled",
+      "solid",
+      "redo",
+      "forward",
+      "next",
+      "repeat",
+      "refresh",
+      "right",
+      "arrow"
+    ],
+    "category": "Navigation"
+  },
+  {
     "name": "ArrowUp",
     "tags": [
       "ArrowUp",
@@ -2862,6 +3261,53 @@
     "category": "Shopping"
   },
   {
+    "name": "Bank",
+    "tags": [
+      "Bank",
+      "bank",
+      "finance",
+      "money",
+      "institution",
+      "building",
+      "government",
+      "payment",
+      "savings"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BankBold",
+    "tags": [
+      "BankBold",
+      "bank",
+      "finance",
+      "money",
+      "institution",
+      "building",
+      "government",
+      "payment",
+      "savings"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BankFilled",
+    "tags": [
+      "BankFilled",
+      "filled",
+      "solid",
+      "bank",
+      "finance",
+      "money",
+      "institution",
+      "building",
+      "government",
+      "payment",
+      "savings"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Banner",
     "tags": [
       "Banner",
@@ -3086,6 +3532,188 @@
       "recreation"
     ],
     "category": "Sports"
+  },
+  {
+    "name": "Battery",
+    "tags": [
+      "Battery",
+      "battery",
+      "power",
+      "energy",
+      "empty",
+      "depleted",
+      "charge",
+      "warning",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryBold",
+    "tags": [
+      "BatteryBold",
+      "battery",
+      "power",
+      "energy",
+      "empty",
+      "depleted",
+      "charge",
+      "warning",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryFilled",
+    "tags": [
+      "BatteryFilled",
+      "filled",
+      "solid",
+      "battery",
+      "power",
+      "energy",
+      "empty",
+      "depleted",
+      "charge",
+      "warning",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryFull",
+    "tags": [
+      "BatteryFull",
+      "battery",
+      "power",
+      "energy",
+      "full",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryFullBold",
+    "tags": [
+      "BatteryFullBold",
+      "battery",
+      "power",
+      "energy",
+      "full",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryFullFilled",
+    "tags": [
+      "BatteryFullFilled",
+      "filled",
+      "solid",
+      "battery",
+      "power",
+      "energy",
+      "full",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryHalf",
+    "tags": [
+      "BatteryHalf",
+      "battery",
+      "power",
+      "energy",
+      "half",
+      "medium",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryHalfBold",
+    "tags": [
+      "BatteryHalfBold",
+      "battery",
+      "power",
+      "energy",
+      "half",
+      "medium",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryHalfFilled",
+    "tags": [
+      "BatteryHalfFilled",
+      "filled",
+      "solid",
+      "battery",
+      "power",
+      "energy",
+      "half",
+      "medium",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryLow",
+    "tags": [
+      "BatteryLow",
+      "battery",
+      "power",
+      "energy",
+      "low",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryLowBold",
+    "tags": [
+      "BatteryLowBold",
+      "battery",
+      "power",
+      "energy",
+      "low",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BatteryLowFilled",
+    "tags": [
+      "BatteryLowFilled",
+      "filled",
+      "solid",
+      "battery",
+      "power",
+      "energy",
+      "low",
+      "charge",
+      "charging",
+      "status"
+    ],
+    "category": "Other"
   },
   {
     "name": "Bell",
@@ -3593,6 +4221,288 @@
     "category": "Other"
   },
   {
+    "name": "BracketsCurly",
+    "tags": [
+      "BracketsCurly",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlyBold",
+    "tags": [
+      "BracketsCurlyBold",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlyCircle",
+    "tags": [
+      "BracketsCurlyCircle",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlyCircleBold",
+    "tags": [
+      "BracketsCurlyCircleBold",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlyCircleFilled",
+    "tags": [
+      "BracketsCurlyCircleFilled",
+      "filled",
+      "solid",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlyFilled",
+    "tags": [
+      "BracketsCurlyFilled",
+      "filled",
+      "solid",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlySquare",
+    "tags": [
+      "BracketsCurlySquare",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlySquareBold",
+    "tags": [
+      "BracketsCurlySquareBold",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsCurlySquareFilled",
+    "tags": [
+      "BracketsCurlySquareFilled",
+      "filled",
+      "solid",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquare",
+    "tags": [
+      "BracketsSquare",
+      "code",
+      "syntax",
+      "brackets",
+      "square",
+      "developer",
+      "programming",
+      "array",
+      "list"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareBold",
+    "tags": [
+      "BracketsSquareBold",
+      "code",
+      "syntax",
+      "brackets",
+      "square",
+      "developer",
+      "programming",
+      "array",
+      "list"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareCircle",
+    "tags": [
+      "BracketsSquareCircle",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareCircleBold",
+    "tags": [
+      "BracketsSquareCircleBold",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareCircleFilled",
+    "tags": [
+      "BracketsSquareCircleFilled",
+      "filled",
+      "solid",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareFilled",
+    "tags": [
+      "BracketsSquareFilled",
+      "filled",
+      "solid",
+      "code",
+      "syntax",
+      "brackets",
+      "square",
+      "developer",
+      "programming",
+      "array",
+      "list"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareSquare",
+    "tags": [
+      "BracketsSquareSquare",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareSquareBold",
+    "tags": [
+      "BracketsSquareSquareBold",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BracketsSquareSquareFilled",
+    "tags": [
+      "BracketsSquareSquareFilled",
+      "filled",
+      "solid",
+      "code",
+      "syntax",
+      "braces",
+      "curly",
+      "developer",
+      "programming",
+      "json",
+      "object"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "BrightnessHigh",
     "tags": [
       "BrightnessHigh",
@@ -4016,6 +4926,53 @@
     "category": "Time"
   },
   {
+    "name": "CalendarSlash",
+    "tags": [
+      "CalendarSlash",
+      "calendar",
+      "block",
+      "disable date",
+      "restrict",
+      "unavailable",
+      "no events",
+      "forbidden",
+      "schedule stop"
+    ],
+    "category": "Time"
+  },
+  {
+    "name": "CalendarSlashBold",
+    "tags": [
+      "CalendarSlashBold",
+      "calendar",
+      "block",
+      "disable date",
+      "restrict",
+      "unavailable",
+      "no events",
+      "forbidden",
+      "schedule stop"
+    ],
+    "category": "Time"
+  },
+  {
+    "name": "CalendarSlashFilled",
+    "tags": [
+      "CalendarSlashFilled",
+      "filled",
+      "solid",
+      "calendar",
+      "block",
+      "disable date",
+      "restrict",
+      "unavailable",
+      "no events",
+      "forbidden",
+      "schedule stop"
+    ],
+    "category": "Time"
+  },
+  {
     "name": "CalendarX",
     "tags": [
       "CalendarX",
@@ -4199,6 +5156,50 @@
       "packaging"
     ],
     "category": "Other"
+  },
+  {
+    "name": "CapsLock",
+    "tags": [
+      "CapsLock",
+      "caps lock",
+      "keyboard",
+      "typing",
+      "text",
+      "shift",
+      "uppercase",
+      "input"
+    ],
+    "category": "Security"
+  },
+  {
+    "name": "CapsLockBold",
+    "tags": [
+      "CapsLockBold",
+      "caps lock",
+      "keyboard",
+      "typing",
+      "text",
+      "shift",
+      "uppercase",
+      "input"
+    ],
+    "category": "Security"
+  },
+  {
+    "name": "CapsLockFilled",
+    "tags": [
+      "CapsLockFilled",
+      "filled",
+      "solid",
+      "caps lock",
+      "keyboard",
+      "typing",
+      "text",
+      "shift",
+      "uppercase",
+      "input"
+    ],
+    "category": "Security"
   },
   {
     "name": "ChartBar",
@@ -4703,20 +5704,149 @@
     "category": "Status"
   },
   {
-    "name": "Checkmark",
+    "name": "Checklist",
     "tags": [
-      "Checkmark",
-      "outline",
-      "line"
+      "Checklist",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "complete",
+      "incomplete",
+      "progress",
+      "survey"
     ],
     "category": "Status"
   },
   {
-    "name": "CheckmarkFilled",
+    "name": "ChecklistBold",
     "tags": [
-      "CheckmarkFilled",
+      "ChecklistBold",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "complete",
+      "incomplete",
+      "progress",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistChecked",
+    "tags": [
+      "ChecklistChecked",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "checked",
+      "complete",
+      "done",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistCheckedBold",
+    "tags": [
+      "ChecklistCheckedBold",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "checked",
+      "complete",
+      "done",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistCheckedFilled",
+    "tags": [
+      "ChecklistCheckedFilled",
       "filled",
-      "solid"
+      "solid",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "checked",
+      "complete",
+      "done",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistFilled",
+    "tags": [
+      "ChecklistFilled",
+      "filled",
+      "solid",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "complete",
+      "incomplete",
+      "progress",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistUnchecked",
+    "tags": [
+      "ChecklistUnchecked",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "unchecked",
+      "incomplete",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistUncheckedBold",
+    "tags": [
+      "ChecklistUncheckedBold",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "unchecked",
+      "incomplete",
+      "survey"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ChecklistUncheckedFilled",
+    "tags": [
+      "ChecklistUncheckedFilled",
+      "filled",
+      "solid",
+      "checklist",
+      "tasks",
+      "to-do",
+      "list",
+      "items",
+      "unchecked",
+      "incomplete",
+      "survey"
     ],
     "category": "Status"
   },
@@ -5841,6 +6971,194 @@
       "chevron",
       "up",
       "less"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsDown",
+    "tags": [
+      "ChevronsDown",
+      "double arrow",
+      "chevrons",
+      "down",
+      "expand",
+      "dropdown",
+      "more",
+      "scroll",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsDownBold",
+    "tags": [
+      "ChevronsDownBold",
+      "double arrow",
+      "chevrons",
+      "down",
+      "expand",
+      "dropdown",
+      "more",
+      "scroll",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsDownFilled",
+    "tags": [
+      "ChevronsDownFilled",
+      "filled",
+      "solid",
+      "double arrow",
+      "chevrons",
+      "down",
+      "expand",
+      "dropdown",
+      "more",
+      "scroll",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsLeft",
+    "tags": [
+      "ChevronsLeft",
+      "double arrow",
+      "chevrons",
+      "left",
+      "previous",
+      "back",
+      "navigation",
+      "rewind",
+      "skip"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsLeftBold",
+    "tags": [
+      "ChevronsLeftBold",
+      "double arrow",
+      "chevrons",
+      "left",
+      "previous",
+      "back",
+      "navigation",
+      "rewind",
+      "skip"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsLeftFilled",
+    "tags": [
+      "ChevronsLeftFilled",
+      "filled",
+      "solid",
+      "double arrow",
+      "chevrons",
+      "left",
+      "previous",
+      "back",
+      "navigation",
+      "rewind",
+      "skip"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsRight",
+    "tags": [
+      "ChevronsRight",
+      "double arrow",
+      "chevrons",
+      "right",
+      "next",
+      "forward",
+      "navigation",
+      "skip",
+      "fast forward"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsRightBold",
+    "tags": [
+      "ChevronsRightBold",
+      "double arrow",
+      "chevrons",
+      "right",
+      "next",
+      "forward",
+      "navigation",
+      "skip",
+      "fast forward"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsRightFilled",
+    "tags": [
+      "ChevronsRightFilled",
+      "filled",
+      "solid",
+      "double arrow",
+      "chevrons",
+      "right",
+      "next",
+      "forward",
+      "navigation",
+      "skip",
+      "fast forward"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsUp",
+    "tags": [
+      "ChevronsUp",
+      "double arrow",
+      "chevrons",
+      "up",
+      "collapse",
+      "upload",
+      "scroll",
+      "navigation",
+      "back to top"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsUpBold",
+    "tags": [
+      "ChevronsUpBold",
+      "double arrow",
+      "chevrons",
+      "up",
+      "collapse",
+      "upload",
+      "scroll",
+      "navigation",
+      "back to top"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsUpFilled",
+    "tags": [
+      "ChevronsUpFilled",
+      "filled",
+      "solid",
+      "double arrow",
+      "chevrons",
+      "up",
+      "collapse",
+      "upload",
+      "scroll",
+      "navigation",
+      "back to top"
     ],
     "category": "Navigation"
   },
@@ -7319,6 +8637,97 @@
     "category": "Other"
   },
   {
+    "name": "Cpu",
+    "tags": [
+      "Cpu",
+      "cpu",
+      "processor",
+      "chip",
+      "microchip",
+      "hardware",
+      "computing",
+      "technology"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CpuAmd",
+    "tags": [
+      "CpuAmd",
+      "cpu",
+      "processor",
+      "chip",
+      "microchip",
+      "hardware",
+      "computing",
+      "technology",
+      "ryzen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CpuAmdBold",
+    "tags": [
+      "CpuAmdBold",
+      "cpu",
+      "processor",
+      "chip",
+      "microchip",
+      "hardware",
+      "computing",
+      "technology",
+      "ryzen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CpuAmdFilled",
+    "tags": [
+      "CpuAmdFilled",
+      "filled",
+      "solid",
+      "cpu",
+      "processor",
+      "chip",
+      "microchip",
+      "hardware",
+      "computing",
+      "technology",
+      "ryzen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CpuBold",
+    "tags": [
+      "CpuBold",
+      "cpu",
+      "processor",
+      "chip",
+      "microchip",
+      "hardware",
+      "computing",
+      "technology"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CpuFilled",
+    "tags": [
+      "CpuFilled",
+      "filled",
+      "solid",
+      "cpu",
+      "processor",
+      "chip",
+      "microchip",
+      "hardware",
+      "computing",
+      "technology"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "CreditCard",
     "tags": [
       "CreditCard",
@@ -7851,9 +9260,9 @@
     "category": "Other"
   },
   {
-    "name": "CurrencyEuroCircle",
+    "name": "CurrencyEuroCirlce",
     "tags": [
-      "CurrencyEuroCircle",
+      "CurrencyEuroCirlce",
       "currency",
       "euro",
       "money",
@@ -7866,9 +9275,9 @@
     "category": "Other"
   },
   {
-    "name": "CurrencyEuroCircleBold",
+    "name": "CurrencyEuroCirlceBold",
     "tags": [
-      "CurrencyEuroCircleBold",
+      "CurrencyEuroCirlceBold",
       "currency",
       "euro",
       "money",
@@ -7881,9 +9290,9 @@
     "category": "Other"
   },
   {
-    "name": "CurrencyEuroCircleFilled",
+    "name": "CurrencyEuroCirlceFilled",
     "tags": [
-      "CurrencyEuroCircleFilled",
+      "CurrencyEuroCirlceFilled",
       "filled",
       "solid",
       "currency",
@@ -7945,6 +9354,50 @@
     "category": "Other"
   },
   {
+    "name": "CursorClick",
+    "tags": [
+      "CursorClick",
+      "cursor",
+      "click",
+      "pointer",
+      "select",
+      "interaction",
+      "tap",
+      "action"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CursorClickBold",
+    "tags": [
+      "CursorClickBold",
+      "cursor",
+      "click",
+      "pointer",
+      "select",
+      "interaction",
+      "tap",
+      "action"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CursorClickFilled",
+    "tags": [
+      "CursorClickFilled",
+      "filled",
+      "solid",
+      "cursor",
+      "click",
+      "pointer",
+      "select",
+      "interaction",
+      "tap",
+      "action"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "CursorFilled",
     "tags": [
       "CursorFilled",
@@ -8002,6 +9455,47 @@
       "direction",
       "select",
       "map"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CursorOg",
+    "tags": [
+      "CursorOg",
+      "pointer",
+      "arrow",
+      "select",
+      "click",
+      "navigation",
+      "mouse"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CursorOgBold",
+    "tags": [
+      "CursorOgBold",
+      "pointer",
+      "arrow",
+      "select",
+      "click",
+      "navigation",
+      "mouse"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CursorOgFilled",
+    "tags": [
+      "CursorOgFilled",
+      "filled",
+      "solid",
+      "pointer",
+      "arrow",
+      "select",
+      "click",
+      "navigation",
+      "mouse"
     ],
     "category": "Other"
   },
@@ -8134,6 +9628,115 @@
       "edit",
       "select",
       "writing"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurveBezier",
+    "tags": [
+      "CurveBezier",
+      "bezier",
+      "curve",
+      "path",
+      "vector",
+      "design",
+      "anchor",
+      "handles",
+      "pen tool",
+      "shape",
+      "animation",
+      "transition"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurveBezierBold",
+    "tags": [
+      "CurveBezierBold",
+      "bezier",
+      "curve",
+      "path",
+      "vector",
+      "design",
+      "anchor",
+      "handles",
+      "pen tool",
+      "shape",
+      "animation",
+      "transition"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurveBezierFilled",
+    "tags": [
+      "CurveBezierFilled",
+      "filled",
+      "solid",
+      "bezier",
+      "curve",
+      "path",
+      "vector",
+      "design",
+      "anchor",
+      "handles",
+      "pen tool",
+      "shape",
+      "animation",
+      "transition"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurveEase",
+    "tags": [
+      "CurveEase",
+      "curve",
+      "easing",
+      "animation",
+      "transition",
+      "path",
+      "timeline",
+      "motion",
+      "bezier",
+      "vector",
+      "pen tool"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurveEaseBold",
+    "tags": [
+      "CurveEaseBold",
+      "curve",
+      "easing",
+      "animation",
+      "transition",
+      "path",
+      "timeline",
+      "motion",
+      "bezier",
+      "vector",
+      "pen tool"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CurveEaseFilled",
+    "tags": [
+      "CurveEaseFilled",
+      "filled",
+      "solid",
+      "curve",
+      "easing",
+      "animation",
+      "transition",
+      "path",
+      "timeline",
+      "motion",
+      "bezier",
+      "vector",
+      "pen tool"
     ],
     "category": "Other"
   },
@@ -8664,6 +10267,53 @@
       "sheet"
     ],
     "category": "Other"
+  },
+  {
+    "name": "DollarBill",
+    "tags": [
+      "DollarBill",
+      "money",
+      "cash",
+      "payment",
+      "finance",
+      "dollar",
+      "currency",
+      "bill",
+      "banknote"
+    ],
+    "category": "Finance"
+  },
+  {
+    "name": "DollarBillBold",
+    "tags": [
+      "DollarBillBold",
+      "money",
+      "cash",
+      "payment",
+      "finance",
+      "dollar",
+      "currency",
+      "bill",
+      "banknote"
+    ],
+    "category": "Finance"
+  },
+  {
+    "name": "DollarBillFilled",
+    "tags": [
+      "DollarBillFilled",
+      "filled",
+      "solid",
+      "money",
+      "cash",
+      "payment",
+      "finance",
+      "dollar",
+      "currency",
+      "bill",
+      "banknote"
+    ],
+    "category": "Finance"
   },
   {
     "name": "Download",
@@ -9224,47 +10874,6 @@
     "category": "Other"
   },
   {
-    "name": "Envalope",
-    "tags": [
-      "Envalope",
-      "email",
-      "message",
-      "mail",
-      "inbox",
-      "communication",
-      "contact"
-    ],
-    "category": "Other"
-  },
-  {
-    "name": "EnvalopeBold",
-    "tags": [
-      "EnvalopeBold",
-      "email",
-      "message",
-      "mail",
-      "inbox",
-      "communication",
-      "contact"
-    ],
-    "category": "Other"
-  },
-  {
-    "name": "EnvalopeFilled",
-    "tags": [
-      "EnvalopeFilled",
-      "filled",
-      "solid",
-      "email",
-      "message",
-      "mail",
-      "inbox",
-      "communication",
-      "contact"
-    ],
-    "category": "Other"
-  },
-  {
     "name": "ExclamationPoint",
     "tags": [
       "ExclamationPoint",
@@ -9526,6 +11135,53 @@
     "category": "Other"
   },
   {
+    "name": "Flame",
+    "tags": [
+      "Flame",
+      "fire",
+      "flame",
+      "heat",
+      "energy",
+      "burn",
+      "gas",
+      "hot",
+      "ignite"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlameBold",
+    "tags": [
+      "FlameBold",
+      "fire",
+      "flame",
+      "heat",
+      "energy",
+      "burn",
+      "gas",
+      "hot",
+      "ignite"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlameFilled",
+    "tags": [
+      "FlameFilled",
+      "filled",
+      "solid",
+      "fire",
+      "flame",
+      "heat",
+      "energy",
+      "burn",
+      "gas",
+      "hot",
+      "ignite"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Flash",
     "tags": [
       "Flash",
@@ -9765,6 +11421,53 @@
       "node"
     ],
     "category": "Navigation"
+  },
+  {
+    "name": "FlowMerge",
+    "tags": [
+      "FlowMerge",
+      "merge",
+      "combine",
+      "join",
+      "branch",
+      "flow",
+      "direction",
+      "right",
+      "unify"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlowMergeBold",
+    "tags": [
+      "FlowMergeBold",
+      "merge",
+      "combine",
+      "join",
+      "branch",
+      "flow",
+      "direction",
+      "right",
+      "unify"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlowMergeFilled",
+    "tags": [
+      "FlowMergeFilled",
+      "filled",
+      "solid",
+      "merge",
+      "combine",
+      "join",
+      "branch",
+      "flow",
+      "direction",
+      "right",
+      "unify"
+    ],
+    "category": "Other"
   },
   {
     "name": "FlowRightArrow",
@@ -10696,6 +12399,53 @@
     "category": "Sports"
   },
   {
+    "name": "Fortress",
+    "tags": [
+      "Fortress",
+      "fortress",
+      "castle",
+      "stronghold",
+      "defense",
+      "secure",
+      "tower",
+      "medieval",
+      "building"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FortressBold",
+    "tags": [
+      "FortressBold",
+      "fortress",
+      "castle",
+      "stronghold",
+      "defense",
+      "secure",
+      "tower",
+      "medieval",
+      "building"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FortressFilled",
+    "tags": [
+      "FortressFilled",
+      "filled",
+      "solid",
+      "fortress",
+      "castle",
+      "stronghold",
+      "defense",
+      "secure",
+      "tower",
+      "medieval",
+      "building"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Ghost",
     "tags": [
       "Ghost",
@@ -11160,6 +12910,144 @@
     "category": "Other"
   },
   {
+    "name": "HandLeft",
+    "tags": [
+      "HandLeft",
+      "hand",
+      "left",
+      "gesture",
+      "palm",
+      "stop",
+      "hold",
+      "grab",
+      "move"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandLeftBold",
+    "tags": [
+      "HandLeftBold",
+      "hand",
+      "left",
+      "gesture",
+      "palm",
+      "stop",
+      "hold",
+      "grab",
+      "move"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandLeftFilled",
+    "tags": [
+      "HandLeftFilled",
+      "filled",
+      "solid",
+      "hand",
+      "left",
+      "gesture",
+      "palm",
+      "stop",
+      "hold",
+      "grab",
+      "move"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandRight",
+    "tags": [
+      "HandRight",
+      "hand",
+      "right",
+      "gesture",
+      "palm",
+      "stop",
+      "hold",
+      "grab",
+      "move"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandRightBold",
+    "tags": [
+      "HandRightBold",
+      "hand",
+      "right",
+      "gesture",
+      "palm",
+      "stop",
+      "hold",
+      "grab",
+      "move"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandRightFilled",
+    "tags": [
+      "HandRightFilled",
+      "filled",
+      "solid",
+      "hand",
+      "right",
+      "gesture",
+      "palm",
+      "stop",
+      "hold",
+      "grab",
+      "move"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandWave",
+    "tags": [
+      "HandWave",
+      "hand",
+      "wave",
+      "hello",
+      "goodbye",
+      "greeting",
+      "gesture",
+      "motion"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandWaveBold",
+    "tags": [
+      "HandWaveBold",
+      "hand",
+      "wave",
+      "hello",
+      "goodbye",
+      "greeting",
+      "gesture",
+      "motion"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "HandWaveFilled",
+    "tags": [
+      "HandWaveFilled",
+      "filled",
+      "solid",
+      "hand",
+      "wave",
+      "hello",
+      "goodbye",
+      "greeting",
+      "gesture",
+      "motion"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Handbag",
     "tags": [
       "Handbag",
@@ -11354,6 +13242,53 @@
     "category": "Other"
   },
   {
+    "name": "Headphones",
+    "tags": [
+      "Headphones",
+      "audio",
+      "music",
+      "sound",
+      "headset",
+      "listen",
+      "playback",
+      "speaker",
+      "media"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "HeadphonesBold",
+    "tags": [
+      "HeadphonesBold",
+      "audio",
+      "music",
+      "sound",
+      "headset",
+      "listen",
+      "playback",
+      "speaker",
+      "media"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "HeadphonesFilled",
+    "tags": [
+      "HeadphonesFilled",
+      "filled",
+      "solid",
+      "audio",
+      "music",
+      "sound",
+      "headset",
+      "listen",
+      "playback",
+      "speaker",
+      "media"
+    ],
+    "category": "Communication"
+  },
+  {
     "name": "Heart",
     "tags": [
       "Heart",
@@ -11493,6 +13428,156 @@
       "residence",
       "shelter",
       "navigation"
+    ],
+    "category": "Home"
+  },
+  {
+    "name": "HomeHeart",
+    "tags": [
+      "HomeHeart",
+      "home",
+      "favorite",
+      "save",
+      "like",
+      "care",
+      "housing",
+      "shelter",
+      "wellness",
+      "support"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "HomeHeartBold",
+    "tags": [
+      "HomeHeartBold",
+      "home",
+      "favorite",
+      "save",
+      "like",
+      "care",
+      "housing",
+      "shelter",
+      "wellness",
+      "support"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "HomeHeartFilled",
+    "tags": [
+      "HomeHeartFilled",
+      "filled",
+      "solid",
+      "home",
+      "favorite",
+      "save",
+      "like",
+      "care",
+      "housing",
+      "shelter",
+      "wellness",
+      "support"
+    ],
+    "category": "Favorites"
+  },
+  {
+    "name": "HomePlus",
+    "tags": [
+      "HomePlus",
+      "home",
+      "add",
+      "new",
+      "create",
+      "join",
+      "housing",
+      "shelter",
+      "plus",
+      "insert"
+    ],
+    "category": "Home"
+  },
+  {
+    "name": "HomePlusBold",
+    "tags": [
+      "HomePlusBold",
+      "home",
+      "add",
+      "new",
+      "create",
+      "join",
+      "housing",
+      "shelter",
+      "plus",
+      "insert"
+    ],
+    "category": "Home"
+  },
+  {
+    "name": "HomePlusFilled",
+    "tags": [
+      "HomePlusFilled",
+      "filled",
+      "solid",
+      "home",
+      "add",
+      "new",
+      "create",
+      "join",
+      "housing",
+      "shelter",
+      "plus",
+      "insert"
+    ],
+    "category": "Home"
+  },
+  {
+    "name": "HomeX",
+    "tags": [
+      "HomeX",
+      "home",
+      "remove",
+      "delete",
+      "close",
+      "dismiss",
+      "housing",
+      "shelter",
+      "cancel",
+      "exit"
+    ],
+    "category": "Home"
+  },
+  {
+    "name": "HomeXBold",
+    "tags": [
+      "HomeXBold",
+      "home",
+      "remove",
+      "delete",
+      "close",
+      "dismiss",
+      "housing",
+      "shelter",
+      "cancel",
+      "exit"
+    ],
+    "category": "Home"
+  },
+  {
+    "name": "HomeXFilled",
+    "tags": [
+      "HomeXFilled",
+      "filled",
+      "solid",
+      "home",
+      "remove",
+      "delete",
+      "close",
+      "dismiss",
+      "housing",
+      "shelter",
+      "cancel",
+      "exit"
     ],
     "category": "Home"
   },
@@ -12219,6 +14304,153 @@
     "category": "Other"
   },
   {
+    "name": "LineSegment",
+    "tags": [
+      "LineSegment",
+      "line",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentBold",
+    "tags": [
+      "LineSegmentBold",
+      "line",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentFilled",
+    "tags": [
+      "LineSegmentFilled",
+      "filled",
+      "solid",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentH",
+    "tags": [
+      "LineSegmentH",
+      "line",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentHBold",
+    "tags": [
+      "LineSegmentHBold",
+      "line",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentHFilled",
+    "tags": [
+      "LineSegmentHFilled",
+      "filled",
+      "solid",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentV",
+    "tags": [
+      "LineSegmentV",
+      "line",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentVBold",
+    "tags": [
+      "LineSegmentVBold",
+      "line",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "LineSegmentVFilled",
+    "tags": [
+      "LineSegmentVFilled",
+      "filled",
+      "solid",
+      "segment",
+      "connect",
+      "shape",
+      "vector",
+      "geometry",
+      "link",
+      "path",
+      "pen"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Link",
     "tags": [
       "Link",
@@ -12757,6 +14989,311 @@
       "desktop"
     ],
     "category": "Other"
+  },
+  {
+    "name": "Mail",
+    "tags": [
+      "Mail",
+      "email",
+      "message",
+      "mail",
+      "inbox",
+      "communication",
+      "contact"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailBold",
+    "tags": [
+      "MailBold",
+      "email",
+      "message",
+      "mail",
+      "inbox",
+      "communication",
+      "contact"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailCheck",
+    "tags": [
+      "MailCheck",
+      "email",
+      "confirm message",
+      "verify email",
+      "approved",
+      "delivered",
+      "success",
+      "message sent",
+      "contact verified"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailCheckBold",
+    "tags": [
+      "MailCheckBold",
+      "email",
+      "confirm message",
+      "verify email",
+      "approved",
+      "delivered",
+      "success",
+      "message sent",
+      "contact verified"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailCheckFilled",
+    "tags": [
+      "MailCheckFilled",
+      "filled",
+      "solid",
+      "email",
+      "confirm message",
+      "verify email",
+      "approved",
+      "delivered",
+      "success",
+      "message sent",
+      "contact verified"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailFilled",
+    "tags": [
+      "MailFilled",
+      "filled",
+      "solid",
+      "email",
+      "message",
+      "mail",
+      "inbox",
+      "communication",
+      "contact"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailMinus",
+    "tags": [
+      "MailMinus",
+      "email",
+      "remove message",
+      "unsubscribe",
+      "reduce emails",
+      "delete",
+      "cancel subscription",
+      "contact remove"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailMinusBold",
+    "tags": [
+      "MailMinusBold",
+      "email",
+      "remove message",
+      "unsubscribe",
+      "reduce emails",
+      "delete",
+      "cancel subscription",
+      "contact remove"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailMinusFilled",
+    "tags": [
+      "MailMinusFilled",
+      "filled",
+      "solid",
+      "email",
+      "remove message",
+      "unsubscribe",
+      "reduce emails",
+      "delete",
+      "cancel subscription",
+      "contact remove"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailOpen",
+    "tags": [
+      "MailOpen",
+      "email",
+      "open message",
+      "read mail",
+      "inbox",
+      "view email",
+      "message opened"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailOpenBold",
+    "tags": [
+      "MailOpenBold",
+      "email",
+      "open message",
+      "read mail",
+      "inbox",
+      "view email",
+      "message opened"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailOpenFilled",
+    "tags": [
+      "MailOpenFilled",
+      "filled",
+      "solid",
+      "email",
+      "open message",
+      "read mail",
+      "inbox",
+      "view email",
+      "message opened"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailPlus",
+    "tags": [
+      "MailPlus",
+      "email",
+      "new message",
+      "add email",
+      "compose",
+      "invite",
+      "contact add",
+      "create message"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailPlusBold",
+    "tags": [
+      "MailPlusBold",
+      "email",
+      "new message",
+      "add email",
+      "compose",
+      "invite",
+      "contact add",
+      "create message"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailPlusFilled",
+    "tags": [
+      "MailPlusFilled",
+      "filled",
+      "solid",
+      "email",
+      "new message",
+      "add email",
+      "compose",
+      "invite",
+      "contact add",
+      "create message"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailSlash",
+    "tags": [
+      "MailSlash",
+      "email",
+      "block message",
+      "ban email",
+      "restrict",
+      "spam",
+      "reject",
+      "stop message"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailSlashBold",
+    "tags": [
+      "MailSlashBold",
+      "email",
+      "block message",
+      "ban email",
+      "restrict",
+      "spam",
+      "reject",
+      "stop message"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailSlashFilled",
+    "tags": [
+      "MailSlashFilled",
+      "filled",
+      "solid",
+      "email",
+      "block message",
+      "ban email",
+      "restrict",
+      "spam",
+      "reject",
+      "stop message"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailX",
+    "tags": [
+      "MailX",
+      "email",
+      "delete message",
+      "remove email",
+      "discard",
+      "cancel message",
+      "unsubscribe",
+      "contact remove"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailXBold",
+    "tags": [
+      "MailXBold",
+      "email",
+      "delete message",
+      "remove email",
+      "discard",
+      "cancel message",
+      "unsubscribe",
+      "contact remove"
+    ],
+    "category": "Communication"
+  },
+  {
+    "name": "MailXFilled",
+    "tags": [
+      "MailXFilled",
+      "filled",
+      "solid",
+      "email",
+      "delete message",
+      "remove email",
+      "discard",
+      "cancel message",
+      "unsubscribe",
+      "contact remove"
+    ],
+    "category": "Communication"
   },
   {
     "name": "MapPin",
@@ -13598,6 +16135,50 @@
     "category": "Other"
   },
   {
+    "name": "Music",
+    "tags": [
+      "Music",
+      "music",
+      "audio",
+      "song",
+      "sound",
+      "melody",
+      "track",
+      "play"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "MusicBold",
+    "tags": [
+      "MusicBold",
+      "music",
+      "audio",
+      "song",
+      "sound",
+      "melody",
+      "track",
+      "play"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "MusicFilled",
+    "tags": [
+      "MusicFilled",
+      "filled",
+      "solid",
+      "music",
+      "audio",
+      "song",
+      "sound",
+      "melody",
+      "track",
+      "play"
+    ],
+    "category": "Media"
+  },
+  {
     "name": "Note",
     "tags": [
       "Note",
@@ -13703,6 +16284,147 @@
       "annotation",
       "file",
       "writing"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Notebook",
+    "tags": [
+      "Notebook",
+      "notes",
+      "journal",
+      "documentation",
+      "book",
+      "reading",
+      "reference",
+      "record",
+      "entry"
+    ],
+    "category": "Education"
+  },
+  {
+    "name": "NotebookBold",
+    "tags": [
+      "NotebookBold",
+      "notes",
+      "journal",
+      "documentation",
+      "book",
+      "reading",
+      "reference",
+      "record",
+      "entry"
+    ],
+    "category": "Education"
+  },
+  {
+    "name": "NotebookFilled",
+    "tags": [
+      "NotebookFilled",
+      "filled",
+      "solid",
+      "notes",
+      "journal",
+      "documentation",
+      "book",
+      "reading",
+      "reference",
+      "record",
+      "entry"
+    ],
+    "category": "Education"
+  },
+  {
+    "name": "NotebookLog",
+    "tags": [
+      "NotebookLog",
+      "notebook",
+      "log",
+      "notes",
+      "journal",
+      "diary",
+      "document",
+      "binder",
+      "record",
+      "writing"
+    ],
+    "category": "Education"
+  },
+  {
+    "name": "NotebookLogBold",
+    "tags": [
+      "NotebookLogBold",
+      "notebook",
+      "log",
+      "notes",
+      "journal",
+      "diary",
+      "document",
+      "binder",
+      "record",
+      "writing"
+    ],
+    "category": "Education"
+  },
+  {
+    "name": "NotebookLogFilled",
+    "tags": [
+      "NotebookLogFilled",
+      "filled",
+      "solid",
+      "notebook",
+      "log",
+      "notes",
+      "journal",
+      "diary",
+      "document",
+      "binder",
+      "record",
+      "writing"
+    ],
+    "category": "Education"
+  },
+  {
+    "name": "OptionKey",
+    "tags": [
+      "OptionKey",
+      "keyboard",
+      "option",
+      "mac",
+      "key",
+      "shortcut",
+      "command",
+      "modifier"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "OptionKeyBold",
+    "tags": [
+      "OptionKeyBold",
+      "keyboard",
+      "option",
+      "mac",
+      "key",
+      "shortcut",
+      "command",
+      "modifier"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "OptionKeyFilled",
+    "tags": [
+      "OptionKeyFilled",
+      "filled",
+      "solid",
+      "keyboard",
+      "option",
+      "mac",
+      "key",
+      "shortcut",
+      "command",
+      "modifier"
     ],
     "category": "Other"
   },
@@ -13986,6 +16708,97 @@
     "category": "Media"
   },
   {
+    "name": "PawPrint",
+    "tags": [
+      "PawPrint",
+      "pet",
+      "animal",
+      "dog",
+      "cat",
+      "paw print",
+      "wildlife",
+      "footprint"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PawPrintBold",
+    "tags": [
+      "PawPrintBold",
+      "pet",
+      "animal",
+      "dog",
+      "cat",
+      "paw print",
+      "wildlife",
+      "footprint"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PawPrintFilled",
+    "tags": [
+      "PawPrintFilled",
+      "filled",
+      "solid",
+      "pet",
+      "animal",
+      "dog",
+      "cat",
+      "paw print",
+      "wildlife",
+      "footprint"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Peace",
+    "tags": [
+      "Peace",
+      "peace",
+      "pacifism",
+      "harmony",
+      "anti-war",
+      "symbol",
+      "calm",
+      "unity",
+      "hippie"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PeaceBold",
+    "tags": [
+      "PeaceBold",
+      "peace",
+      "pacifism",
+      "harmony",
+      "anti-war",
+      "symbol",
+      "calm",
+      "unity",
+      "hippie"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PeaceFilled",
+    "tags": [
+      "PeaceFilled",
+      "filled",
+      "solid",
+      "peace",
+      "pacifism",
+      "harmony",
+      "anti-war",
+      "symbol",
+      "calm",
+      "unity",
+      "hippie"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Pedestal",
     "tags": [
       "Pedestal",
@@ -14086,6 +16899,53 @@
     "category": "Other"
   },
   {
+    "name": "PenNib",
+    "tags": [
+      "PenNib",
+      "pen",
+      "write",
+      "draw",
+      "edit",
+      "design",
+      "signature",
+      "create",
+      "tool"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PenNibBold",
+    "tags": [
+      "PenNibBold",
+      "pen",
+      "write",
+      "draw",
+      "edit",
+      "design",
+      "signature",
+      "create",
+      "tool"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PenNibFilled",
+    "tags": [
+      "PenNibFilled",
+      "filled",
+      "solid",
+      "pen",
+      "write",
+      "draw",
+      "edit",
+      "design",
+      "signature",
+      "create",
+      "tool"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Pencil",
     "tags": [
       "Pencil",
@@ -14129,6 +16989,56 @@
       "compose",
       "draft",
       "annotate"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "PencilTip",
+    "tags": [
+      "PencilTip",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "annotation",
+      "draw",
+      "create",
+      "update",
+      "stationary"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "PencilTipBold",
+    "tags": [
+      "PencilTipBold",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "annotation",
+      "draw",
+      "create",
+      "update",
+      "stationary"
+    ],
+    "category": "Edit"
+  },
+  {
+    "name": "PencilTipFilled",
+    "tags": [
+      "PencilTipFilled",
+      "filled",
+      "solid",
+      "edit",
+      "pencil",
+      "write",
+      "compose",
+      "annotation",
+      "draw",
+      "create",
+      "update",
+      "stationary"
     ],
     "category": "Edit"
   },
@@ -14527,6 +17437,141 @@
       "resume"
     ],
     "category": "Media"
+  },
+  {
+    "name": "PlayRectangle",
+    "tags": [
+      "PlayRectangle",
+      "play",
+      "video",
+      "media",
+      "start",
+      "youtube",
+      "watch",
+      "player"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "PlayRectangleBold",
+    "tags": [
+      "PlayRectangleBold",
+      "play",
+      "video",
+      "media",
+      "start",
+      "youtube",
+      "watch",
+      "player"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "PlayRectangleFilled",
+    "tags": [
+      "PlayRectangleFilled",
+      "filled",
+      "solid",
+      "play",
+      "video",
+      "media",
+      "start",
+      "youtube",
+      "watch",
+      "player"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "Playlist",
+    "tags": [
+      "Playlist",
+      "playlist",
+      "music list",
+      "queue",
+      "audio",
+      "songs",
+      "media",
+      "play"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "PlaylistBold",
+    "tags": [
+      "PlaylistBold",
+      "playlist",
+      "music list",
+      "queue",
+      "audio",
+      "songs",
+      "media",
+      "play"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "PlaylistFilled",
+    "tags": [
+      "PlaylistFilled",
+      "filled",
+      "solid",
+      "playlist",
+      "music list",
+      "queue",
+      "audio",
+      "songs",
+      "media",
+      "play"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "Plug",
+    "tags": [
+      "Plug",
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "socket",
+      "outlet",
+      "charge",
+      "cable"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PlugBold",
+    "tags": [
+      "PlugBold",
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "socket",
+      "outlet",
+      "charge",
+      "cable"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "PlugFilled",
+    "tags": [
+      "PlugFilled",
+      "filled",
+      "solid",
+      "plug",
+      "power",
+      "electricity",
+      "connect",
+      "socket",
+      "outlet",
+      "charge",
+      "cable"
+    ],
+    "category": "Other"
   },
   {
     "name": "Plus",
@@ -15252,6 +18297,53 @@
     "category": "Other"
   },
   {
+    "name": "ScanFace",
+    "tags": [
+      "ScanFace",
+      "face id",
+      "face recognition",
+      "biometric",
+      "authentication",
+      "login",
+      "unlock",
+      "scan",
+      "smile"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ScanFaceBold",
+    "tags": [
+      "ScanFaceBold",
+      "face id",
+      "face recognition",
+      "biometric",
+      "authentication",
+      "login",
+      "unlock",
+      "scan",
+      "smile"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ScanFaceFilled",
+    "tags": [
+      "ScanFaceFilled",
+      "filled",
+      "solid",
+      "face id",
+      "face recognition",
+      "biometric",
+      "authentication",
+      "login",
+      "unlock",
+      "scan",
+      "smile"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "ScanFilled",
     "tags": [
       "ScanFilled",
@@ -15313,6 +18405,50 @@
       "magnifying glass"
     ],
     "category": "Search"
+  },
+  {
+    "name": "Scissors",
+    "tags": [
+      "Scissors",
+      "scissors",
+      "cut",
+      "trim",
+      "edit",
+      "crop",
+      "remove",
+      "snip"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ScissorsBold",
+    "tags": [
+      "ScissorsBold",
+      "scissors",
+      "cut",
+      "trim",
+      "edit",
+      "crop",
+      "remove",
+      "snip"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ScissorsFilled",
+    "tags": [
+      "ScissorsFilled",
+      "filled",
+      "solid",
+      "scissors",
+      "cut",
+      "trim",
+      "edit",
+      "crop",
+      "remove",
+      "snip"
+    ],
+    "category": "Other"
   },
   {
     "name": "Search",
@@ -15628,6 +18764,50 @@
     "category": "Other"
   },
   {
+    "name": "ShieldAlert",
+    "tags": [
+      "ShieldAlert",
+      "security alert",
+      "warning",
+      "protection issue",
+      "risk",
+      "caution",
+      "shield",
+      "unsafe"
+    ],
+    "category": "Alerts"
+  },
+  {
+    "name": "ShieldAlertBold",
+    "tags": [
+      "ShieldAlertBold",
+      "security alert",
+      "warning",
+      "protection issue",
+      "risk",
+      "caution",
+      "shield",
+      "unsafe"
+    ],
+    "category": "Alerts"
+  },
+  {
+    "name": "ShieldAlertFilled",
+    "tags": [
+      "ShieldAlertFilled",
+      "filled",
+      "solid",
+      "security alert",
+      "warning",
+      "protection issue",
+      "risk",
+      "caution",
+      "shield",
+      "unsafe"
+    ],
+    "category": "Alerts"
+  },
+  {
     "name": "ShieldBold",
     "tags": [
       "ShieldBold",
@@ -15641,6 +18821,53 @@
     "category": "Other"
   },
   {
+    "name": "ShieldCheck",
+    "tags": [
+      "ShieldCheck",
+      "security",
+      "protection",
+      "verified",
+      "safe",
+      "privacy",
+      "trust",
+      "approval",
+      "shield"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ShieldCheckBold",
+    "tags": [
+      "ShieldCheckBold",
+      "security",
+      "protection",
+      "verified",
+      "safe",
+      "privacy",
+      "trust",
+      "approval",
+      "shield"
+    ],
+    "category": "Status"
+  },
+  {
+    "name": "ShieldCheckFilled",
+    "tags": [
+      "ShieldCheckFilled",
+      "filled",
+      "solid",
+      "security",
+      "protection",
+      "verified",
+      "safe",
+      "privacy",
+      "trust",
+      "approval",
+      "shield"
+    ],
+    "category": "Status"
+  },
+  {
     "name": "ShieldFilled",
     "tags": [
       "ShieldFilled",
@@ -15652,6 +18879,47 @@
       "privacy",
       "safe",
       "defense"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ShieldSlash",
+    "tags": [
+      "ShieldSlash",
+      "security off",
+      "protection disabled",
+      "unprotected",
+      "unsafe",
+      "no privacy",
+      "shield"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ShieldSlashBold",
+    "tags": [
+      "ShieldSlashBold",
+      "security off",
+      "protection disabled",
+      "unprotected",
+      "unsafe",
+      "no privacy",
+      "shield"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "ShieldSlashFilled",
+    "tags": [
+      "ShieldSlashFilled",
+      "filled",
+      "solid",
+      "security off",
+      "protection disabled",
+      "unprotected",
+      "unsafe",
+      "no privacy",
+      "shield"
     ],
     "category": "Other"
   },
@@ -16177,6 +19445,182 @@
     "category": "Other"
   },
   {
+    "name": "Sort",
+    "tags": [
+      "Sort",
+      "sort",
+      "descending",
+      "order",
+      "high-to-low",
+      "rank",
+      "list",
+      "wide-first"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SortAscending",
+    "tags": [
+      "SortAscending",
+      "sort",
+      "ascending",
+      "order",
+      "low-to-high",
+      "rank",
+      "list",
+      "wide-first"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SortAscendingBold",
+    "tags": [
+      "SortAscendingBold",
+      "sort",
+      "ascending",
+      "order",
+      "low-to-high",
+      "rank",
+      "list",
+      "wide-first"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SortAscendingFilled",
+    "tags": [
+      "SortAscendingFilled",
+      "filled",
+      "solid",
+      "sort",
+      "ascending",
+      "order",
+      "low-to-high",
+      "rank",
+      "list",
+      "wide-first"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SortAscendingNarrow",
+    "tags": [
+      "SortAscendingNarrow",
+      "sort",
+      "ascending",
+      "order",
+      "low-to-high",
+      "rank",
+      "list",
+      "narrow-first"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "SortAscendingNarrowBold",
+    "tags": [
+      "SortAscendingNarrowBold",
+      "sort",
+      "ascending",
+      "order",
+      "low-to-high",
+      "rank",
+      "list",
+      "narrow-first"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "SortAscendingNarrowFilled",
+    "tags": [
+      "SortAscendingNarrowFilled",
+      "filled",
+      "solid",
+      "sort",
+      "ascending",
+      "order",
+      "low-to-high",
+      "rank",
+      "list",
+      "narrow-first"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "SortBold",
+    "tags": [
+      "SortBold",
+      "sort",
+      "descending",
+      "order",
+      "high-to-low",
+      "rank",
+      "list",
+      "wide-first"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SortFilled",
+    "tags": [
+      "SortFilled",
+      "filled",
+      "solid",
+      "sort",
+      "descending",
+      "order",
+      "high-to-low",
+      "rank",
+      "list",
+      "wide-first"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SortNarrow",
+    "tags": [
+      "SortNarrow",
+      "sort",
+      "descending",
+      "order",
+      "high-to-low",
+      "rank",
+      "list",
+      "narrow-first"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "SortNarrowBold",
+    "tags": [
+      "SortNarrowBold",
+      "sort",
+      "descending",
+      "order",
+      "high-to-low",
+      "rank",
+      "list",
+      "narrow-first"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "SortNarrowFilled",
+    "tags": [
+      "SortNarrowFilled",
+      "filled",
+      "solid",
+      "sort",
+      "descending",
+      "order",
+      "high-to-low",
+      "rank",
+      "list",
+      "narrow-first"
+    ],
+    "category": "Navigation"
+  },
+  {
     "name": "Sparkle",
     "tags": [
       "Sparkle",
@@ -16329,6 +19773,59 @@
       "special",
       "clean",
       "ai"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparklesAlt",
+    "tags": [
+      "SparklesAlt",
+      "sparkle",
+      "stars",
+      "magic",
+      "clean",
+      "highlight",
+      "shiny",
+      "new",
+      "effects",
+      "ai",
+      "artificial intelligence"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparklesAltBold",
+    "tags": [
+      "SparklesAltBold",
+      "sparkle",
+      "stars",
+      "magic",
+      "clean",
+      "highlight",
+      "shiny",
+      "new",
+      "effects",
+      "ai",
+      "artificial intelligence"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SparklesAltFilled",
+    "tags": [
+      "SparklesAltFilled",
+      "filled",
+      "solid",
+      "sparkle",
+      "stars",
+      "magic",
+      "clean",
+      "highlight",
+      "shiny",
+      "new",
+      "effects",
+      "ai",
+      "artificial intelligence"
     ],
     "category": "Other"
   },
@@ -17073,6 +20570,62 @@
     "category": "Other"
   },
   {
+    "name": "Target",
+    "tags": [
+      "Target",
+      "target",
+      "goal",
+      "focus",
+      "aim",
+      "objective",
+      "bullseye",
+      "precision",
+      "center",
+      "radar",
+      "scan",
+      "detect"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TargetBold",
+    "tags": [
+      "TargetBold",
+      "target",
+      "goal",
+      "focus",
+      "aim",
+      "objective",
+      "bullseye",
+      "precision",
+      "center",
+      "radar",
+      "scan",
+      "detect"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TargetFilled",
+    "tags": [
+      "TargetFilled",
+      "filled",
+      "solid",
+      "target",
+      "goal",
+      "focus",
+      "aim",
+      "objective",
+      "bullseye",
+      "precision",
+      "center",
+      "radar",
+      "scan",
+      "detect"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "TennisBall",
     "tags": [
       "TennisBall",
@@ -17792,6 +21345,50 @@
     "category": "Other"
   },
   {
+    "name": "Timer",
+    "tags": [
+      "Timer",
+      "timer",
+      "stopwatch",
+      "countdown",
+      "time",
+      "clock",
+      "schedule",
+      "alarm"
+    ],
+    "category": "Time"
+  },
+  {
+    "name": "TimerBold",
+    "tags": [
+      "TimerBold",
+      "timer",
+      "stopwatch",
+      "countdown",
+      "time",
+      "clock",
+      "schedule",
+      "alarm"
+    ],
+    "category": "Time"
+  },
+  {
+    "name": "TimerFilled",
+    "tags": [
+      "TimerFilled",
+      "filled",
+      "solid",
+      "timer",
+      "stopwatch",
+      "countdown",
+      "time",
+      "clock",
+      "schedule",
+      "alarm"
+    ],
+    "category": "Time"
+  },
+  {
     "name": "ToggleOff",
     "tags": [
       "ToggleOff",
@@ -18125,6 +21722,94 @@
       "recognition"
     ],
     "category": "Other"
+  },
+  {
+    "name": "Tv",
+    "tags": [
+      "Tv",
+      "tv",
+      "monitor",
+      "screen",
+      "display",
+      "video",
+      "streaming",
+      "media"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TvBold",
+    "tags": [
+      "TvBold",
+      "tv",
+      "monitor",
+      "screen",
+      "display",
+      "video",
+      "streaming",
+      "media"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TvFilled",
+    "tags": [
+      "TvFilled",
+      "filled",
+      "solid",
+      "tv",
+      "monitor",
+      "screen",
+      "display",
+      "video",
+      "streaming",
+      "media"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TvPlay",
+    "tags": [
+      "TvPlay",
+      "play",
+      "video",
+      "media",
+      "tv",
+      "streaming",
+      "watch",
+      "player"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "TvPlayBold",
+    "tags": [
+      "TvPlayBold",
+      "play",
+      "video",
+      "media",
+      "tv",
+      "streaming",
+      "watch",
+      "player"
+    ],
+    "category": "Media"
+  },
+  {
+    "name": "TvPlayFilled",
+    "tags": [
+      "TvPlayFilled",
+      "filled",
+      "solid",
+      "play",
+      "video",
+      "media",
+      "tv",
+      "streaming",
+      "watch",
+      "player"
+    ],
+    "category": "Media"
   },
   {
     "name": "Upload",
@@ -18632,6 +22317,147 @@
     "category": "Other"
   },
   {
+    "name": "WaveSine",
+    "tags": [
+      "WaveSine",
+      "wave",
+      "sine",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "curve"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveSineBold",
+    "tags": [
+      "WaveSineBold",
+      "wave",
+      "sine",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "curve"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveSineFilled",
+    "tags": [
+      "WaveSineFilled",
+      "filled",
+      "solid",
+      "wave",
+      "sine",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "curve"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveSquare",
+    "tags": [
+      "WaveSquare",
+      "wave",
+      "square",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "digital"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveSquareBold",
+    "tags": [
+      "WaveSquareBold",
+      "wave",
+      "square",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "digital"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveSquareFilled",
+    "tags": [
+      "WaveSquareFilled",
+      "filled",
+      "solid",
+      "wave",
+      "square",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "digital"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveTriangle",
+    "tags": [
+      "WaveTriangle",
+      "wave",
+      "triangle",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "sharp"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveTriangleBold",
+    "tags": [
+      "WaveTriangleBold",
+      "wave",
+      "triangle",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "sharp"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "WaveTriangleFilled",
+    "tags": [
+      "WaveTriangleFilled",
+      "filled",
+      "solid",
+      "wave",
+      "triangle",
+      "signal",
+      "frequency",
+      "audio",
+      "sound",
+      "oscillation",
+      "sharp"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Wifi",
     "tags": [
       "Wifi",
@@ -18942,6 +22768,53 @@
       "exit",
       "stop",
       "dismiss"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "YinYang",
+    "tags": [
+      "YinYang",
+      "yin yang",
+      "balance",
+      "harmony",
+      "duality",
+      "taoism",
+      "spiritual",
+      "symbol",
+      "opposites"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "YinYangBold",
+    "tags": [
+      "YinYangBold",
+      "yin yang",
+      "balance",
+      "harmony",
+      "duality",
+      "taoism",
+      "spiritual",
+      "symbol",
+      "opposites"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "YinYangFilled",
+    "tags": [
+      "YinYangFilled",
+      "filled",
+      "solid",
+      "yin yang",
+      "balance",
+      "harmony",
+      "duality",
+      "taoism",
+      "spiritual",
+      "symbol",
+      "opposites"
     ],
     "category": "Other"
   }
