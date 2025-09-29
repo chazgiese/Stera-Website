@@ -11,7 +11,7 @@
       "assistant",
       "generative"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AiBold",
@@ -25,7 +25,7 @@
       "assistant",
       "generative"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AiFilled",
@@ -41,7 +41,7 @@
       "assistant",
       "generative"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AlarmClock",
@@ -153,7 +153,7 @@
       "problem",
       "notification"
     ],
-    "category": "Alerts"
+    "category": "Database & Storage"
   },
   {
     "name": "AlertDiamondFilled",
@@ -399,7 +399,7 @@
       "organize",
       "records"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "ArchiveBold",
@@ -414,7 +414,7 @@
       "organize",
       "records"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "ArchiveFilled",
@@ -431,7 +431,7 @@
       "organize",
       "records"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "Archway",
@@ -2668,7 +2668,7 @@
       "zoom",
       "diagonal"
     ],
-    "category": "Navigation"
+    "category": "Database & Storage"
   },
   {
     "name": "ArrowsExpandFilled",
@@ -2889,7 +2889,7 @@
       "research",
       "nuclear"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomAi",
@@ -2904,7 +2904,7 @@
       "technology",
       "innovation"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomAiBold",
@@ -2919,7 +2919,7 @@
       "technology",
       "innovation"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomAiFilled",
@@ -2936,7 +2936,7 @@
       "technology",
       "innovation"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomBold",
@@ -2952,7 +2952,7 @@
       "research",
       "nuclear"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomFilled",
@@ -2970,7 +2970,7 @@
       "research",
       "nuclear"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomOrbit",
@@ -2987,7 +2987,7 @@
       "physics",
       "structure"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomOrbitBold",
@@ -3004,7 +3004,7 @@
       "physics",
       "structure"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AtomOrbitFilled",
@@ -3023,7 +3023,7 @@
       "physics",
       "structure"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AudioBars",
@@ -3546,7 +3546,7 @@
       "warning",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryBold",
@@ -3561,7 +3561,7 @@
       "warning",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryFilled",
@@ -3578,7 +3578,7 @@
       "warning",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryFull",
@@ -3592,7 +3592,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryFullBold",
@@ -3606,7 +3606,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryFullFilled",
@@ -3622,7 +3622,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryHalf",
@@ -3637,7 +3637,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryHalfBold",
@@ -3652,7 +3652,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryHalfFilled",
@@ -3669,7 +3669,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryLow",
@@ -3683,7 +3683,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryLowBold",
@@ -3697,7 +3697,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "BatteryLowFilled",
@@ -3713,7 +3713,7 @@
       "charging",
       "status"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "Bell",
@@ -3727,7 +3727,7 @@
       "update",
       "sound"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellBold",
@@ -3741,7 +3741,7 @@
       "update",
       "sound"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellFilled",
@@ -3757,7 +3757,7 @@
       "update",
       "sound"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellOff",
@@ -3770,7 +3770,7 @@
       "do-not-disturb",
       "disable-sound"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellOffBold",
@@ -3783,7 +3783,7 @@
       "do-not-disturb",
       "disable-sound"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellOffFilled",
@@ -3798,7 +3798,7 @@
       "do-not-disturb",
       "disable-sound"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellX",
@@ -3811,7 +3811,7 @@
       "silence",
       "stop-reminder"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellXBold",
@@ -3824,7 +3824,7 @@
       "silence",
       "stop-reminder"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BellXFilled",
@@ -3839,7 +3839,7 @@
       "silence",
       "stop-reminder"
     ],
-    "category": "Other"
+    "category": "Notifications & Alerts"
   },
   {
     "name": "BladeKunai",
@@ -3854,7 +3854,7 @@
       "tool",
       "combat"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "BladeKunaiBold",
@@ -3869,7 +3869,7 @@
       "tool",
       "combat"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "BladeKunaiFilled",
@@ -3886,7 +3886,7 @@
       "tool",
       "combat"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "BladeSword",
@@ -3916,7 +3916,7 @@
       "defense",
       "gaming"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "BladeSwordFilled",
@@ -4051,7 +4051,7 @@
       "education",
       "manual"
     ],
-    "category": "Education"
+    "category": "Database & Storage"
   },
   {
     "name": "BookClosedFilled",
@@ -5765,7 +5765,7 @@
       "done",
       "survey"
     ],
-    "category": "Status"
+    "category": "Database & Storage"
   },
   {
     "name": "ChecklistCheckedFilled",
@@ -5831,7 +5831,7 @@
       "incomplete",
       "survey"
     ],
-    "category": "Status"
+    "category": "Database & Storage"
   },
   {
     "name": "ChecklistUncheckedFilled",
@@ -6276,7 +6276,7 @@
       "dropdown",
       "selection"
     ],
-    "category": "Navigation"
+    "category": "Database & Storage"
   },
   {
     "name": "ChevronFullInwardFilled",
@@ -6360,7 +6360,7 @@
       "selection",
       "expand"
     ],
-    "category": "Navigation"
+    "category": "Database & Storage"
   },
   {
     "name": "ChevronFullOutwardFilled",
@@ -6639,7 +6639,7 @@
       "dropdown",
       "selection"
     ],
-    "category": "Navigation"
+    "category": "Database & Storage"
   },
   {
     "name": "ChevronInwardFilled",
@@ -6723,7 +6723,7 @@
       "selection",
       "expand"
     ],
-    "category": "Navigation"
+    "category": "Database & Storage"
   },
   {
     "name": "ChevronOutwardFilled",
@@ -7589,7 +7589,7 @@
       "view",
       "selection"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "CircleFourConnectedFilled",
@@ -8053,7 +8053,7 @@
       "network",
       "sky"
     ],
-    "category": "Files"
+    "category": "Database & Storage"
   },
   {
     "name": "CloudFilled",
@@ -8404,7 +8404,7 @@
       "control",
       "apple"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "CommandFilled",
@@ -8678,7 +8678,7 @@
       "technology",
       "ryzen"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "CpuAmdFilled",
@@ -8802,7 +8802,7 @@
       "transaction",
       "finance"
     ],
-    "category": "Edit"
+    "category": "Database & Storage"
   },
   {
     "name": "CreditCardFilled",
@@ -8875,7 +8875,7 @@
       "focus",
       "location"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "CrosshairBold",
@@ -8887,7 +8887,7 @@
       "focus",
       "location"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "CrosshairFilled",
@@ -8901,7 +8901,7 @@
       "focus",
       "location"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "Cube",
@@ -9555,7 +9555,7 @@
       "select",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "CursorTextAlt",
@@ -9569,7 +9569,7 @@
       "select",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "CursorTextAltBold",
@@ -9583,7 +9583,7 @@
       "select",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "CursorTextAltFilled",
@@ -9599,7 +9599,7 @@
       "select",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "CursorTextBold",
@@ -9613,7 +9613,7 @@
       "select",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "CursorTextFilled",
@@ -9629,7 +9629,7 @@
       "select",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "CurveBezier",
@@ -10121,7 +10121,7 @@
       "polygon",
       "warning"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "DiamondFilled",
@@ -10150,7 +10150,7 @@
       "page",
       "sheet"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "DocumentBold",
@@ -10163,7 +10163,7 @@
       "page",
       "sheet"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "DocumentCopy",
@@ -10178,7 +10178,7 @@
       "clipboard",
       "page"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "DocumentCopyBold",
@@ -10193,7 +10193,7 @@
       "clipboard",
       "page"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "DocumentCopyFilled",
@@ -10210,7 +10210,7 @@
       "clipboard",
       "page"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "DocumentDetail",
@@ -10223,7 +10223,7 @@
       "page",
       "sheet"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "DocumentDetailBold",
@@ -10236,7 +10236,7 @@
       "page",
       "sheet"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "DocumentDetailFilled",
@@ -10251,7 +10251,7 @@
       "page",
       "sheet"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "DocumentFilled",
@@ -10266,7 +10266,7 @@
       "page",
       "sheet"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "DollarBill",
@@ -10341,7 +10341,7 @@
       "receive",
       "get file"
     ],
-    "category": "Files"
+    "category": "Database & Storage"
   },
   {
     "name": "DownloadFilled",
@@ -10760,7 +10760,7 @@
       "mood",
       "emote"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "EmoteSadFilled",
@@ -10854,7 +10854,7 @@
       "mood",
       "emote"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "EmoteSurprisedFilled",
@@ -10969,7 +10969,7 @@
       "privacy",
       "conceal"
     ],
-    "category": "Visibility"
+    "category": "Database & Storage"
   },
   {
     "name": "EyeClosedFilled",
@@ -11055,7 +11055,7 @@
       "organize",
       "records"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "FileCabinetBold",
@@ -11069,7 +11069,7 @@
       "organize",
       "records"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "FileCabinetFilled",
@@ -11085,7 +11085,7 @@
       "organize",
       "records"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "Flag",
@@ -12220,7 +12220,7 @@
       "organize",
       "project"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderBold",
@@ -12235,7 +12235,7 @@
       "organize",
       "project"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderFilled",
@@ -12252,7 +12252,7 @@
       "organize",
       "project"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderOpen",
@@ -12267,7 +12267,7 @@
       "organize",
       "project"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderOpenBold",
@@ -12282,7 +12282,7 @@
       "organize",
       "project"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderOpenFilled",
@@ -12299,7 +12299,7 @@
       "organize",
       "project"
     ],
-    "category": "Other"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderPlus",
@@ -12314,7 +12314,7 @@
       "storage",
       "documents"
     ],
-    "category": "Actions"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderPlusBold",
@@ -12329,7 +12329,7 @@
       "storage",
       "documents"
     ],
-    "category": "Actions"
+    "category": "Organization & Folders"
   },
   {
     "name": "FolderPlusFilled",
@@ -12346,7 +12346,7 @@
       "storage",
       "documents"
     ],
-    "category": "Actions"
+    "category": "Organization & Folders"
   },
   {
     "name": "Football",
@@ -12739,7 +12739,7 @@
       "version control",
       "collaboration"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "GitPullRequestClosedFilled",
@@ -12890,7 +12890,7 @@
       "view",
       "gallery"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "GridFilled",
@@ -13060,7 +13060,7 @@
       "retail",
       "purchase"
     ],
-    "category": "Shopping"
+    "category": "Database & Storage"
   },
   {
     "name": "HandbagBold",
@@ -13075,7 +13075,7 @@
       "retail",
       "purchase"
     ],
-    "category": "Shopping"
+    "category": "Database & Storage"
   },
   {
     "name": "HandbagFilled",
@@ -13092,7 +13092,7 @@
       "retail",
       "purchase"
     ],
-    "category": "Shopping"
+    "category": "Database & Storage"
   },
   {
     "name": "Hash",
@@ -14880,7 +14880,7 @@
       "restricted",
       "safety"
     ],
-    "category": "Security"
+    "category": "Database & Storage"
   },
   {
     "name": "LockPasswordFilled",
@@ -15001,7 +15001,7 @@
       "communication",
       "contact"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailBold",
@@ -15014,7 +15014,7 @@
       "communication",
       "contact"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailCheck",
@@ -15029,7 +15029,7 @@
       "message sent",
       "contact verified"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailCheckBold",
@@ -15044,7 +15044,7 @@
       "message sent",
       "contact verified"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailCheckFilled",
@@ -15061,7 +15061,7 @@
       "message sent",
       "contact verified"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailFilled",
@@ -15076,7 +15076,7 @@
       "communication",
       "contact"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailMinus",
@@ -15090,7 +15090,7 @@
       "cancel subscription",
       "contact remove"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailMinusBold",
@@ -15104,7 +15104,7 @@
       "cancel subscription",
       "contact remove"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailMinusFilled",
@@ -15120,7 +15120,7 @@
       "cancel subscription",
       "contact remove"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailOpen",
@@ -15133,7 +15133,7 @@
       "view email",
       "message opened"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailOpenBold",
@@ -15146,7 +15146,7 @@
       "view email",
       "message opened"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailOpenFilled",
@@ -15161,7 +15161,7 @@
       "view email",
       "message opened"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailPlus",
@@ -15175,7 +15175,7 @@
       "contact add",
       "create message"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailPlusBold",
@@ -15189,7 +15189,7 @@
       "contact add",
       "create message"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailPlusFilled",
@@ -15205,7 +15205,7 @@
       "contact add",
       "create message"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailSlash",
@@ -15219,7 +15219,7 @@
       "reject",
       "stop message"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailSlashBold",
@@ -15233,7 +15233,7 @@
       "reject",
       "stop message"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailSlashFilled",
@@ -15249,7 +15249,7 @@
       "reject",
       "stop message"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailX",
@@ -15263,7 +15263,7 @@
       "unsubscribe",
       "contact remove"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailXBold",
@@ -15277,7 +15277,7 @@
       "unsubscribe",
       "contact remove"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MailXFilled",
@@ -15293,7 +15293,7 @@
       "unsubscribe",
       "contact remove"
     ],
-    "category": "Communication"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "MapPin",
@@ -16247,7 +16247,7 @@
       "file",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "NoteTextBold",
@@ -16265,7 +16265,7 @@
       "file",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "NoteTextFilled",
@@ -16285,7 +16285,7 @@
       "file",
       "writing"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "Notebook",
@@ -16535,7 +16535,7 @@
       "drawing",
       "tool"
     ],
-    "category": "Art"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "PaintPaletteBold",
@@ -16550,7 +16550,7 @@
       "drawing",
       "tool"
     ],
-    "category": "Art"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "PaintPaletteFilled",
@@ -16567,7 +16567,7 @@
       "drawing",
       "tool"
     ],
-    "category": "Art"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "Paperclip",
@@ -16581,7 +16581,7 @@
       "link",
       "upload"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "PaperclipBold",
@@ -16595,7 +16595,7 @@
       "link",
       "upload"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "PaperclipFilled",
@@ -16611,7 +16611,7 @@
       "link",
       "upload"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "Pause",
@@ -17539,7 +17539,7 @@
       "charge",
       "cable"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "PlugBold",
@@ -17554,7 +17554,7 @@
       "charge",
       "cable"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "PlugFilled",
@@ -17571,7 +17571,7 @@
       "charge",
       "cable"
     ],
-    "category": "Other"
+    "category": "Power & Battery"
   },
   {
     "name": "Plus",
@@ -17947,7 +17947,7 @@
       "box",
       "rectangle"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "RectangleDashedFilled",
@@ -18231,7 +18231,7 @@
       "capture",
       "detect"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "ScanDashedFilled",
@@ -18262,7 +18262,7 @@
       "import",
       "page"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "ScanDocumentBold",
@@ -18277,7 +18277,7 @@
       "import",
       "page"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "ScanDocumentFilled",
@@ -18294,7 +18294,7 @@
       "import",
       "page"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "ScanFace",
@@ -18637,7 +18637,7 @@
       "mail",
       "chat"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "SendFilled",
@@ -18818,7 +18818,7 @@
       "safe",
       "defense"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "ShieldCheck",
@@ -19425,7 +19425,7 @@
       "game",
       "play"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "SoccerFieldFilled",
@@ -20220,7 +20220,7 @@
       "box",
       "rectangle"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "SquareDashedFilled",
@@ -20362,7 +20362,7 @@
       "up",
       "down"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "StairsBold",
@@ -20377,7 +20377,7 @@
       "up",
       "down"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "StairsFilled",
@@ -20394,7 +20394,7 @@
       "up",
       "down"
     ],
-    "category": "Other"
+    "category": "AI & Machine Learning"
   },
   {
     "name": "Star",
@@ -20684,7 +20684,7 @@
       "writing",
       "content"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignCenter",
@@ -20699,7 +20699,7 @@
       "center align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignCenterBold",
@@ -20714,7 +20714,7 @@
       "center align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignCenterFilled",
@@ -20731,7 +20731,7 @@
       "center align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignJustify",
@@ -20746,7 +20746,7 @@
       "full align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignJustifyBold",
@@ -20761,7 +20761,7 @@
       "full align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignJustifyFilled",
@@ -20778,7 +20778,7 @@
       "full align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignLeft",
@@ -20793,7 +20793,7 @@
       "left align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignLeftBold",
@@ -20808,7 +20808,7 @@
       "left align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignLeftFilled",
@@ -20825,7 +20825,7 @@
       "left align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignRight",
@@ -20840,7 +20840,7 @@
       "right align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignRightBold",
@@ -20855,7 +20855,7 @@
       "right align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextAlignRightFilled",
@@ -20872,7 +20872,7 @@
       "right align",
       "document"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextB",
@@ -20886,7 +20886,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextBBold",
@@ -20900,7 +20900,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextBFilled",
@@ -20916,7 +20916,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextBold",
@@ -20930,7 +20930,7 @@
       "writing",
       "content"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextFilled",
@@ -20946,7 +20946,7 @@
       "writing",
       "content"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextItalic",
@@ -20960,7 +20960,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextItalicBold",
@@ -20974,7 +20974,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextItalicFilled",
@@ -20990,7 +20990,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextSquare",
@@ -21004,7 +21004,7 @@
       "writing",
       "content"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextSquareBold",
@@ -21018,7 +21018,7 @@
       "writing",
       "content"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextSquareFilled",
@@ -21034,7 +21034,7 @@
       "writing",
       "content"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextStrikethrough",
@@ -21048,7 +21048,7 @@
       "typography",
       "style"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextStrikethroughBold",
@@ -21062,7 +21062,7 @@
       "typography",
       "style"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextStrikethroughFilled",
@@ -21078,7 +21078,7 @@
       "typography",
       "style"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextUnderline",
@@ -21092,7 +21092,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextUnderlineBold",
@@ -21106,7 +21106,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "TextUnderlineFilled",
@@ -21122,7 +21122,7 @@
       "style",
       "emphasis"
     ],
-    "category": "Other"
+    "category": "Documents & Files"
   },
   {
     "name": "ThermometerHigh",
@@ -21837,7 +21837,7 @@
       "submit",
       "outbox"
     ],
-    "category": "Files"
+    "category": "Database & Storage"
   },
   {
     "name": "UploadFilled",
@@ -21941,7 +21941,7 @@
       "person",
       "avatar"
     ],
-    "category": "User"
+    "category": "Database & Storage"
   },
   {
     "name": "UserCircleDashedFilled",
@@ -22206,7 +22206,7 @@
       "special",
       "highlight"
     ],
-    "category": "Other"
+    "category": "Database & Storage"
   },
   {
     "name": "WandFilled",
