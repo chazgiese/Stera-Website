@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { IconData } from '@/types/icon';
 import SearchBar from '@/components/SearchBar';
 import FilterDropdown from '@/components/FilterDropdown';
@@ -10,7 +11,9 @@ import { getIconStyle } from '@/utils/iconRegistry';
 import { AstriskAlt } from 'stera-icons';
 import iconData from '@/data/icons.json';
 
-export default function Home() {
+function HomeContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [icons, setIcons] = useState<IconData[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
@@ -30,6 +33,18 @@ export default function Home() {
       setLoading(false);
     }
   }, []);
+
+  // Handle URL parameters for icon modal
+  useEffect(() => {
+    const iconName = searchParams.get('icon');
+    if (iconName && icons.length > 0) {
+      const icon = icons.find(i => i.name === iconName);
+      if (icon) {
+        setSelectedIcon(icon);
+        setIsModalOpen(true);
+      }
+    }
+  }, [searchParams, icons]);
 
   // Filter icons based on search and style filter
   const filteredIcons = useMemo(() => {
@@ -72,6 +87,20 @@ export default function Home() {
   const handleIconClick = (icon: IconData) => {
     setSelectedIcon(icon);
     setIsModalOpen(true);
+    // Update URL with icon parameter
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('icon', icon.name);
+    router.push(`?${params.toString()}`, { scroll: false });
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+    setSelectedIcon(null);
+    // Remove icon parameter from URL
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete('icon');
+    const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname;
+    router.push(newUrl, { scroll: false });
   };
 
 
@@ -168,8 +197,20 @@ export default function Home() {
       <IconDetailModal
         icon={selectedIcon}
         isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
+        onClose={handleModalClose}
       />
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-white dark:bg-zinc-950 flex items-center justify-center">
+        <div className="text-zinc-500 dark:text-zinc-400">Loading...</div>
+      </div>
+    }>
+      <HomeContent />
+    </Suspense>
   );
 }
