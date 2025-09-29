@@ -34,10 +34,17 @@ export default function Home() {
   // Filter icons based on search and style filter
   const filteredIcons = useMemo(() => {
     return icons.filter((icon) => {
-      // Search term filter
-      const matchesSearch = searchTerm === '' || 
-        icon.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        icon.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
+      // Search term filter - handle multi-word queries
+      const matchesSearch = searchTerm === '' || (() => {
+        const searchWords = searchTerm.toLowerCase().trim().split(/\s+/);
+        const searchableText = [
+          icon.name.toLowerCase(),
+          ...icon.tags.map(tag => tag.toLowerCase())
+        ].join(' ');
+        
+        // Check if all search words are found in the combined searchable text
+        return searchWords.every(word => searchableText.includes(word));
+      })();
 
       // Determine style from icon name
       const iconStyle = getIconStyle(icon.name);
