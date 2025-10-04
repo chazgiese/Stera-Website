@@ -387,6 +387,53 @@
     "category": "Space"
   },
   {
+    "name": "Annotation",
+    "tags": [
+      "Annotation",
+      "comment",
+      "note",
+      "edit",
+      "highlight",
+      "markup",
+      "feedback",
+      "review",
+      "document"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "AnnotationBold",
+    "tags": [
+      "AnnotationBold",
+      "comment",
+      "note",
+      "edit",
+      "highlight",
+      "markup",
+      "feedback",
+      "review",
+      "document"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "AnnotationFilled",
+    "tags": [
+      "AnnotationFilled",
+      "filled",
+      "solid",
+      "comment",
+      "note",
+      "edit",
+      "highlight",
+      "markup",
+      "feedback",
+      "review",
+      "document"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Archive",
     "tags": [
       "Archive",
@@ -989,6 +1036,209 @@
       "navigate",
       "direction",
       "circle"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerDownLeft",
+    "tags": [
+      "ArrowCornerDownLeft",
+      "enter",
+      "return",
+      "keyboard",
+      "input",
+      "submit",
+      "arrow-left",
+      "corner",
+      "back",
+      "command",
+      "flow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerDownLeftBold",
+    "tags": [
+      "ArrowCornerDownLeftBold",
+      "enter",
+      "return",
+      "keyboard",
+      "input",
+      "submit",
+      "arrow-left",
+      "corner",
+      "back",
+      "command",
+      "flow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerDownLeftFilled",
+    "tags": [
+      "ArrowCornerDownLeftFilled",
+      "filled",
+      "solid",
+      "enter",
+      "return",
+      "keyboard",
+      "input",
+      "submit",
+      "arrow-left",
+      "corner",
+      "back",
+      "command",
+      "flow"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerDownRight",
+    "tags": [
+      "ArrowCornerDownRight",
+      "arrow",
+      "corner",
+      "return",
+      "enter",
+      "direction",
+      "right",
+      "down",
+      "navigation",
+      "flow",
+      "indent",
+      "line-break"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerDownRightBold",
+    "tags": [
+      "ArrowCornerDownRightBold",
+      "arrow",
+      "corner",
+      "return",
+      "enter",
+      "direction",
+      "right",
+      "down",
+      "navigation",
+      "flow",
+      "indent",
+      "line-break"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerDownRightFilled",
+    "tags": [
+      "ArrowCornerDownRightFilled",
+      "filled",
+      "solid",
+      "arrow",
+      "corner",
+      "return",
+      "enter",
+      "direction",
+      "right",
+      "down",
+      "navigation",
+      "flow",
+      "indent",
+      "line-break"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerUpLeft",
+    "tags": [
+      "ArrowCornerUpLeft",
+      "undo",
+      "reply",
+      "back",
+      "return",
+      "left-turn",
+      "corner",
+      "arrow",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerUpLeftBold",
+    "tags": [
+      "ArrowCornerUpLeftBold",
+      "undo",
+      "reply",
+      "back",
+      "return",
+      "left-turn",
+      "corner",
+      "arrow",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerUpLeftFilled",
+    "tags": [
+      "ArrowCornerUpLeftFilled",
+      "filled",
+      "solid",
+      "undo",
+      "reply",
+      "back",
+      "return",
+      "left-turn",
+      "corner",
+      "arrow",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerUpRight",
+    "tags": [
+      "ArrowCornerUpRight",
+      "redo",
+      "share",
+      "forward",
+      "next",
+      "right-turn",
+      "corner",
+      "arrow",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerUpRightBold",
+    "tags": [
+      "ArrowCornerUpRightBold",
+      "redo",
+      "share",
+      "forward",
+      "next",
+      "right-turn",
+      "corner",
+      "arrow",
+      "navigation"
+    ],
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowCornerUpRightFilled",
+    "tags": [
+      "ArrowCornerUpRightFilled",
+      "filled",
+      "solid",
+      "redo",
+      "share",
+      "forward",
+      "next",
+      "right-turn",
+      "corner",
+      "arrow",
+      "navigation"
     ],
     "category": "Navigation"
   },
@@ -2902,7 +3152,8 @@
       "automation",
       "smart",
       "technology",
-      "innovation"
+      "innovation",
+      "science"
     ],
     "category": "AI & Machine Learning"
   },
@@ -2917,7 +3168,8 @@
       "automation",
       "smart",
       "technology",
-      "innovation"
+      "innovation",
+      "science"
     ],
     "category": "AI & Machine Learning"
   },
@@ -2934,7 +3186,8 @@
       "automation",
       "smart",
       "technology",
-      "innovation"
+      "innovation",
+      "science"
     ],
     "category": "AI & Machine Learning"
   },
@@ -2985,7 +3238,8 @@
       "network",
       "particle",
       "physics",
-      "structure"
+      "structure",
+      "science"
     ],
     "category": "AI & Machine Learning"
   },
@@ -3002,7 +3256,8 @@
       "network",
       "particle",
       "physics",
-      "structure"
+      "structure",
+      "science"
     ],
     "category": "AI & Machine Learning"
   },
@@ -3021,7 +3276,8 @@
       "network",
       "particle",
       "physics",
-      "structure"
+      "structure",
+      "science"
     ],
     "category": "AI & Machine Learning"
   },
@@ -4221,6 +4477,53 @@
     "category": "Other"
   },
   {
+    "name": "BoundingBox",
+    "tags": [
+      "BoundingBox",
+      "resize",
+      "crop",
+      "frame",
+      "selection",
+      "scale",
+      "edit",
+      "transform",
+      "shape"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BoundingBoxBold",
+    "tags": [
+      "BoundingBoxBold",
+      "resize",
+      "crop",
+      "frame",
+      "selection",
+      "scale",
+      "edit",
+      "transform",
+      "shape"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "BoundingBoxFilled",
+    "tags": [
+      "BoundingBoxFilled",
+      "filled",
+      "solid",
+      "resize",
+      "crop",
+      "frame",
+      "selection",
+      "scale",
+      "edit",
+      "transform",
+      "shape"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "BracketsCurly",
     "tags": [
       "BracketsCurly",
@@ -4832,6 +5135,56 @@
     "category": "Other"
   },
   {
+    "name": "Building",
+    "tags": [
+      "Building",
+      "office",
+      "company",
+      "headquarters",
+      "workplace",
+      "business",
+      "city",
+      "tower",
+      "real-estate",
+      "property"
+    ],
+    "category": "Business"
+  },
+  {
+    "name": "BuildingBold",
+    "tags": [
+      "BuildingBold",
+      "office",
+      "company",
+      "headquarters",
+      "workplace",
+      "business",
+      "city",
+      "tower",
+      "real-estate",
+      "property"
+    ],
+    "category": "Business"
+  },
+  {
+    "name": "BuildingFilled",
+    "tags": [
+      "BuildingFilled",
+      "filled",
+      "solid",
+      "office",
+      "company",
+      "headquarters",
+      "workplace",
+      "business",
+      "city",
+      "tower",
+      "real-estate",
+      "property"
+    ],
+    "category": "Business"
+  },
+  {
     "name": "Calendar",
     "tags": [
       "Calendar",
@@ -5218,6 +5571,56 @@
     "category": "Art"
   },
   {
+    "name": "ChartBarBig",
+    "tags": [
+      "ChartBarBig",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarBigBold",
+    "tags": [
+      "ChartBarBigBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarBigFilled",
+    "tags": [
+      "ChartBarBigFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
     "name": "ChartBarBold",
     "tags": [
       "ChartBarBold",
@@ -5252,6 +5655,500 @@
     "category": "Art"
   },
   {
+    "name": "ChartBarSquare",
+    "tags": [
+      "ChartBarSquare",
+      "analytics",
+      "stats",
+      "data",
+      "chart",
+      "report",
+      "metrics",
+      "dashboard",
+      "bars"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarSquareBold",
+    "tags": [
+      "ChartBarSquareBold",
+      "analytics",
+      "stats",
+      "data",
+      "chart",
+      "report",
+      "metrics",
+      "dashboard",
+      "bars"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarSquareFilled",
+    "tags": [
+      "ChartBarSquareFilled",
+      "filled",
+      "solid",
+      "analytics",
+      "stats",
+      "data",
+      "chart",
+      "report",
+      "metrics",
+      "dashboard",
+      "bars"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXAxis",
+    "tags": [
+      "ChartBarXAxis",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXAxisBig",
+    "tags": [
+      "ChartBarXAxisBig",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXAxisBigBold",
+    "tags": [
+      "ChartBarXAxisBigBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXAxisBigFilled",
+    "tags": [
+      "ChartBarXAxisBigFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXAxisBold",
+    "tags": [
+      "ChartBarXAxisBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXAxisFilled",
+    "tags": [
+      "ChartBarXAxisFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXYAxis",
+    "tags": [
+      "ChartBarXYAxis",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXYAxisBold",
+    "tags": [
+      "ChartBarXYAxisBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarXYAxisFilled",
+    "tags": [
+      "ChartBarXYAxisFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarY",
+    "tags": [
+      "ChartBarY",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYAxis",
+    "tags": [
+      "ChartBarYAxis",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYAxisBig",
+    "tags": [
+      "ChartBarYAxisBig",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYAxisBigBold",
+    "tags": [
+      "ChartBarYAxisBigBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYAxisBigFilled",
+    "tags": [
+      "ChartBarYAxisBigFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYAxisBold",
+    "tags": [
+      "ChartBarYAxisBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYAxisFilled",
+    "tags": [
+      "ChartBarYAxisFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYBig",
+    "tags": [
+      "ChartBarYBig",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYBigBold",
+    "tags": [
+      "ChartBarYBigBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYBigFilled",
+    "tags": [
+      "ChartBarYBigFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYBold",
+    "tags": [
+      "ChartBarYBold",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartBarYFilled",
+    "tags": [
+      "ChartBarYFilled",
+      "filled",
+      "solid",
+      "chart",
+      "bar",
+      "analytics",
+      "statistics",
+      "report",
+      "data",
+      "dashboard",
+      "insights",
+      "graph"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartDonut",
+    "tags": [
+      "ChartDonut",
+      "chart",
+      "analytics",
+      "data",
+      "statistics",
+      "report",
+      "dashboard",
+      "visualization",
+      "metrics",
+      "segments"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartDonutBold",
+    "tags": [
+      "ChartDonutBold",
+      "chart",
+      "analytics",
+      "data",
+      "statistics",
+      "report",
+      "dashboard",
+      "visualization",
+      "metrics",
+      "segments"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartDonutFilled",
+    "tags": [
+      "ChartDonutFilled",
+      "filled",
+      "solid",
+      "chart",
+      "analytics",
+      "data",
+      "statistics",
+      "report",
+      "dashboard",
+      "visualization",
+      "metrics",
+      "segments"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartLine",
+    "tags": [
+      "ChartLine",
+      "analytics",
+      "data",
+      "graph",
+      "line-chart",
+      "metrics",
+      "performance",
+      "statistics",
+      "trend"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartLineBold",
+    "tags": [
+      "ChartLineBold",
+      "analytics",
+      "data",
+      "graph",
+      "line-chart",
+      "metrics",
+      "performance",
+      "statistics",
+      "trend"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartLineFilled",
+    "tags": [
+      "ChartLineFilled",
+      "filled",
+      "solid",
+      "analytics",
+      "data",
+      "graph",
+      "line-chart",
+      "metrics",
+      "performance",
+      "statistics",
+      "trend"
+    ],
+    "category": "Art"
+  },
+  {
     "name": "ChartPie",
     "tags": [
       "ChartPie",
@@ -5263,6 +6160,56 @@
       "data",
       "dashboard",
       "insights"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartPieAlt",
+    "tags": [
+      "ChartPieAlt",
+      "chart",
+      "analytics",
+      "data",
+      "statistics",
+      "report",
+      "dashboard",
+      "visualization",
+      "metrics",
+      "segments"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartPieAltBold",
+    "tags": [
+      "ChartPieAltBold",
+      "chart",
+      "analytics",
+      "data",
+      "statistics",
+      "report",
+      "dashboard",
+      "visualization",
+      "metrics",
+      "segments"
+    ],
+    "category": "Art"
+  },
+  {
+    "name": "ChartPieAltFilled",
+    "tags": [
+      "ChartPieAltFilled",
+      "filled",
+      "solid",
+      "chart",
+      "analytics",
+      "data",
+      "statistics",
+      "report",
+      "dashboard",
+      "visualization",
+      "metrics",
+      "segments"
     ],
     "category": "Art"
   },
@@ -5295,53 +6242,6 @@
       "data",
       "dashboard",
       "insights"
-    ],
-    "category": "Art"
-  },
-  {
-    "name": "ChartSquareBar",
-    "tags": [
-      "ChartSquareBar",
-      "analytics",
-      "stats",
-      "data",
-      "chart",
-      "report",
-      "metrics",
-      "dashboard",
-      "bars"
-    ],
-    "category": "Art"
-  },
-  {
-    "name": "ChartSquareBarBold",
-    "tags": [
-      "ChartSquareBarBold",
-      "analytics",
-      "stats",
-      "data",
-      "chart",
-      "report",
-      "metrics",
-      "dashboard",
-      "bars"
-    ],
-    "category": "Art"
-  },
-  {
-    "name": "ChartSquareBarFilled",
-    "tags": [
-      "ChartSquareBarFilled",
-      "filled",
-      "solid",
-      "analytics",
-      "stats",
-      "data",
-      "chart",
-      "report",
-      "metrics",
-      "dashboard",
-      "bars"
     ],
     "category": "Art"
   },
@@ -7750,6 +8650,56 @@
       "hierarchy",
       "structure",
       "nodes"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "City",
+    "tags": [
+      "City",
+      "city",
+      "buildings",
+      "skyline",
+      "urban",
+      "downtown",
+      "metropolis",
+      "infrastructure",
+      "location",
+      "place"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CityBold",
+    "tags": [
+      "CityBold",
+      "city",
+      "buildings",
+      "skyline",
+      "urban",
+      "downtown",
+      "metropolis",
+      "infrastructure",
+      "location",
+      "place"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "CityFilled",
+    "tags": [
+      "CityFilled",
+      "filled",
+      "solid",
+      "city",
+      "buildings",
+      "skyline",
+      "urban",
+      "downtown",
+      "metropolis",
+      "infrastructure",
+      "location",
+      "place"
     ],
     "category": "Other"
   },
@@ -11222,6 +12172,94 @@
       "fast",
       "boost",
       "charge"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Flask",
+    "tags": [
+      "Flask",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlaskBold",
+    "tags": [
+      "FlaskBold",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlaskFilled",
+    "tags": [
+      "FlaskFilled",
+      "filled",
+      "solid",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlaskFull",
+    "tags": [
+      "FlaskFull",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlaskFullBold",
+    "tags": [
+      "FlaskFullBold",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "FlaskFullFilled",
+    "tags": [
+      "FlaskFullFilled",
+      "filled",
+      "solid",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
     ],
     "category": "Other"
   },
@@ -15701,6 +16739,53 @@
     "category": "Other"
   },
   {
+    "name": "Microscope",
+    "tags": [
+      "Microscope",
+      "lab",
+      "science",
+      "research",
+      "biology",
+      "chemistry",
+      "experiment",
+      "analysis",
+      "study"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MicroscopeBold",
+    "tags": [
+      "MicroscopeBold",
+      "lab",
+      "science",
+      "research",
+      "biology",
+      "chemistry",
+      "experiment",
+      "analysis",
+      "study"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "MicroscopeFilled",
+    "tags": [
+      "MicroscopeFilled",
+      "filled",
+      "solid",
+      "lab",
+      "science",
+      "research",
+      "biology",
+      "chemistry",
+      "experiment",
+      "analysis",
+      "study"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Minus",
     "tags": [
       "Minus",
@@ -18028,6 +19113,153 @@
     "category": "Other"
   },
   {
+    "name": "Rocket",
+    "tags": [
+      "Rocket",
+      "launch",
+      "startup",
+      "space",
+      "growth",
+      "speed",
+      "upgrade",
+      "new",
+      "mission"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "RocketBold",
+    "tags": [
+      "RocketBold",
+      "launch",
+      "startup",
+      "space",
+      "growth",
+      "speed",
+      "upgrade",
+      "new",
+      "mission"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "RocketFilled",
+    "tags": [
+      "RocketFilled",
+      "filled",
+      "solid",
+      "launch",
+      "startup",
+      "space",
+      "growth",
+      "speed",
+      "upgrade",
+      "new",
+      "mission"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Ruler",
+    "tags": [
+      "Ruler",
+      "measure",
+      "scale",
+      "length",
+      "size",
+      "dimensions",
+      "tool",
+      "design",
+      "drafting",
+      "geometry"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "RulerBold",
+    "tags": [
+      "RulerBold",
+      "measure",
+      "scale",
+      "length",
+      "size",
+      "dimensions",
+      "tool",
+      "design",
+      "drafting",
+      "geometry"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "RulerFilled",
+    "tags": [
+      "RulerFilled",
+      "filled",
+      "solid",
+      "measure",
+      "scale",
+      "length",
+      "size",
+      "dimensions",
+      "tool",
+      "design",
+      "drafting",
+      "geometry"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "Rulers",
+    "tags": [
+      "Rulers",
+      "measure",
+      "scale",
+      "length",
+      "size",
+      "dimensions",
+      "tool",
+      "design",
+      "drafting",
+      "geometry"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "RulersBold",
+    "tags": [
+      "RulersBold",
+      "measure",
+      "scale",
+      "length",
+      "size",
+      "dimensions",
+      "tool",
+      "design",
+      "drafting",
+      "geometry"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "RulersFilled",
+    "tags": [
+      "RulersFilled",
+      "filled",
+      "solid",
+      "measure",
+      "scale",
+      "length",
+      "size",
+      "dimensions",
+      "tool",
+      "design",
+      "drafting",
+      "geometry"
+    ],
+    "category": "Other"
+  },
+  {
     "name": "Save",
     "tags": [
       "Save",
@@ -18608,6 +19840,53 @@
       "tool"
     ],
     "category": "Search"
+  },
+  {
+    "name": "Seedling",
+    "tags": [
+      "Seedling",
+      "plant",
+      "growth",
+      "eco",
+      "nature",
+      "environment",
+      "sustainability",
+      "agriculture",
+      "organic"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SeedlingBold",
+    "tags": [
+      "SeedlingBold",
+      "plant",
+      "growth",
+      "eco",
+      "nature",
+      "environment",
+      "sustainability",
+      "agriculture",
+      "organic"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "SeedlingFilled",
+    "tags": [
+      "SeedlingFilled",
+      "filled",
+      "solid",
+      "plant",
+      "growth",
+      "eco",
+      "nature",
+      "environment",
+      "sustainability",
+      "agriculture",
+      "organic"
+    ],
+    "category": "Other"
   },
   {
     "name": "Send",
@@ -20671,6 +21950,94 @@
       "recreation"
     ],
     "category": "Sports"
+  },
+  {
+    "name": "TestTube",
+    "tags": [
+      "TestTube",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TestTubeBold",
+    "tags": [
+      "TestTubeBold",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TestTubeFilled",
+    "tags": [
+      "TestTubeFilled",
+      "filled",
+      "solid",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TestTubeFull",
+    "tags": [
+      "TestTubeFull",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TestTubeFullBold",
+    "tags": [
+      "TestTubeFullBold",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
+  },
+  {
+    "name": "TestTubeFullFilled",
+    "tags": [
+      "TestTubeFullFilled",
+      "filled",
+      "solid",
+      "lab",
+      "science",
+      "experiment",
+      "chemistry",
+      "research",
+      "test",
+      "beaker"
+    ],
+    "category": "Other"
   },
   {
     "name": "Text",
