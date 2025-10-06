@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import { IconData } from '@/types/icon';
 import SearchBar from '@/components/SearchBar';
 import FilterDropdown from '@/components/FilterDropdown';
@@ -103,7 +104,6 @@ function HomeContent() {
     router.push(newUrl, { scroll: false });
   };
 
-
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-950">
       {/* Header */}
@@ -111,12 +111,20 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
+              <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
                 <AstriskAlt className="w-6 h-6 text-zinc-900 dark:text-zinc-100" />
                 <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
                   Stera
                 </h1>
-              </div>
+              </Link>
+              <a
+                href="https://github.com/chazgiese/Stera-Icons/releases"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
+              >
+                v3.2.0
+              </a>
             </div>
             
             <div className="flex items-center space-x-4">
@@ -145,19 +153,19 @@ function HomeContent() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         {/* Search and Filters */}
         <div className="sticky top-2 z-50 flex gap-4 lg:max-w-lg m-auto">
-            <SearchBar
-              searchTerm={searchTerm}
-              onSearchChange={setSearchTerm}
-            />
-            <FilterDropdown
-              selectedFilter={selectedFilter}
-              onFilterChange={setSelectedFilter}
-              totalCount={iconCounts.totalCount}
-              regularCount={iconCounts.regularCount}
-              boldCount={iconCounts.boldCount}
-              filledCount={iconCounts.filledCount}
-            />
-          </div>
+          <SearchBar
+            searchTerm={searchTerm}
+            onSearchChange={setSearchTerm}
+          />
+          <FilterDropdown
+            selectedFilter={selectedFilter}
+            onFilterChange={setSelectedFilter}
+            totalCount={iconCounts.totalCount}
+            regularCount={iconCounts.regularCount}
+            boldCount={iconCounts.boldCount}
+            filledCount={iconCounts.filledCount}
+          />
+        </div>
         {/* Icon Grid */}
         <IconGrid
           icons={filteredIcons}

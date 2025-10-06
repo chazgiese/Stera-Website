@@ -90,7 +90,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                 {icon.name}
               </h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-                {icon.category} • {icon.tags.length} tags
+                {icon.category} • v{icon.versionAdded}
               </p>
             </div>
             <button

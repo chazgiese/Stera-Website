@@ -90,8 +90,20 @@ function getCategory(iconName) {
   return 'Other';
 }
 
+// Get current version from package.json
+function getCurrentVersion() {
+  const packageJsonPath = path.join(__dirname, '..', 'package.json');
+  const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+  return packageJson.dependencies['stera-icons'];
+}
+
+// Compare version strings (simple comparison for semantic versions)
+function isVersionEqual(version1, version2) {
+  return version1 === version2;
+}
+
 // Generate tags using actual metadata from stera-icons
-function generateTags(iconName, metadata) {
+function generateTags(iconName, metadata, currentVersion) {
   const tags = [];
   
   // Add base name as tag
@@ -121,6 +133,12 @@ function generateTags(iconName, metadata) {
   
   const finalTags = [...new Set(tags)]; // Remove duplicates
   
+  // Add "*new*" tag if icon was added in the current version
+  const versionAdded = metadata?.versionAdded || 'unknown';
+  if (versionAdded !== 'unknown' && isVersionEqual(versionAdded, currentVersion)) {
+    finalTags.push('*new*');
+  }
+  
   // Filter out conflicting variant tags
   if (metadata && metadata.variant === 'filled') {
     // Remove outline/line tags from filled icons
@@ -146,12 +164,15 @@ const DEPRECATED_ICONS = new Set([
 function generateIconData() {
   const Icons = require('stera-icons');
   const availableIcons = new Set(Object.keys(Icons));
+  const currentVersion = getCurrentVersion();
   
   console.log(`📦 Found ${availableIcons.size} icons in stera-icons package`);
+  console.log(`🔖 Current stera-icons version: ${currentVersion}`);
   
   const result = [];
   const invalidIcons = [];
   const deprecatedIcons = [];
+  let newIconsCount = 0;
   
   Object.entries(Icons).forEach(([name]) => {
     // Skip deprecated/backward-compatibility icons
@@ -167,11 +188,18 @@ function generateIconData() {
     }
     
     const metadata = metadataMap.get(name);
+    const versionAdded = metadata?.versionAdded || 'unknown';
+    
+    // Check if this is a new icon
+    if (versionAdded !== 'unknown' && isVersionEqual(versionAdded, currentVersion)) {
+      newIconsCount++;
+    }
     
     result.push({
       name,
-      tags: generateTags(name, metadata),
+      tags: generateTags(name, metadata, currentVersion),
       category: getCategory(name),
+      versionAdded: versionAdded,
     });
   });
   
@@ -185,6 +213,7 @@ function generateIconData() {
     invalidIcons.forEach(icon => console.error(`   - ${icon}`));
   }
   
+  console.log(`✨ Tagged ${newIconsCount} icons as "*new*" for version ${currentVersion}`);
   console.log(`✅ Generated data for ${result.length} valid icons`);
   return result;
 }
