@@ -1,7 +1,6 @@
 export interface IconData {
   name: string;
   tags: string[];
-  category: string;
   versionAdded: string;
 }
 

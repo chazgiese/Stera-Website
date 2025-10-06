@@ -25,10 +25,10 @@ export default function FilterDropdown({
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const filters = [
-    { key: 'All', label: 'All', count: totalCount },
     { key: 'Regular', label: 'Regular', count: regularCount },
     { key: 'Bold', label: 'Bold', count: boldCount },
     { key: 'Filled', label: 'Filled', count: filledCount },
+    { key: 'All', label: 'All', count: totalCount },
   ];
 
   const selectedFilterData = filters.find(filter => filter.key === selectedFilter);

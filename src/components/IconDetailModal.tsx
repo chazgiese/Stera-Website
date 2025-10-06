@@ -90,7 +90,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                 {icon.name}
               </h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-                {icon.category} • v{icon.versionAdded}
+                v{icon.versionAdded}
               </p>
             </div>
             <button
@@ -108,7 +108,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                 {/* Download SVG Button */}
                 <button
                   onClick={downloadSVG}
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
                 >
                   <SaveBold className="w-4 h-4" />
                   Download SVG
@@ -116,7 +116,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                 {/* Copy SVG Button */}
                 <button
                   onClick={() => copyToClipboard(getSVGData(), 'svg')}
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
                 >
                   <CopyBold className="w-4 h-4" />
                   {copied === 'svg' ? 'Copied!' : 'Copy SVG'}

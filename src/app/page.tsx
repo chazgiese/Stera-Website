@@ -18,7 +18,7 @@ function HomeContent() {
   const [icons, setIcons] = useState<IconData[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('All');
+  const [selectedFilter, setSelectedFilter] = useState('Regular');
   const [selectedIcon, setSelectedIcon] = useState<IconData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -111,7 +111,7 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
-              <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+              <Link href="/" className="flex items-center space-x-1">
                 <AstriskAlt className="w-6 h-6 text-zinc-900 dark:text-zinc-100" />
                 <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
                   Stera

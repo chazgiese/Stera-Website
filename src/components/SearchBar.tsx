@@ -12,7 +12,7 @@ interface SearchBarProps {
 export default function SearchBar({ 
   searchTerm, 
   onSearchChange, 
-  placeholder = "Search icons by name or tags" 
+  placeholder = "Search icons" 
 }: SearchBarProps) {
   const [isFocused, setIsFocused] = useState(false);
 
