@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XBold, CopyBold, CheckBold, SaveBold } from 'stera-icons';
+import { XIcon, CopyIcon, CheckIcon, SaveIcon } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 
@@ -40,8 +40,24 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
     }
   };
 
-  const importCode = `import { ${icon.name} } from 'stera-icons';`;
-  const usageCode = `<${icon.name} size={${iconSize}} color="${iconColor}" />`;
+  // Parse the icon name to get component name and variant
+  const parseIconInfo = (displayName: string) => {
+    if (displayName.endsWith('Bold')) {
+      const baseName = displayName.replace(/Bold$/, '');
+      return { componentName: `${baseName}Icon`, variant: 'bold' as const };
+    } else if (displayName.endsWith('Filled')) {
+      const baseName = displayName.replace(/Filled$/, '');
+      return { componentName: `${baseName}Icon`, variant: 'filled' as const };
+    } else {
+      return { componentName: `${displayName}Icon`, variant: 'regular' as const };
+    }
+  };
+
+  const { componentName, variant } = parseIconInfo(icon.name);
+  const importCode = `import { ${componentName} } from 'stera-icons';`;
+  const usageCode = variant === 'regular' 
+    ? `<${componentName} size={${iconSize}} color="${iconColor}" />`
+    : `<${componentName} variant="${variant}" size={${iconSize}} color="${iconColor}" />`;
 
   const getSVGData = () => {
     const svgElement = document.querySelector('#icon-preview svg');
@@ -87,17 +103,22 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
             </div>
             <div className="w-full">
               <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
-                {icon.name}
+                {componentName}
               </h2>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-                v{icon.versionAdded}
-              </p>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="text-xs px-2 py-0.5 bg-zinc-200 dark:bg-zinc-700 text-zinc-700 dark:text-zinc-300 rounded-full font-medium capitalize">
+                  {variant}
+                </span>
+                <span className="text-sm text-zinc-500 dark:text-zinc-400">
+                  v{icon.versionAdded}
+                </span>
+              </div>
             </div>
             <button
               onClick={onClose}
               className="p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl transition-colors text-zinc-500 dark:text-zinc-400"
             >
-              <XBold className="w-5 h-5" />
+              <XIcon variant="bold" className="w-5 h-5" />
             </button>
           </div>
 
@@ -110,7 +131,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                   onClick={downloadSVG}
                   className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
                 >
-                  <SaveBold className="w-4 h-4" />
+                  <SaveIcon variant="bold" className="w-4 h-4" />
                   Download SVG
                 </button>
                 {/* Copy SVG Button */}
@@ -118,7 +139,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                   onClick={() => copyToClipboard(getSVGData(), 'svg')}
                   className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
                 >
-                  <CopyBold className="w-4 h-4" />
+                  <CopyIcon variant="bold" className="w-4 h-4" />
                   {copied === 'svg' ? 'Copied!' : 'Copy SVG'}
                 </button>
               </div>
@@ -136,7 +157,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                         onClick={() => copyToClipboard(importCode, 'import')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'import' ? <CheckBold className="w-3 h-3" /> : <CopyBold className="w-3 h-3" />}
+                        {copied === 'import' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'import' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
@@ -155,7 +176,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                         onClick={() => copyToClipboard(usageCode, 'usage')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'usage' ? <CheckBold className="w-3 h-3" /> : <CopyBold className="w-3 h-3" />}
+                        {copied === 'usage' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'usage' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>

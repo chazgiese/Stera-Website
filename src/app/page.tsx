@@ -9,7 +9,7 @@ import FilterDropdown from '@/components/FilterDropdown';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
 import { getIconStyle } from '@/utils/iconRegistry';
-import { AstriskAlt } from 'stera-icons';
+import { AstriskAltIcon } from 'stera-icons';
 import iconData from '@/data/icons.json';
 
 function HomeContent() {
@@ -112,7 +112,7 @@ function HomeContent() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
               <Link href="/" className="flex items-center space-x-1">
-                <AstriskAlt className="w-6 h-6 text-zinc-900 dark:text-zinc-100" />
+                <AstriskAltIcon className="w-6 h-6 text-zinc-900 dark:text-zinc-100" />
                 <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
                   Stera
                 </h1>
@@ -123,7 +123,7 @@ function HomeContent() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
               >
-                v3.2.0
+                v5.0.4
               </a>
             </div>
             

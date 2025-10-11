@@ -28,6 +28,19 @@ const FallbackIcon = (props: IconProps) => (
 FallbackIcon.displayName = 'FallbackIcon';
 
 
+// Function to parse icon name and get component name and variant
+function parseIconName(displayName: string): { componentName: string; variant: 'regular' | 'bold' | 'filled' } {
+  if (displayName.endsWith('Bold')) {
+    const baseName = displayName.replace(/Bold$/, '');
+    return { componentName: `${baseName}Icon`, variant: 'bold' };
+  } else if (displayName.endsWith('Filled')) {
+    const baseName = displayName.replace(/Filled$/, '');
+    return { componentName: `${baseName}Icon`, variant: 'filled' };
+  } else {
+    return { componentName: `${displayName}Icon`, variant: 'regular' };
+  }
+}
+
 // Function to dynamically load an icon
 export async function loadIcon(iconName: string): Promise<React.ComponentType<IconProps>> {
   // Check if icon is already cached
@@ -39,14 +52,23 @@ export async function loadIcon(iconName: string): Promise<React.ComponentType<Ic
     // Import from the main package instead of individual files
     const iconModule = await import('stera-icons');
     
-    // The icon is exported as a named export with the component name
-    const IconComponent = (iconModule as Record<string, React.ComponentType<IconProps>>)[iconName];
+    // Parse the icon name to get component and variant
+    const { componentName, variant } = parseIconName(iconName);
     
-    if (IconComponent) {
-      iconCache.set(iconName, IconComponent);
-      return IconComponent;
+    // The icon is exported as a named export with the component name
+    const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { variant?: 'regular' | 'bold' | 'filled' }>>)[componentName];
+    
+    if (BaseIconComponent) {
+      // Create a wrapper that applies the variant
+      const IconWithVariant = (props: IconProps) => {
+        return React.createElement(BaseIconComponent, { ...props, variant });
+      };
+      IconWithVariant.displayName = `${componentName}[${variant}]`;
+      
+      iconCache.set(iconName, IconWithVariant);
+      return IconWithVariant;
     } else {
-      throw new Error(`Icon ${iconName} not found in module`);
+      throw new Error(`Icon ${componentName} not found in module`);
     }
   } catch (error) {
     console.warn(`Failed to load icon ${iconName}:`, error);

@@ -14,10 +14,12 @@ function validateIconExists(iconName, availableIcons) {
 const metadataPath = path.join(__dirname, '..', 'node_modules', 'stera-icons', 'dist', 'icons.meta.json');
 const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
-// Create a map of component names to their metadata
+// Create a map of component names + variants to their metadata
+// Key format: "ComponentName:variant" (e.g., "AiIcon:bold")
 const metadataMap = new Map();
 metadata.forEach(icon => {
-  metadataMap.set(icon.componentName, icon);
+  const key = `${icon.componentName}:${icon.variant}`;
+  metadataMap.set(key, icon);
 });
 
 
@@ -85,11 +87,38 @@ function generateTags(iconName, metadata, currentVersion) {
 
 // List of backward-compatibility icons that should be excluded
 const DEPRECATED_ICONS = new Set([
-  'Checkmark', // Deprecated in favor of Check
-  'CheckmarkBold', // Deprecated in favor of CheckBold
-  'CheckmarkFilled', // Deprecated in favor of CheckFilled
+  'CheckmarkIcon', // Deprecated in favor of CheckIcon
+  'CheckmarkIconBold', // Deprecated in favor of CheckIconBold
+  'CheckmarkIconFilled', // Deprecated in favor of CheckIconFilled
   // Add other deprecated icons here as needed
 ]);
+
+// Helper function to remove Icon suffix and variant suffixes
+function getCleanIconName(componentName) {
+  // Remove Icon suffix and variant suffixes
+  let name = componentName;
+  
+  // Remove variant suffixes first
+  if (name.endsWith('IconBold')) {
+    return name.replace(/IconBold$/, '');
+  } else if (name.endsWith('IconFilled')) {
+    return name.replace(/IconFilled$/, '');
+  } else if (name.endsWith('IconRegular')) {
+    return name.replace(/IconRegular$/, '');
+  } else if (name.endsWith('Icon')) {
+    return name.replace(/Icon$/, '');
+  }
+  
+  return name;
+}
+
+// Helper function to determine variant from component name
+function getIconVariant(componentName) {
+  if (componentName.endsWith('IconBold')) return 'Bold';
+  if (componentName.endsWith('IconFilled')) return 'Filled';
+  if (componentName.endsWith('IconRegular')) return 'Regular';
+  return 'Regular'; // Default to Regular for base Icon suffix
+}
 
 // Generate all icon data
 function generateIconData() {
@@ -105,20 +134,40 @@ function generateIconData() {
   const deprecatedIcons = [];
   let newIconsCount = 0;
   
-  Object.entries(Icons).forEach(([name]) => {
+  Object.entries(Icons).forEach(([componentName]) => {
     // Skip deprecated/backward-compatibility icons
-    if (DEPRECATED_ICONS.has(name)) {
-      deprecatedIcons.push(name);
+    if (DEPRECATED_ICONS.has(componentName)) {
+      deprecatedIcons.push(componentName);
+      return;
+    }
+    
+    // Skip IconRegular variants to avoid duplicates (IconRegular is same as base Icon)
+    if (componentName.endsWith('IconRegular')) {
       return;
     }
     
     // Validate that the icon actually exists
-    if (!validateIconExists(name, availableIcons)) {
-      invalidIcons.push(name);
+    if (!validateIconExists(componentName, availableIcons)) {
+      invalidIcons.push(componentName);
       return; // Skip invalid icons
     }
     
-    const metadata = metadataMap.get(name);
+    // Determine variant and get corresponding metadata
+    let variantKey = 'regular'; // default
+    if (componentName.endsWith('IconBold')) {
+      variantKey = 'bold';
+    } else if (componentName.endsWith('IconFilled')) {
+      variantKey = 'filled';
+    }
+    
+    // Get clean component name (remove variant suffix)
+    let baseComponentName = componentName;
+    if (componentName.endsWith('IconBold') || componentName.endsWith('IconFilled')) {
+      baseComponentName = baseComponentName.replace(/Bold$|Filled$/, '');
+    }
+    
+    const metadataKey = `${baseComponentName}:${variantKey}`;
+    const metadata = metadataMap.get(metadataKey);
     const versionAdded = metadata?.versionAdded || 'unknown';
     
     // Check if this is a new icon
@@ -126,9 +175,22 @@ function generateIconData() {
       newIconsCount++;
     }
     
+    // Get clean name without Icon suffix and variant
+    const cleanName = getCleanIconName(componentName);
+    const variant = getIconVariant(componentName);
+    
+    // Create a display name that includes the variant
+    let displayName = cleanName;
+    if (variant === 'Bold') {
+      displayName = `${cleanName}Bold`;
+    } else if (variant === 'Filled') {
+      displayName = `${cleanName}Filled`;
+    }
+    // For Regular variant, keep the clean name as is
+    
     result.push({
-      name,
-      tags: generateTags(name, metadata, currentVersion),
+      name: displayName,
+      tags: generateTags(displayName, metadata, currentVersion),
       versionAdded: versionAdded,
     });
   });

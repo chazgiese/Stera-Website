@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { ChevronDown } from 'stera-icons';
+import { ChevronDownIcon } from 'stera-icons';
 import clsx from 'clsx';
 
 interface FilterDropdownProps {
@@ -63,7 +63,7 @@ export default function FilterDropdown({
         aria-expanded={isOpen}
       >
         <span>{selectedFilterData?.label}</span>
-        <ChevronDown 
+        <ChevronDownIcon 
           className={clsx(
             'w-4 h-4 transition-transform duration-200'
           )} 

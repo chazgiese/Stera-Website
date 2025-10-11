@@ -31,16 +31,50 @@ src/
     └── iconData.ts       # Icon data generation and filtering
 ```
 
+## Package Version
+
+Currently using **stera-icons v5.0.2** (updated October 2025)
+
+### What's New in v5.0.2
+
+- **Enhanced Metadata**: All icon variants now include comprehensive metadata (tags, version info, timestamps)
+- **Icon Suffix**: All icons have an `Icon` suffix (e.g., `SearchIcon`, `HeartIcon`)
+- **Variant Prop**: Use `variant="regular" | "bold" | "filled"` prop instead of separate components
+- **1665+ Icons**: Comprehensive icon library with Regular, Bold, and Filled variants
+- **Better Search**: Rich tags enable more accurate icon discovery
+- **Tree-shakeable**: Import only the icons you need
+- **TypeScript Support**: Full type safety and IntelliSense
+
+### Usage Example
+
+```tsx
+import { SearchIcon, HeartIcon } from 'stera-icons';
+
+// Regular variant (default)
+<SearchIcon size={24} />
+
+// Bold variant
+<SearchIcon variant="bold" size={24} />
+
+// Filled variant
+<HeartIcon variant="filled" size={24} color="red" />
+```
+
 ## Updating Icons
 
 When the stera-icons package is updated:
 
 1. Update the package:
 ```bash
-pnpm update stera-icons
+pnpm update stera-icons --latest
 ```
 
-2. The website will automatically reflect the new icons since it dynamically loads all icons from the package.
+2. Regenerate icon data:
+```bash
+pnpm run generate-icons
+```
+
+3. The website will automatically reflect the new icons since it dynamically loads all icons from the package.
 
 ## License
 

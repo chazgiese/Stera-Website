@@ -1,6 +1,6 @@
 'use client';
 
-import { Search, XBold } from 'stera-icons';
+import { SearchIcon, XIcon } from 'stera-icons';
 import { useState } from 'react';
 
 interface SearchBarProps {
@@ -25,7 +25,7 @@ export default function SearchBar({
       <div className={`relative flex items-center transition-all duration-200 ${
         isFocused ? '' : ''
       }`}>
-        <Search 
+        <SearchIcon 
           className={`absolute left-4 h-4 w-4 transition-colors ${
             isFocused ? 'text-zinc-900 dark:text-zinc-200' : 'text-zinc-700 dark:text-zinc-400'
           }`} 
@@ -64,7 +64,7 @@ export default function SearchBar({
               transition-colors"
             aria-label="Clear search"
           >
-            <XBold className="h-4 w-4" />
+            <XIcon variant="bold" className="h-4 w-4" />
           </button>
         )}
       </div>
