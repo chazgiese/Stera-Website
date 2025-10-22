@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XIcon, CopyIcon, ListCheckIcon, SaveIcon } from 'stera-icons';
+import { XIcon, CopyIcon, CheckSourceIcon, SaveIcon } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 
@@ -12,10 +12,19 @@ interface IconDetailModalProps {
   selectedVariant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone';
 }
 
+const AVAILABLE_VARIANTS: Array<{ key: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone'; label: string }> = [
+  { key: 'regular', label: 'Regular' },
+  { key: 'bold', label: 'Bold' },
+  { key: 'filled', label: 'Filled' },
+  { key: 'filltone', label: 'Fill Tone' },
+  { key: 'linetone', label: 'Line Tone' }
+];
+
 export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant = 'regular' }: IconDetailModalProps) {
   const [copied, setCopied] = useState<string | null>(null);
   const [iconSize] = useState(64);
   const [iconColor] = useState('#000000');
+  const [currentVariant, setCurrentVariant] = useState<'regular' | 'bold' | 'filled' | 'filltone' | 'linetone'>(selectedVariant);
 
   useEffect(() => {
     if (isOpen) {
@@ -28,6 +37,11 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
       document.body.style.overflow = 'unset';
     };
   }, [isOpen]);
+
+  // Update current variant when selectedVariant prop changes
+  useEffect(() => {
+    setCurrentVariant(selectedVariant);
+  }, [selectedVariant]);
 
   if (!icon || !isOpen) return null;
 
@@ -44,9 +58,9 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
   // Parse the icon name to get component name and variant
   const parseIconInfo = (displayName: string) => {
     // With the new variant system, all icons are base icons
-    // The variant is determined by the selectedVariant prop
+    // The variant is determined by the currentVariant state
     const componentName = displayName.endsWith('Icon') ? displayName : `${displayName}Icon`;
-    return { componentName, variant: selectedVariant };
+    return { componentName, variant: currentVariant };
   };
 
   const { componentName, variant } = parseIconInfo(icon.name);
@@ -70,7 +84,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = `${icon.name.toLowerCase()}.svg`;
+      link.download = `${icon.name.toLowerCase()}-${currentVariant}.svg`;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -90,12 +104,12 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
       <div className="flex min-h-full items-center justify-center p-4">
         <div className="relative bg-white dark:bg-zinc-900 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-hidden border border-zinc-200 dark:border-zinc-800">
           {/* Header */}
-          <div className="flex items-center justify-between p-6 border-b border-zinc-200 dark:border-zinc-700 gap-4">
+          <div className="flex items-center justify-between p-6 gap-4">
             <div
                 id="icon-preview"
                 className="flex items-center justify-center bg-zinc-100 dark:bg-zinc-800 rounded-lg w-fit p-3"
               >
-                <DynamicIcon iconName={icon.name} variant={selectedVariant} size={32} color={iconColor} />
+                <DynamicIcon iconName={icon.name} variant={currentVariant} size={32} color={iconColor} />
             </div>
             <div className="w-full">
               <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
@@ -118,8 +132,27 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
             </button>
           </div>
 
+          {/* Variant Tabs */}
+          <div className="px-6 pb-4 border-b border-zinc-200 dark:border-zinc-700">
+            <div className="flex gap-1 bg-zinc-100 dark:bg-zinc-800 rounded-full p-1">
+              {AVAILABLE_VARIANTS.map((variantOption) => (
+                <button
+                  key={variantOption.key}
+                  onClick={() => setCurrentVariant(variantOption.key)}
+                  className={`flex-1 px-3 py-2 text-sm font-medium rounded-full transition-all duration-200 ${
+                    currentVariant === variantOption.key
+                      ? 'bg-white dark:bg-zinc-700 text-zinc-900 dark:text-zinc-100 shadow-sm'
+                      : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100'
+                  }`}
+                >
+                  {variantOption.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Content */}
-          <div className="p-6 overflow-y-auto max-h-[calc(90vh-120px)]">
+          <div className="p-6 overflow-y-auto max-h-[calc(90vh-180px)]">
             <div className="grid grid-cols-1 gap-4">
               <div className="flex gap-3">
                 {/* Download SVG Button */}
@@ -153,7 +186,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                         onClick={() => copyToClipboard(importCode, 'import')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'import' ? <ListCheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
+                        {copied === 'import' ? <CheckSourceIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'import' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
@@ -172,7 +205,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                         onClick={() => copyToClipboard(usageCode, 'usage')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'usage' ? <ListCheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
+                        {copied === 'usage' ? <CheckSourceIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'usage' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
