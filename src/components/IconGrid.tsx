@@ -8,9 +8,10 @@ interface IconGridProps {
   icons: IconData[];
   onIconClick: (icon: IconData) => void;
   loading?: boolean;
+  selectedVariant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone';
 }
 
-export default function IconGrid({ icons, onIconClick, loading = false }: IconGridProps) {
+export default function IconGrid({ icons, onIconClick, loading = false, selectedVariant = 'regular' }: IconGridProps) {
   if (loading) {
     return (
       <div className="
@@ -68,6 +69,7 @@ export default function IconGrid({ icons, onIconClick, loading = false }: IconGr
           key={icon.name}
           icon={icon}
           onIconClick={onIconClick}
+          variant={selectedVariant}
         />
       ))}
     </div>

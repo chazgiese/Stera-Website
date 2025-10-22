@@ -33,7 +33,7 @@ src/
 
 ## Package Version
 
-Currently using **stera-icons v5.0.2** (updated October 2025)
+Currently using **stera-icons v5.1.0** (updated December 2024)
 
 ### What's New in v5.0.2
 

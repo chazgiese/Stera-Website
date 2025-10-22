@@ -7,28 +7,21 @@ import clsx from 'clsx';
 interface FilterDropdownProps {
   selectedFilter: string;
   onFilterChange: (filter: string) => void;
-  totalCount: number;
-  regularCount: number;
-  boldCount: number;
-  filledCount: number;
 }
 
 export default function FilterDropdown({
   selectedFilter,
   onFilterChange,
-  totalCount,
-  regularCount,
-  boldCount,
-  filledCount,
 }: FilterDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const filters = [
-    { key: 'Regular', label: 'Regular', count: regularCount },
-    { key: 'Bold', label: 'Bold', count: boldCount },
-    { key: 'Filled', label: 'Filled', count: filledCount },
-    { key: 'All', label: 'All', count: totalCount },
+    { key: 'Regular', label: 'Regular' },
+    { key: 'Bold', label: 'Bold' },
+    { key: 'Filled', label: 'Filled' },
+    { key: 'Filltone', label: 'Filltone' },
+    { key: 'Linetone', label: 'Linetone' },
   ];
 
   const selectedFilterData = filters.find(filter => filter.key === selectedFilter);
@@ -76,7 +69,7 @@ export default function FilterDropdown({
           top-full
           right-0
           mt-1
-          w-[144px]
+          w-[160px]
           bg-white dark:bg-zinc-950
           border border-zinc-300 dark:border-zinc-800 rounded-2xl
           shadow-lg
@@ -88,16 +81,13 @@ export default function FilterDropdown({
                 <button
                   onClick={() => handleFilterSelect(filter.key)}
                   className={clsx(
-                    'w-full text-left px-4 py-2 text-sm transition-colors flex items-center justify-between',
+                    'w-full text-left px-4 py-2 text-sm transition-colors',
                     selectedFilter === filter.key
                       ? 'bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100'
                       : 'text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-900'
                   )}
                 >
                   <span>{filter.label}</span>
-                  <span className="text-xs text-zinc-500 dark:text-zinc-400">
-                    {filter.count}
-                  </span>
                 </button>
               </li>
             ))}

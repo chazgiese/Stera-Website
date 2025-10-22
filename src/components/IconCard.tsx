@@ -6,9 +6,10 @@ import DynamicIcon from './DynamicIcon';
 interface IconCardProps {
   icon: IconData;
   onIconClick: (icon: IconData) => void;
+  variant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone';
 }
 
-export default function IconCard({ icon, onIconClick }: IconCardProps) {
+export default function IconCard({ icon, onIconClick, variant = 'regular' }: IconCardProps) {
 
   return (
     <div
@@ -19,6 +20,7 @@ export default function IconCard({ icon, onIconClick }: IconCardProps) {
       <div className="flex items-center justify-center h-16">
         <DynamicIcon 
           iconName={icon.name}
+          variant={variant}
           size={32} 
           className="text-zinc-700 dark:text-zinc-300 transition-colors" 
         />

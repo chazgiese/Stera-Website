@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XIcon, CopyIcon, CheckIcon, SaveIcon } from 'stera-icons';
+import { XIcon, CopyIcon, ListCheckIcon, SaveIcon } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 
@@ -9,9 +9,10 @@ interface IconDetailModalProps {
   icon: IconData | null;
   isOpen: boolean;
   onClose: () => void;
+  selectedVariant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone';
 }
 
-export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailModalProps) {
+export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant = 'regular' }: IconDetailModalProps) {
   const [copied, setCopied] = useState<string | null>(null);
   const [iconSize] = useState(64);
   const [iconColor] = useState('#000000');
@@ -42,15 +43,10 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
 
   // Parse the icon name to get component name and variant
   const parseIconInfo = (displayName: string) => {
-    if (displayName.endsWith('Bold')) {
-      const baseName = displayName.replace(/Bold$/, '');
-      return { componentName: `${baseName}Icon`, variant: 'bold' as const };
-    } else if (displayName.endsWith('Filled')) {
-      const baseName = displayName.replace(/Filled$/, '');
-      return { componentName: `${baseName}Icon`, variant: 'filled' as const };
-    } else {
-      return { componentName: `${displayName}Icon`, variant: 'regular' as const };
-    }
+    // With the new variant system, all icons are base icons
+    // The variant is determined by the selectedVariant prop
+    const componentName = displayName.endsWith('Icon') ? displayName : `${displayName}Icon`;
+    return { componentName, variant: selectedVariant };
   };
 
   const { componentName, variant } = parseIconInfo(icon.name);
@@ -99,7 +95,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                 id="icon-preview"
                 className="flex items-center justify-center bg-zinc-100 dark:bg-zinc-800 rounded-lg w-fit p-3"
               >
-                <DynamicIcon iconName={icon.name} size={32} color={iconColor} />
+                <DynamicIcon iconName={icon.name} variant={selectedVariant} size={32} color={iconColor} />
             </div>
             <div className="w-full">
               <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
@@ -157,7 +153,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                         onClick={() => copyToClipboard(importCode, 'import')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'import' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
+                        {copied === 'import' ? <ListCheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'import' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
@@ -176,7 +172,7 @@ export default function IconDetailModal({ icon, isOpen, onClose }: IconDetailMod
                         onClick={() => copyToClipboard(usageCode, 'usage')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'usage' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
+                        {copied === 'usage' ? <ListCheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'usage' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>

@@ -6,16 +6,17 @@ import { loadIcon } from '@/utils/iconRegistry';
 
 interface DynamicIconProps extends IconProps {
   iconName: string;
+  variant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone';
 }
 
-export default function DynamicIcon({ iconName, ...props }: DynamicIconProps) {
+export default function DynamicIcon({ iconName, variant = 'regular', ...props }: DynamicIconProps) {
   const [IconComponent, setIconComponent] = useState<React.ComponentType<IconProps> | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const loadIconComponent = async () => {
       try {
-        const iconComponent = await loadIcon(iconName);
+        const iconComponent = await loadIcon(iconName, variant);
         setIconComponent(() => iconComponent);
       } catch (error) {
         console.error(`Failed to load icon ${iconName}:`, error);
@@ -25,7 +26,7 @@ export default function DynamicIcon({ iconName, ...props }: DynamicIconProps) {
     };
 
     loadIconComponent();
-  }, [iconName]);
+  }, [iconName, variant]);
 
   if (loading) {
     return (

@@ -8,7 +8,7 @@ import SearchBar from '@/components/SearchBar';
 import FilterDropdown from '@/components/FilterDropdown';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
-import { getIconStyle } from '@/utils/iconRegistry';
+// import { getIconStyle } from '@/utils/iconRegistry'; // No longer needed with new variant system
 import { AstriskAltIcon } from 'stera-icons';
 import iconData from '@/data/icons.json';
 
@@ -62,28 +62,14 @@ function HomeContent() {
         return searchWords.every(word => searchableText.includes(word));
       })();
 
-      // Determine style from icon name
-      const iconStyle = getIconStyle(icon.name);
-
-      // Style filter (All, Regular, Bold, Filled)
-      const matchesStyle = selectedFilter === 'All' || 
-        (selectedFilter === 'Regular' && iconStyle === 'Regular') ||
-        (selectedFilter === 'Bold' && iconStyle === 'Bold') ||
-        (selectedFilter === 'Filled' && iconStyle === 'Filled');
+      // With the new variant system, all icons are base icons that can have variants
+      // The filtering now works by showing all icons, and the variant is handled in the display
+      const matchesStyle = true; // All icons can be shown
 
       return matchesSearch && matchesStyle;
     });
   }, [icons, searchTerm, selectedFilter]);
 
-  // Calculate counts for each filter
-  const iconCounts = useMemo(() => {
-    const totalCount = icons.length;
-    const regularCount = icons.filter(icon => getIconStyle(icon.name) === 'Regular').length;
-    const boldCount = icons.filter(icon => getIconStyle(icon.name) === 'Bold').length;
-    const filledCount = icons.filter(icon => getIconStyle(icon.name) === 'Filled').length;
-    
-    return { totalCount, regularCount, boldCount, filledCount };
-  }, [icons]);
 
   const handleIconClick = (icon: IconData) => {
     setSelectedIcon(icon);
@@ -123,7 +109,7 @@ function HomeContent() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
               >
-                v5.0.4
+                v5.1.0
               </a>
             </div>
             
@@ -160,10 +146,6 @@ function HomeContent() {
           <FilterDropdown
             selectedFilter={selectedFilter}
             onFilterChange={setSelectedFilter}
-            totalCount={iconCounts.totalCount}
-            regularCount={iconCounts.regularCount}
-            boldCount={iconCounts.boldCount}
-            filledCount={iconCounts.filledCount}
           />
         </div>
         {/* Icon Grid */}
@@ -171,6 +153,7 @@ function HomeContent() {
           icons={filteredIcons}
           onIconClick={handleIconClick}
           loading={loading}
+          selectedVariant={selectedFilter.toLowerCase() as 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone'}
         />
       </main>
 
@@ -206,6 +189,7 @@ function HomeContent() {
         icon={selectedIcon}
         isOpen={isModalOpen}
         onClose={handleModalClose}
+        selectedVariant={selectedFilter.toLowerCase() as 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone'}
       />
     </div>
   );

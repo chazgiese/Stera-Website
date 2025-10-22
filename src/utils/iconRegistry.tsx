@@ -29,34 +29,38 @@ FallbackIcon.displayName = 'FallbackIcon';
 
 
 // Function to parse icon name and get component name and variant
-function parseIconName(displayName: string): { componentName: string; variant: 'regular' | 'bold' | 'filled' } {
-  if (displayName.endsWith('Bold')) {
-    const baseName = displayName.replace(/Bold$/, '');
-    return { componentName: `${baseName}Icon`, variant: 'bold' };
-  } else if (displayName.endsWith('Filled')) {
-    const baseName = displayName.replace(/Filled$/, '');
-    return { componentName: `${baseName}Icon`, variant: 'filled' };
-  } else {
-    return { componentName: `${displayName}Icon`, variant: 'regular' };
-  }
-}
+// This function is kept for backward compatibility but is no longer used in the new variant system
+// function parseIconName(displayName: string): { componentName: string; variant: 'regular' | 'bold' | 'filled' } {
+//   if (displayName.endsWith('Bold')) {
+//     const baseName = displayName.replace(/Bold$/, '');
+//     return { componentName: `${baseName}Icon`, variant: 'bold' };
+//   } else if (displayName.endsWith('Filled')) {
+//     const baseName = displayName.replace(/Filled$/, '');
+//     return { componentName: `${baseName}Icon`, variant: 'filled' };
+//   } else {
+//     return { componentName: `${displayName}Icon`, variant: 'regular' };
+//   }
+// }
 
 // Function to dynamically load an icon
-export async function loadIcon(iconName: string): Promise<React.ComponentType<IconProps>> {
+export async function loadIcon(iconName: string, variant: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone' = 'regular'): Promise<React.ComponentType<IconProps>> {
+  // Create a cache key that includes the variant
+  const cacheKey = `${iconName}:${variant}`;
+  
   // Check if icon is already cached
-  if (iconCache.has(iconName)) {
-    return iconCache.get(iconName)!;
+  if (iconCache.has(cacheKey)) {
+    return iconCache.get(cacheKey)!;
   }
 
   try {
     // Import from the main package instead of individual files
     const iconModule = await import('stera-icons');
     
-    // Parse the icon name to get component and variant
-    const { componentName, variant } = parseIconName(iconName);
+    // Convert icon name to component name (add Icon suffix if not present)
+    const componentName = iconName.endsWith('Icon') ? iconName : `${iconName}Icon`;
     
     // The icon is exported as a named export with the component name
-    const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { variant?: 'regular' | 'bold' | 'filled' }>>)[componentName];
+    const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { variant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone' }>>)[componentName];
     
     if (BaseIconComponent) {
       // Create a wrapper that applies the variant
@@ -65,7 +69,7 @@ export async function loadIcon(iconName: string): Promise<React.ComponentType<Ic
       };
       IconWithVariant.displayName = `${componentName}[${variant}]`;
       
-      iconCache.set(iconName, IconWithVariant);
+      iconCache.set(cacheKey, IconWithVariant);
       return IconWithVariant;
     } else {
       throw new Error(`Icon ${componentName} not found in module`);
@@ -73,14 +77,14 @@ export async function loadIcon(iconName: string): Promise<React.ComponentType<Ic
   } catch (error) {
     console.warn(`Failed to load icon ${iconName}:`, error);
     // Return fallback icon and cache it
-    iconCache.set(iconName, FallbackIcon);
+    iconCache.set(cacheKey, FallbackIcon);
     return FallbackIcon;
   }
 }
 
 // Function to preload multiple icons
 export async function preloadIcons(iconNames: string[]): Promise<void> {
-  const loadPromises = iconNames.map(name => loadIcon(name));
+  const loadPromises = iconNames.map(name => loadIcon(name, 'regular'));
   await Promise.all(loadPromises);
 }
 
