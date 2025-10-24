@@ -134,64 +134,81 @@ function generateIconData() {
   const deprecatedIcons = [];
   let newIconsCount = 0;
   
-  Object.entries(Icons).forEach(([componentName]) => {
+  // Group icons by component name to collect all variants
+  const iconGroups = new Map();
+  
+  // Process metadata directly to get all variants
+  metadata.forEach(iconMeta => {
+    const componentName = iconMeta.componentName;
+    const variant = iconMeta.variant;
+    const versionAdded = iconMeta.versionAdded || 'unknown';
+    
     // Skip deprecated/backward-compatibility icons
     if (DEPRECATED_ICONS.has(componentName)) {
       deprecatedIcons.push(componentName);
       return;
     }
     
-    // Skip IconRegular variants to avoid duplicates (IconRegular is same as base Icon)
-    if (componentName.endsWith('IconRegular')) {
-      return;
-    }
-    
-    // Validate that the icon actually exists
+    // Validate that the icon actually exists in the package
     if (!validateIconExists(componentName, availableIcons)) {
       invalidIcons.push(componentName);
       return; // Skip invalid icons
     }
     
-    // Determine variant and get corresponding metadata
-    let variantKey = 'regular'; // default
-    if (componentName.endsWith('IconBold')) {
-      variantKey = 'bold';
-    } else if (componentName.endsWith('IconFilled')) {
-      variantKey = 'filled';
+    // Get clean name without Icon suffix
+    const cleanName = componentName.replace(/Icon$/, '');
+    
+    // Group by clean name
+    if (!iconGroups.has(cleanName)) {
+      iconGroups.set(cleanName, {
+        name: cleanName,
+        tags: new Set(),
+        variants: {},
+        earliestVersion: versionAdded
+      });
     }
     
-    // Get clean component name (remove variant suffix)
-    let baseComponentName = componentName;
-    if (componentName.endsWith('IconBold') || componentName.endsWith('IconFilled')) {
-      baseComponentName = baseComponentName.replace(/Bold$|Filled$/, '');
+    const iconGroup = iconGroups.get(cleanName);
+    
+    // Add variant version
+    iconGroup.variants[variant] = versionAdded;
+    
+    // Update earliest version
+    if (versionAdded !== 'unknown' && 
+        (iconGroup.earliestVersion === 'unknown' || 
+         versionAdded < iconGroup.earliestVersion)) {
+      iconGroup.earliestVersion = versionAdded;
     }
     
-    const metadataKey = `${baseComponentName}:${variantKey}`;
-    const metadata = metadataMap.get(metadataKey);
-    const versionAdded = metadata?.versionAdded || 'unknown';
+    // Add tags from metadata
+    if (iconMeta.tags && Array.isArray(iconMeta.tags)) {
+      iconMeta.tags.forEach(tag => iconGroup.tags.add(tag));
+    }
     
     // Check if this is a new icon
     if (versionAdded !== 'unknown' && isVersionEqual(versionAdded, currentVersion)) {
       newIconsCount++;
     }
+  });
+  
+  // Convert groups to result array
+  iconGroups.forEach((iconGroup, cleanName) => {
+    // Add base name as tag
+    iconGroup.tags.add(cleanName);
     
-    // Get clean name without Icon suffix and variant
-    const cleanName = getCleanIconName(componentName);
-    const variant = getIconVariant(componentName);
-    
-    // Create a display name that includes the variant
-    let displayName = cleanName;
-    if (variant === 'Bold') {
-      displayName = `${cleanName}Bold`;
-    } else if (variant === 'Filled') {
-      displayName = `${cleanName}Filled`;
+    // Add "*new*" tag if any variant was added in the current version
+    const hasNewVariant = Object.values(iconGroup.variants).some(version => 
+      version !== 'unknown' && isVersionEqual(version, currentVersion)
+    );
+    if (hasNewVariant) {
+      iconGroup.tags.add('*new*');
     }
-    // For Regular variant, keep the clean name as is
     
     result.push({
-      name: displayName,
-      tags: generateTags(displayName, metadata, currentVersion),
-      versionAdded: versionAdded,
+      name: cleanName,
+      tags: Array.from(iconGroup.tags),
+      versionAdded: iconGroup.earliestVersion,
+      variants: iconGroup.variants
     });
   });
   
