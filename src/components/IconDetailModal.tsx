@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XIcon, CopyIcon, CheckSourceIcon, SaveIcon } from 'stera-icons';
+import { XIcon, CopyIcon, SaveIcon } from 'stera-icons';
+import { CheckIcon } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 
@@ -186,7 +187,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                         onClick={() => copyToClipboard(importCode, 'import')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'import' ? <CheckSourceIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
+                        {copied === 'import' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'import' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
@@ -205,7 +206,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                         onClick={() => copyToClipboard(usageCode, 'usage')}
                         className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
                       >
-                        {copied === 'usage' ? <CheckSourceIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
+                        {copied === 'usage' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
                         {copied === 'usage' ? 'Copied!' : 'Copy'}
                       </button>
                     </div>
