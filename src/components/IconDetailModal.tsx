@@ -109,7 +109,6 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
           <div 
             className="flex-shrink-0 relative z-10 rounded-t-3xl"
             style={{
-              background: 'linear-gradient(180deg, rgba(39, 39, 42, 0.95) 0%, rgba(39, 39, 42, 0.90) 18.7%, rgba(39, 39, 42, 0.85) 34.9%, rgba(39, 39, 42, 0.80) 48.8%, rgba(39, 39, 42, 0.75) 60.56%, rgba(39, 39, 42, 0.70) 70.37%, rgba(39, 39, 42, 0.65) 78.4%, rgba(39, 39, 42, 0.60) 84.83%, rgba(39, 39, 42, 0.55) 89.84%, rgba(39, 39, 42, 0.50) 93.6%, rgba(39, 39, 42, 0.45) 96.3%, rgba(39, 39, 42, 0.40) 98.1%, rgba(39, 39, 42, 0.35) 99.2%, rgba(39, 39, 42, 0.30) 99.76%, rgba(39, 39, 42, 0.25) 99.97%, rgba(39, 39, 42, 0.20) 100%)',
               backdropFilter: 'blur(8px)'
             }}
           >
@@ -137,10 +136,10 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                   <button
                     key={variantOption.key}
                     onClick={() => setCurrentVariant(variantOption.key)}
-                    className={`px-4 py-3 text-sm/4 font-semibold rounded-full flex items-center justify-center gap-2 ${
+                    className={`px-4 py-3 text-sm/4 border border-zinc-200 dark:border-zinc-600 font-semibold rounded-full flex items-center justify-center gap-2 ${
                       currentVariant === variantOption.key
-                        ? 'flex-none bg-white dark:bg-white text-zinc-900 dark:text-zinc-950 shadow-sm'
-                        : 'flex-1 bg-zinc-700 text-zinc-600 dark:text-white hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-900'
+                        ? 'flex-none bg-zinc-950 dark:bg-white text-white dark:text-zinc-950'
+                        : 'flex-1 bg-zinc-100 dark:bg-zinc-700 text-zinc-950 dark:text-white hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800'
                     }`}
                   >
                     <DynamicIcon 
@@ -159,23 +158,23 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
           <div className="flex-1 overflow-y-auto -mt-32 pt-32 px-6 pb-6">
             <div className="grid grid-cols-1 gap-4">
               {/* Preview Section */}
-              <div className="bg-zinc-900 rounded-lg">
+              <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg">
                 <div className="flex items-center justify-between p-1">
-                  <h3 className="text-sm font-medium text-white px-2">Preview</h3>
+                  <h3 className="text-sm font-medium dark:text-white px-2">Preview</h3>
                   <div className="flex">
                     <button
                       onClick={downloadSVG}
-                      className="p-2 hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-white"
+                      className="p-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-zinc-500 dark:hover:text-white"
                       title="Download SVG"
                     >
                       <SaveIcon variant="bold" className="w-4 h-4" />
                     </button>
                     <button
                       onClick={() => copyToClipboard(getSVGData(), 'svg')}
-                      className="p-2 hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-white"
+                      className="p-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-zinc-500 dark:hover:text-white"
                       title="Copy SVG"
                     >
-                      <CopyIcon variant="bold" className="w-4 h-4" />
+                      {copied === 'svg' ? <CheckIcon variant="bold" className="w-4 h-4" /> : <CopyIcon variant="bold" className="w-4 h-4" />}
                     </button>
                   </div>
                 </div>
@@ -194,33 +193,33 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
               <div className="space-y-6">
                 <div>
                   {/* Import */}
-                  <div className="mb-4 bg-zinc-100 dark:bg-zinc-800 rounded-lg">
+                  <div className="mb-4">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="text-sm font-medium text-white">Import</h3>
+                      <h3 className="text-sm font-medium dark:text-white">Import</h3>
                       <button
                         onClick={() => copyToClipboard(importCode, 'import')}
-                        className="flex items-center gap-1 px-2 py-2 text-xs hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
+                        className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
                       >
                         {copied === 'import' ? <CheckIcon variant="bold" size={16} /> : <CopyIcon variant="bold" size={16} />}
                       </button>
                     </div>
-                    <pre className="p-3 bg-zinc-700 rounded-md text-sm overflow-x-auto">
+                    <pre className="p-3 bg-zinc-100 dark:bg-zinc-700 rounded-md text-sm overflow-x-auto">
                       <code className="text-zinc-800 dark:text-zinc-200">{importCode}</code>
                     </pre>
                   </div>
 
                   {/* Usage */}
-                  <div className="mb-4 bg-zinc-100 dark:bg-zinc-800 rounded-lg">
+                  <div className="mb-4">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="text-sm font-medium text-white">Usage</h3>
+                      <h3 className="text-sm font-medium dark:text-white">Usage</h3>
                       <button
                         onClick={() => copyToClipboard(usageCode, 'usage')}
-                        className="flex items-center gap-1 px-2 py-2 text-xs hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
+                        className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
                       >
                         {copied === 'usage' ? <CheckIcon variant="bold" size={16} /> : <CopyIcon variant="bold" size={16} />}
                       </button>
                     </div>
-                    <pre className="p-3 bg-zinc-700 rounded-md text-sm overflow-x-auto">
+                    <pre className="p-3 bg-zinc-100 dark:bg-zinc-700 rounded-md text-sm overflow-x-auto">
                       <code className="text-zinc-800 dark:text-zinc-200">{usageCode}</code>
                     </pre>
                   </div>
@@ -229,7 +228,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                 {/* Tags */}
                 <div>
                   <div className="mb-2">
-                    <h3 className="text-sm font-medium text-white">Tags</h3>
+                    <h3 className="text-sm font-medium dark:text-white">Tags</h3>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {icon.tags.map((tag) => (
