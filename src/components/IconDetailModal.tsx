@@ -65,10 +65,11 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
   };
 
   const { componentName, variant } = parseIconInfo(icon.name);
+  const prettyName = componentName.endsWith('Icon') ? componentName.slice(0, -4) : componentName;
   const importCode = `import { ${componentName} } from 'stera-icons';`;
   const usageCode = variant === 'regular' 
-    ? `<${componentName} size={${iconSize}} color="${iconColor}" />`
-    : `<${componentName} variant="${variant}" size={${iconSize}} color="${iconColor}" />`;
+    ? `<${componentName} size={${iconSize}} />`
+    : `<${componentName} variant="${variant}" size={${iconSize}} />`;
 
   const getSVGData = () => {
     const svgElement = document.querySelector('#icon-preview svg');
@@ -103,114 +104,123 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
 
       {/* Modal */}
       <div className="flex min-h-full items-center justify-center p-4">
-        <div className="relative bg-white dark:bg-zinc-900 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-hidden border border-zinc-200 dark:border-zinc-800">
-          {/* Header */}
-          <div className="flex items-center justify-between p-6 gap-4">
-            <div
-                id="icon-preview"
-                className="flex items-center justify-center bg-zinc-100 dark:bg-zinc-800 rounded-lg w-fit p-3"
+        <div className="relative bg-white dark:bg-zinc-800 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] flex flex-col border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+          {/* Header - Fixed */}
+          <div 
+            className="flex-shrink-0 relative z-10 rounded-t-3xl"
+            style={{
+              background: 'linear-gradient(180deg, rgba(39, 39, 42, 0.95) 0%, rgba(39, 39, 42, 0.90) 18.7%, rgba(39, 39, 42, 0.85) 34.9%, rgba(39, 39, 42, 0.80) 48.8%, rgba(39, 39, 42, 0.75) 60.56%, rgba(39, 39, 42, 0.70) 70.37%, rgba(39, 39, 42, 0.65) 78.4%, rgba(39, 39, 42, 0.60) 84.83%, rgba(39, 39, 42, 0.55) 89.84%, rgba(39, 39, 42, 0.50) 93.6%, rgba(39, 39, 42, 0.45) 96.3%, rgba(39, 39, 42, 0.40) 98.1%, rgba(39, 39, 42, 0.35) 99.2%, rgba(39, 39, 42, 0.30) 99.76%, rgba(39, 39, 42, 0.25) 99.97%, rgba(39, 39, 42, 0.20) 100%)',
+              backdropFilter: 'blur(8px)'
+            }}
+          >
+            <div className="flex items-center px-6 py-5 gap-3">
+                <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
+                  {prettyName}
+                </h2>
+                <div className="flex items-center gap-2 mt-1">
+                  <span className="text-sm text-zinc-500 dark:text-zinc-400">
+                    v{icon.variants?.[currentVariant] || icon.versionAdded}
+                  </span>
+                </div>
+              <button
+                onClick={onClose}
+                className="p-2 absolute top-4 right-4 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-xl transition-colors text-zinc-500 dark:text-zinc-400"
               >
-                <DynamicIcon iconName={icon.name} variant={currentVariant} size={32} color={iconColor} />
+                <XIcon variant="bold" className="w-5 h-5" />
+              </button>
             </div>
-            <div className="w-full">
-              <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
-                {componentName}
-              </h2>
-              <div className="flex items-center gap-2 mt-1">
-                <span className="text-xs px-2 py-0.5 bg-zinc-200 dark:bg-zinc-700 text-zinc-700 dark:text-zinc-300 rounded-full font-medium capitalize">
-                  {variant}
-                </span>
-                <span className="text-sm text-zinc-500 dark:text-zinc-400">
-                  v{icon.variants?.[currentVariant] || icon.versionAdded}
-                </span>
+
+            {/* Variant Tabs */}
+            <div className="px-6 pb-4">
+              <div className="flex gap-2">
+                {AVAILABLE_VARIANTS.map((variantOption) => (
+                  <button
+                    key={variantOption.key}
+                    onClick={() => setCurrentVariant(variantOption.key)}
+                    className={`px-4 py-3 text-sm/4 font-semibold rounded-full flex items-center justify-center gap-2 ${
+                      currentVariant === variantOption.key
+                        ? 'flex-none bg-white dark:bg-white text-zinc-900 dark:text-zinc-950 shadow-sm'
+                        : 'flex-1 bg-zinc-700 text-zinc-600 dark:text-white hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-900'
+                    }`}
+                  >
+                    <DynamicIcon 
+                      iconName={icon.name} 
+                      variant={variantOption.key} 
+                      size={16}
+                    />
+                    {currentVariant === variantOption.key && variantOption.label}
+                  </button>
+                ))}
               </div>
             </div>
-            <button
-              onClick={onClose}
-              className="p-2 absolute top-4 right-4 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl transition-colors text-zinc-500 dark:text-zinc-400"
-            >
-              <XIcon variant="bold" className="w-5 h-5" />
-            </button>
           </div>
 
-          {/* Variant Tabs */}
-          <div className="px-6 border-b border-zinc-200 dark:border-zinc-700">
-            <div className="flex gap-1">
-              {AVAILABLE_VARIANTS.map((variantOption) => (
-                <button
-                  key={variantOption.key}
-                  onClick={() => setCurrentVariant(variantOption.key)}
-                  className={`flex-1 px-3 py-2 text-sm font-medium rounded-full transition-all duration-200 ${
-                    currentVariant === variantOption.key
-                      ? 'bg-white dark:bg-zinc-700 text-zinc-900 dark:text-zinc-100 shadow-sm'
-                      : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800'
-                  }`}
-                >
-                  {variantOption.label}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Content */}
-          <div className="p-6 overflow-y-auto max-h-[calc(90vh-180px)]">
+          {/* Content - Scrollable */}
+          <div className="flex-1 overflow-y-auto -mt-32 pt-32 px-6 pb-6">
             <div className="grid grid-cols-1 gap-4">
-              <div className="flex gap-3">
-                {/* Download SVG Button */}
-                <button
-                  onClick={downloadSVG}
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
+              {/* Preview Section */}
+              <div className="bg-zinc-900 rounded-lg">
+                <div className="flex items-center justify-between p-1">
+                  <h3 className="text-sm font-medium text-white px-2">Preview</h3>
+                  <div className="flex">
+                    <button
+                      onClick={downloadSVG}
+                      className="p-2 hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-white"
+                      title="Download SVG"
+                    >
+                      <SaveIcon variant="bold" className="w-4 h-4" />
+                    </button>
+                    <button
+                      onClick={() => copyToClipboard(getSVGData(), 'svg')}
+                      className="p-2 hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-white"
+                      title="Copy SVG"
+                    >
+                      <CopyIcon variant="bold" className="w-4 h-4" />
+                    </button>
+                  </div>
+                </div>
+                <div 
+                  id="icon-preview"
+                  className="flex items-center justify-center pb-9"
                 >
-                  <SaveIcon variant="bold" className="w-4 h-4" />
-                  Download SVG
-                </button>
-                {/* Copy SVG Button */}
-                <button
-                  onClick={() => copyToClipboard(getSVGData(), 'svg')}
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm font-medium w-full"
-                >
-                  <CopyIcon variant="bold" className="w-4 h-4" />
-                  {copied === 'svg' ? 'Copied!' : 'Copy SVG'}
-                </button>
+                  <DynamicIcon 
+                    iconName={icon.name} 
+                    variant={currentVariant} 
+                    size={64}
+                  />
+                </div>
               </div>
               {/* Code Examples */}
               <div className="space-y-6">
                 <div>
-
                   {/* Import */}
                   <div className="mb-4 bg-zinc-100 dark:bg-zinc-800 rounded-lg">
-                    <div className="flex items-center border-b border-zinc-200 dark:border-zinc-900 justify-between mb-2 p-3">
-                      <label className="text-sm font-bold text-zinc-700 dark:text-zinc-300">
-                        Import
-                      </label>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sm font-medium text-white">Import</h3>
                       <button
                         onClick={() => copyToClipboard(importCode, 'import')}
-                        className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
+                        className="flex items-center gap-1 px-2 py-2 text-xs hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
                       >
-                        {copied === 'import' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
-                        {copied === 'import' ? 'Copied!' : 'Copy'}
+                        {copied === 'import' ? <CheckIcon variant="bold" size={16} /> : <CopyIcon variant="bold" size={16} />}
                       </button>
                     </div>
-                    <pre className="p-3 rounded-md text-sm overflow-x-auto">
+                    <pre className="p-3 bg-zinc-700 rounded-md text-sm overflow-x-auto">
                       <code className="text-zinc-800 dark:text-zinc-200">{importCode}</code>
                     </pre>
                   </div>
 
                   {/* Usage */}
                   <div className="mb-4 bg-zinc-100 dark:bg-zinc-800 rounded-lg">
-                    <div className="flex items-center border-b border-zinc-200 dark:border-zinc-900 justify-between mb-2 p-3">
-                      <label className="text-sm font-bold text-zinc-700 dark:text-zinc-300">
-                        Usage
-                      </label>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sm font-medium text-white">Usage</h3>
                       <button
                         onClick={() => copyToClipboard(usageCode, 'usage')}
-                        className="flex items-center gap-1 px-2 py-1 text-xs bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-600 rounded-full transition-colors"
+                        className="flex items-center gap-1 px-2 py-2 text-xs hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
                       >
-                        {copied === 'usage' ? <CheckIcon variant="bold" className="w-3 h-3" /> : <CopyIcon variant="bold" className="w-3 h-3" />}
-                        {copied === 'usage' ? 'Copied!' : 'Copy'}
+                        {copied === 'usage' ? <CheckIcon variant="bold" size={16} /> : <CopyIcon variant="bold" size={16} />}
                       </button>
                     </div>
-                    <pre className="p-3 text-sm overflow-x-auto">
+                    <pre className="p-3 bg-zinc-700 rounded-md text-sm overflow-x-auto">
                       <code className="text-zinc-800 dark:text-zinc-200">{usageCode}</code>
                     </pre>
                   </div>
@@ -218,11 +228,14 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
 
                 {/* Tags */}
                 <div>
+                  <div className="mb-2">
+                    <h3 className="text-sm font-medium text-white">Tags</h3>
+                  </div>
                   <div className="flex flex-wrap gap-2">
                     {icon.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-2 py-1 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-100 text-xs rounded-full"
+                        className="px-2 py-1 bg-zinc-100 dark:bg-zinc-700 text-zinc-800 dark:text-zinc-100 text-xs rounded-full"
                       >
                         {tag}
                       </span>
