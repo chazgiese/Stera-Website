@@ -1371,8 +1371,7 @@
       "reduce",
       "shrink",
       "zoom-out",
-      "ArrowsLeftRight",
-      "*new*"
+      "ArrowsLeftRight"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -2413,8 +2412,7 @@
       "professional",
       "tools",
       "work",
-      "Brain",
-      "*new*"
+      "Brain"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -3060,8 +3058,7 @@
       "finished",
       "selected",
       "success",
-      "Check",
-      "*new*"
+      "Check"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -4134,6 +4131,30 @@
     }
   },
   {
+    "name": "CircleNotch",
+    "tags": [
+      "busy",
+      "indicator",
+      "loading",
+      "pending",
+      "processing",
+      "progress",
+      "refresh",
+      "spinner",
+      "wait",
+      "CircleNotch",
+      "*new*"
+    ],
+    "versionAdded": "5.3.0",
+    "variants": {
+      "bold": "5.3.0",
+      "filled": "5.3.0",
+      "filltone": "5.3.0",
+      "linetone": "5.3.0",
+      "regular": "5.3.0"
+    }
+  },
+  {
     "name": "CircleSlash",
     "tags": [
       "ban",
@@ -4499,8 +4520,7 @@
       "reduce",
       "shrink",
       "zoom-out",
-      "Collapse",
-      "*new*"
+      "Collapse"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -7058,8 +7078,7 @@
       "social",
       "tag",
       "topic",
-      "HashCircle",
-      "*new*"
+      "HashCircle"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -7262,8 +7281,7 @@
       "housing",
       "remove",
       "shelter",
-      "HomeSimple",
-      "*new*"
+      "HomeSimple"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -7649,8 +7667,7 @@
       "multiple",
       "organize",
       "stack",
-      "LayersSimple",
-      "*new*"
+      "LayersSimple"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -8298,8 +8315,7 @@
       "navigation",
       "options",
       "sidebar",
-      "MenuAlt",
-      "*new*"
+      "MenuAlt"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -8319,8 +8335,7 @@
       "navigation",
       "options",
       "sidebar",
-      "MenuSimpleAlt",
-      "*new*"
+      "MenuSimpleAlt"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -11077,14 +11092,16 @@
   {
     "name": "TallyMarks",
     "tags": [
-      "hamburger",
-      "list",
-      "menu",
-      "navigation",
-      "options",
-      "sidebar",
-      "TallyMarks",
-      "*new*"
+      "count",
+      "mark",
+      "progress",
+      "record",
+      "score",
+      "statistics",
+      "tally",
+      "total",
+      "tracking",
+      "TallyMarks"
     ],
     "versionAdded": "5.2.0",
     "variants": {
@@ -11303,8 +11320,7 @@
       "style",
       "text",
       "typography",
-      "TextB",
-      "*new*"
+      "TextB"
     ],
     "versionAdded": "5.2.0",
     "variants": {
