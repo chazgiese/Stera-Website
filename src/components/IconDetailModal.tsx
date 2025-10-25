@@ -138,14 +138,14 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                     onClick={() => setCurrentVariant(variantOption.key)}
                     className={`px-4 py-3 text-sm/4 border border-zinc-200 dark:border-zinc-600 font-semibold rounded-full flex items-center justify-center gap-2 ${
                       currentVariant === variantOption.key
-                        ? 'flex-none bg-zinc-950 dark:bg-white text-white dark:text-zinc-950'
+                        ? 'w-40 bg-zinc-950 dark:bg-white text-white dark:text-zinc-950'
                         : 'flex-1 bg-zinc-100 dark:bg-zinc-700 text-zinc-950 dark:text-white hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800'
                     }`}
                   >
                     <DynamicIcon 
                       iconName={icon.name} 
                       variant={variantOption.key} 
-                      size={16}
+                      size={20}
                     />
                     {currentVariant === variantOption.key && variantOption.label}
                   </button>
