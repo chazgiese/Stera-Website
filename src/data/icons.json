@@ -4142,8 +4142,7 @@
       "refresh",
       "spinner",
       "wait",
-      "CircleNotch",
-      "*new*"
+      "CircleNotch"
     ],
     "versionAdded": "5.3.0",
     "variants": {
@@ -7655,6 +7654,28 @@
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
+    }
+  },
+  {
+    "name": "LayersAlt",
+    "tags": [
+      "3d",
+      "arrange",
+      "depth",
+      "layers",
+      "multiple",
+      "organize",
+      "stack",
+      "LayersAlt",
+      "*new*"
+    ],
+    "versionAdded": "5.4.0",
+    "variants": {
+      "bold": "5.4.0",
+      "filled": "5.4.0",
+      "filltone": "5.4.0",
+      "linetone": "5.4.0",
+      "regular": "5.4.0"
     }
   },
   {

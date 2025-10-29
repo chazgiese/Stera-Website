@@ -109,7 +109,7 @@ function HomeContent() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
               >
-                v5.2.0
+                v5.4.0
               </a>
             </div>
             
