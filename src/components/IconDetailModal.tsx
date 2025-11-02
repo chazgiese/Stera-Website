@@ -118,7 +118,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                 </h2>
                 <div className="flex items-center gap-2 mt-1">
                   <span className="text-sm text-zinc-500 dark:text-zinc-400">
-                    v{icon.variants?.[currentVariant] || icon.versionAdded}
+                    v{icon.variants?.[currentVariant] || icon.versionLastModified}
                   </span>
                 </div>
               <button

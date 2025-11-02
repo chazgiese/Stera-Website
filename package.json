@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "eslint",
     "generate-icons": "node scripts/generate-icons.js",
-    "sync-icons": "node scripts/sync-icons.js",
     "postinstall": "npm run generate-icons"
   },
   "dependencies": {
@@ -18,7 +17,7 @@
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "stera-icons": "5.4.0"
+    "stera-icons": "5.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

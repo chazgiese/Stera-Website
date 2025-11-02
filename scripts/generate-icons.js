@@ -23,11 +23,24 @@ metadata.forEach(icon => {
 });
 
 
-// Get current version from package.json
+// Get current version from stera-icons package
 function getCurrentVersion() {
+  try {
+    // First, try to read the actual installed version from node_modules
+    const steraIconsPackagePath = path.join(__dirname, '..', 'node_modules', 'stera-icons', 'package.json');
+    if (fs.existsSync(steraIconsPackagePath)) {
+      const steraIconsPackageJson = JSON.parse(fs.readFileSync(steraIconsPackagePath, 'utf8'));
+      return steraIconsPackageJson.version;
+    }
+  } catch (error) {
+    // Fallback to package.json dependency version
+  }
+  // Fallback: read from package.json dependencies
   const packageJsonPath = path.join(__dirname, '..', 'package.json');
   const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-  return packageJson.dependencies['stera-icons'];
+  const version = packageJson.dependencies['stera-icons'] || packageJson.devDependencies['stera-icons'];
+  // Remove version range prefixes like ^, ~, >=
+  return version ? version.replace(/^[\^~>=<]/, '') : 'unknown';
 }
 
 // Compare version strings (simple comparison for semantic versions)
@@ -142,6 +155,7 @@ function generateIconData() {
     const componentName = iconMeta.componentName;
     const variant = iconMeta.variant;
     const versionAdded = iconMeta.versionAdded || 'unknown';
+    const versionLastModified = iconMeta.versionLastModified || 'unknown';
     
     // Skip deprecated/backward-compatibility icons
     if (DEPRECATED_ICONS.has(componentName)) {
@@ -164,7 +178,9 @@ function generateIconData() {
         name: cleanName,
         tags: new Set(),
         variants: {},
-        earliestVersion: versionAdded
+        variantLastModified: {},
+        earliestVersion: versionAdded,
+        latestVersionUpdated: versionLastModified
       });
     }
     
@@ -172,12 +188,21 @@ function generateIconData() {
     
     // Add variant version
     iconGroup.variants[variant] = versionAdded;
+    iconGroup.variantLastModified[variant] = versionLastModified;
     
     // Update earliest version
     if (versionAdded !== 'unknown' && 
         (iconGroup.earliestVersion === 'unknown' || 
          versionAdded < iconGroup.earliestVersion)) {
       iconGroup.earliestVersion = versionAdded;
+    }
+    
+    // Update latest version updated
+    if (versionLastModified !== 'unknown') {
+      if (iconGroup.latestVersionUpdated === 'unknown' || 
+          versionLastModified > iconGroup.latestVersionUpdated) {
+        iconGroup.latestVersionUpdated = versionLastModified;
+      }
     }
     
     // Add tags from metadata
@@ -204,12 +229,19 @@ function generateIconData() {
       iconGroup.tags.add('*new*');
     }
     
-    result.push({
+    const iconData = {
       name: cleanName,
       tags: Array.from(iconGroup.tags),
       versionAdded: iconGroup.earliestVersion,
-      variants: iconGroup.variants
-    });
+      variants: iconGroup.variantLastModified
+    };
+    
+    // Include versionLastModified if it's not 'unknown'
+    if (iconGroup.latestVersionUpdated !== 'unknown') {
+      iconData.versionLastModified = iconGroup.latestVersionUpdated;
+    }
+    
+    result.push(iconData);
   });
   
   if (deprecatedIcons.length > 0) {
@@ -232,17 +264,13 @@ const icons = generateIconData();
 
 // Create the data directory if it doesn't exist
 const srcDataDir = path.join(__dirname, '..', 'src', 'data');
-const publicDataDir = path.join(__dirname, '..', 'public', 'data');
 
-[srcDataDir, publicDataDir].forEach(dir => {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-});
+if (!fs.existsSync(srcDataDir)) {
+  fs.mkdirSync(srcDataDir, { recursive: true });
+}
 
-// Write the icons data to both locations
+// Write the icons data
 const srcOutputPath = path.join(srcDataDir, 'icons.json');
-const publicOutputPath = path.join(publicDataDir, 'icons.json');
 
 try {
   const iconsJson = JSON.stringify(icons, null, 2);
@@ -251,20 +279,12 @@ try {
   fs.writeFileSync(srcOutputPath, iconsJson);
   console.log(`✅ Generated ${icons.length} icons data to ${srcOutputPath}`);
   
-  // Write to public/data (for frontend access)
-  fs.writeFileSync(publicOutputPath, iconsJson);
-  console.log(`✅ Synced icons data to ${publicOutputPath}`);
-  
-  // Verify both files are identical
-  const srcContent = fs.readFileSync(srcOutputPath, 'utf8');
-  const publicContent = fs.readFileSync(publicOutputPath, 'utf8');
-  
-  if (srcContent === publicContent) {
-    console.log(`✅ Verified data consistency between src and public directories`);
-  } else {
-    console.error(`❌ Data inconsistency detected between src and public directories`);
-    process.exit(1);
-  }
+  // Also write version file
+  const currentVersion = getCurrentVersion();
+  const versionJson = JSON.stringify({ version: currentVersion }, null, 2);
+  const versionOutputPath = path.join(srcDataDir, 'version.json');
+  fs.writeFileSync(versionOutputPath, versionJson);
+  console.log(`✅ Generated version file: ${currentVersion}`);
   
 } catch (error) {
   console.error(`❌ Error writing icon data:`, error.message);

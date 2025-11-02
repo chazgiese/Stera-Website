@@ -2,6 +2,7 @@ export interface IconData {
   name: string;
   tags: string[];
   versionAdded: string;
+  versionLastModified?: string;
   variants: {
     regular?: string;
     bold?: string;

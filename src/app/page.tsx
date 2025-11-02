@@ -11,6 +11,7 @@ import IconDetailModal from '@/components/IconDetailModal';
 // import { getIconStyle } from '@/utils/iconRegistry'; // No longer needed with new variant system
 import { AstriskAltIcon } from 'stera-icons';
 import iconData from '@/data/icons.json';
+import { STERA_ICONS_VERSION } from '@/utils/version';
 
 function HomeContent() {
   const router = useRouter();
@@ -109,7 +110,7 @@ function HomeContent() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
               >
-                v5.4.0
+                v{STERA_ICONS_VERSION}
               </a>
             </div>
             
