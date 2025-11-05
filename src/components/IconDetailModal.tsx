@@ -74,7 +74,13 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
   const getSVGData = () => {
     const svgElement = document.querySelector('#icon-preview svg');
     if (svgElement) {
-      return new XMLSerializer().serializeToString(svgElement);
+      // Clone the element to avoid modifying the original
+      const clonedSvg = svgElement.cloneNode(true) as SVGElement;
+      // Capitalize variant (first letter uppercase, rest lowercase)
+      const variantLabel = currentVariant.charAt(0).toUpperCase() + currentVariant.slice(1).toLowerCase();
+      // Add id attribute with format: {prettyName}-{Variant}
+      clonedSvg.setAttribute('id', `${prettyName}-${variantLabel}`);
+      return new XMLSerializer().serializeToString(clonedSvg);
     }
     return '';
   };
