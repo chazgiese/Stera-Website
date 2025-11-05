@@ -147,7 +147,9 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                       variant={variantOption.key} 
                       size={20}
                     />
-                    {currentVariant === variantOption.key && variantOption.label}
+                    {currentVariant === variantOption.key && (
+                      <span className="hidden md:inline">{variantOption.label}</span>
+                    )}
                   </button>
                 ))}
               </div>
