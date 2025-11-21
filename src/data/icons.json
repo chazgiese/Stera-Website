@@ -14,13 +14,13 @@
     ],
     "versionAdded": "5.7.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.7.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AgentCursor",
@@ -42,13 +42,13 @@
     ],
     "versionAdded": "5.7.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.7.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "AgentWorkflow",
@@ -72,8 +72,8 @@
     "variants": {
       "bold": "5.7.0",
       "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.7.0"
     },
     "versionLastModified": "5.7.0"
@@ -93,13 +93,64 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "AlarmClockMinus",
+    "tags": [
+      "alarm",
+      "alert",
+      "clock",
+      "reminder",
+      "remove",
+      "schedule",
+      "subtract",
+      "time",
+      "timer",
+      "wake",
+      "AlarmClockMinus",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "AlarmClockPlus",
+    "tags": [
+      "add",
+      "alarm",
+      "alert",
+      "clock",
+      "reminder",
+      "schedule",
+      "time",
+      "timer",
+      "wake",
+      "AlarmClockPlus",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlertCircle",
@@ -137,13 +188,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlertHexagon",
@@ -159,13 +210,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlertOctagon",
@@ -202,13 +253,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlertTriangle",
@@ -223,13 +274,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.7.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Alien",
@@ -246,12 +297,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlignHorizontalCenter",
@@ -268,13 +319,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlignHorizontalLeft",
@@ -291,13 +342,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlignHorizontalRight",
@@ -314,13 +365,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlignVerticalBottom",
@@ -337,13 +388,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlignVerticalCenter",
@@ -360,13 +411,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AlignVerticalTop",
@@ -383,13 +434,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.7.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "Annotation",
@@ -402,17 +453,18 @@
       "markup",
       "note",
       "review",
+      "text",
       "Annotation"
     ],
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "5.7.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.7.0",
       "linetone": "5.0.4",
       "regular": "5.7.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "Archive",
@@ -429,13 +481,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Archway",
@@ -475,13 +527,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowBigDown",
@@ -497,13 +549,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowBigLeft",
@@ -518,13 +570,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowBigRight",
@@ -539,13 +591,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowBigUp",
@@ -565,13 +617,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleDown",
@@ -588,11 +640,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleDownLeft",
@@ -608,11 +660,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleDownRight",
@@ -628,11 +680,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleLeft",
@@ -650,11 +702,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleRight",
@@ -672,11 +724,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleUp",
@@ -715,11 +767,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCircleUpRight",
@@ -737,11 +789,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCornerDownLeft",
@@ -764,9 +816,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCornerDownRight",
@@ -788,11 +840,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCornerUpLeft",
@@ -810,12 +862,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowCornerUpRight",
@@ -833,12 +885,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowDown",
@@ -856,13 +908,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowDownLeft",
@@ -902,13 +954,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.5.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowLeft",
@@ -926,13 +978,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.7.0",
-      "regular": "5.7.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowLeftRight",
@@ -950,12 +1002,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "ArrowLineDown",
@@ -973,11 +1025,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowLineLeft",
@@ -996,11 +1048,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowLineRight",
@@ -1019,11 +1071,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowLineUp",
@@ -1043,11 +1095,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowRight",
@@ -1065,13 +1117,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
+      "linetone": "5.10.0",
       "regular": "5.7.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "ArrowSquareDown",
@@ -1089,13 +1141,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareDownLeft",
@@ -1113,13 +1165,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareDownRight",
@@ -1137,13 +1189,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareLeft",
@@ -1161,13 +1213,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareRight",
@@ -1185,13 +1237,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareUp",
@@ -1209,13 +1261,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareUpLeft",
@@ -1233,13 +1285,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowSquareUpRight",
@@ -1259,11 +1311,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowULeft",
@@ -1283,11 +1335,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowULeftTop",
@@ -1305,13 +1357,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowURight",
@@ -1331,11 +1383,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowURightTop",
@@ -1353,13 +1405,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowUp",
@@ -1377,13 +1429,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowUpDown",
@@ -1400,13 +1452,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowUpLeft",
@@ -1424,12 +1476,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowUpLeftDownRight",
@@ -1472,11 +1524,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.7.0"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowUpRightDownLeft",
@@ -1516,13 +1568,13 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.2.0",
-      "linetone": "5.2.0",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ArrowsUpDown",
@@ -1540,13 +1592,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Astrisk",
@@ -1564,11 +1616,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AstriskAlt",
@@ -1584,13 +1636,41 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "AtSign",
+    "tags": [
+      "appointments",
+      "calendar",
+      "date",
+      "disabled",
+      "events",
+      "inactive",
+      "month",
+      "off",
+      "planner",
+      "schedule",
+      "time",
+      "unavailable",
+      "AtSign",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Atom",
@@ -1608,13 +1688,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AtomAi",
@@ -1632,13 +1712,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AtomOrbit",
@@ -1658,13 +1738,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AudioBars",
@@ -1727,13 +1807,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "AwardStar",
@@ -1751,13 +1831,36 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "Backslash",
+    "tags": [
+      "diagonal",
+      "divide",
+      "line",
+      "markup",
+      "path",
+      "separator",
+      "symbol",
+      "Backslash",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bag",
@@ -1800,9 +1903,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Banner",
@@ -1989,12 +2092,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Barricade",
@@ -2036,13 +2139,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Basket",
@@ -2058,13 +2161,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Basketball",
@@ -2081,13 +2184,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Battery",
@@ -2104,13 +2207,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BatteryFull",
@@ -2126,13 +2229,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.7.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "BatteryHalf",
@@ -2149,13 +2252,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.7.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "BatteryLow",
@@ -2172,13 +2275,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bell",
@@ -2194,13 +2297,36 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "BellDot",
+    "tags": [
+      "alert",
+      "badge",
+      "bell",
+      "notification",
+      "reminder",
+      "unread",
+      "updates",
+      "BellDot",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BellOff",
@@ -2215,13 +2341,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BellX",
@@ -2236,13 +2362,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Birdhouse",
@@ -2261,13 +2387,13 @@
     ],
     "versionAdded": "5.8.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BladeKunai",
@@ -2284,13 +2410,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BladeSword",
@@ -2307,13 +2433,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bluetooth",
@@ -2329,13 +2455,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bolt",
@@ -2351,13 +2477,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BookClosed",
@@ -2374,13 +2500,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BookOpen",
@@ -2398,13 +2524,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bookmark",
@@ -2425,11 +2551,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bottle",
@@ -2446,13 +2572,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BottleLabel",
@@ -2469,13 +2595,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BoundingBox",
@@ -2561,13 +2687,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BracketsSquare",
@@ -2607,13 +2733,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BracketsSquareSquare",
@@ -2630,13 +2756,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Brain",
@@ -2654,13 +2780,13 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.2.0",
-      "filltone": "5.2.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.2.0"
   },
   {
     "name": "BrickWall",
@@ -2702,13 +2828,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BrightnessHigh",
@@ -2792,9 +2918,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BrowserPlus",
@@ -2815,11 +2941,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "BrowserX",
@@ -2842,9 +2968,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Bubble",
@@ -2867,11 +2993,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Building",
@@ -2889,13 +3015,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Calendar",
@@ -2912,11 +3038,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -2936,10 +3062,10 @@
     "versionAdded": "5.8.1",
     "variants": {
       "bold": "5.8.1",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
       "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -2959,13 +3085,40 @@
     ],
     "versionAdded": "5.8.1",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
+  },
+  {
+    "name": "CalendarFold",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "zero",
+      "CalendarFold",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CalendarMinus",
@@ -2983,12 +3136,40 @@
     "versionAdded": "5.8.1",
     "variants": {
       "bold": "5.8.1",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
       "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
+  },
+  {
+    "name": "CalendarOff",
+    "tags": [
+      "appointments",
+      "calendar",
+      "date",
+      "disabled",
+      "events",
+      "inactive",
+      "month",
+      "off",
+      "planner",
+      "schedule",
+      "time",
+      "unavailable",
+      "CalendarOff",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CalendarPlus",
@@ -3005,11 +3186,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -3029,10 +3210,10 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -3051,11 +3232,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -3073,13 +3254,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CameraOff",
@@ -3096,13 +3277,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Can",
@@ -3146,9 +3327,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CandleChart",
@@ -3190,13 +3371,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CardHolder",
@@ -3214,13 +3395,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.2.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChartBarSquare",
@@ -3237,13 +3418,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChartDonut",
@@ -3261,13 +3442,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChartPie",
@@ -3287,10 +3468,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChartPieAlt",
@@ -3333,11 +3514,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChatBoxDots",
@@ -3358,9 +3539,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChatBubble",
@@ -3380,10 +3561,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChatBubbleDots",
@@ -3404,9 +3585,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Check",
@@ -3425,11 +3606,11 @@
     "variants": {
       "bold": "5.2.0",
       "filled": "5.2.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.2.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.2.0"
   },
   {
     "name": "CheckBadge",
@@ -3446,13 +3627,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.7.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CheckCircle",
@@ -3470,11 +3651,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.7.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "CheckSquare",
@@ -3490,13 +3671,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.7.0",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "Checklist",
@@ -3585,11 +3766,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronCircleLeft",
@@ -3629,11 +3810,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronCircleUp",
@@ -3651,11 +3832,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronDown",
@@ -3673,13 +3854,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullCircleDown",
@@ -3719,13 +3900,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.7.0",
       "linetone": "5.7.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "ChevronFullCircleRight",
@@ -3740,13 +3921,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullCircleUp",
@@ -3786,11 +3967,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullInward",
@@ -3810,11 +3991,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullLeft",
@@ -3831,9 +4012,9 @@
     "variants": {
       "bold": "5.7.0",
       "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.7.0"
   },
@@ -3854,13 +4035,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullRight",
@@ -3879,11 +4060,11 @@
     "variants": {
       "bold": "5.7.0",
       "filled": "5.7.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.7.0"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "ChevronFullSquareDown",
@@ -3900,13 +4081,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullSquareLeft",
@@ -3923,13 +4104,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullSquareRight",
@@ -3944,13 +4125,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullSquareUp",
@@ -3966,12 +4147,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronFullUp",
@@ -3986,13 +4167,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronInward",
@@ -4010,13 +4191,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronLeft",
@@ -4033,13 +4214,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "5.7.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronOutward",
@@ -4062,9 +4243,9 @@
       "filled": "5.7.0",
       "filltone": "5.7.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "ChevronRight",
@@ -4081,13 +4262,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.7.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronSquareDown",
@@ -4105,13 +4286,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronSquareLeft",
@@ -4128,13 +4309,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronSquareRight",
@@ -4151,13 +4332,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronSquareUp",
@@ -4174,13 +4355,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronUp",
@@ -4197,13 +4378,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ChevronsDown",
@@ -4220,7 +4401,7 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
+      "bold": "5.10.0",
       "filled": "5.8.1",
       "filltone": "5.8.1",
       "linetone": "5.8.1",
@@ -4354,13 +4535,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CircleDashSimple",
@@ -4378,9 +4559,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "CircleDivide",
@@ -4466,10 +4647,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CircleFour",
@@ -4557,13 +4738,13 @@
     ],
     "versionAdded": "5.3.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CircleSlash",
@@ -4581,13 +4762,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CirclesThree",
@@ -4626,13 +4807,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Cli",
@@ -4650,13 +4831,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CliCircle",
@@ -4676,11 +4857,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CliSquare",
@@ -4698,13 +4879,62 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "Clipboard",
+    "tags": [
+      "checklist",
+      "clipboard",
+      "copy",
+      "document",
+      "form",
+      "notes",
+      "paste",
+      "task",
+      "Clipboard",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "ClipboardText",
+    "tags": [
+      "checklist",
+      "clipboard",
+      "copy",
+      "document",
+      "form",
+      "notes",
+      "paste",
+      "task",
+      "text",
+      "ClipboardText",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Clock",
@@ -4750,11 +4980,11 @@
     "variants": {
       "bold": "5.8.0",
       "filled": "5.8.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.8.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "Clock10",
@@ -4775,8 +5005,8 @@
     "variants": {
       "bold": "5.8.0",
       "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
     "versionLastModified": "5.8.0"
@@ -4797,11 +5027,11 @@
     "variants": {
       "bold": "5.8.0",
       "filled": "5.8.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "Clock12",
@@ -4845,13 +5075,13 @@
     ],
     "versionAdded": "5.8.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "Clock3",
@@ -4947,8 +5177,8 @@
     "variants": {
       "bold": "5.8.0",
       "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
     "versionLastModified": "5.8.0"
@@ -4972,8 +5202,8 @@
     "variants": {
       "bold": "5.8.0",
       "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
     "versionLastModified": "5.8.0"
@@ -5023,9 +5253,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CloudDownload",
@@ -5047,9 +5277,9 @@
       "filled": "5.0.4",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "CloudUpload",
@@ -5067,13 +5297,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.0.4",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CloudX",
@@ -5095,9 +5325,9 @@
       "filled": "3.0.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "Code",
@@ -5113,13 +5343,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "CodeCircle",
@@ -5137,11 +5367,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.7.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "CodeSquare",
@@ -5157,13 +5387,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.7.0",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "CoffeeMug",
@@ -5181,12 +5411,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Coin",
@@ -5226,13 +5456,13 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.2.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.2.0"
   },
   {
     "name": "CollapseSimple",
@@ -5249,13 +5479,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CollapseSimpleAlt",
@@ -5274,11 +5504,11 @@
     "variants": {
       "bold": "5.0.4",
       "filled": "5.0.4",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Command",
@@ -5318,13 +5548,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Compass",
@@ -5384,13 +5614,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Contrast",
@@ -5436,13 +5666,13 @@
     ],
     "versionAdded": "5.8.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Copy",
@@ -5457,13 +5687,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Cpu",
@@ -5479,13 +5709,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CpuAmd",
@@ -5501,13 +5731,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CreditCard",
@@ -5528,9 +5758,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CreditCardAlt",
@@ -5547,13 +5777,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Crop",
@@ -5569,13 +5799,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Crosshair",
@@ -5590,12 +5820,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Cube",
@@ -5610,13 +5840,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CubePackage",
@@ -5632,13 +5862,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CubePackageSimple",
@@ -5654,13 +5884,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CubicGraph",
@@ -5702,12 +5932,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CurrencyCent",
@@ -5725,13 +5955,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CurrencyCircleDollar",
@@ -5796,13 +6026,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CurrencyEuroCirlce",
@@ -5819,13 +6049,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Cursor",
@@ -5842,13 +6072,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CursorClick",
@@ -5866,13 +6096,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CursorNavigation",
@@ -5933,13 +6163,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CursorText",
@@ -6004,12 +6234,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "CurveEase",
@@ -6051,32 +6281,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
-  },
-  {
-    "name": "CylinderStack",
-    "tags": [
-      "backend",
-      "data",
-      "database",
-      "server",
-      "stack",
-      "storage",
-      "CylinderStack"
-    ],
-    "versionAdded": "3.0.0",
-    "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
-    },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "DataTable",
@@ -6094,12 +6303,59 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "Database",
+    "tags": [
+      "backend",
+      "data",
+      "database",
+      "server",
+      "stack",
+      "storage",
+      "Database",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "DatabaseSparkle",
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "automation. machine learning",
+      "backend",
+      "data",
+      "database",
+      "server",
+      "stack",
+      "storage",
+      "DatabaseSparkle",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Delete",
@@ -6119,7 +6375,7 @@
     "variants": {
       "bold": "5.8.1",
       "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.8.1",
       "regular": "3.0.0"
     },
@@ -6165,9 +6421,9 @@
       "filled": "5.8.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "DevicePhone",
@@ -6209,9 +6465,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Diamond",
@@ -6230,10 +6486,10 @@
       "bold": "5.7.0",
       "filled": "5.7.0",
       "filltone": "5.7.0",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "Document",
@@ -6251,13 +6507,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.0",
       "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "DocumentCopy",
@@ -6275,13 +6531,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "DocumentDetail",
@@ -6299,10 +6555,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -6347,10 +6603,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "DragHandle",
@@ -6388,13 +6644,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Duplicate",
@@ -6409,12 +6665,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "5.7.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.7.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "DuplicatePlus",
@@ -6428,13 +6684,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "EditSquare",
@@ -6457,13 +6713,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "EmoteFrown",
@@ -6666,12 +6922,12 @@
     "versionAdded": "5.0.4",
     "variants": {
       "bold": "5.0.4",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ExpandSimpleAlt",
@@ -6689,12 +6945,12 @@
     "versionAdded": "5.0.4",
     "variants": {
       "bold": "5.0.4",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Eye",
@@ -6715,9 +6971,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "EyeClosed",
@@ -6736,13 +6992,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "EyeOff",
@@ -6761,13 +7017,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "FileCabinet",
@@ -6787,9 +7043,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Flag",
@@ -6806,13 +7062,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Flame",
@@ -6830,13 +7086,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Flash",
@@ -6852,13 +7108,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Flashlight",
@@ -6875,13 +7131,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.0.4",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Flask",
@@ -6943,11 +7199,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "FlowDiagram",
@@ -6965,11 +7221,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "FlowDownArrow",
@@ -7017,9 +7273,9 @@
       "filled": "5.8.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "FlowMerge",
@@ -7036,13 +7292,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "FlowRightArrow",
@@ -7084,13 +7340,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.7.0",
       "filltone": "5.7.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "FlowSplitArrowLeft",
@@ -7107,13 +7363,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.7.0",
       "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.7.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "FlowSplitArrowRight",
@@ -7130,13 +7386,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.0.4",
       "filltone": "5.0.4",
-      "linetone": "5.7.0",
-      "regular": "5.7.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "FlowSplitArrowUp",
@@ -7153,13 +7409,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.7.0",
+      "bold": "5.10.0",
       "filled": "5.0.4",
       "filltone": "5.0.4",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "FlowSplitDown",
@@ -7370,11 +7626,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "3.0.0"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.0"
   },
@@ -7392,13 +7648,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Folder",
@@ -7438,13 +7694,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "FolderPlus",
@@ -7511,13 +7767,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Fortress",
@@ -7534,13 +7790,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Ghost",
@@ -7580,13 +7836,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "GiftBox",
@@ -7604,13 +7860,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "GitBranch",
@@ -7675,13 +7931,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "GitMerge",
@@ -7722,13 +7978,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "GitPullRequestClosed",
@@ -7792,12 +8048,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Grid",
@@ -7815,12 +8071,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Hammer",
@@ -7838,13 +8094,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.5.0",
       "filltone": "5.7.0",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.7.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "HandLeft",
@@ -7886,11 +8142,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "HandWave",
@@ -7906,13 +8162,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Handbag",
@@ -7929,10 +8185,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
     "versionLastModified": "5.8.1"
@@ -7977,13 +8233,13 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.2.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.2.0",
       "regular": "5.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.2.0"
   },
   {
     "name": "HashItalic",
@@ -8000,13 +8256,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "HashSquare",
@@ -8024,13 +8280,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Headphones",
@@ -8047,13 +8303,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Heart",
@@ -8070,11 +8326,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Hexagon",
@@ -8093,13 +8349,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.0",
-      "filltone": "5.8.1",
-      "linetone": "5.7.0",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Home",
@@ -8117,10 +8373,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -8166,10 +8422,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -8190,10 +8446,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -8214,10 +8470,10 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -8238,10 +8494,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -8261,13 +8517,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "HourglassEmpty",
@@ -8285,13 +8541,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "HourglassFull",
@@ -8308,10 +8564,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
     "versionLastModified": "5.8.1"
@@ -8333,7 +8589,7 @@
       "bold": "5.8.1",
       "filled": "5.8.1",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -8356,7 +8612,7 @@
       "filled": "5.8.1",
       "filltone": "5.8.1",
       "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -8374,13 +8630,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.7.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "ImagePile",
@@ -8397,13 +8653,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.8.1",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ImageSquare",
@@ -8419,13 +8675,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ImageStack",
@@ -8445,10 +8701,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "InfoCircle",
@@ -8531,12 +8787,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.7.0"
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Label",
@@ -8552,13 +8808,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LabelAlt",
@@ -8574,13 +8830,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Layers",
@@ -8596,13 +8852,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.7.0",
-      "regular": "3.0.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LayersAlt",
@@ -8618,13 +8874,13 @@
     ],
     "versionAdded": "5.4.0",
     "variants": {
-      "bold": "5.4.0",
-      "filled": "5.4.0",
-      "filltone": "5.4.0",
-      "linetone": "5.4.0",
-      "regular": "5.4.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.4.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LayersSimple",
@@ -8640,10 +8896,10 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.2.0",
-      "filled": "5.2.0",
-      "filltone": "5.2.0",
-      "linetone": "5.2.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.7.0"
     },
     "versionLastModified": "5.7.0"
@@ -8664,13 +8920,13 @@
     ],
     "versionAdded": "5.7.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LineChart",
@@ -8692,7 +8948,7 @@
       "bold": "5.7.0",
       "filled": "3.0.0",
       "filltone": "5.8.1",
-      "linetone": "5.7.0",
+      "linetone": "5.10.0",
       "regular": "3.2.0"
     },
     "versionLastModified": "5.8.1"
@@ -8716,8 +8972,8 @@
     "variants": {
       "bold": "5.7.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.7.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.2.0"
     },
     "versionLastModified": "5.7.0"
@@ -8740,12 +8996,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.7.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LineChartXYDesc",
@@ -8765,12 +9021,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.7.0",
       "regular": "3.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "LineSegment",
@@ -8858,13 +9114,36 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "LinkOff",
+    "tags": [
+      "broken-link",
+      "disable-link",
+      "disconnect",
+      "off",
+      "remove-link",
+      "slash",
+      "unlink",
+      "LinkOff",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "List",
@@ -8947,12 +9226,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.5.0",
-      "filltone": "5.5.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.7.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.7.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ListCheckSimple",
@@ -8969,13 +9248,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
-      "regular": "5.0.4"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ListMinus",
@@ -9115,9 +9394,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LockOpen",
@@ -9161,9 +9440,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "LockPasswordOpen",
@@ -9189,6 +9468,33 @@
     "versionLastModified": "5.0.4"
   },
   {
+    "name": "Lotus",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "zero",
+      "Lotus",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
     "name": "MacWindow",
     "tags": [
       "application",
@@ -9206,9 +9512,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Mail",
@@ -9227,9 +9533,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MailBadge",
@@ -9249,9 +9555,9 @@
       "filled": "5.0.4",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MailOpen",
@@ -9266,13 +9572,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Map",
@@ -9292,11 +9598,11 @@
     "variants": {
       "bold": "5.5.0",
       "filled": "5.5.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "MapPin",
@@ -9315,9 +9621,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MapPinMinus",
@@ -9336,9 +9642,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MapPinPlus",
@@ -9357,9 +9663,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MapPinned",
@@ -9379,11 +9685,11 @@
     ],
     "versionAdded": "5.8.1",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -9425,10 +9731,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.5.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -9448,10 +9754,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -9614,6 +9920,29 @@
     "versionLastModified": "5.0.4"
   },
   {
+    "name": "Minimize",
+    "tags": [
+      "collapse",
+      "compress",
+      "reduce",
+      "resize",
+      "shrink",
+      "smaller",
+      "zoom-out",
+      "Minimize",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
     "name": "Minus",
     "tags": [
       "collapse",
@@ -9676,13 +10005,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MoonCrescent",
@@ -9698,13 +10027,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "More",
@@ -9721,12 +10050,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MoreCircle",
@@ -9786,13 +10115,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MoreSquareV",
@@ -9808,13 +10137,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "MoreV",
@@ -9831,12 +10160,12 @@
     "versionAdded": "5.0.4",
     "variants": {
       "bold": "5.0.4",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Move",
@@ -9854,13 +10183,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Music",
@@ -9876,13 +10205,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Note",
@@ -9951,12 +10280,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "NotebookLog",
@@ -9974,13 +10303,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "OptionKey",
@@ -10042,13 +10371,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PaintPalette",
@@ -10065,13 +10394,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Paperclip",
@@ -10155,13 +10484,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Peace",
@@ -10181,10 +10510,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Pedestal",
@@ -10204,13 +10533,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Pen",
@@ -10229,9 +10558,9 @@
     "variants": {
       "bold": "5.8.1",
       "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -10254,9 +10583,84 @@
       "filled": "5.8.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
+  },
+  {
+    "name": "Pencil",
+    "tags": [
+      "annotation",
+      "compose",
+      "draw",
+      "edit",
+      "modify",
+      "note",
+      "pencil",
+      "update",
+      "write",
+      "Pencil",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "PencilLine",
+    "tags": [
+      "annotation",
+      "compose",
+      "draw",
+      "edit",
+      "modify",
+      "note",
+      "pencil",
+      "update",
+      "write",
+      "PencilLine",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "PencilRuler",
+    "tags": [
+      "create",
+      "design",
+      "draft",
+      "drawing",
+      "edit",
+      "layout",
+      "measure",
+      "precision",
+      "tools",
+      "PencilRuler",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PencilTip",
@@ -10343,13 +10747,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Phone",
@@ -10365,13 +10769,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PhoneIncoming",
@@ -10386,13 +10790,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PhoneOff",
@@ -10407,11 +10811,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -10428,13 +10832,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Play",
@@ -10450,13 +10854,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PlayCircle",
@@ -10472,13 +10876,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PlayRectangle",
@@ -10494,13 +10898,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Playlist",
@@ -10539,13 +10943,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Plus",
@@ -10605,13 +11009,37 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "PoundSterling",
+    "tags": [
+      "billing",
+      "currency",
+      "finance",
+      "gbp",
+      "money",
+      "payment",
+      "pound",
+      "price",
+      "PoundSterling",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "PushPin",
@@ -10664,6 +11092,30 @@
     "versionLastModified": "5.8.0"
   },
   {
+    "name": "QrCode",
+    "tags": [
+      "find",
+      "highlight",
+      "inline-search",
+      "locate",
+      "lookup",
+      "query",
+      "search",
+      "text",
+      "QrCode",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
     "name": "QuestionMark",
     "tags": [
       "assistance",
@@ -10677,13 +11129,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "QuestionMarkCircle",
@@ -10726,9 +11178,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ReceiptAlt",
@@ -10745,13 +11197,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Rectangle",
@@ -10814,13 +11266,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Robot",
@@ -10838,13 +11290,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.5.0",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.5.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "RobotHumanoid",
@@ -10863,13 +11315,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.5.0",
       "filltone": "5.5.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "Rocket",
@@ -10887,12 +11339,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "RotateCircleLeft",
@@ -10933,11 +11385,11 @@
     "variants": {
       "bold": "5.0.4",
       "filled": "5.0.4",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "RotateLeft",
@@ -10998,13 +11450,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "RotationRight",
@@ -11020,13 +11472,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "RouteArrow",
@@ -11042,6 +11494,7 @@
       "progress",
       "route",
       "travel",
+      "workflow",
       "RouteArrow"
     ],
     "versionAdded": "5.5.0",
@@ -11070,13 +11523,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.7.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Rulers",
@@ -11120,35 +11573,43 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Scan",
     "tags": [
-      "capture",
-      "copy",
-      "device",
-      "document",
-      "print",
+      "corners",
+      "crop",
+      "detect",
+      "enlarge",
+      "expand",
+      "focus",
+      "frame",
+      "fullscreen",
+      "maximize",
+      "qr",
       "scan",
       "scanner",
+      "screen",
+      "target-area",
+      "view",
       "Scan"
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanBarcode",
@@ -11166,13 +11627,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.0.4",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanCamera",
@@ -11189,13 +11650,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanCube",
@@ -11214,12 +11675,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanDashed",
@@ -11235,13 +11696,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanDocument",
@@ -11260,11 +11721,36 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "ScanEye",
+    "tags": [
+      "detect",
+      "focus",
+      "monitor",
+      "recognition",
+      "scan",
+      "tracking",
+      "view",
+      "visibility",
+      "vision",
+      "ScanEye",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanFace",
@@ -11290,6 +11776,29 @@
     "versionLastModified": "5.0.4"
   },
   {
+    "name": "ScanLine",
+    "tags": [
+      "capture",
+      "copy",
+      "device",
+      "document",
+      "print",
+      "scan",
+      "scanner",
+      "ScanLine",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
     "name": "ScanSearch",
     "tags": [
       "code",
@@ -11308,9 +11817,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ScanText",
@@ -11353,12 +11862,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Scissors",
@@ -11374,13 +11883,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Screwdriver",
@@ -11398,7 +11907,7 @@
     "versionAdded": "5.5.0",
     "variants": {
       "bold": "5.8.0",
-      "filled": "5.8.0",
+      "filled": "5.10.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
       "regular": "5.5.0"
@@ -11421,13 +11930,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Search",
@@ -11446,13 +11955,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SearchCircle",
@@ -11496,13 +12005,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Seedling",
@@ -11521,11 +12030,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Send",
@@ -11542,13 +12051,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SendH",
@@ -11565,13 +12074,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.0.4",
-      "filled": "5.0.4",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SendV",
@@ -11588,13 +12097,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Settings",
@@ -11613,12 +12122,12 @@
     "versionAdded": "5.0.4",
     "variants": {
       "bold": "5.0.4",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.0.4"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Share",
@@ -11636,13 +12145,13 @@
     ],
     "versionAdded": "5.7.0",
     "variants": {
-      "bold": "5.7.0",
-      "filled": "5.7.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Shield",
@@ -11657,13 +12166,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ShieldAlert",
@@ -11679,13 +12188,37 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "ShieldBan",
+    "tags": [
+      "defense",
+      "guard",
+      "insecure",
+      "privacy",
+      "protection",
+      "safe",
+      "security",
+      "unsecured",
+      "ShieldBan",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ShieldCheck",
@@ -11702,13 +12235,35 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.5.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "ShieldHalf",
+    "tags": [
+      "defense",
+      "guard",
+      "privacy",
+      "protection",
+      "safe",
+      "security",
+      "ShieldHalf",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ShieldSlash",
@@ -11723,10 +12278,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.1"
     },
     "versionLastModified": "5.8.1"
@@ -11750,11 +12305,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.1",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -11777,11 +12332,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.1",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -11800,13 +12355,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SignInAlt",
@@ -11823,13 +12378,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SignOut",
@@ -11848,11 +12403,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SignOutAlt",
@@ -11869,13 +12424,202 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalAltHigh",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "full",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "SignalAltHigh",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalAltLow",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "low",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "SignalAltLow",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalAltMedium",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "medium",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "SignalAltMedium",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalHigh",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "full",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "SignalHigh",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalLow",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "low",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "SignalLow",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalMedium",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "medium",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "SignalMedium",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SignalZero",
+    "tags": [
+      "3g",
+      "4g",
+      "5g",
+      "bars",
+      "cellular",
+      "connectivity",
+      "network",
+      "online",
+      "signal",
+      "strength",
+      "zero",
+      "SignalZero",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Signature",
@@ -11895,11 +12639,11 @@
     "variants": {
       "bold": "5.0.4",
       "filled": "5.0.4",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SignatureX",
@@ -11918,12 +12662,35 @@
     "versionAdded": "5.0.4",
     "variants": {
       "bold": "5.0.4",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "Slash",
+    "tags": [
+      "diagonal",
+      "divide",
+      "line",
+      "markup",
+      "path",
+      "separator",
+      "symbol",
+      "Slash",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Sliders",
@@ -11995,13 +12762,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.5.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.5.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "SoccerBall",
@@ -12064,13 +12831,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "SortAscending",
@@ -12089,7 +12856,7 @@
       "bold": "5.8.1",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.5.0"
     },
     "versionLastModified": "5.8.1"
@@ -12108,13 +12875,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SortNarrow",
@@ -12130,13 +12897,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Sparkle",
@@ -12157,10 +12924,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SparkleCircle",
@@ -12202,13 +12969,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Sparkles",
@@ -12226,13 +12993,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SparklesAlt",
@@ -12274,11 +13041,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SpeakerHigh",
@@ -12295,13 +13062,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SpeakerLow",
@@ -12319,12 +13086,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SpeakerMedium",
@@ -12343,11 +13110,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SpeakerOff",
@@ -12365,13 +13132,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Spinner",
@@ -12388,12 +13155,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Square",
@@ -12418,13 +13185,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "SquareDashed",
@@ -12515,12 +13282,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Star",
@@ -12536,13 +13303,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.0"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "StarHalf",
@@ -12555,13 +13322,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "StopCircle",
@@ -12603,13 +13370,37 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "SwatchBook",
+    "tags": [
+      "appointments",
+      "calendar",
+      "date",
+      "events",
+      "month",
+      "planner",
+      "schedule",
+      "time",
+      "SwatchBook",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Tag",
@@ -12625,13 +13416,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TallyMarks",
@@ -12649,13 +13440,13 @@
     ],
     "versionAdded": "5.2.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.2.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.2.0"
   },
   {
     "name": "Target",
@@ -12679,9 +13470,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TennisBall",
@@ -12699,12 +13490,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TestTube",
@@ -12879,12 +13670,12 @@
     "versionAdded": "5.2.0",
     "variants": {
       "bold": "5.2.0",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.2.0",
       "regular": "5.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.2.0"
   },
   {
     "name": "TextItalic",
@@ -12933,6 +13724,30 @@
     "versionLastModified": "5.8.0"
   },
   {
+    "name": "TextSearch",
+    "tags": [
+      "find",
+      "highlight",
+      "inline-search",
+      "locate",
+      "lookup",
+      "query",
+      "search",
+      "text",
+      "TextSearch",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
+  },
+  {
     "name": "TextSquare",
     "tags": [
       "content",
@@ -12946,13 +13761,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TextStrikethrough",
@@ -12969,12 +13784,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TextUnderline",
@@ -12994,9 +13809,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ThermometerHigh",
@@ -13078,13 +13893,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ThumbsUp",
@@ -13100,13 +13915,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
+      "filltone": "5.10.0",
       "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "Timer",
@@ -13123,12 +13938,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "ToggleOff",
@@ -13213,13 +14028,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.5.0",
-      "filltone": "5.5.0",
-      "linetone": "5.5.0",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "Tools",
@@ -13238,13 +14053,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.1",
-      "filltone": "5.7.0",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.7.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.7.0"
   },
   {
     "name": "Trash",
@@ -13261,13 +14076,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Tree",
@@ -13287,13 +14102,13 @@
     ],
     "versionAdded": "5.8.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TreeDeciduous",
@@ -13312,13 +14127,13 @@
     ],
     "versionAdded": "5.8.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.8.0",
       "filltone": "5.8.0",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "TreePalm",
@@ -13336,13 +14151,13 @@
     ],
     "versionAdded": "5.8.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TrendDown",
@@ -13360,13 +14175,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.2.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TrendUp",
@@ -13384,13 +14199,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Triangle",
@@ -13409,13 +14224,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TriangleDown",
@@ -13434,13 +14249,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Trophy",
@@ -13457,13 +14272,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.0",
-      "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.0"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Truck",
@@ -13482,13 +14297,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.5.0",
       "filltone": "5.5.0",
       "linetone": "5.5.0",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "Tv",
@@ -13506,11 +14321,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "TvPlayAlt",
@@ -13526,13 +14341,36 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
+  },
+  {
+    "name": "Umbrella",
+    "tags": [
+      "coverage",
+      "forecast",
+      "protection",
+      "rain",
+      "safety",
+      "shelter",
+      "weather",
+      "Umbrella",
+      "*new*"
+    ],
+    "versionAdded": "5.10.0",
+    "variants": {
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
+    },
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Upload",
@@ -13548,11 +14386,11 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.1"
   },
@@ -13574,7 +14412,7 @@
       "filled": "5.8.0",
       "filltone": "5.8.0",
       "linetone": "5.8.0",
-      "regular": "5.8.0"
+      "regular": "5.10.0"
     },
     "versionLastModified": "5.8.0"
   },
@@ -13591,13 +14429,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
       "linetone": "5.8.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "UserCircleDashed",
@@ -13616,13 +14454,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.0.4",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Users",
@@ -13639,12 +14477,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "UsersThree",
@@ -13662,13 +14500,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Video",
@@ -13686,11 +14524,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.7.0",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "VideoOff",
@@ -13708,13 +14546,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Volleyball",
@@ -13732,12 +14570,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Wand",
@@ -13778,11 +14616,11 @@
     "variants": {
       "bold": "3.0.0",
       "filled": "3.0.0",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "WaterfallChart",
@@ -13852,12 +14690,12 @@
     "versionAdded": "3.0.0",
     "variants": {
       "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "3.2.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "WaveSine",
@@ -13874,13 +14712,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "3.0.0",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.0.4",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "5.8.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "WaveSquare",
@@ -13920,13 +14758,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Wifi",
@@ -13942,10 +14780,10 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
       "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
     "versionLastModified": "5.8.1"
@@ -13964,13 +14802,13 @@
     ],
     "versionAdded": "2.1.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.0",
-      "filltone": "5.8.0",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "WineBottle",
@@ -13990,10 +14828,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.8.0",
-      "linetone": "5.7.0",
-      "regular": "5.8.1"
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.8.0"
   },
   {
     "name": "WineBottleLabel",
@@ -14014,9 +14852,9 @@
       "filled": "3.0.0",
       "filltone": "5.0.4",
       "linetone": "5.0.4",
-      "regular": "5.8.1"
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "WineGlass",
@@ -14036,10 +14874,10 @@
       "bold": "3.0.0",
       "filled": "3.0.0",
       "filltone": "5.0.4",
-      "linetone": "5.0.4",
+      "linetone": "5.10.0",
       "regular": "2.1.0"
     },
-    "versionLastModified": "5.0.4"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "Wrench",
@@ -14057,13 +14895,13 @@
     ],
     "versionAdded": "5.5.0",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.5.0",
-      "filltone": "5.8.1",
-      "linetone": "5.8.0",
-      "regular": "5.8.1"
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.5.0"
   },
   {
     "name": "WristWatch",
@@ -14080,13 +14918,13 @@
     ],
     "versionAdded": "5.0.4",
     "variants": {
-      "bold": "5.8.1",
+      "bold": "5.10.0",
       "filled": "5.0.4",
-      "filltone": "5.8.1",
+      "filltone": "5.10.0",
       "linetone": "5.0.4",
       "regular": "5.0.4"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "X",
@@ -14102,13 +14940,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "3.0.0"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "XCircle",
@@ -14124,13 +14962,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
       "regular": "3.0.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "XSquare",
@@ -14146,13 +14984,13 @@
     ],
     "versionAdded": "3.0.0",
     "variants": {
-      "bold": "5.8.1",
-      "filled": "5.8.1",
-      "filltone": "5.8.1",
-      "linetone": "5.8.1",
-      "regular": "5.8.1"
+      "bold": "5.10.0",
+      "filled": "5.10.0",
+      "filltone": "5.10.0",
+      "linetone": "5.10.0",
+      "regular": "5.10.0"
     },
-    "versionLastModified": "5.8.1"
+    "versionLastModified": "5.10.0"
   },
   {
     "name": "YinYang",
