@@ -43,9 +43,18 @@ function getCurrentVersion() {
   return version ? version.replace(/^[\^~>=<]/, '') : 'unknown';
 }
 
-// Compare version strings (simple comparison for semantic versions)
+// Compare version strings, ignoring patch version (e.g., 5.6.0 === 5.6.1)
 function isVersionEqual(version1, version2) {
-  return version1 === version2;
+  if (!version1 || !version2) return false;
+
+  const [major1, minor1] = version1.split('.');
+  const [major2, minor2] = version2.split('.');
+
+  if (major1 == null || minor1 == null || major2 == null || minor2 == null) {
+    return false;
+  }
+
+  return major1 === major2 && minor1 === minor2;
 }
 
 // Generate tags using actual metadata from stera-icons
