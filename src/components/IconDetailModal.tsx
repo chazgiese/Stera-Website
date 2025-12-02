@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XIcon, CopyIcon, SaveIcon } from 'stera-icons';
+import { XIcon, CopyIcon, DownloadIcon } from 'stera-icons';
 import { CheckIcon } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
@@ -110,7 +110,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
 
       {/* Modal */}
       <div className="flex min-h-full items-center justify-center p-4">
-        <div className="relative bg-white dark:bg-zinc-800 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] flex flex-col border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+        <div className="relative bg-white dark:bg-zinc-950 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] flex flex-col border border-zinc-200 dark:border-zinc-800 overflow-hidden">
           {/* Header - Fixed */}
           <div 
             className="flex-shrink-0 relative z-10 rounded-t-3xl"
@@ -129,35 +129,39 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                 </div>
               <button
                 onClick={onClose}
-                className="p-2 absolute top-4 right-4 hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded-xl transition-colors text-zinc-500 dark:text-zinc-400"
+                className="p-2 absolute top-4 right-4 hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-xl transition-colors text-zinc-500 dark:text-zinc-400"
               >
                 <XIcon variant="bold" className="w-5 h-5" />
               </button>
             </div>
 
             {/* Variant Tabs */}
-            <div className="px-6 pb-4">
-              <div className="flex gap-2">
+            <div className="overflow-x-auto">
+              <div className="flex gap-2 px-6 pb-4">
                 {AVAILABLE_VARIANTS.map((variantOption) => (
                   <button
                     key={variantOption.key}
                     onClick={() => setCurrentVariant(variantOption.key)}
-                    className={`px-4 py-3 text-sm/4 border border-zinc-200 dark:border-zinc-600 font-semibold rounded-full flex items-center justify-center gap-2 ${
-                      currentVariant === variantOption.key
-                        ? 'w-40 bg-zinc-950 dark:bg-white text-white dark:text-zinc-950'
-                        : 'flex-1 bg-zinc-100 dark:bg-zinc-700 text-zinc-950 dark:text-white hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800'
-                    }`}
+                    className={`
+                      px-4 py-3 text-sm/4 border font-semibold rounded-full flex items-center justify-center gap-2
+                      ${
+                        currentVariant === variantOption.key
+                          ? 'bg-zinc-950 dark:bg-zinc-900 text-white border-zinc-200 dark:border-zinc-800'
+                          : 'bg-zinc-100 dark:bg-zinc-950 text-zinc-950 dark:text-white hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-900 border-zinc-200 dark:border-zinc-800'
+                      }
+                    `}
                   >
-                    <DynamicIcon 
-                      iconName={icon.name} 
-                      variant={variantOption.key} 
+                    <DynamicIcon
+                      iconName={icon.name}
+                      variant={variantOption.key}
                       size={20}
                     />
-                    {currentVariant === variantOption.key && (
-                      <span className="hidden md:inline">{variantOption.label}</span>
-                    )}
+                    <span className="whitespace-nowrap">{variantOption.label}</span>
                   </button>
                 ))}
+
+                {/* Spacer that becomes “padding” at the end of scroll */}
+                <div className="flex-none w-4" aria-hidden="true" />
               </div>
             </div>
           </div>
@@ -175,7 +179,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                       className="p-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 rounded-lg transition-colors text-zinc-400 hover:text-zinc-500 dark:hover:text-white"
                       title="Download SVG"
                     >
-                      <SaveIcon variant="bold" className="w-4 h-4" />
+                      <DownloadIcon variant="bold" className="w-4 h-4" />
                     </button>
                     <button
                       onClick={() => copyToClipboard(getSVGData(), 'svg')}
@@ -211,7 +215,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                         {copied === 'import' ? <CheckIcon variant="bold" size={16} /> : <CopyIcon variant="bold" size={16} />}
                       </button>
                     </div>
-                    <pre className="p-3 bg-zinc-100 dark:bg-zinc-700 rounded-md text-sm overflow-x-auto">
+                    <pre className="p-3 bg-zinc-100 dark:bg-zinc-900 rounded-md text-sm overflow-x-auto">
                       <code className="text-zinc-800 dark:text-zinc-200">{importCode}</code>
                     </pre>
                   </div>
@@ -227,7 +231,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                         {copied === 'usage' ? <CheckIcon variant="bold" size={16} /> : <CopyIcon variant="bold" size={16} />}
                       </button>
                     </div>
-                    <pre className="p-3 bg-zinc-100 dark:bg-zinc-700 rounded-md text-sm overflow-x-auto">
+                    <pre className="p-3 bg-zinc-100 dark:bg-zinc-900 rounded-md text-sm overflow-x-auto">
                       <code className="text-zinc-800 dark:text-zinc-200">{usageCode}</code>
                     </pre>
                   </div>
@@ -242,7 +246,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                     {icon.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-2 py-1 bg-zinc-100 dark:bg-zinc-700 text-zinc-800 dark:text-zinc-100 text-xs rounded-full"
+                        className="px-2 py-1 bg-zinc-100 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-100 text-xs rounded-full"
                       >
                         {tag}
                       </span>

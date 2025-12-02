@@ -43,13 +43,13 @@ export default function IconGrid({ icons, onIconClick, loading = false, selected
           No icons found
         </h3>
         <p className="text-zinc-500 dark:text-zinc-400 max-w-sm mx-auto">
-          Try adjusting your search term or request an icon by commenting on Figma
+          Try adjusting your search term or request an icon by creating an issue on GitHub
         </p>
       <div className="mt-6">
         <button
           type="button"
           className="inline-block px-4 py-2 bg-zinc-950 dark:bg-zinc-50 text-white dark:text-zinc-950 rounded-3xl hover:bg-zinc-700 dark:hover:bg-zinc-300 transition"
-          onClick={() => window.open('https://www.figma.com/community/file/1548871823641702097', '_blank', 'noopener,noreferrer')}
+          onClick={() => window.open('https://github.com/chazgiese/Stera-Icons/issues/new', '_blank', 'noopener,noreferrer')}
         >
           Request an icon
         </button>

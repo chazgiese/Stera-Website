@@ -9,7 +9,7 @@ import FilterDropdown from '@/components/FilterDropdown';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
 // import { getIconStyle } from '@/utils/iconRegistry'; // No longer needed with new variant system
-import { AstriskAltIcon } from 'stera-icons';
+import { AstriskAltIcon, FigmaIcon, GithubIcon, ScribbleIcon } from 'stera-icons';
 import iconData from '@/data/icons.json';
 import { STERA_ICONS_VERSION } from '@/utils/version';
 
@@ -114,14 +114,14 @@ function HomeContent() {
               </a>
             </div>
             
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-1">
               <a
                 href="https://www.figma.com/community/file/1548871823641702097/stera-icons"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
               >
-                <span>Figma</span>
+                <FigmaIcon className="w-6 h-6" />
               </a>
               <a
                 href="https://github.com/chazgiese/Stera-Icons"
@@ -129,7 +129,7 @@ function HomeContent() {
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
               >
-                <span>GitHub</span>
+                <GithubIcon className="w-6 h-6" />
               </a>
             </div>
           </div>
@@ -163,14 +163,7 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-sm text-zinc-500 dark:text-zinc-600">
             <p>
-              <a
-                href="https://www.npmjs.com/package/stera-icons"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-zinc-800 dark:text-zinc-200 dark:hover:text-zinc-400 hover:text-zinc-600"
-              >
-                stera-icons
-              </a>
+              made with <ScribbleIcon variant="filled" className="w-4 h-4 inline-block" />
               {' '}by{' '}
               <a
                 href="https://github.com/chazgiese"
