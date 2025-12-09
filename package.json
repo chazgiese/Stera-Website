@@ -18,7 +18,7 @@
     "next": "15.5.7",
     "react": "19.1.2",
     "react-dom": "19.1.2",
-    "stera-icons": "5.12.0"
+    "stera-icons": "5.13.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
