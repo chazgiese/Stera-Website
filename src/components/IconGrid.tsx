@@ -60,9 +60,7 @@ export default function IconGrid({ icons, onIconClick, loading = false, selected
 
   return (
     <div className="
-      grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-8
-      gap-4
-      pb-8
+      grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10
     ">
       {icons.map((icon) => (
         <IconCard
