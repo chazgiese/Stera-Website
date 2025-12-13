@@ -102,19 +102,16 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
     <div className="fixed inset-0 z-50 overflow-y-auto">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-zinc-950/40 backdrop-blur-sm transition-opacity"
+        className="fixed inset-0 bg-zinc-950/20 dark:bg-zinc-800/20 backdrop-blur-sm transition-opacity"
         onClick={onClose}
       />
 
       {/* Modal */}
-      <div className="flex min-h-full items-center justify-center p-4">
-        <div className="relative bg-white dark:bg-zinc-950 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] flex flex-col border border-zinc-200 dark:border-zinc-800 overflow-scroll">
+      <div className="flex min-h-full items-center justify-center p-4 overflow-hidden">
+        <div className="relative bg-white dark:bg-zinc-950 rounded-3xl shadow-2xl max-w-lg w-full max-h-[90vh] flex flex-col overflow-y-scroll">
           {/* Header - Fixed */}
           <div 
-            className="flex-shrink-0 sticky top-0 left-0 right-0 z-10 rounded-t-3xl"
-            style={{
-              backdropFilter: 'blur(8px)'
-            }}
+            className="flex-shrink-0 sticky top-0 left-0 right-0 z-10 bg-white/10 dark:bg-zinc-950/10 backdrop-blur-sm"
           >
             <div className="flex items-center px-4 py-4 gap-3">
               {/* Close button on left */}
@@ -174,10 +171,10 @@ export default function IconDetailModal({ icon, isOpen, onClose, selectedVariant
                     key={variantOption.key}
                     onClick={() => setCurrentVariant(variantOption.key)}
                     className={`
-                      px-4 py-3 text-sm font-medium flex-1 items-center justify-center transition-colors text-zinc-950 dark:text-zinc-400
+                      px-4 py-3 text-sm font-medium flex-1 items-center justify-center transition-colors text-zinc-900 dark:text-zinc-400
                       ${
                         currentVariant === variantOption.key
-                          ? 'bg-zinc-900 dark:bg-zinc-200 text-zinc-950 dark:text-zinc-800'
+                          ? 'bg-zinc-300 dark:bg-zinc-200 dark:text-zinc-800'
                           : 'bg-zinc-100 dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-800'
                       }
                     `}
