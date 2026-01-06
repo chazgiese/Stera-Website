@@ -3,13 +3,9 @@ export interface IconData {
   tags: string[];
   versionAdded: string;
   versionLastModified?: string;
-  variants: {
-    regular?: string;
-    bold?: string;
-    filled?: string;
-    filltone?: string;
-    linetone?: string;
-  };
+  weights: ('regular' | 'bold' | 'fill')[];
+  supportsDuotone: boolean;
+  variants: Record<string, string>; // Maps variant keys (e.g., "regular", "bold-duotone") to version strings
 }
 
 export interface IconProps {

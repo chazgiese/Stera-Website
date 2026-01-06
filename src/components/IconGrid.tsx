@@ -8,10 +8,11 @@ interface IconGridProps {
   icons: IconData[];
   onIconClick: (icon: IconData) => void;
   loading?: boolean;
-  selectedVariant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone';
+  weight?: 'regular' | 'bold' | 'fill';
+  duotone?: boolean;
 }
 
-export default function IconGrid({ icons, onIconClick, loading = false, selectedVariant = 'regular' }: IconGridProps) {
+export default function IconGrid({ icons, onIconClick, loading = false, weight = 'regular', duotone = false }: IconGridProps) {
   if (loading) {
     return (
       <div className="
@@ -37,7 +38,7 @@ export default function IconGrid({ icons, onIconClick, loading = false, selected
     return (
       <div className="text-center py-12 min-h-[calc(100vh-264px)]">
         <div className="text-zinc-400 dark:text-zinc-600 mb-4">
-          <SquareDashedIcon variant="bold" className="w-16 h-16 mx-auto" />
+          <SquareDashedIcon weight="bold" className="w-16 h-16 mx-auto" />
         </div>
         <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">
           No icons found
@@ -67,7 +68,8 @@ export default function IconGrid({ icons, onIconClick, loading = false, selected
           key={icon.name}
           icon={icon}
           onIconClick={onIconClick}
-          variant={selectedVariant}
+          weight={weight}
+          duotone={duotone}
         />
       ))}
     </div>

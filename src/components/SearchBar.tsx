@@ -26,6 +26,7 @@ export default function SearchBar({
         isFocused ? '' : ''
       }`}>
         <SearchIcon 
+          weight="bold"
           className={`absolute left-4 h-4 w-4 transition-colors ${
             isFocused ? 'text-zinc-900 dark:text-zinc-200' : 'text-zinc-700 dark:text-zinc-400'
           }`} 
@@ -64,7 +65,7 @@ export default function SearchBar({
               transition-colors"
             aria-label="Clear search"
           >
-            <XIcon variant="bold" className="h-4 w-4" />
+            <XIcon weight="bold" className="h-4 w-4" />
           </button>
         )}
       </div>

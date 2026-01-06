@@ -14,11 +14,11 @@ function validateIconExists(iconName, availableIcons) {
 const metadataPath = path.join(__dirname, '..', 'node_modules', 'stera-icons', 'dist', 'icons.meta.json');
 const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
-// Create a map of component names + variants to their metadata
-// Key format: "ComponentName:variant" (e.g., "AiIcon:bold")
+// Create a map of component names + weight/duotone to their metadata
+// Key format: "ComponentName:weight:duotone" (e.g., "AiIcon:bold:false")
 const metadataMap = new Map();
 metadata.forEach(icon => {
-  const key = `${icon.componentName}:${icon.variant}`;
+  const key = `${icon.componentName}:${icon.weight}:${icon.duotone}`;
   metadataMap.set(key, icon);
 });
 
@@ -64,17 +64,9 @@ function generateTags(iconName, metadata, currentVersion) {
   // Add base name as tag
   tags.push(iconName);
   
-  // Add variant tags
-  if (metadata && metadata.variant) {
-    if (metadata.variant === 'filled') {
-      tags.push('filled', 'solid');
-    } else if (metadata.variant === 'outline') {
-      tags.push('outline', 'line');
-    }
-  } else {
-    // Fallback to name-based detection
-    const name = iconName.toLowerCase();
-    if (name.includes('filled')) {
+  // Add weight-based tags
+  if (metadata && metadata.weight) {
+    if (metadata.weight === 'fill') {
       tags.push('filled', 'solid');
     } else {
       tags.push('outline', 'line');
@@ -94,16 +86,6 @@ function generateTags(iconName, metadata, currentVersion) {
     finalTags.push('*new*');
   }
   
-  // Filter out conflicting variant tags
-  if (metadata && metadata.variant === 'filled') {
-    // Remove outline/line tags from filled icons
-    return finalTags.filter(tag => !['outline', 'line'].includes(tag));
-  } else if (metadata && metadata.variant === 'outline') {
-    // Remove filled/solid tags from outline icons
-    return finalTags.filter(tag => !['filled', 'solid'].includes(tag));
-  }
-  
-  
   return finalTags;
 }
 
@@ -115,31 +97,13 @@ const DEPRECATED_ICONS = new Set([
   // Add other deprecated icons here as needed
 ]);
 
-// Helper function to remove Icon suffix and variant suffixes
+// Helper function to remove Icon suffix
 function getCleanIconName(componentName) {
-  // Remove Icon suffix and variant suffixes
-  let name = componentName;
-  
-  // Remove variant suffixes first
-  if (name.endsWith('IconBold')) {
-    return name.replace(/IconBold$/, '');
-  } else if (name.endsWith('IconFilled')) {
-    return name.replace(/IconFilled$/, '');
-  } else if (name.endsWith('IconRegular')) {
-    return name.replace(/IconRegular$/, '');
-  } else if (name.endsWith('Icon')) {
-    return name.replace(/Icon$/, '');
+  // Remove Icon suffix
+  if (componentName.endsWith('Icon')) {
+    return componentName.replace(/Icon$/, '');
   }
-  
-  return name;
-}
-
-// Helper function to determine variant from component name
-function getIconVariant(componentName) {
-  if (componentName.endsWith('IconBold')) return 'Bold';
-  if (componentName.endsWith('IconFilled')) return 'Filled';
-  if (componentName.endsWith('IconRegular')) return 'Regular';
-  return 'Regular'; // Default to Regular for base Icon suffix
+  return componentName;
 }
 
 // Generate all icon data
@@ -156,13 +120,14 @@ function generateIconData() {
   const deprecatedIcons = [];
   let newIconsCount = 0;
   
-  // Group icons by component name to collect all variants
+  // Group icons by component name to collect all weight/duotone combinations
   const iconGroups = new Map();
   
-  // Process metadata directly to get all variants
+  // Process metadata directly to get all weight/duotone combinations
   metadata.forEach(iconMeta => {
     const componentName = iconMeta.componentName;
-    const variant = iconMeta.variant;
+    const weight = iconMeta.weight || 'regular';
+    const duotone = iconMeta.duotone || false;
     const versionAdded = iconMeta.versionAdded || 'unknown';
     const versionLastModified = iconMeta.versionLastModified || 'unknown';
     
@@ -179,14 +144,15 @@ function generateIconData() {
     }
     
     // Get clean name without Icon suffix
-    const cleanName = componentName.replace(/Icon$/, '');
+    const cleanName = getCleanIconName(componentName);
     
     // Group by clean name
     if (!iconGroups.has(cleanName)) {
       iconGroups.set(cleanName, {
         name: cleanName,
         tags: new Set(),
-        variants: {},
+        weights: new Set(),
+        supportsDuotone: false,
         variantLastModified: {},
         earliestVersion: versionAdded,
         latestVersionUpdated: versionLastModified
@@ -195,9 +161,19 @@ function generateIconData() {
     
     const iconGroup = iconGroups.get(cleanName);
     
-    // Add variant version
-    iconGroup.variants[variant] = versionAdded;
-    iconGroup.variantLastModified[variant] = versionLastModified;
+    // Track available weights
+    iconGroup.weights.add(weight);
+    
+    // Track duotone support
+    if (duotone) {
+      iconGroup.supportsDuotone = true;
+    }
+    
+    // Create a variant key for tracking version info
+    const variantKey = duotone ? `${weight}-duotone` : weight;
+    if (!iconGroup.variantLastModified[variantKey]) {
+      iconGroup.variantLastModified[variantKey] = versionLastModified;
+    }
     
     // Update earliest version
     if (versionAdded !== 'unknown' && 
@@ -231,7 +207,7 @@ function generateIconData() {
     iconGroup.tags.add(cleanName);
     
     // Add "*new*" tag if any variant was added in the current version
-    const hasNewVariant = Object.values(iconGroup.variants).some(version => 
+    const hasNewVariant = Object.values(iconGroup.variantLastModified).some(version => 
       version !== 'unknown' && isVersionEqual(version, currentVersion)
     );
     if (hasNewVariant) {
@@ -242,6 +218,8 @@ function generateIconData() {
       name: cleanName,
       tags: Array.from(iconGroup.tags),
       versionAdded: iconGroup.earliestVersion,
+      weights: Array.from(iconGroup.weights).sort(),
+      supportsDuotone: iconGroup.supportsDuotone,
       variants: iconGroup.variantLastModified
     };
     

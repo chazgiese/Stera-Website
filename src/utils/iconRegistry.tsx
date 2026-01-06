@@ -27,25 +27,15 @@ const FallbackIcon = (props: IconProps) => (
 
 FallbackIcon.displayName = 'FallbackIcon';
 
-
-// Function to parse icon name and get component name and variant
-// This function is kept for backward compatibility but is no longer used in the new variant system
-// function parseIconName(displayName: string): { componentName: string; variant: 'regular' | 'bold' | 'filled' } {
-//   if (displayName.endsWith('Bold')) {
-//     const baseName = displayName.replace(/Bold$/, '');
-//     return { componentName: `${baseName}Icon`, variant: 'bold' };
-//   } else if (displayName.endsWith('Filled')) {
-//     const baseName = displayName.replace(/Filled$/, '');
-//     return { componentName: `${baseName}Icon`, variant: 'filled' };
-//   } else {
-//     return { componentName: `${displayName}Icon`, variant: 'regular' };
-//   }
-// }
-
 // Function to dynamically load an icon
-export async function loadIcon(iconName: string, variant: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone' = 'regular'): Promise<React.ComponentType<IconProps>> {
-  // Create a cache key that includes the variant
-  const cacheKey = `${iconName}:${variant}`;
+export async function loadIcon(
+  iconName: string, 
+  weight: 'regular' | 'bold' | 'fill' = 'regular',
+  duotone: boolean = false
+): Promise<React.ComponentType<IconProps>> {
+  
+  // Create a cache key that includes the weight and duotone
+  const cacheKey = `${iconName}:${weight}:${duotone}`;
   
   // Check if icon is already cached
   if (iconCache.has(cacheKey)) {
@@ -60,17 +50,17 @@ export async function loadIcon(iconName: string, variant: 'regular' | 'bold' | '
     const componentName = iconName.endsWith('Icon') ? iconName : `${iconName}Icon`;
     
     // The icon is exported as a named export with the component name
-    const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { variant?: 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone' }>>)[componentName];
+    const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { weight?: 'regular' | 'bold' | 'fill'; duotone?: boolean }>>)[componentName];
     
     if (BaseIconComponent) {
-      // Create a wrapper that applies the variant
-      const IconWithVariant = (props: IconProps) => {
-        return React.createElement(BaseIconComponent, { ...props, variant });
+      // Create a wrapper that applies the weight and duotone props
+      const IconWithProps = (props: IconProps) => {
+        return React.createElement(BaseIconComponent, { ...props, weight, duotone });
       };
-      IconWithVariant.displayName = `${componentName}[${variant}]`;
+      IconWithProps.displayName = `${componentName}[${weight}${duotone ? '-duotone' : ''}]`;
       
-      iconCache.set(cacheKey, IconWithVariant);
-      return IconWithVariant;
+      iconCache.set(cacheKey, IconWithProps);
+      return IconWithProps;
     } else {
       throw new Error(`Icon ${componentName} not found in module`);
     }
@@ -84,7 +74,7 @@ export async function loadIcon(iconName: string, variant: 'regular' | 'bold' | '
 
 // Function to preload multiple icons
 export async function preloadIcons(iconNames: string[]): Promise<void> {
-  const loadPromises = iconNames.map(name => loadIcon(name, 'regular'));
+  const loadPromises = iconNames.map(name => loadIcon(name, 'regular', false));
   await Promise.all(loadPromises);
 }
 
@@ -93,9 +83,3 @@ export function clearIconCache(): void {
   iconCache.clear();
 }
 
-// Function to determine icon style from name
-export function getIconStyle(iconName: string): 'Regular' | 'Bold' | 'Filled' {
-  if (iconName.endsWith('Bold')) return 'Bold';
-  if (iconName.endsWith('Filled')) return 'Filled';
-  return 'Regular';
-}

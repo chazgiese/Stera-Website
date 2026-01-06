@@ -5,10 +5,9 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { IconData } from '@/types/icon';
 import SearchBar from '@/components/SearchBar';
-import FilterDropdown from '@/components/FilterDropdown';
+import IconStyleSelector from '@/components/IconStyleSelector';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
-// import { getIconStyle } from '@/utils/iconRegistry'; // No longer needed with new variant system
 import { AstriskAltIcon, FigmaIcon, GithubIcon, ScribbleIcon } from 'stera-icons';
 import iconData from '@/data/icons.json';
 import { STERA_ICONS_VERSION } from '@/utils/version';
@@ -19,7 +18,8 @@ function HomeContent() {
   const [icons, setIcons] = useState<IconData[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedFilter, setSelectedFilter] = useState('Regular');
+  const [selectedWeight, setSelectedWeight] = useState<'regular' | 'bold' | 'fill'>('regular');
+  const [isDuotone, setIsDuotone] = useState<boolean>(false);
   const [selectedIcon, setSelectedIcon] = useState<IconData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -63,13 +63,13 @@ function HomeContent() {
         return searchWords.every(word => searchableText.includes(word));
       })();
 
-      // With the new variant system, all icons are base icons that can have variants
-      // The filtering now works by showing all icons, and the variant is handled in the display
+      // All icons are base icons that can have different weights and duotone styles
+      // The filtering now works by showing all icons, and the weight/duotone is handled in the display
       const matchesStyle = true; // All icons can be shown
 
       return matchesSearch && matchesStyle;
     });
-  }, [icons, searchTerm, selectedFilter]);
+  }, [icons, searchTerm]);
 
 
   const handleIconClick = (icon: IconData) => {
@@ -144,9 +144,11 @@ function HomeContent() {
             searchTerm={searchTerm}
             onSearchChange={setSearchTerm}
           />
-          <FilterDropdown
-            selectedFilter={selectedFilter}
-            onFilterChange={setSelectedFilter}
+          <IconStyleSelector
+            selectedWeight={selectedWeight}
+            isDuotone={isDuotone}
+            onWeightChange={setSelectedWeight}
+            onDuotoneChange={setIsDuotone}
           />
         </div>
         {/* Icon Grid */}
@@ -154,7 +156,8 @@ function HomeContent() {
           icons={filteredIcons}
           onIconClick={handleIconClick}
           loading={loading}
-          selectedVariant={selectedFilter.toLowerCase() as 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone'}
+          weight={selectedWeight}
+          duotone={isDuotone}
         />
       </main>
 
@@ -163,7 +166,7 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-sm text-zinc-500 dark:text-zinc-600">
             <p>
-              made with <ScribbleIcon variant="filled" className="w-4 h-4 inline-block" />
+              made with <ScribbleIcon weight="fill" className="w-4 h-4 inline-block" />
               {' '}by{' '}
               <a
                 href="https://github.com/chazgiese"
@@ -183,7 +186,8 @@ function HomeContent() {
         icon={selectedIcon}
         isOpen={isModalOpen}
         onClose={handleModalClose}
-        selectedVariant={selectedFilter.toLowerCase() as 'regular' | 'bold' | 'filled' | 'filltone' | 'linetone'}
+        weight={selectedWeight}
+        duotone={isDuotone}
       />
     </div>
   );
