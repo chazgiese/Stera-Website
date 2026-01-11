@@ -203,7 +203,8 @@
       "time",
       "timer",
       "wake",
-      "AlarmClockPlus"
+      "AlarmClockPlus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -214,13 +215,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AlertCircle",
@@ -464,7 +465,8 @@
       "horizontal",
       "layout",
       "left",
-      "AlignHorizontalLeft"
+      "AlignHorizontalLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -474,14 +476,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AlignHorizontalRight",
@@ -494,7 +496,8 @@
       "horizontal",
       "layout",
       "right",
-      "AlignHorizontalRight"
+      "AlignHorizontalRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -504,14 +507,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AlignVerticalBottom",
@@ -524,7 +527,8 @@
       "format",
       "layout",
       "vertical",
-      "AlignVerticalBottom"
+      "AlignVerticalBottom",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -534,14 +538,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AlignVerticalCenter",
@@ -554,7 +558,8 @@
       "format",
       "layout",
       "vertical",
-      "AlignVerticalCenter"
+      "AlignVerticalCenter",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -568,10 +573,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AlignVerticalTop",
@@ -584,7 +589,8 @@
       "format",
       "layout",
       "vertical",
-      "AlignVerticalTop"
+      "AlignVerticalTop",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -595,13 +601,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Annotation",
@@ -703,7 +709,8 @@
       "down",
       "download",
       "navigation",
-      "ArrowBigDown"
+      "ArrowBigDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -713,14 +720,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowBigLeft",
@@ -731,7 +738,8 @@
       "left",
       "navigation",
       "previous",
-      "ArrowBigLeft"
+      "ArrowBigLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -741,14 +749,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowBigRight",
@@ -792,7 +800,8 @@
       "top",
       "up",
       "uppercase",
-      "ArrowBigUp"
+      "ArrowBigUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -802,14 +811,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowCircleDown",
@@ -1083,7 +1092,8 @@
       "navigation",
       "return",
       "right",
-      "ArrowCornerDownRight"
+      "ArrowCornerDownRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -1094,13 +1104,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowCornerUpLeft",
@@ -1324,7 +1334,8 @@
       "receive",
       "save",
       "transfer",
-      "ArrowLineDown"
+      "ArrowLineDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -1335,13 +1346,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowLineLeft",
@@ -1354,7 +1365,8 @@
       "navigation",
       "previous",
       "start",
-      "ArrowLineLeft"
+      "ArrowLineLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -1365,13 +1377,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowLineRight",
@@ -1415,7 +1427,8 @@
       "top",
       "up",
       "upload",
-      "ArrowLineUp"
+      "ArrowLineUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -1426,13 +1439,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowRight",
@@ -1446,7 +1459,8 @@
       "right",
       "slide",
       "swipe",
-      "ArrowRight"
+      "ArrowRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -1459,11 +1473,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowSquareDown",
@@ -1787,7 +1801,8 @@
       "reply",
       "share",
       "turn-right",
-      "ArrowURight"
+      "ArrowURight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -1798,13 +1813,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowURightTop",
@@ -2030,7 +2045,8 @@
       "reduce",
       "shrink",
       "zoom-out",
-      "ArrowsLeftRight"
+      "ArrowsLeftRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2040,14 +2056,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ArrowsUpDown",
@@ -2061,7 +2077,8 @@
       "sync",
       "transfer",
       "up",
-      "ArrowsUpDown"
+      "ArrowsUpDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2071,14 +2088,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Astrisk",
@@ -2090,7 +2107,8 @@
       "required",
       "star",
       "symbol",
-      "Astrisk"
+      "Astrisk",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2100,14 +2118,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AstriskAlt",
@@ -2119,7 +2137,8 @@
       "required",
       "star",
       "symbol",
-      "AstriskAlt"
+      "AstriskAlt",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2129,14 +2148,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AtSign",
@@ -2184,7 +2203,8 @@
       "physics",
       "research",
       "science",
-      "Atom"
+      "Atom",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2194,14 +2214,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AtomAi",
@@ -2215,7 +2235,8 @@
       "science",
       "smart",
       "technology",
-      "AtomAi"
+      "AtomAi",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2226,13 +2247,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AtomOrbit",
@@ -2248,7 +2269,8 @@
       "science",
       "structure",
       "system",
-      "AtomOrbit"
+      "AtomOrbit",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2258,14 +2280,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "AudioBars",
@@ -2398,7 +2420,8 @@
       "path",
       "separator",
       "symbol",
-      "Backslash"
+      "Backslash",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2412,10 +2435,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Bag",
@@ -2668,7 +2691,8 @@
       "full",
       "power",
       "status",
-      "BatteryFull"
+      "BatteryFull",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2681,11 +2705,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BatteryHalf",
@@ -2698,7 +2722,8 @@
       "medium",
       "power",
       "status",
-      "BatteryHalf"
+      "BatteryHalf",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2711,11 +2736,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BatteryLow",
@@ -2757,7 +2782,8 @@
       "ring",
       "sound",
       "update",
-      "Bell"
+      "Bell",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2767,14 +2793,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BellDot",
@@ -2786,7 +2812,8 @@
       "reminder",
       "unread",
       "updates",
-      "BellDot"
+      "BellDot",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2796,14 +2823,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BellOff",
@@ -2814,7 +2841,8 @@
       "mute",
       "notification-off",
       "silence",
-      "BellOff"
+      "BellOff",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2824,14 +2852,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BellX",
@@ -2842,7 +2870,8 @@
       "notification-off",
       "silence",
       "stop-reminder",
-      "BellX"
+      "BellX",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2852,14 +2881,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Birdhouse",
@@ -2874,7 +2903,8 @@
       "time",
       "twelve",
       "wait",
-      "Birdhouse"
+      "Birdhouse",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2884,14 +2914,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BladeKunai",
@@ -2904,7 +2934,8 @@
       "throw",
       "tool",
       "weapon",
-      "BladeKunai"
+      "BladeKunai",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2914,14 +2945,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BladeSword",
@@ -2934,7 +2965,8 @@
       "gaming",
       "sword",
       "weapon",
-      "BladeSword"
+      "BladeSword",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -2944,14 +2976,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Blocks",
@@ -3115,7 +3147,8 @@
       "open-book",
       "reading",
       "study",
-      "BookOpenFold"
+      "BookOpenFold",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -3126,13 +3159,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BookOpenText",
@@ -3146,7 +3179,8 @@
       "open-book",
       "reading",
       "study",
-      "BookOpenText"
+      "BookOpenText",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -3157,13 +3191,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Bookmark",
@@ -3300,7 +3334,8 @@
       "time",
       "timer",
       "wake",
-      "Boxes"
+      "Boxes",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -3313,11 +3348,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BracketsCurly",
@@ -3540,7 +3575,8 @@
       "machine learning",
       "neural network",
       "technology",
-      "BrainCircuit"
+      "BrainCircuit",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -3551,13 +3587,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "BrickWall",
@@ -3814,7 +3850,8 @@
       "round",
       "shine",
       "sphere",
-      "Bubble"
+      "Bubble",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -3825,13 +3862,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Building",
@@ -3863,6 +3900,37 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "Calculator",
+    "tags": [
+      "billing",
+      "calculate",
+      "calculator",
+      "finance",
+      "keypad",
+      "math",
+      "numeric-input",
+      "pricing",
+      "Calculator",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Calendar",
@@ -3996,7 +4064,8 @@
       "planner",
       "schedule",
       "time",
-      "CalendarMinus"
+      "CalendarMinus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4006,14 +4075,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CalendarOff",
@@ -4030,7 +4099,8 @@
       "schedule",
       "time",
       "unavailable",
-      "CalendarOff"
+      "CalendarOff",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4040,14 +4110,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CalendarPlus",
@@ -4149,7 +4219,8 @@
       "photo",
       "picture",
       "snapshot",
-      "Camera"
+      "Camera",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4159,14 +4230,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CameraOff",
@@ -4179,7 +4250,8 @@
       "off",
       "photo",
       "picture",
-      "CameraOff"
+      "CameraOff",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4189,14 +4261,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Can",
@@ -4270,7 +4342,8 @@
       "stocks",
       "trading",
       "visualization",
-      "CapsLock"
+      "CapsLock",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4282,12 +4355,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CardHolder",
@@ -4332,7 +4405,8 @@
       "statistics",
       "success",
       "up",
-      "ChartArea"
+      "ChartArea",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4344,12 +4418,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartBar",
@@ -4673,7 +4747,8 @@
       "report",
       "statistics",
       "trend",
-      "ChartLine"
+      "ChartLine",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4684,13 +4759,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartLineBar",
@@ -4704,7 +4779,8 @@
       "performance",
       "statistics",
       "trend",
-      "ChartLineBar"
+      "ChartLineBar",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4714,14 +4790,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartLineDesc",
@@ -4736,7 +4812,8 @@
       "report",
       "statistics",
       "trend",
-      "ChartLineDesc"
+      "ChartLineDesc",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4749,11 +4826,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartLineXY",
@@ -4768,7 +4845,8 @@
       "report",
       "statistics",
       "trend",
-      "ChartLineXY"
+      "ChartLineXY",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4779,13 +4857,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartLineXYDesc",
@@ -4800,7 +4878,8 @@
       "report",
       "statistics",
       "trend",
-      "ChartLineXYDesc"
+      "ChartLineXYDesc",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4811,13 +4890,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartPie",
@@ -4893,7 +4972,8 @@
       "report",
       "statistics",
       "visualization",
-      "ChartScatter"
+      "ChartScatter",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -4903,14 +4983,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChartWaterfall",
@@ -5052,7 +5132,8 @@
       "reply",
       "talk",
       "temporary",
-      "ChatBoxDashed"
+      "ChatBoxDashed",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5065,11 +5146,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChatBoxDot",
@@ -5135,6 +5216,37 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "ChatBoxQuestion",
+    "tags": [
+      "assistance",
+      "chat",
+      "faq",
+      "help",
+      "onboarding",
+      "question",
+      "support",
+      "tooltip",
+      "ChatBoxQuestion",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "ChatBoxText",
     "tags": [
       "bubble",
@@ -5145,7 +5257,8 @@
       "message",
       "reply",
       "talk",
-      "ChatBoxText"
+      "ChatBoxText",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5156,13 +5269,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChatBubble",
@@ -5175,7 +5288,8 @@
       "message",
       "reply",
       "text",
-      "ChatBubble"
+      "ChatBubble",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5186,13 +5300,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChatBubbleDashed",
@@ -5209,7 +5323,8 @@
       "reply",
       "temporary",
       "text",
-      "ChatBubbleDashed"
+      "ChatBubbleDashed",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5221,12 +5336,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChatBubbleDot",
@@ -5242,7 +5357,8 @@
       "reply",
       "text",
       "unread",
-      "ChatBubbleDot"
+      "ChatBubbleDot",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5253,13 +5369,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChatBubbleDots",
@@ -5292,6 +5408,37 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "ChatBubbleQuestion",
+    "tags": [
+      "assistance",
+      "chat",
+      "faq",
+      "help",
+      "onboarding",
+      "question",
+      "support",
+      "tooltip",
+      "ChatBubbleQuestion",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "ChatBubbleText",
     "tags": [
       "bubble",
@@ -5302,7 +5449,8 @@
       "message",
       "reply",
       "text",
-      "ChatBubbleText"
+      "ChatBubbleText",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5313,13 +5461,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChatMessages",
@@ -5362,7 +5510,8 @@
       "finished",
       "selected",
       "success",
-      "Check"
+      "Check",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5372,14 +5521,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CheckBadge",
@@ -5392,7 +5541,8 @@
       "trusted",
       "verified",
       "verified-account",
-      "CheckBadge"
+      "CheckBadge",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5402,14 +5552,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CheckCircle",
@@ -5421,7 +5571,8 @@
       "okay",
       "success",
       "todo",
-      "CheckCircle"
+      "CheckCircle",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5434,11 +5585,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CheckSquare",
@@ -5450,7 +5601,8 @@
       "okay",
       "success",
       "todo",
-      "CheckSquare"
+      "CheckSquare",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5463,11 +5615,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Checklist",
@@ -5571,7 +5723,8 @@
       "dropdown",
       "expand",
       "more",
-      "ChevronCircleDown"
+      "ChevronCircleDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5582,13 +5735,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronCircleLeft",
@@ -5658,7 +5811,8 @@
       "previous",
       "top",
       "up",
-      "ChevronCircleUp"
+      "ChevronCircleUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5671,11 +5825,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronDown",
@@ -5689,7 +5843,8 @@
       "expand",
       "more",
       "navigation",
-      "ChevronDown"
+      "ChevronDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5703,10 +5858,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullCircleDown",
@@ -5720,7 +5875,8 @@
       "expand",
       "more",
       "navigation",
-      "ChevronFullCircleDown"
+      "ChevronFullCircleDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5730,14 +5886,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullCircleLeft",
@@ -5749,7 +5905,8 @@
       "left",
       "navigate",
       "previous",
-      "ChevronFullCircleLeft"
+      "ChevronFullCircleLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5759,14 +5916,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullCircleRight",
@@ -5777,7 +5934,8 @@
       "navigate",
       "next",
       "right",
-      "ChevronFullCircleRight"
+      "ChevronFullCircleRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5787,14 +5945,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullCircleUp",
@@ -5806,7 +5964,8 @@
       "previous",
       "top",
       "up",
-      "ChevronFullCircleUp"
+      "ChevronFullCircleUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5816,14 +5975,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullDown",
@@ -5835,7 +5994,8 @@
       "navigation",
       "open-menu",
       "scroll-down",
-      "ChevronFullDown"
+      "ChevronFullDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5846,13 +6006,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullInward",
@@ -5866,7 +6026,8 @@
       "navigation",
       "selection",
       "up",
-      "ChevronFullInward"
+      "ChevronFullInward",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5876,14 +6037,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullLeft",
@@ -5986,7 +6147,8 @@
       "more",
       "navigation",
       "square",
-      "ChevronFullSquareDown"
+      "ChevronFullSquareDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -5996,14 +6158,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullSquareLeft",
@@ -6016,7 +6178,8 @@
       "navigate",
       "previous",
       "square",
-      "ChevronFullSquareLeft"
+      "ChevronFullSquareLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6026,14 +6189,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullSquareRight",
@@ -6044,7 +6207,8 @@
       "navigate",
       "next",
       "right",
-      "ChevronFullSquareRight"
+      "ChevronFullSquareRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6054,14 +6218,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullSquareUp",
@@ -6072,7 +6236,8 @@
       "square",
       "top",
       "up",
-      "ChevronFullSquareUp"
+      "ChevronFullSquareUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6082,14 +6247,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronFullUp",
@@ -6100,7 +6265,8 @@
       "navigation",
       "scroll-up",
       "up",
-      "ChevronFullUp"
+      "ChevronFullUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6110,14 +6276,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronInward",
@@ -6131,7 +6297,8 @@
       "navigation",
       "selection",
       "up",
-      "ChevronInward"
+      "ChevronInward",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6141,14 +6308,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronLeft",
@@ -6161,7 +6328,8 @@
       "previous",
       "scroll-left",
       "slide-left",
-      "ChevronLeft"
+      "ChevronLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6174,11 +6342,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronOutward",
@@ -6193,7 +6361,8 @@
       "selection",
       "sort",
       "up",
-      "ChevronOutward"
+      "ChevronOutward",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6203,14 +6372,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronRight",
@@ -6223,7 +6392,8 @@
       "next",
       "scroll-right",
       "slide-right",
-      "ChevronRight"
+      "ChevronRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6233,14 +6403,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronSquareDown",
@@ -6254,7 +6424,8 @@
       "more",
       "open",
       "selection",
-      "ChevronSquareDown"
+      "ChevronSquareDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6265,13 +6436,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronSquareLeft",
@@ -6344,7 +6515,8 @@
       "navigate-up",
       "scroll-up",
       "slide-up",
-      "ChevronSquareUp"
+      "ChevronSquareUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6357,11 +6529,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronUp",
@@ -6374,7 +6546,8 @@
       "navigate-up",
       "scroll-up",
       "slide-up",
-      "ChevronUp"
+      "ChevronUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6388,10 +6561,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronsDown",
@@ -6454,6 +6627,40 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "ChevronsLeftRightEllipsis",
+    "tags": [
+      "code",
+      "connectivity",
+      "data-transfer",
+      "dev",
+      "ethernet",
+      "lan",
+      "modem",
+      "network",
+      "networking",
+      "programming",
+      "wired-connection",
+      "ChevronsLeftRightEllipsis",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "ChevronsRight",
     "tags": [
       "chevrons",
@@ -6464,7 +6671,8 @@
       "next",
       "right",
       "skip",
-      "ChevronsRight"
+      "ChevronsRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6474,14 +6682,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ChevronsUp",
@@ -6494,7 +6702,8 @@
       "next",
       "right",
       "skip",
-      "ChevronsUp"
+      "ChevronsUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6504,14 +6713,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Circle",
@@ -6724,7 +6933,8 @@
       "process",
       "status",
       "temporary",
-      "CircleDots"
+      "CircleDots",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6735,13 +6945,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CircleNotch",
@@ -6755,7 +6965,8 @@
       "refresh",
       "spinner",
       "wait",
-      "CircleNotch"
+      "CircleNotch",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6766,13 +6977,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CircleSlash",
@@ -6786,7 +6997,8 @@
       "prohibited",
       "restricted",
       "stop",
-      "CircleSlash"
+      "CircleSlash",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6799,11 +7011,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CirclesThree",
@@ -6845,7 +7057,8 @@
       "place",
       "skyline",
       "urban",
-      "City"
+      "City",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6856,13 +7069,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Cli",
@@ -6876,7 +7089,8 @@
       "shell",
       "terminal",
       "vim",
-      "Cli"
+      "Cli",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6888,12 +7102,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CliCircle",
@@ -6907,7 +7121,8 @@
       "shell",
       "terminal",
       "vim",
-      "CliCircle"
+      "CliCircle",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6920,11 +7135,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CliSquare",
@@ -6938,7 +7153,8 @@
       "shell",
       "terminal",
       "vim",
-      "CliSquare"
+      "CliSquare",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -6951,11 +7167,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Clipboard",
@@ -7124,7 +7340,8 @@
       "schedule",
       "time",
       "wait",
-      "Clock11"
+      "Clock11",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7135,13 +7352,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Clock12",
@@ -7442,7 +7659,8 @@
       "storage",
       "sync",
       "transfer",
-      "CloudDownload"
+      "CloudDownload",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7453,13 +7671,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CloudUpload",
@@ -7473,7 +7691,8 @@
       "sync",
       "transfer",
       "upload",
-      "CloudUpload"
+      "CloudUpload",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7484,13 +7703,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CloudX",
@@ -7504,7 +7723,8 @@
       "remove",
       "stop",
       "unsync",
-      "CloudX"
+      "CloudX",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7515,13 +7735,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Code",
@@ -7533,7 +7753,8 @@
       "programming",
       "script",
       "source",
-      "Code"
+      "Code",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7543,14 +7764,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CodeCircle",
@@ -7562,7 +7783,8 @@
       "programming",
       "script",
       "source",
-      "CodeCircle"
+      "CodeCircle",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7573,13 +7795,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CodeSquare",
@@ -7591,7 +7813,8 @@
       "programming",
       "script",
       "source",
-      "CodeSquare"
+      "CodeSquare",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7602,13 +7825,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CoffeeMug",
@@ -7621,7 +7844,8 @@
       "mug",
       "refreshment",
       "tea",
-      "CoffeeMug"
+      "CoffeeMug",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7632,13 +7856,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Coin",
@@ -7711,7 +7935,8 @@
       "resize",
       "shrink",
       "zoom-out",
-      "CollapseSimple"
+      "CollapseSimple",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7726,9 +7951,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CollapseSimpleAlt",
@@ -7741,7 +7966,8 @@
       "resize",
       "shrink",
       "zoom-out",
-      "CollapseSimpleAlt"
+      "CollapseSimpleAlt",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7755,10 +7981,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Command",
@@ -7801,7 +8027,8 @@
       "message",
       "speech",
       "support",
-      "CommentBubble"
+      "CommentBubble",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7811,14 +8038,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Compass",
@@ -7830,7 +8057,8 @@
       "map",
       "navigation",
       "travel",
-      "Compass"
+      "Compass",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7845,9 +8073,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Component",
@@ -7858,7 +8086,8 @@
       "element",
       "figma",
       "library",
-      "Component"
+      "Component",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7868,14 +8097,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Connection",
@@ -7950,7 +8179,8 @@
       "phonebook",
       "profile",
       "user",
-      "ContactBook"
+      "ContactBook",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -7961,13 +8191,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Contrast",
@@ -8246,7 +8476,8 @@
       "model",
       "package",
       "product",
-      "Cube"
+      "Cube",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8256,14 +8487,45 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "CubeDash",
+    "tags": [
+      "3d object",
+      "3d scan",
+      "bounding box",
+      "cube",
+      "dashed",
+      "model",
+      "scan object",
+      "wireframe",
+      "CubeDash",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CubePackage",
@@ -8275,7 +8537,8 @@
       "package",
       "parcel",
       "shipping",
-      "CubePackage"
+      "CubePackage",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8285,14 +8548,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CubePackageSimple",
@@ -8304,7 +8567,8 @@
       "package",
       "parcel",
       "shipping",
-      "CubePackageSimple"
+      "CubePackageSimple",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8314,14 +8578,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CubicGraph",
@@ -8396,7 +8660,8 @@
       "payment",
       "price",
       "transaction",
-      "CurrencyCent"
+      "CurrencyCent",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8408,12 +8673,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CurrencyCircleDollar",
@@ -8548,7 +8813,8 @@
       "navigation",
       "pointer",
       "select",
-      "Cursor"
+      "Cursor",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8558,14 +8824,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CursorClick",
@@ -8579,7 +8845,8 @@
       "pointer",
       "select",
       "tap",
-      "CursorClick"
+      "CursorClick",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8589,14 +8856,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CursorNavigation",
@@ -8610,7 +8877,8 @@
       "pointer",
       "select",
       "tap",
-      "CursorNavigation"
+      "CursorNavigation",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8620,14 +8888,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CursorOg",
@@ -8667,7 +8935,8 @@
       "pointer",
       "select",
       "touch",
-      "CursorPointer"
+      "CursorPointer",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8677,14 +8946,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CursorText",
@@ -8758,7 +9027,8 @@
       "shape",
       "transition",
       "vector",
-      "CurveBezier"
+      "CurveBezier",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8769,13 +9039,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "CurveEase",
@@ -8935,7 +9205,8 @@
       "server",
       "stack",
       "storage",
-      "DatabasePlus"
+      "DatabasePlus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -8948,11 +9219,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "DatabaseSparkle",
@@ -9027,7 +9298,8 @@
       "label",
       "remove",
       "tag",
-      "Delete"
+      "Delete",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9037,14 +9309,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "DeviceDesktop",
@@ -9056,7 +9328,8 @@
       "monitor",
       "screen",
       "workstation",
-      "DeviceDesktop"
+      "DeviceDesktop",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9069,11 +9342,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "DeviceLaptop",
@@ -9085,7 +9358,8 @@
       "notebook",
       "portable",
       "screen",
-      "DeviceLaptop"
+      "DeviceLaptop",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9095,14 +9369,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "DevicePhone",
@@ -9172,7 +9446,8 @@
       "rhombus",
       "shape",
       "warning",
-      "Diamond"
+      "Diamond",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9182,14 +9457,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Document",
@@ -9285,6 +9560,36 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "DocumentSearch",
+    "tags": [
+      "document",
+      "file search",
+      "find",
+      "inspect",
+      "scan document",
+      "search",
+      "text lookup",
+      "DocumentSearch",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "DollarBill",
     "tags": [
       "banknote",
@@ -9324,7 +9629,8 @@
       "inbox",
       "receive",
       "save",
-      "Download"
+      "Download",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9335,13 +9641,44 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "DraftingCompass",
+    "tags": [
+      "alignment",
+      "angle",
+      "compass",
+      "geometry",
+      "measure",
+      "precision",
+      "rotate",
+      "transform",
+      "DraftingCompass",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "DragHandle",
@@ -9409,7 +9746,8 @@
       "duplicate",
       "repeat",
       "replicate",
-      "Duplicate"
+      "Duplicate",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9419,14 +9757,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "DuplicatePlus",
@@ -9436,7 +9774,8 @@
       "duplicate",
       "repeat",
       "replicate",
-      "DuplicatePlus"
+      "DuplicatePlus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9447,13 +9786,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "EditSquare",
@@ -9472,7 +9811,8 @@
       "text input",
       "update",
       "write",
-      "EditSquare"
+      "EditSquare",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9485,11 +9825,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "EmoteFrown",
@@ -9682,7 +10022,8 @@
       "important",
       "notify",
       "warning",
-      "ExclamationPoint"
+      "ExclamationPoint",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9697,9 +10038,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Expand",
@@ -9803,7 +10144,8 @@
       "visibility",
       "visible",
       "watch",
-      "Eye"
+      "Eye",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9815,12 +10157,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "EyeClosed",
@@ -9835,7 +10177,8 @@
       "sleep",
       "view-off",
       "visibility-off",
-      "EyeClosed"
+      "EyeClosed",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9845,14 +10188,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "EyeOff",
@@ -9867,7 +10210,8 @@
       "sleep",
       "view-off",
       "visibility-off",
-      "EyeOff"
+      "EyeOff",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9878,13 +10222,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Figma",
@@ -9896,7 +10240,8 @@
       "prototyping",
       "tool",
       "ui",
-      "Figma"
+      "Figma",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -9909,11 +10254,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FileCabinet",
@@ -9943,6 +10288,37 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "FilmStrip",
+    "tags": [
+      "billing",
+      "calculate",
+      "calculator",
+      "finance",
+      "keypad",
+      "math",
+      "numeric-input",
+      "pricing",
+      "FilmStrip",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Finder",
@@ -10045,7 +10421,8 @@
       "flash",
       "lightning",
       "power",
-      "Flash"
+      "Flash",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10055,14 +10432,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Flashlight",
@@ -10104,7 +10481,8 @@
       "research",
       "science",
       "test",
-      "Flask"
+      "Flask",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10116,12 +10494,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlaskFull",
@@ -10133,7 +10511,8 @@
       "research",
       "science",
       "test",
-      "FlaskFull"
+      "FlaskFull",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10145,12 +10524,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowBranch",
@@ -10162,7 +10541,8 @@
       "process",
       "split",
       "workflow",
-      "FlowBranch"
+      "FlowBranch",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10177,9 +10557,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowDiagram",
@@ -10223,7 +10603,8 @@
       "progress",
       "sequence",
       "transition",
-      "FlowDownArrow"
+      "FlowDownArrow",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10233,14 +10614,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowLeftArrow",
@@ -10255,7 +10636,8 @@
       "process",
       "sequence",
       "transition",
-      "FlowLeftArrow"
+      "FlowLeftArrow",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10267,12 +10649,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowMerge",
@@ -10285,7 +10667,8 @@
       "merge",
       "right",
       "unify",
-      "FlowMerge"
+      "FlowMerge",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10296,13 +10679,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowRightArrow",
@@ -10347,7 +10730,8 @@
       "process",
       "split",
       "transition",
-      "FlowSplitArrowDown"
+      "FlowSplitArrowDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10357,14 +10741,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowSplitArrowLeft",
@@ -10377,7 +10761,8 @@
       "process",
       "split",
       "transition",
-      "FlowSplitArrowLeft"
+      "FlowSplitArrowLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10391,10 +10776,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowSplitArrowRight",
@@ -10407,7 +10792,8 @@
       "process",
       "split",
       "transition",
-      "FlowSplitArrowRight"
+      "FlowSplitArrowRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10417,14 +10803,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowSplitArrowUp",
@@ -10437,7 +10823,8 @@
       "process",
       "split",
       "transition",
-      "FlowSplitArrowUp"
+      "FlowSplitArrowUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10448,13 +10835,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FlowSplitDown",
@@ -10717,7 +11104,8 @@
       "sequence",
       "transition",
       "upward",
-      "FlowUpArrow"
+      "FlowUpArrow",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10727,14 +11115,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Flower",
@@ -10806,7 +11194,8 @@
       "organize",
       "project",
       "storage",
-      "FolderOpen"
+      "FolderOpen",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10816,14 +11205,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "FolderPlus",
@@ -10900,7 +11289,8 @@
       "recreation",
       "rugby",
       "sports",
-      "Football"
+      "Football",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -10910,14 +11300,50 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "ForkKnife",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "full",
+      "gauge",
+      "high",
+      "loading",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "ForkKnife",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Fortress",
@@ -10981,6 +11407,500 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "GaugeDots0Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "empty",
+      "gauge",
+      "loading",
+      "low",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots0Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeDots100Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "full",
+      "gauge",
+      "high",
+      "loading",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots100Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeDots15Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "low",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots15Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeDots33Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "medium",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots33Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeDots50Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "medium",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots50Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeDots66Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "medium",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots66Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeDots85Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "high",
+      "loading",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeDots85Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines0Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "empty",
+      "gauge",
+      "loading",
+      "low",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines0Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines100Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "full",
+      "gauge",
+      "high",
+      "loading",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines100Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines15Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "low",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines15Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines33Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "medium",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines33Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines50Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "medium",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines50Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines66Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "loading",
+      "medium",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines66Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "GaugeLines85Percent",
+    "tags": [
+      "analytics",
+      "dashboard",
+      "gauge",
+      "high",
+      "loading",
+      "metrics",
+      "monitoring",
+      "performance",
+      "progress",
+      "speed",
+      "status",
+      "timer",
+      "GaugeLines85Percent",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "Gavel",
     "tags": [
       "admin",
@@ -10991,7 +11911,8 @@
       "legal",
       "moderation",
       "ruling",
-      "Gavel"
+      "Gavel",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11001,14 +11922,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Ghost",
@@ -11324,7 +12245,8 @@
       "source",
       "vcs",
       "version-control",
-      "Github"
+      "Github",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11337,11 +12259,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Globe",
@@ -11356,7 +12278,8 @@
       "translate",
       "web",
       "world",
-      "Globe"
+      "Globe",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11370,10 +12293,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Grid",
@@ -11417,7 +12340,8 @@
       "setup",
       "support",
       "tools",
-      "Hammer"
+      "Hammer",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11427,14 +12351,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HandLeft",
@@ -11477,7 +12401,8 @@
       "palm",
       "right",
       "stop",
-      "HandRight"
+      "HandRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11487,14 +12412,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HandWave",
@@ -11506,7 +12431,8 @@
       "hello",
       "motion",
       "wave",
-      "HandWave"
+      "HandWave",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11516,14 +12442,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Handbag",
@@ -11536,7 +12462,8 @@
       "purse",
       "retail",
       "shopping",
-      "Handbag"
+      "Handbag",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11550,10 +12477,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Hash",
@@ -11628,7 +12555,8 @@
       "social",
       "tag",
       "topic",
-      "HashItalic"
+      "HashItalic",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11639,13 +12567,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HashSquare",
@@ -11689,7 +12617,8 @@
       "playback",
       "sound",
       "speaker",
-      "Headphones"
+      "Headphones",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11699,14 +12628,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Heart",
@@ -11843,7 +12772,8 @@
       "shelter",
       "support",
       "wellness",
-      "HomeHeart"
+      "HomeHeart",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11856,11 +12786,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HomePlus",
@@ -11874,7 +12804,8 @@
       "new",
       "plus",
       "shelter",
-      "HomePlus"
+      "HomePlus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11887,11 +12818,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HomeSimple",
@@ -11905,7 +12836,8 @@
       "housing",
       "remove",
       "shelter",
-      "HomeSimple"
+      "HomeSimple",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11916,13 +12848,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HomeX",
@@ -11936,7 +12868,8 @@
       "housing",
       "remove",
       "shelter",
-      "HomeX"
+      "HomeX",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11947,13 +12880,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Hourglass",
@@ -11966,7 +12899,8 @@
       "time",
       "timer",
       "waiting",
-      "Hourglass"
+      "Hourglass",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -11979,11 +12913,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HourglassEmpty",
@@ -11997,7 +12931,8 @@
       "time",
       "timer",
       "waiting",
-      "HourglassEmpty"
+      "HourglassEmpty",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12008,13 +12943,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "HourglassFull",
@@ -12027,7 +12962,8 @@
       "time",
       "timer",
       "waiting",
-      "HourglassFull"
+      "HourglassFull",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12038,13 +12974,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "IdH",
@@ -12056,7 +12992,8 @@
       "person",
       "profile",
       "user",
-      "IdH"
+      "IdH",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12067,13 +13004,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "IdV",
@@ -12114,7 +13051,8 @@
       "photo",
       "picture",
       "upload",
-      "ImageLandscape"
+      "ImageLandscape",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12129,9 +13067,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ImagePanorama",
@@ -12174,7 +13112,8 @@
       "photos",
       "pictures",
       "stack",
-      "ImagePile"
+      "ImagePile",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12187,11 +13126,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ImageSquare",
@@ -12282,6 +13221,36 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "InfoSquare",
+    "tags": [
+      "about",
+      "details",
+      "guide",
+      "help",
+      "info",
+      "information",
+      "support",
+      "InfoSquare",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "Key",
     "tags": [
       "access",
@@ -12320,7 +13289,8 @@
       "password",
       "security",
       "unlock",
-      "KeyAlt"
+      "KeyAlt",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12330,14 +13300,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Keyboard",
@@ -12379,7 +13349,8 @@
       "privacy",
       "protection",
       "secure",
-      "Keyhole"
+      "Keyhole",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12389,14 +13360,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Label",
@@ -12457,6 +13428,37 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "LassoDash",
+    "tags": [
+      "area-select",
+      "crop",
+      "edit",
+      "freeform-select",
+      "lasso",
+      "marquee",
+      "multi-select",
+      "selection",
+      "LassoDash",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "Layers",
     "tags": [
       "3d",
@@ -12466,7 +13468,8 @@
       "multiple",
       "organize",
       "stack",
-      "Layers"
+      "Layers",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12476,14 +13479,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LayersAlt",
@@ -12495,7 +13498,8 @@
       "multiple",
       "organize",
       "stack",
-      "LayersAlt"
+      "LayersAlt",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12505,14 +13509,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LayersSimple",
@@ -12524,7 +13528,8 @@
       "multiple",
       "organize",
       "stack",
-      "LayersSimple"
+      "LayersSimple",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12534,14 +13539,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LayoutGrid",
@@ -12645,7 +13650,8 @@
       "new",
       "tiles",
       "widgets",
-      "LayoutGridPlus"
+      "LayoutGridPlus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12655,14 +13661,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LayoutList",
@@ -12676,7 +13682,8 @@
       "panel",
       "sidebar",
       "split-view",
-      "LayoutList"
+      "LayoutList",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12686,14 +13693,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LayoutMasonry",
@@ -12796,7 +13803,8 @@
       "organic",
       "plant",
       "sustainability",
-      "Leaf"
+      "Leaf",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12806,14 +13814,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Lightbulb",
@@ -12856,7 +13864,8 @@
       "insight",
       "suggestion",
       "tips",
-      "LightbulbOn"
+      "LightbulbOn",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12867,13 +13876,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LineSegment",
@@ -12969,6 +13978,36 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "LineWeight",
+    "tags": [
+      "adjust stroke",
+      "border width",
+      "drawing settings",
+      "line thickness",
+      "outline weight",
+      "stroke weight",
+      "text styling",
+      "LineWeight",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "Link",
     "tags": [
       "attach",
@@ -12978,7 +14017,8 @@
       "link",
       "reference",
       "url",
-      "Link"
+      "Link",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -12989,13 +14029,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "LinkOff",
@@ -13007,7 +14047,8 @@
       "remove-link",
       "slash",
       "unlink",
-      "LinkOff"
+      "LinkOff",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13021,10 +14062,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "List",
@@ -13123,7 +14164,8 @@
       "progress",
       "tasks",
       "to-do",
-      "ListCheck"
+      "ListCheck",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13133,14 +14175,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ListCheckSimple",
@@ -13153,7 +14195,8 @@
       "progress",
       "tasks",
       "to-do",
-      "ListCheckSimple"
+      "ListCheckSimple",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13165,12 +14208,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ListContract",
@@ -13183,7 +14226,8 @@
       "list",
       "minimize",
       "toggle",
-      "ListContract"
+      "ListContract",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13194,13 +14238,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ListExpand",
@@ -13213,7 +14257,8 @@
       "reveal",
       "show",
       "toggle",
-      "ListExpand"
+      "ListExpand",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13224,13 +14269,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ListMinus",
@@ -13576,7 +14621,8 @@
       "select",
       "ui-control",
       "window",
-      "MacWindowCursor"
+      "MacWindowCursor",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13587,13 +14633,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Mail",
@@ -13663,7 +14709,8 @@
       "mail",
       "message",
       "remove",
-      "MailMinus"
+      "MailMinus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13674,13 +14721,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "MailOpen",
@@ -13691,7 +14738,8 @@
       "open message",
       "read mail",
       "view email",
-      "MailOpen"
+      "MailOpen",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13702,13 +14750,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "MailPlus",
@@ -13722,7 +14770,8 @@
       "message",
       "new",
       "plus",
-      "MailPlus"
+      "MailPlus",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13733,13 +14782,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "MailX",
@@ -13752,7 +14801,8 @@
       "mail",
       "message",
       "remove",
-      "MailX"
+      "MailX",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13763,13 +14813,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Map",
@@ -13960,7 +15010,8 @@
       "prize",
       "recognition",
       "trophy",
-      "Medal"
+      "Medal",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -13970,14 +15021,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "MedalStar",
@@ -13990,7 +15041,8 @@
       "prize",
       "recognition",
       "trophy",
-      "MedalStar"
+      "MedalStar",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -14000,14 +15052,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "MedicalCross",
@@ -14644,7 +15696,8 @@
       "scatter",
       "share",
       "topology",
-      "NodeMap"
+      "NodeMap",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -14657,11 +15710,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Note",
@@ -14739,7 +15792,8 @@
       "reading",
       "record",
       "reference",
-      "Notebook"
+      "Notebook",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -14750,13 +15804,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "NotebookLog",
@@ -15274,7 +16328,8 @@
       "peace",
       "symbol",
       "unity",
-      "Peace"
+      "Peace",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15289,9 +16344,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Pedestal",
@@ -15307,7 +16362,8 @@
       "stand",
       "structure",
       "support",
-      "Pedestal"
+      "Pedestal",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15321,10 +16377,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Pen",
@@ -15337,7 +16393,8 @@
       "pencil",
       "update",
       "write",
-      "Pen"
+      "Pen",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15347,14 +16404,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
+      "bold": "6.1.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PenNib",
@@ -15398,7 +16455,8 @@
       "pencil",
       "update",
       "write",
-      "Pencil"
+      "Pencil",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15408,14 +16466,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PencilLine",
@@ -15429,7 +16487,8 @@
       "pencil",
       "update",
       "write",
-      "PencilLine"
+      "PencilLine",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15440,13 +16499,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PencilRuler",
@@ -15610,7 +16669,8 @@
       "hotline",
       "phone",
       "support",
-      "Phone"
+      "Phone",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15621,13 +16681,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PhoneIncoming",
@@ -15638,7 +16698,8 @@
       "phone-incoming",
       "pickup",
       "receive-call",
-      "PhoneIncoming"
+      "PhoneIncoming",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15650,12 +16711,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PhoneOff",
@@ -15666,7 +16727,8 @@
       "hang-up",
       "phone-off",
       "stop-call",
-      "PhoneOff"
+      "PhoneOff",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15676,14 +16738,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PhoneOutgoing",
@@ -15723,7 +16785,8 @@
       "snack",
       "sweet",
       "treat",
-      "Pie"
+      "Pie",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15736,11 +16799,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Play",
@@ -15869,7 +16932,8 @@
       "plug",
       "power",
       "socket",
-      "Plug"
+      "Plug",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15879,14 +16943,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Plus",
@@ -15986,7 +17050,8 @@
       "payment",
       "pound",
       "price",
-      "PoundSterling"
+      "PoundSterling",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -15999,11 +17064,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PoundSterlingCircle",
@@ -16016,7 +17081,8 @@
       "payment",
       "pound",
       "price",
-      "PoundSterlingCircle"
+      "PoundSterlingCircle",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -16029,11 +17095,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "PushPin",
@@ -16080,7 +17146,8 @@
       "reminder",
       "save",
       "thumbtack",
-      "PushPinAlt"
+      "PushPinAlt",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -16091,13 +17158,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "QrCode",
@@ -16318,7 +17385,8 @@
       "message",
       "reply",
       "respond",
-      "Reply"
+      "Reply",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -16328,14 +17396,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Robot",
@@ -16558,7 +17626,8 @@
       "rotate",
       "sync",
       "update",
-      "RotationLeft"
+      "RotationLeft",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -16568,14 +17637,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "RotationRight",
@@ -16587,7 +17656,8 @@
       "rotate",
       "synchronize",
       "update",
-      "RotationRight"
+      "RotationRight",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -16597,14 +17667,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "RouteArrow",
@@ -16652,7 +17722,8 @@
       "scale",
       "size",
       "tool",
-      "Ruler"
+      "Ruler",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -16664,12 +17735,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Rulers",
@@ -17194,6 +18265,68 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "Scroll",
+    "tags": [
+      "ancient",
+      "contract",
+      "declaration",
+      "decree",
+      "document",
+      "law",
+      "manuscript",
+      "parchment",
+      "Scroll",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "ScrollText",
+    "tags": [
+      "ancient",
+      "contract",
+      "declaration",
+      "decree",
+      "document",
+      "law",
+      "manuscript",
+      "parchment",
+      "ScrollText",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "Search",
     "tags": [
       "discover",
@@ -17206,7 +18339,8 @@
       "search",
       "tool",
       "zoom",
-      "Search"
+      "Search",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17216,14 +18350,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SearchCircle",
@@ -17300,7 +18434,8 @@
       "organic",
       "plant",
       "sustainability",
-      "Seedling"
+      "Seedling",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17313,11 +18448,42 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "SelectField",
+    "tags": [
+      "choice",
+      "dropdown",
+      "form field",
+      "input",
+      "menu",
+      "option",
+      "select",
+      "select input",
+      "SelectField",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Send",
@@ -17330,7 +18496,8 @@
       "send",
       "share",
       "submit",
-      "Send"
+      "Send",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17340,14 +18507,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
+      "fill": "6.1.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SendH",
@@ -17390,7 +18557,8 @@
       "send",
       "share",
       "submit",
-      "SendV"
+      "SendV",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17401,13 +18569,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Settings",
@@ -17452,7 +18620,8 @@
       "share",
       "share-out",
       "upload",
-      "Share"
+      "Share",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17465,11 +18634,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Shield",
@@ -17569,7 +18738,8 @@
       "shield",
       "trust",
       "verified",
-      "ShieldCheck"
+      "ShieldCheck",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17584,9 +18754,9 @@
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ShieldHalf",
@@ -17625,7 +18795,8 @@
       "shield",
       "unprotected",
       "unsafe",
-      "ShieldSlash"
+      "ShieldSlash",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -17635,14 +18806,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SidebarLeft",
@@ -18106,7 +19277,8 @@
       "pen",
       "signature",
       "sketch",
-      "SignatureX"
+      "SignatureX",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18119,11 +19291,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Slash",
@@ -18135,7 +19307,8 @@
       "path",
       "separator",
       "symbol",
-      "Slash"
+      "Slash",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18146,13 +19319,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Sliders",
@@ -18324,7 +19497,8 @@
       "rank",
       "sort",
       "wide-first",
-      "Sort"
+      "Sort",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18334,14 +19508,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SortAscending",
@@ -18353,7 +19527,8 @@
       "rank",
       "sort",
       "wide-first",
-      "SortAscending"
+      "SortAscending",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18363,14 +19538,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SortAscendingNarrow",
@@ -18595,7 +19770,8 @@
       "speaker",
       "unmute",
       "volume",
-      "Speaker"
+      "Speaker",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18606,13 +19782,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SpeakerHigh",
@@ -18625,7 +19801,8 @@
       "speaker",
       "unmute",
       "volume",
-      "SpeakerHigh"
+      "SpeakerHigh",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18636,13 +19813,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SpeakerLow",
@@ -18655,7 +19832,8 @@
       "speaker",
       "unmute",
       "volume",
-      "SpeakerLow"
+      "SpeakerLow",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -18668,11 +19846,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SpeakerMedium",
@@ -18763,6 +19941,37 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "Spiral",
+    "tags": [
+      "assistance",
+      "chat",
+      "faq",
+      "help",
+      "onboarding",
+      "question",
+      "support",
+      "tooltip",
+      "Spiral",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Square",
@@ -18994,7 +20203,8 @@
       "sunset",
       "time",
       "weather",
-      "Sunrise"
+      "Sunrise",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19007,11 +20217,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "SwatchBook",
@@ -19137,6 +20347,37 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "Telescope",
+    "tags": [
+      "astronomy",
+      "discovery",
+      "explore",
+      "observe",
+      "research",
+      "science",
+      "search",
+      "zoom",
+      "Telescope",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
+  },
+  {
     "name": "TennisBall",
     "tags": [
       "activity",
@@ -19252,6 +20493,38 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "TextAi",
+    "tags": [
+      "ai",
+      "auto",
+      "content",
+      "enhance",
+      "generate",
+      "list",
+      "magic",
+      "sparkle",
+      "writing",
+      "TextAi",
+      "*new*"
+    ],
+    "versionAdded": "6.1.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
+    },
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "TextAlignCenter",
@@ -19589,7 +20862,8 @@
       "sensor",
       "temperature",
       "weather",
-      "ThermometerHigh"
+      "ThermometerHigh",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19599,14 +20873,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
+      "regular": "6.1.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ThermometerLow",
@@ -19618,7 +20892,8 @@
       "sensor",
       "temperature",
       "weather",
-      "ThermometerLow"
+      "ThermometerLow",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19628,14 +20903,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ThermometerMedium",
@@ -19647,7 +20922,8 @@
       "sensor",
       "temperature",
       "weather",
-      "ThermometerMedium"
+      "ThermometerMedium",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19657,14 +20933,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ThumbsDown",
@@ -19676,7 +20952,8 @@
       "negative",
       "reject",
       "thumbs-down",
-      "ThumbsDown"
+      "ThumbsDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19687,13 +20964,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ThumbsUp",
@@ -19883,7 +21160,8 @@
       "settings",
       "tools",
       "utilities",
-      "Toolbox"
+      "Toolbox",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19893,14 +21171,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Tools",
@@ -19915,7 +21193,8 @@
       "setup",
       "support",
       "wrench",
-      "Tools"
+      "Tools",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -19925,14 +21204,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "ToyBrick",
@@ -20007,7 +21286,8 @@
       "park",
       "pine",
       "plant",
-      "Tree"
+      "Tree",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20017,14 +21297,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "TreeDeciduous",
@@ -20101,7 +21381,8 @@
       "loss",
       "performance",
       "statistics",
-      "TrendDown"
+      "TrendDown",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20113,12 +21394,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "TrendUp",
@@ -20132,7 +21413,8 @@
       "statistics",
       "success",
       "up",
-      "TrendUp"
+      "TrendUp",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20144,12 +21426,12 @@
     "variants": {
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Triangle",
@@ -20316,7 +21598,8 @@
       "tv",
       "video",
       "watch",
-      "TvPlayAlt"
+      "TvPlayAlt",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20327,13 +21610,13 @@
     "supportsDuotone": true,
     "variants": {
       "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
+      "regular-duotone": "6.1.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Umbrella",
@@ -20587,7 +21870,8 @@
       "profile",
       "settings",
       "user",
-      "UserSettings"
+      "UserSettings",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20597,14 +21881,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "UserX",
@@ -20618,7 +21902,8 @@
       "profile",
       "remove",
       "user",
-      "UserX"
+      "UserX",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20628,14 +21913,14 @@
     ],
     "supportsDuotone": true,
     "variants": {
-      "regular": "5.13.0",
-      "regular-duotone": "5.13.0",
-      "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "regular": "6.1.0",
+      "regular-duotone": "6.1.0",
+      "bold": "6.1.0",
+      "bold-duotone": "6.1.0",
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Users",
@@ -20678,7 +21963,8 @@
       "shared",
       "team",
       "users",
-      "UsersThree"
+      "UsersThree",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20692,10 +21978,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Video",
@@ -20798,7 +22084,8 @@
       "spell",
       "tool",
       "wand",
-      "Wand"
+      "Wand",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20811,11 +22098,11 @@
       "regular": "5.13.0",
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
-      "bold-duotone": "5.13.0",
+      "bold-duotone": "6.1.0",
       "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "Warehouse",
@@ -20975,7 +22262,8 @@
       "no-signal",
       "offline",
       "wifi",
-      "WifiSlash"
+      "WifiSlash",
+      "*new*"
     ],
     "versionAdded": "5.13.0",
     "weights": [
@@ -20989,10 +22277,10 @@
       "regular-duotone": "5.13.0",
       "bold": "5.13.0",
       "bold-duotone": "5.13.0",
-      "fill": "5.13.0",
-      "fill-duotone": "5.13.0"
+      "fill": "6.1.0",
+      "fill-duotone": "6.1.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.1.0"
   },
   {
     "name": "WineBottle",
