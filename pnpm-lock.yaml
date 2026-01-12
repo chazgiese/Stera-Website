@@ -30,8 +30,8 @@ importers:
         specifier: 19.1.2
         version: 19.1.2(react@19.1.2)
       stera-icons:
-        specifier: 6.1.0
-        version: 6.1.0(react@19.1.2)
+        specifier: 6.1.1
+        version: 6.1.1(react@19.1.2)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
@@ -1698,8 +1698,8 @@ packages:
   stable-hash@0.0.5:
     resolution: {integrity: sha512-+L3ccpzibovGXFK+Ap/f8LOS0ahMrHTf3xu7mMLSpEGU0EO9ucaysSylKo9eRDFNhWve/y275iPmIZ4z39a9iA==}
 
-  stera-icons@6.1.0:
-    resolution: {integrity: sha512-A+MEi4SoeFTvZdvo6YMeBRG3Y194QvG/WXoUFW7ccrkSdnAer1v0F9bCYGuamg6MrxqQV/NeX8dvtuIT9BI3Hg==}
+  stera-icons@6.1.1:
+    resolution: {integrity: sha512-v787ww4tYVUreDw2iySsTqZFFKoWGhM/JKB7ba2P1nxNKvSs+j9LtUk1vmuXPZShuWV2w9hMWbcKNleRPhppxQ==}
     peerDependencies:
       react: '>=16.8.0'
 
@@ -3604,7 +3604,7 @@ snapshots:
 
   stable-hash@0.0.5: {}
 
-  stera-icons@6.1.0(react@19.1.2):
+  stera-icons@6.1.1(react@19.1.2):
     dependencies:
       react: 19.1.2
 

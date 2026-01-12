@@ -153,7 +153,7 @@ function generateIconData() {
         tags: new Set(),
         weights: new Set(),
         supportsDuotone: false,
-        variantLastModified: {},
+        variantVersionAdded: {},
         earliestVersion: versionAdded,
         latestVersionUpdated: versionLastModified
       });
@@ -171,8 +171,8 @@ function generateIconData() {
     
     // Create a variant key for tracking version info
     const variantKey = duotone ? `${weight}-duotone` : weight;
-    if (!iconGroup.variantLastModified[variantKey]) {
-      iconGroup.variantLastModified[variantKey] = versionLastModified;
+    if (!iconGroup.variantVersionAdded[variantKey]) {
+      iconGroup.variantVersionAdded[variantKey] = versionAdded;
     }
     
     // Update earliest version
@@ -207,7 +207,7 @@ function generateIconData() {
     iconGroup.tags.add(cleanName);
     
     // Add "*new*" tag if any variant was added in the current version
-    const hasNewVariant = Object.values(iconGroup.variantLastModified).some(version => 
+    const hasNewVariant = Object.values(iconGroup.variantVersionAdded).some(version => 
       version !== 'unknown' && isVersionEqual(version, currentVersion)
     );
     if (hasNewVariant) {
@@ -220,7 +220,7 @@ function generateIconData() {
       versionAdded: iconGroup.earliestVersion,
       weights: Array.from(iconGroup.weights).sort(),
       supportsDuotone: iconGroup.supportsDuotone,
-      variants: iconGroup.variantLastModified
+      variants: iconGroup.variantVersionAdded
     };
     
     // Include versionLastModified if it's not 'unknown'
