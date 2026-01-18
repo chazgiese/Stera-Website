@@ -124,7 +124,7 @@ function HomeContent() {
           className="inline-flex items-center p-4 gap-2 rounded-full backdrop-blur-sm dark:bg-white/4 bg-black/3 hover:bg-black/5 inset-shadow-stera-light dark:inset-shadow-stera-dark dark:hover:bg-white/8 cursor-default"
         >
           <AstriskAltIcon className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
-          <h1 className="text-sm font-medium text-zinc-900 dark:text-zinc-100 hidden md:block">
+          <h1 className="text-sm/4 font-medium text-zinc-900 dark:text-zinc-100 hidden md:block">
             Stera
           </h1>
         </Link>

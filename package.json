@@ -14,11 +14,10 @@
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.544.0",
     "next": "15.5.7",
     "react": "19.1.2",
     "react-dom": "19.1.2",
-    "stera-icons": "6.1.1"
+    "stera-icons": "6.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

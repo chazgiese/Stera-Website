@@ -30,6 +30,37 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "Activity",
+    "tags": [
+      "activity",
+      "analytics",
+      "heartbeat",
+      "live",
+      "monitoring",
+      "performance",
+      "pulse",
+      "signal",
+      "Activity",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "AgentCursor",
     "tags": [
       "agent",
@@ -604,6 +635,96 @@
     "versionLastModified": "6.1.0"
   },
   {
+    "name": "Angle",
+    "tags": [
+      "angle",
+      "corner",
+      "geometry",
+      "measurement",
+      "orientation",
+      "right",
+      "rotate",
+      "Angle",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "AngleAcute",
+    "tags": [
+      "acute",
+      "angle",
+      "corner",
+      "geometry",
+      "measurement",
+      "orientation",
+      "rotate",
+      "AngleAcute",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "AngleObtuse",
+    "tags": [
+      "angle",
+      "corner",
+      "geometry",
+      "measurement",
+      "obtuse",
+      "orientation",
+      "rotate",
+      "AngleObtuse",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "Annotation",
     "tags": [
       "comment",
@@ -633,6 +754,36 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "Aperture",
+    "tags": [
+      "camera",
+      "exposure",
+      "focus",
+      "image settings",
+      "lens",
+      "photography",
+      "shutter",
+      "Aperture",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Archive",
@@ -2774,7 +2925,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "6.1.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "BellDot",
@@ -3314,7 +3465,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "6.1.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "BracketsCurly",
@@ -3646,7 +3797,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "BrightnessLow",
@@ -3674,7 +3825,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "BrightnessMedium",
@@ -3702,7 +3853,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Browser",
@@ -3872,8 +4023,7 @@
       "math",
       "numeric-input",
       "pricing",
-      "Calculator",
-      "*new*"
+      "Calculator"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -4287,6 +4437,37 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "Candle",
+    "tags": [
+      "ambiance",
+      "candle",
+      "decor",
+      "flame",
+      "light",
+      "memorial",
+      "night",
+      "wax",
+      "Candle",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "CapsLock",
     "tags": [
       "analytics",
@@ -4656,6 +4837,38 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "ChartCandleAlt",
+    "tags": [
+      "analytics",
+      "data",
+      "finance",
+      "investment",
+      "market",
+      "performance",
+      "stocks",
+      "trading",
+      "visualization",
+      "ChartCandleAlt",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "ChartDonut",
@@ -5067,6 +5280,69 @@
     "versionLastModified": "6.1.1"
   },
   {
+    "name": "ChatBoxAlert",
+    "tags": [
+      "alert",
+      "chat",
+      "comment",
+      "error",
+      "feedback",
+      "message",
+      "notification",
+      "warning",
+      "ChatBoxAlert",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "ChatBoxCheck",
+    "tags": [
+      "approved",
+      "check",
+      "comment",
+      "complete",
+      "confirmation",
+      "feedback",
+      "read",
+      "resolved",
+      "review",
+      "ChatBoxCheck",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "ChatBoxDashed",
     "tags": [
       "chat",
@@ -5163,6 +5439,67 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "ChatBoxOff",
+    "tags": [
+      "blocked",
+      "chat",
+      "conversation",
+      "disable",
+      "message",
+      "mute",
+      "silence",
+      "ChatBoxOff",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "ChatBoxPlus",
+    "tags": [
+      "add",
+      "annotation",
+      "chat",
+      "comment",
+      "feedback",
+      "message",
+      "new",
+      "reply",
+      "ChatBoxPlus",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "ChatBoxQuestion",
     "tags": [
       "assistance",
@@ -5173,8 +5510,7 @@
       "question",
       "support",
       "tooltip",
-      "ChatBoxQuestion",
-      "*new*"
+      "ChatBoxQuestion"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -5252,6 +5588,69 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "ChatBubbleAlert",
+    "tags": [
+      "alert",
+      "chat",
+      "comment",
+      "error",
+      "feedback",
+      "message",
+      "notification",
+      "warning",
+      "ChatBubbleAlert",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "ChatBubbleCheck",
+    "tags": [
+      "approved",
+      "check",
+      "comment",
+      "complete",
+      "confirmation",
+      "feedback",
+      "read",
+      "resolved",
+      "review",
+      "ChatBubbleCheck",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "ChatBubbleDashed",
@@ -5351,6 +5750,67 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "ChatBubbleOff",
+    "tags": [
+      "blocked",
+      "chat",
+      "conversation",
+      "disable",
+      "message",
+      "mute",
+      "silence",
+      "ChatBubbleOff",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "ChatBubblePlus",
+    "tags": [
+      "add",
+      "annotation",
+      "chat",
+      "comment",
+      "feedback",
+      "message",
+      "new",
+      "reply",
+      "ChatBubblePlus",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "ChatBubbleQuestion",
     "tags": [
       "assistance",
@@ -5361,8 +5821,7 @@
       "question",
       "support",
       "tooltip",
-      "ChatBubbleQuestion",
-      "*new*"
+      "ChatBubbleQuestion"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -6557,8 +7016,7 @@
       "networking",
       "programming",
       "wired-connection",
-      "ChevronsLeftRightEllipsis",
-      "*new*"
+      "ChevronsLeftRightEllipsis"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -6897,6 +7355,36 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "CirclePlaceholder",
+    "tags": [
+      "draft",
+      "empty",
+      "loading",
+      "pattern",
+      "placeholder",
+      "skeleton",
+      "striped",
+      "CirclePlaceholder",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "CircleSlash",
@@ -8400,8 +8888,7 @@
       "model",
       "scan object",
       "wireframe",
-      "CubeDash",
-      "*new*"
+      "CubeDash"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -9138,7 +9625,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "DatabaseX",
@@ -9449,8 +9936,7 @@
       "scan document",
       "search",
       "text lookup",
-      "DocumentSearch",
-      "*new*"
+      "DocumentSearch"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -9540,8 +10026,7 @@
       "precision",
       "rotate",
       "transform",
-      "DraftingCompass",
-      "*new*"
+      "DraftingCompass"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -10104,6 +10589,42 @@
     "versionLastModified": "6.1.0"
   },
   {
+    "name": "FastForward",
+    "tags": [
+      "ahead",
+      "arrow",
+      "audio",
+      "control",
+      "fast",
+      "forward",
+      "media",
+      "music",
+      "playback",
+      "right",
+      "seek",
+      "skip",
+      "video",
+      "FastForward",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "Figma",
     "tags": [
       "brand",
@@ -10172,8 +10693,7 @@
       "math",
       "numeric-input",
       "pricing",
-      "FilmStrip",
-      "*new*"
+      "FilmStrip"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -10281,7 +10801,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Flash",
@@ -11179,8 +11699,7 @@
       "menu",
       "restaurant",
       "utensils",
-      "ForkKnife",
-      "*new*"
+      "ForkKnife"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11230,6 +11749,36 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "Forward",
+    "tags": [
+      "export",
+      "external",
+      "forward",
+      "open",
+      "redirect",
+      "send",
+      "share",
+      "Forward",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "Frame",
     "tags": [
       "border",
@@ -11276,8 +11825,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots0Percent",
-      "*new*"
+      "GaugeDots0Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11312,8 +11860,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots100Percent",
-      "*new*"
+      "GaugeDots100Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11347,8 +11894,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots15Percent",
-      "*new*"
+      "GaugeDots15Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11382,8 +11928,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots33Percent",
-      "*new*"
+      "GaugeDots33Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11417,8 +11962,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots50Percent",
-      "*new*"
+      "GaugeDots50Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11452,8 +11996,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots66Percent",
-      "*new*"
+      "GaugeDots66Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11487,8 +12030,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeDots85Percent",
-      "*new*"
+      "GaugeDots85Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11523,8 +12065,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines0Percent",
-      "*new*"
+      "GaugeLines0Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11559,8 +12100,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines100Percent",
-      "*new*"
+      "GaugeLines100Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11594,8 +12134,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines15Percent",
-      "*new*"
+      "GaugeLines15Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11629,8 +12168,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines33Percent",
-      "*new*"
+      "GaugeLines33Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11664,8 +12202,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines50Percent",
-      "*new*"
+      "GaugeLines50Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11699,8 +12236,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines66Percent",
-      "*new*"
+      "GaugeLines66Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -11734,8 +12270,7 @@
       "speed",
       "status",
       "timer",
-      "GaugeLines85Percent",
-      "*new*"
+      "GaugeLines85Percent"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -12150,6 +12685,38 @@
     "versionLastModified": "6.1.0"
   },
   {
+    "name": "Gradient",
+    "tags": [
+      "background",
+      "blend",
+      "color stop",
+      "fill",
+      "gradient",
+      "ombre",
+      "styling",
+      "theme",
+      "transition",
+      "Gradient",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "Grid",
     "tags": [
       "apps",
@@ -12480,7 +13047,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "6.1.1"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Heart",
@@ -13065,8 +13632,7 @@
       "info",
       "information",
       "support",
-      "InfoSquare",
-      "*new*"
+      "InfoSquare"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -13271,8 +13837,7 @@
       "marquee",
       "multi-select",
       "selection",
-      "LassoDash",
-      "*new*"
+      "LassoDash"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -13678,7 +14243,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "6.1.1"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "LightbulbOn",
@@ -13813,8 +14378,7 @@
       "outline weight",
       "stroke weight",
       "text styling",
-      "LineWeight",
-      "*new*"
+      "LineWeight"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -14262,6 +14826,7 @@
       "restricted",
       "safety",
       "secure",
+      "security",
       "Lock"
     ],
     "versionAdded": "5.13.0",
@@ -14322,6 +14887,7 @@
       "restricted",
       "safety",
       "secure",
+      "security",
       "LockPassword"
     ],
     "versionAdded": "5.13.0",
@@ -14635,6 +15201,36 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "Mailbox",
+    "tags": [
+      "email",
+      "inbox",
+      "mail",
+      "mailbox",
+      "messages",
+      "postal",
+      "receive",
+      "Mailbox",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Map",
@@ -16608,6 +17204,36 @@
     "versionLastModified": "6.1.0"
   },
   {
+    "name": "Pilcrow",
+    "tags": [
+      "content",
+      "editor",
+      "format",
+      "paragraph",
+      "text",
+      "typography",
+      "writing",
+      "Pilcrow",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "Play",
     "tags": [
       "audio",
@@ -17051,7 +17677,69 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "Quote",
+    "tags": [
+      "blockquote",
+      "citation",
+      "comment",
+      "feedback",
+      "quotation",
+      "quote",
+      "testimonial",
+      "text",
+      "Quote",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "QuoteOpening",
+    "tags": [
+      "blockquote",
+      "citation",
+      "comment",
+      "feedback",
+      "quotation",
+      "quote",
+      "testimonial",
+      "text",
+      "QuoteOpening",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Receipt",
@@ -17175,6 +17863,41 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "Repeat",
+    "tags": [
+      "audio",
+      "bidirectional",
+      "loop",
+      "media",
+      "music",
+      "playback",
+      "refresh",
+      "repeat",
+      "replay",
+      "sync",
+      "update",
+      "video",
+      "Repeat",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "Reply",
     "tags": [
       "answer",
@@ -17202,6 +17925,42 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "6.1.0"
+  },
+  {
+    "name": "Rewind",
+    "tags": [
+      "arrow",
+      "audio",
+      "back",
+      "backward",
+      "control",
+      "left",
+      "media",
+      "music",
+      "playback",
+      "rewind",
+      "seek",
+      "skip",
+      "video",
+      "Rewind",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Robot",
@@ -18070,8 +18829,7 @@
       "law",
       "manuscript",
       "parchment",
-      "Scroll",
-      "*new*"
+      "Scroll"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -18101,8 +18859,7 @@
       "law",
       "manuscript",
       "parchment",
-      "ScrollText",
-      "*new*"
+      "ScrollText"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -18258,8 +19015,7 @@
       "option",
       "select",
       "select input",
-      "SelectField",
-      "*new*"
+      "SelectField"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -18604,6 +19360,105 @@
     "versionLastModified": "6.1.0"
   },
   {
+    "name": "ShipBack",
+    "tags": [
+      "audio",
+      "backward",
+      "control",
+      "media",
+      "music",
+      "playback",
+      "previous",
+      "rewind",
+      "skip",
+      "track",
+      "video",
+      "ShipBack",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "ShipForward",
+    "tags": [
+      "audio",
+      "control",
+      "fast-forward",
+      "media",
+      "music",
+      "next",
+      "playback",
+      "skip",
+      "track",
+      "video",
+      "ShipForward",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "Shuffle",
+    "tags": [
+      "audio",
+      "media",
+      "mix",
+      "music",
+      "playback",
+      "playlist",
+      "randomize",
+      "reorder",
+      "shuffle",
+      "Shuffle",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "SidebarLeft",
     "tags": [
       "content",
@@ -18822,7 +19677,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "SignalAltLow",
@@ -18855,7 +19710,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "SignalAltMedium",
@@ -18888,7 +19743,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "SignalHigh",
@@ -19449,7 +20304,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "SparkleSquare",
@@ -19480,7 +20335,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Sparkles",
@@ -19734,8 +20589,7 @@
       "question",
       "support",
       "tooltip",
-      "Spiral",
-      "*new*"
+      "Spiral"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -19824,6 +20678,66 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "SquarePlaceholder",
+    "tags": [
+      "draft",
+      "empty",
+      "loading",
+      "pattern",
+      "placeholder",
+      "skeleton",
+      "striped",
+      "SquarePlaceholder",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
+    "name": "SquareSlash",
+    "tags": [
+      "blocked",
+      "disabled",
+      "off",
+      "placeholder",
+      "prohibited",
+      "restricted",
+      "unavailable",
+      "SquareSlash",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Stairs",
@@ -19940,6 +20854,37 @@
       "fill-duotone": "5.13.0"
     },
     "versionLastModified": "5.13.0"
+  },
+  {
+    "name": "Stopwatch",
+    "tags": [
+      "duration",
+      "elapsed",
+      "performance",
+      "speed",
+      "stopwatch",
+      "test",
+      "timer",
+      "track",
+      "Stopwatch",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "Store",
@@ -20137,8 +21082,7 @@
       "science",
       "search",
       "zoom",
-      "Telescope",
-      "*new*"
+      "Telescope"
     ],
     "versionAdded": "6.1.0",
     "weights": [
@@ -20424,6 +21368,36 @@
     "versionLastModified": "5.13.0"
   },
   {
+    "name": "TextField",
+    "tags": [
+      "cursor",
+      "editor",
+      "field",
+      "form",
+      "input",
+      "text",
+      "typing",
+      "TextField",
+      "*new*"
+    ],
+    "versionAdded": "6.2.0",
+    "weights": [
+      "bold",
+      "fill",
+      "regular"
+    ],
+    "supportsDuotone": true,
+    "variants": {
+      "regular": "6.2.0",
+      "regular-duotone": "6.2.0",
+      "bold": "6.2.0",
+      "bold-duotone": "6.2.0",
+      "fill": "6.2.0",
+      "fill-duotone": "6.2.0"
+    },
+    "versionLastModified": "6.2.0"
+  },
+  {
     "name": "TextItalic",
     "tags": [
       "emphasis",
@@ -20525,8 +21499,7 @@
       "magic",
       "sparkle",
       "writing",
-      "TextSparkle",
-      "*new*"
+      "TextSparkle"
     ],
     "versionAdded": "6.1.1",
     "weights": [
@@ -21777,7 +22750,7 @@
       "fill": "5.13.0",
       "fill-duotone": "5.13.0"
     },
-    "versionLastModified": "5.13.0"
+    "versionLastModified": "6.2.0"
   },
   {
     "name": "VideoOff",

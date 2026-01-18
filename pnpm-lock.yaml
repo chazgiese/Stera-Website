@@ -17,9 +17,6 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
-      lucide-react:
-        specifier: ^0.544.0
-        version: 0.544.0(react@19.1.2)
       next:
         specifier: 15.5.7
         version: 15.5.7(react-dom@19.1.2(react@19.1.2))(react@19.1.2)
@@ -30,8 +27,8 @@ importers:
         specifier: 19.1.2
         version: 19.1.2(react@19.1.2)
       stera-icons:
-        specifier: 6.1.1
-        version: 6.1.1(react@19.1.2)
+        specifier: 6.2.0
+        version: 6.2.0(react@19.1.2)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
@@ -1409,11 +1406,6 @@ packages:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
 
-  lucide-react@0.544.0:
-    resolution: {integrity: sha512-t5tS44bqd825zAW45UQxpG2CvcC4urOwn2TrwSH8u+MjeE+1NnWl6QqeQ/6NdjMqdOygyiT9p3Ev0p1NJykxjw==}
-    peerDependencies:
-      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
 
@@ -1698,8 +1690,8 @@ packages:
   stable-hash@0.0.5:
     resolution: {integrity: sha512-+L3ccpzibovGXFK+Ap/f8LOS0ahMrHTf3xu7mMLSpEGU0EO9ucaysSylKo9eRDFNhWve/y275iPmIZ4z39a9iA==}
 
-  stera-icons@6.1.1:
-    resolution: {integrity: sha512-v787ww4tYVUreDw2iySsTqZFFKoWGhM/JKB7ba2P1nxNKvSs+j9LtUk1vmuXPZShuWV2w9hMWbcKNleRPhppxQ==}
+  stera-icons@6.2.0:
+    resolution: {integrity: sha512-hQONlI9satxAbPgIWveoN5huxaj+JxdbIroMU0CTrnfdS1mXS0a0RhgxzyFfdf9xSqNlsGXjTIO+PnSa9EAqVg==}
     peerDependencies:
       react: '>=16.8.0'
 
@@ -3267,10 +3259,6 @@ snapshots:
     dependencies:
       js-tokens: 4.0.0
 
-  lucide-react@0.544.0(react@19.1.2):
-    dependencies:
-      react: 19.1.2
-
   magic-string@0.30.19:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -3604,7 +3592,7 @@ snapshots:
 
   stable-hash@0.0.5: {}
 
-  stera-icons@6.1.1(react@19.1.2):
+  stera-icons@6.2.0(react@19.1.2):
     dependencies:
       react: 19.1.2
 
