@@ -1,3 +1,6 @@
+// Re-export IconProps and IconWeight from stera-icons for type consistency
+export type { IconProps, IconWeight } from 'stera-icons';
+
 export interface IconData {
   name: string;
   tags: string[];
@@ -6,12 +9,4 @@ export interface IconData {
   weights: ('regular' | 'bold' | 'fill')[];
   supportsDuotone: boolean;
   variants: Record<string, string>; // Maps variant keys (e.g., "regular", "bold-duotone") to version strings
-}
-
-export interface IconProps {
-  size?: number | string;
-  color?: string;
-  className?: string;
-  'aria-label'?: string;
-  'aria-hidden'?: boolean;
 }
