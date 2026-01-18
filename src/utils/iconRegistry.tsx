@@ -46,8 +46,9 @@ export async function loadIcon(
     // Import from the main package instead of individual files
     const iconModule = await import('stera-icons');
     
-    // Convert icon name to component name (add Icon suffix if not present)
-    const componentName = iconName.endsWith('Icon') ? iconName : `${iconName}Icon`;
+    // In v7.0.0+, component names no longer have the 'Icon' suffix
+    // The iconName is the component name directly (e.g., "AstriskAlt", not "AstriskAltIcon")
+    const componentName = iconName;
     
     // The icon is exported as a named export with the component name
     const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { weight?: 'regular' | 'bold' | 'fill'; duotone?: boolean }>>)[componentName];

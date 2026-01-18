@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XCircleIcon, CopyIcon, DownloadIcon, CheckCircleIcon } from 'stera-icons';
+import { XCircle, Copy, Download, CheckCircle } from 'stera-icons';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 import WeightSelector from './WeightSelector';
@@ -52,9 +52,10 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
   };
 
   // Parse the icon name to get component name
-  const componentName = icon.name.endsWith('Icon') ? icon.name : `${icon.name}Icon`;
-  const prettyName = componentName.endsWith('Icon') ? componentName.slice(0, -4) : componentName;
-  const importCode = `import { ${componentName} } from 'stera-icons';`;
+  // In v7.0.0+, component names no longer have the 'Icon' suffix
+  const componentName = icon.name;
+  const prettyName = componentName;
+  const importCode = `import { ${componentName} } from 'stera-icons/${componentName}';`;
   
   // Generate usage code based on weight and duotone
   const getUsageCode = (weight: 'regular' | 'bold' | 'fill', duotone: boolean) => {
@@ -130,7 +131,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
                 onClick={onClose}
                 className="p-2 hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-xl transition-colors text-zinc-500 dark:text-zinc-400"
               >
-                <XCircleIcon weight="fill" duotone size={16} />
+                <XCircle weight="fill" duotone size={16} />
               </button>
               
               {/* Icon name in center */}
@@ -145,14 +146,14 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
                   className="p-2 hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-lg transition-colors text-zinc-500 dark:text-zinc-400 dark:hover:text-zinc-300"
                   title="Copy SVG"
                 >
-                  {copied === 'svg' ? <CheckCircleIcon weight="fill" duotone size={16} /> : <CopyIcon weight="bold" duotone size={16} />}
+                  {copied === 'svg' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
                 </button>
                 <button
                   onClick={downloadSVG}
                   className="p-2 hover:bg-zinc-100 dark:hover:bg-zinc-900 rounded-lg transition-colors text-zinc-500 dark:text-zinc-400 dark:hover:text-zinc-300"
                   title="Download SVG"
                 >
-                  <DownloadIcon weight="bold" duotone size={16} />
+                  <Download weight="bold" duotone size={16} />
                 </button>
               </div>
             </div>
@@ -216,7 +217,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
                     onClick={() => copyToClipboard(importCode, 'import')}
                     className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
                   >
-                    {copied === 'import' ? <CheckCircleIcon weight="fill" duotone size={16} /> : <CopyIcon weight="bold" duotone size={16} />}
+                    {copied === 'import' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
                   </button>
                 </div>
                 <pre className="py-1 text-sm overflow-x-auto">
@@ -232,7 +233,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
                     onClick={() => copyToClipboard(usageCode, 'usage')}
                     className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
                   >
-                    {copied === 'usage' ? <CheckCircleIcon weight="fill" duotone size={16} /> : <CopyIcon weight="bold" duotone size={16} />}
+                    {copied === 'usage' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
                   </button>
                 </div>
                 <pre className="py-1 text-sm overflow-x-auto">

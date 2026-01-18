@@ -20,7 +20,7 @@ const metadataPath = path.join(__dirname, '..', 'node_modules', 'stera-icons', '
 const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
 // Create a map of component names + weight/duotone to their metadata
-// Key format: "ComponentName:weight:duotone" (e.g., "AiIcon:bold:false")
+// Key format: "ComponentName:weight:duotone" (e.g., "Ai:bold:false")
 const metadataMap = new Map();
 metadata.forEach(icon => {
   const key = `${icon.componentName}:${icon.weight}:${icon.duotone}`;
@@ -63,19 +63,17 @@ function isVersionEqual(version1, version2) {
 }
 
 // List of backward-compatibility icons that should be excluded
+// Note: In v7.0.0+, component names no longer have the 'Icon' suffix
 const DEPRECATED_ICONS = new Set([
-  'CheckmarkIcon', // Deprecated in favor of CheckIcon
-  'CheckmarkIconBold', // Deprecated in favor of CheckIconBold
-  'CheckmarkIconFilled', // Deprecated in favor of CheckIconFilled
+  'Checkmark', // Deprecated in favor of Check
+  'CheckmarkBold', // Deprecated in favor of CheckBold
+  'CheckmarkFilled', // Deprecated in favor of CheckFilled
   // Add other deprecated icons here as needed
 ]);
 
-// Helper function to remove Icon suffix
+// Helper function to get clean icon name
+// In v7.0.0+, component names no longer have the 'Icon' suffix
 function getCleanIconName(componentName) {
-  // Remove Icon suffix
-  if (componentName.endsWith('Icon')) {
-    return componentName.replace(/Icon$/, '');
-  }
   return componentName;
 }
 

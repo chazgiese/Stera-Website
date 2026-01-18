@@ -1,6 +1,6 @@
 'use client';
 
-import { SearchIcon, XIcon } from 'stera-icons';
+import { Search, X } from 'stera-icons';
 import { useState } from 'react';
 
 interface SearchBarProps {
@@ -45,7 +45,7 @@ export default function SearchBar({
           dark:text-zinc-400
           text-sm/4"
       />
-      <SearchIcon 
+      <Search 
         weight="bold"
         className={`absolute left-4 h-4 w-4 transition-colors ${
           isFocused ? 'text-zinc-900 dark:text-zinc-200' : 'text-zinc-700 dark:text-zinc-100'
@@ -64,7 +64,7 @@ export default function SearchBar({
             transition-colors"
           aria-label="Clear search"
         >
-          <XIcon weight="bold" className="h-4 w-4" />
+          <X weight="bold" className="h-4 w-4" />
         </button>
       )}
     </div>

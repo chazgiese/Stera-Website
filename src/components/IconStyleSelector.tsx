@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { CheckCircleIcon, ChevronDownIcon, LayoutGridCircleIcon } from 'stera-icons';
+import { CheckCircle, ChevronDown, LayoutGridCircle } from 'stera-icons';
 import clsx from 'clsx';
 
 interface IconStyleSelectorProps {
@@ -61,12 +61,12 @@ export default function IconStyleSelector({
         aria-haspopup="listbox"
         aria-expanded={isOpen}
       >
-        <LayoutGridCircleIcon 
+        <LayoutGridCircle 
           weight={selectedWeight}
           duotone={isDuotone}
           className="w-4 h-4"
         />
-        <ChevronDownIcon 
+        <ChevronDown 
           className="w-3 h-3 text-zinc-500 dark:text-zinc-400" 
         />
       </button>
@@ -89,7 +89,7 @@ export default function IconStyleSelector({
                     )}
                   >
                     <span>{weight.label}</span>
-                    <CheckCircleIcon
+                    <CheckCircle
                       aria-hidden={true}
                       size={16}
                       weight="fill"
@@ -122,7 +122,7 @@ export default function IconStyleSelector({
                     )}
                   >
                     <span>{option.label}</span>
-                    <CheckCircleIcon
+                    <CheckCircle
                       aria-hidden={true}
                       size={16}
                       weight="fill"

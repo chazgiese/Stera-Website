@@ -8,7 +8,7 @@ import SearchBar from '@/components/SearchBar';
 import IconStyleSelector from '@/components/IconStyleSelector';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
-import { AstriskAltIcon, FigmaIcon, GithubIcon, ScribbleIcon, InfoCircleIcon } from 'stera-icons';
+import { AstriskAlt, Figma, Github, Scribble, InfoCircle } from 'stera-icons';
 import iconData from '@/data/icons.json';
 
 function HomeContent() {
@@ -123,7 +123,7 @@ function HomeContent() {
           href="/"
           className="inline-flex items-center p-4 gap-2 rounded-full backdrop-blur-sm dark:bg-white/4 bg-black/3 hover:bg-black/5 inset-shadow-stera-light dark:inset-shadow-stera-dark dark:hover:bg-white/8 cursor-default"
         >
-          <AstriskAltIcon className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
+          <AstriskAlt className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
           <h1 className="text-sm/4 font-medium text-zinc-900 dark:text-zinc-100 hidden md:block">
             Stera
           </h1>
@@ -149,7 +149,7 @@ function HomeContent() {
             onClick={() => setIsInfoMenuOpen((v) => !v)}
             className="inline-flex items-center p-4 rounded-full backdrop-blur-sm dark:bg-white/4 bg-black/3 hover:bg-black/5 inset-shadow-stera-light dark:inset-shadow-stera-dark"
           >
-            <InfoCircleIcon className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
+            <InfoCircle className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
           </button>
 
           {isInfoMenuOpen && (
@@ -166,7 +166,7 @@ function HomeContent() {
                 onClick={() => setIsInfoMenuOpen(false)}
                 className="px-4 py-2 text-sm transition-colors flex items-center gap-2 text-zinc-900 dark:text-zinc-100 hover:bg-black/5 dark:hover:bg-white/6 cursor-pointer"
               >
-                <FigmaIcon className="w-4 h-4" />
+                <Figma className="w-4 h-4" />
                 <span>Figma</span>
               </a>
               <a
@@ -177,7 +177,7 @@ function HomeContent() {
                 onClick={() => setIsInfoMenuOpen(false)}
                 className="px-4 py-2 text-sm transition-colors flex items-center gap-2 text-zinc-900 dark:text-zinc-100 hover:bg-black/5 dark:hover:bg-white/6 cursor-pointer"
               >
-                <GithubIcon className="w-4 h-4" />
+                <Github className="w-4 h-4" />
                 <span>GitHub</span>
               </a>
             </div>
@@ -191,7 +191,7 @@ function HomeContent() {
             rel="noopener noreferrer"
             className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-zinc-200 cursor-default"
           >
-            <FigmaIcon className="w-4 h-4" />
+            <Figma className="w-4 h-4" />
           </a>
           <a
             href="https://github.com/chazgiese/Stera-Icons"
@@ -199,7 +199,7 @@ function HomeContent() {
             rel="noopener noreferrer"
             className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-zinc-200 cursor-default"
           >
-            <GithubIcon className="w-4 h-4" />
+            <Github className="w-4 h-4" />
           </a>
         </div>
       </header>
@@ -222,7 +222,7 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-sm text-zinc-500 dark:text-zinc-600">
             <p>
-              made with <ScribbleIcon weight="fill" className="w-4 h-4 inline-block" />
+              made with <Scribble weight="fill" className="w-4 h-4 inline-block" />
               {' '}by{' '}
               <a
                 href="https://github.com/chazgiese"

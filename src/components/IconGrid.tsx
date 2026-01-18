@@ -2,7 +2,7 @@
 
 import { IconData } from '@/types/icon';
 import IconCard from './IconCard';
-import { SquareDashedIcon } from 'stera-icons';
+import { SquareDashed } from 'stera-icons';
 
 interface IconGridProps {
   icons: IconData[];
@@ -38,7 +38,7 @@ export default function IconGrid({ icons, onIconClick, loading = false, weight =
     return (
       <div className="text-center py-12 min-h-[calc(100vh-264px)]">
         <div className="text-zinc-400 dark:text-zinc-600 mb-4">
-          <SquareDashedIcon weight="bold" className="w-16 h-16 mx-auto" />
+          <SquareDashed weight="bold" className="w-16 h-16 mx-auto" />
         </div>
         <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">
           No icons found
