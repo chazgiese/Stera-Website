@@ -21,54 +21,52 @@ export default function SearchBar({
   };
 
   return (
-    <div className="relative w-full mx-auto pb-8">
-      <div className={`relative flex items-center transition-all duration-200 ${
-        isFocused ? '' : ''
-      }`}>
-        <SearchIcon 
-          weight="bold"
-          className={`absolute left-4 h-4 w-4 transition-colors ${
-            isFocused ? 'text-zinc-900 dark:text-zinc-200' : 'text-zinc-700 dark:text-zinc-400'
-          }`} 
-        />
-        <input
-          type="text"
-          value={searchTerm}
-          onChange={(e) => onSearchChange(e.target.value)}
-          onFocus={() => setIsFocused(true)}
-          onBlur={() => setIsFocused(false)}
-          placeholder={placeholder}
+    <div className={`relative flex w-full items-center transition-all duration-200 ${
+      isFocused ? '' : ''
+    }`}>
+      <input
+        type="text"
+        value={searchTerm}
+        onChange={(e) => onSearchChange(e.target.value)}
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
+        placeholder={placeholder}
+        className="
+          w-full
+          h-12
+          px-12 py-4
+          border-none
+          rounded-full backdrop-blur-sm dark:bg-white/4 dark:hover:bg-white/8 bg-black/3 hover:bg-black/5
+          inset-shadow-stera-light dark:inset-shadow-stera-dark
+          focus:outline-none
+          dark:focus:bg-zinc-100/8
+          focus:bg-black/5
+          transition-all duration-200
+          dark:text-zinc-400
+          text-sm/4"
+      />
+      <SearchIcon 
+        weight="bold"
+        className={`absolute left-4 h-4 w-4 transition-colors ${
+          isFocused ? 'text-zinc-900 dark:text-zinc-200' : 'text-zinc-700 dark:text-zinc-100'
+        }`} 
+      />
+      {searchTerm && (
+        <button
+          onClick={handleClear}
           className="
-            w-full
-            h-[48px]
-            pl-12 pr-10 py-3
-            border border-zinc-200 dark:border-zinc-800 rounded-3xl
-            bg-white dark:bg-zinc-900
-            focus:outline-none
-            dark:focus:bg-zinc-900
-            focus:border-zinc-300
-            focus:dark:border-zinc-700
-            transition-all duration-200
-            dark:text-white"
-        />
-        {searchTerm && (
-          <button
-            onClick={handleClear}
-            className="
-              absolute
-              left-1
-              p-3
-              dark:hover:text-zinc-100 dark:text-zinc-400
-              hover:bg-gray-100 dark:hover:bg-zinc-800
-              bg-white dark:bg-zinc-900
-              rounded-full
-              transition-colors"
-            aria-label="Clear search"
-          >
-            <XIcon weight="bold" className="h-4 w-4" />
-          </button>
-        )}
-      </div>
+            absolute
+            right-1
+            p-3
+            dark:hover:text-zinc-100 dark:text-zinc-400
+            hover:bg-gray-100 dark:hover:bg-zinc-800
+            rounded-full
+            transition-colors"
+          aria-label="Clear search"
+        >
+          <XIcon weight="bold" className="h-4 w-4" />
+        </button>
+      )}
     </div>
   );
 }

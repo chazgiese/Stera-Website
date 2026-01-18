@@ -1,5 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Validation function to check if icon exists in stera-icons
 function validateIconExists(iconName, availableIcons) {
@@ -32,7 +37,7 @@ function getCurrentVersion() {
       const steraIconsPackageJson = JSON.parse(fs.readFileSync(steraIconsPackagePath, 'utf8'));
       return steraIconsPackageJson.version;
     }
-  } catch (error) {
+  } catch {
     // Fallback to package.json dependency version
   }
   // Fallback: read from package.json dependencies
@@ -57,38 +62,6 @@ function isVersionEqual(version1, version2) {
   return major1 === major2 && minor1 === minor2;
 }
 
-// Generate tags using actual metadata from stera-icons
-function generateTags(iconName, metadata, currentVersion) {
-  const tags = [];
-  
-  // Add base name as tag
-  tags.push(iconName);
-  
-  // Add weight-based tags
-  if (metadata && metadata.weight) {
-    if (metadata.weight === 'fill') {
-      tags.push('filled', 'solid');
-    } else {
-      tags.push('outline', 'line');
-    }
-  }
-  
-  // Add actual tags from metadata
-  if (metadata && metadata.tags && Array.isArray(metadata.tags)) {
-    tags.push(...metadata.tags);
-  }
-  
-  const finalTags = [...new Set(tags)]; // Remove duplicates
-  
-  // Add "*new*" tag if icon was added in the current version
-  const versionAdded = metadata?.versionAdded || 'unknown';
-  if (versionAdded !== 'unknown' && isVersionEqual(versionAdded, currentVersion)) {
-    finalTags.push('*new*');
-  }
-  
-  return finalTags;
-}
-
 // List of backward-compatibility icons that should be excluded
 const DEPRECATED_ICONS = new Set([
   'CheckmarkIcon', // Deprecated in favor of CheckIcon
@@ -107,8 +80,8 @@ function getCleanIconName(componentName) {
 }
 
 // Generate all icon data
-function generateIconData() {
-  const Icons = require('stera-icons');
+async function generateIconData() {
+  const Icons = await import('stera-icons');
   const availableIcons = new Set(Object.keys(Icons));
   const currentVersion = getCurrentVersion();
   
@@ -247,7 +220,7 @@ function generateIconData() {
 }
 
 // Generate the icons data
-const icons = generateIconData();
+const icons = await generateIconData();
 
 // Create the data directory if it doesn't exist
 const srcDataDir = path.join(__dirname, '..', 'src', 'data');

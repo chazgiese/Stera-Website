@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, Suspense } from 'react';
+import { useState, useMemo, useEffect, useRef, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { IconData } from '@/types/icon';
@@ -8,9 +8,8 @@ import SearchBar from '@/components/SearchBar';
 import IconStyleSelector from '@/components/IconStyleSelector';
 import IconGrid from '@/components/IconGrid';
 import IconDetailModal from '@/components/IconDetailModal';
-import { AstriskAltIcon, FigmaIcon, GithubIcon, ScribbleIcon } from 'stera-icons';
+import { AstriskAltIcon, FigmaIcon, GithubIcon, ScribbleIcon, InfoCircleIcon } from 'stera-icons';
 import iconData from '@/data/icons.json';
-import { STERA_ICONS_VERSION } from '@/utils/version';
 
 function HomeContent() {
   const router = useRouter();
@@ -22,6 +21,8 @@ function HomeContent() {
   const [isDuotone, setIsDuotone] = useState<boolean>(false);
   const [selectedIcon, setSelectedIcon] = useState<IconData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isInfoMenuOpen, setIsInfoMenuOpen] = useState(false);
+  const infoMenuRef = useRef<HTMLDivElement | null>(null);
 
   // Load icons on mount
   useEffect(() => {
@@ -47,6 +48,29 @@ function HomeContent() {
       }
     }
   }, [searchParams, icons]);
+
+  // Close mobile info menu on outside click / Escape
+  useEffect(() => {
+    if (!isInfoMenuOpen) return;
+
+    const onPointerDown = (event: PointerEvent) => {
+      const target = event.target as Node | null;
+      if (!target) return;
+      if (infoMenuRef.current?.contains(target)) return;
+      setIsInfoMenuOpen(false);
+    };
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setIsInfoMenuOpen(false);
+    };
+
+    window.addEventListener('pointerdown', onPointerDown);
+    window.addEventListener('keydown', onKeyDown);
+    return () => {
+      window.removeEventListener('pointerdown', onPointerDown);
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [isInfoMenuOpen]);
 
   // Filter icons based on search and style filter
   const filteredIcons = useMemo(() => {
@@ -94,52 +118,17 @@ function HomeContent() {
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-950">
       {/* Header */}
-      <header className="lg:fixed top-0 left-0 right-0 z-25 bg-white/60 dark:bg-zinc-950/10 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center space-x-4">
-              <Link href="/" className="flex items-center space-x-1">
-                <AstriskAltIcon className="w-6 h-6 text-zinc-900 dark:text-zinc-100" />
-                <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
-                  Stera
-                </h1>
-              </Link>
-              <a
-                href="https://github.com/chazgiese/Stera-Icons/releases"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
-              >
-                v{STERA_ICONS_VERSION}
-              </a>
-            </div>
-            
-            <div className="flex items-center space-x-1">
-              <a
-                href="https://www.figma.com/community/file/1548871823641702097/stera-icons"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
-              >
-                <FigmaIcon className="w-6 h-6" />
-              </a>
-              <a
-                href="https://github.com/chazgiese/Stera-Icons"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 px-3 py-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
-              >
-                <GithubIcon className="w-6 h-6" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-        {/* Search and Filters */}
-        <div className="sticky top-2 z-50 flex gap-4 lg:max-w-lg m-auto">
+      <header className="sticky flex justify-between items-center gap-4 md:space-x-0 top-0 z-25 px-3 py-4 md:px-6">
+        <Link
+          href="/"
+          className="inline-flex items-center p-4 gap-2 rounded-full backdrop-blur-sm dark:bg-white/4 bg-black/3 hover:bg-black/5 inset-shadow-stera-light dark:inset-shadow-stera-dark dark:hover:bg-white/8 cursor-default"
+        >
+          <AstriskAltIcon className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
+          <h1 className="text-sm font-medium text-zinc-900 dark:text-zinc-100 hidden md:block">
+            Stera
+          </h1>
+        </Link>
+        <div className="flex w-full md:w-sm items-center md:space-x-2">
           <SearchBar
             searchTerm={searchTerm}
             onSearchChange={setSearchTerm}
@@ -151,6 +140,73 @@ function HomeContent() {
             onDuotoneChange={setIsDuotone}
           />
         </div>
+        <div ref={infoMenuRef} className="relative inline-flex md:hidden">
+          <button
+            type="button"
+            aria-label="Open links menu"
+            aria-haspopup="menu"
+            aria-expanded={isInfoMenuOpen}
+            onClick={() => setIsInfoMenuOpen((v) => !v)}
+            className="inline-flex items-center p-4 rounded-full backdrop-blur-sm dark:bg-white/4 bg-black/3 hover:bg-black/5 inset-shadow-stera-light dark:inset-shadow-stera-dark"
+          >
+            <InfoCircleIcon className="w-4 h-4 text-zinc-900 dark:text-zinc-100" />
+          </button>
+
+          {isInfoMenuOpen && (
+            <div
+              role="menu"
+              aria-label="Links"
+              className="absolute right-0 top-full mt-2 backdrop-blur-sm dark:bg-white/4 bg-black/3 rounded-2xl shadow-lg inset-shadow-stera-light dark:inset-shadow-stera-dark overflow-clip"
+            >
+              <a
+                role="menuitem"
+                href="https://www.figma.com/community/file/1548871823641702097/stera-icons"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsInfoMenuOpen(false)}
+                className="px-4 py-2 text-sm transition-colors flex items-center gap-2 text-zinc-900 dark:text-zinc-100 hover:bg-black/5 dark:hover:bg-white/6 cursor-pointer"
+              >
+                <FigmaIcon className="w-4 h-4" />
+                <span>Figma</span>
+              </a>
+              <a
+                role="menuitem"
+                href="https://github.com/chazgiese/Stera-Icons"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsInfoMenuOpen(false)}
+                className="px-4 py-2 text-sm transition-colors flex items-center gap-2 text-zinc-900 dark:text-zinc-100 hover:bg-black/5 dark:hover:bg-white/6 cursor-pointer"
+              >
+                <GithubIcon className="w-4 h-4" />
+                <span>GitHub</span>
+              </a>
+            </div>
+          )}
+        </div>
+
+        <div className="hidden md:inline-flex items-center p-2 space-x-2 rounded-full backdrop-blur-sm dark:bg-white/4 bg-black/3 inset-shadow-stera-light dark:inset-shadow-stera-dark">
+          <a
+            href="https://www.figma.com/community/file/1548871823641702097/stera-icons"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-zinc-200 cursor-default"
+          >
+            <FigmaIcon className="w-4 h-4" />
+          </a>
+          <a
+            href="https://github.com/chazgiese/Stera-Icons"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-zinc-200 cursor-default"
+          >
+            <GithubIcon className="w-4 h-4" />
+          </a>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-12xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+        
         {/* Icon Grid */}
         <IconGrid
           icons={filteredIcons}
