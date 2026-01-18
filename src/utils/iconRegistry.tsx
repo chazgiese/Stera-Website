@@ -51,7 +51,7 @@ export async function loadIcon(
     const componentName = iconName;
     
     // The icon is exported as a named export with the component name
-    const BaseIconComponent = (iconModule as Record<string, React.ComponentType<IconProps & { weight?: 'regular' | 'bold' | 'fill'; duotone?: boolean }>>)[componentName];
+    const BaseIconComponent = (iconModule as unknown as Record<string, React.ComponentType<IconProps & { weight?: 'regular' | 'bold' | 'fill'; duotone?: boolean }>>)[componentName];
     
     if (BaseIconComponent) {
       // Create a wrapper that applies the weight and duotone props
