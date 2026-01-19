@@ -2,7 +2,9 @@
 export type { IconProps, IconWeight } from 'stera-icons';
 
 export interface IconData {
-  name: string;
+  name: string;              // PascalCase (e.g., "ChartBarXY")
+  kebabName: string;         // kebab-case (e.g., "chart-bar-x-y")
+  componentName?: string;    // Optional explicit PascalCase
   tags: string[];
   versionAdded: string;
   versionLastModified?: string;

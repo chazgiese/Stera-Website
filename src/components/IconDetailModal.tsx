@@ -169,7 +169,7 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
                   className="flex items-center justify-center text-zinc-950 dark:text-zinc-200"
                 >
                   <DynamicIcon 
-                    iconName={icon.name} 
+                    iconName={icon.kebabName} 
                     weight={currentWeight}
                     duotone={currentDuotone}
                     size={64}

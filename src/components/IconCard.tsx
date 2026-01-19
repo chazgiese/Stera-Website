@@ -20,7 +20,7 @@ export default function IconCard({ icon, onIconClick, weight = 'regular', duoton
       {/* Icon Display */}
       <div className="">
         <DynamicIcon 
-          iconName={icon.name}
+          iconName={icon.kebabName}
           weight={weight}
           duotone={duotone}
           size={32} 

@@ -1,6 +1,8 @@
 [
   {
     "name": "Accessibility",
+    "kebabName": "accessibility",
+    "componentName": "Accessibility",
     "tags": [
       "a11y",
       "accessibility",
@@ -31,6 +33,8 @@
   },
   {
     "name": "Activity",
+    "kebabName": "activity",
+    "componentName": "Activity",
     "tags": [
       "activity",
       "analytics",
@@ -61,6 +65,8 @@
   },
   {
     "name": "AgentCursor",
+    "kebabName": "agent-cursor",
+    "componentName": "AgentCursor",
     "tags": [
       "agent",
       "ai",
@@ -96,6 +102,8 @@
   },
   {
     "name": "AgentWorkflow",
+    "kebabName": "agent-workflow",
+    "componentName": "AgentWorkflow",
     "tags": [
       "agent",
       "ai",
@@ -131,6 +139,8 @@
   },
   {
     "name": "Airplane",
+    "kebabName": "airplane",
+    "componentName": "Airplane",
     "tags": [
       "airline",
       "arrive",
@@ -161,6 +171,8 @@
   },
   {
     "name": "AlarmClock",
+    "kebabName": "alarm-clock",
+    "componentName": "AlarmClock",
     "tags": [
       "alarm",
       "alert",
@@ -191,6 +203,8 @@
   },
   {
     "name": "AlarmClockMinus",
+    "kebabName": "alarm-clock-minus",
+    "componentName": "AlarmClockMinus",
     "tags": [
       "alarm",
       "alert",
@@ -223,6 +237,8 @@
   },
   {
     "name": "AlarmClockPlus",
+    "kebabName": "alarm-clock-plus",
+    "componentName": "AlarmClockPlus",
     "tags": [
       "add",
       "alarm",
@@ -254,6 +270,8 @@
   },
   {
     "name": "AlertCircle",
+    "kebabName": "alert-circle",
+    "componentName": "AlertCircle",
     "tags": [
       "attention",
       "caution",
@@ -282,6 +300,8 @@
   },
   {
     "name": "AlertDiamond",
+    "kebabName": "alert-diamond",
+    "componentName": "AlertDiamond",
     "tags": [
       "alert",
       "caution",
@@ -312,6 +332,8 @@
   },
   {
     "name": "AlertHexagon",
+    "kebabName": "alert-hexagon",
+    "componentName": "AlertHexagon",
     "tags": [
       "caution",
       "danger",
@@ -341,6 +363,8 @@
   },
   {
     "name": "AlertOctagon",
+    "kebabName": "alert-octagon",
+    "componentName": "AlertOctagon",
     "tags": [
       "alert",
       "caution",
@@ -370,6 +394,8 @@
   },
   {
     "name": "AlertSquare",
+    "kebabName": "alert-square",
+    "componentName": "AlertSquare",
     "tags": [
       "attention",
       "caution",
@@ -398,6 +424,8 @@
   },
   {
     "name": "AlertTriangle",
+    "kebabName": "alert-triangle",
+    "componentName": "AlertTriangle",
     "tags": [
       "alert",
       "attention",
@@ -426,6 +454,8 @@
   },
   {
     "name": "Alien",
+    "kebabName": "alien",
+    "componentName": "Alien",
     "tags": [
       "alien",
       "character",
@@ -455,6 +485,8 @@
   },
   {
     "name": "AlignHorizontalCenter",
+    "kebabName": "align-horizontal-center",
+    "componentName": "AlignHorizontalCenter",
     "tags": [
       "alignment",
       "center",
@@ -485,6 +517,8 @@
   },
   {
     "name": "AlignHorizontalLeft",
+    "kebabName": "align-horizontal-left",
+    "componentName": "AlignHorizontalLeft",
     "tags": [
       "alignment",
       "content",
@@ -515,6 +549,8 @@
   },
   {
     "name": "AlignHorizontalRight",
+    "kebabName": "align-horizontal-right",
+    "componentName": "AlignHorizontalRight",
     "tags": [
       "alignment",
       "content",
@@ -545,6 +581,8 @@
   },
   {
     "name": "AlignVerticalBottom",
+    "kebabName": "align-vertical-bottom",
+    "componentName": "AlignVerticalBottom",
     "tags": [
       "alignment",
       "bottom",
@@ -575,6 +613,8 @@
   },
   {
     "name": "AlignVerticalCenter",
+    "kebabName": "align-vertical-center",
+    "componentName": "AlignVerticalCenter",
     "tags": [
       "alignment",
       "center",
@@ -605,6 +645,8 @@
   },
   {
     "name": "AlignVerticalTop",
+    "kebabName": "align-vertical-top",
+    "componentName": "AlignVerticalTop",
     "tags": [
       "alignment",
       "bottom",
@@ -635,6 +677,8 @@
   },
   {
     "name": "Angle",
+    "kebabName": "angle",
+    "componentName": "Angle",
     "tags": [
       "angle",
       "corner",
@@ -664,6 +708,8 @@
   },
   {
     "name": "AngleAcute",
+    "kebabName": "angle-acute",
+    "componentName": "AngleAcute",
     "tags": [
       "acute",
       "angle",
@@ -693,6 +739,8 @@
   },
   {
     "name": "AngleObtuse",
+    "kebabName": "angle-obtuse",
+    "componentName": "AngleObtuse",
     "tags": [
       "angle",
       "corner",
@@ -722,6 +770,8 @@
   },
   {
     "name": "Annotation",
+    "kebabName": "annotation",
+    "componentName": "Annotation",
     "tags": [
       "comment",
       "document",
@@ -753,6 +803,8 @@
   },
   {
     "name": "Aperture",
+    "kebabName": "aperture",
+    "componentName": "Aperture",
     "tags": [
       "camera",
       "exposure",
@@ -782,6 +834,8 @@
   },
   {
     "name": "Archive",
+    "kebabName": "archive",
+    "componentName": "Archive",
     "tags": [
       "archive",
       "box",
@@ -812,6 +866,8 @@
   },
   {
     "name": "Archway",
+    "kebabName": "archway",
+    "componentName": "Archway",
     "tags": [
       "arch",
       "container",
@@ -841,6 +897,8 @@
   },
   {
     "name": "ArrowBigDown",
+    "kebabName": "arrow-big-down",
+    "componentName": "ArrowBigDown",
     "tags": [
       "arrow",
       "bottom",
@@ -870,6 +928,8 @@
   },
   {
     "name": "ArrowBigLeft",
+    "kebabName": "arrow-big-left",
+    "componentName": "ArrowBigLeft",
     "tags": [
       "arrow",
       "back",
@@ -898,6 +958,8 @@
   },
   {
     "name": "ArrowBigRight",
+    "kebabName": "arrow-big-right",
+    "componentName": "ArrowBigRight",
     "tags": [
       "arrow",
       "direction",
@@ -926,6 +988,8 @@
   },
   {
     "name": "ArrowBigUp",
+    "kebabName": "arrow-big-up",
+    "componentName": "ArrowBigUp",
     "tags": [
       "arrow",
       "caps lock",
@@ -959,6 +1023,8 @@
   },
   {
     "name": "ArrowCircleDown",
+    "kebabName": "arrow-circle-down",
+    "componentName": "ArrowCircleDown",
     "tags": [
       "arrow",
       "circle",
@@ -987,6 +1053,8 @@
   },
   {
     "name": "ArrowCircleDownLeft",
+    "kebabName": "arrow-circle-down-left",
+    "componentName": "ArrowCircleDownLeft",
     "tags": [
       "arrow",
       "circle",
@@ -1014,6 +1082,8 @@
   },
   {
     "name": "ArrowCircleDownRight",
+    "kebabName": "arrow-circle-down-right",
+    "componentName": "ArrowCircleDownRight",
     "tags": [
       "arrow",
       "circle",
@@ -1041,6 +1111,8 @@
   },
   {
     "name": "ArrowCircleLeft",
+    "kebabName": "arrow-circle-left",
+    "componentName": "ArrowCircleLeft",
     "tags": [
       "arrow",
       "back",
@@ -1070,6 +1142,8 @@
   },
   {
     "name": "ArrowCircleRight",
+    "kebabName": "arrow-circle-right",
+    "componentName": "ArrowCircleRight",
     "tags": [
       "arrow",
       "circle",
@@ -1099,6 +1173,8 @@
   },
   {
     "name": "ArrowCircleUp",
+    "kebabName": "arrow-circle-up",
+    "componentName": "ArrowCircleUp",
     "tags": [
       "arrow",
       "circle",
@@ -1128,6 +1204,8 @@
   },
   {
     "name": "ArrowCircleUpLeft",
+    "kebabName": "arrow-circle-up-left",
+    "componentName": "ArrowCircleUpLeft",
     "tags": [
       "arrow",
       "circle",
@@ -1156,6 +1234,8 @@
   },
   {
     "name": "ArrowCircleUpRight",
+    "kebabName": "arrow-circle-up-right",
+    "componentName": "ArrowCircleUpRight",
     "tags": [
       "arrow",
       "circle",
@@ -1185,6 +1265,8 @@
   },
   {
     "name": "ArrowCornerDownLeft",
+    "kebabName": "arrow-corner-down-left",
+    "componentName": "ArrowCornerDownLeft",
     "tags": [
       "arrow-left",
       "back",
@@ -1217,6 +1299,8 @@
   },
   {
     "name": "ArrowCornerDownRight",
+    "kebabName": "arrow-corner-down-right",
+    "componentName": "ArrowCornerDownRight",
     "tags": [
       "arrow",
       "corner",
@@ -1250,6 +1334,8 @@
   },
   {
     "name": "ArrowCornerUpLeft",
+    "kebabName": "arrow-corner-up-left",
+    "componentName": "ArrowCornerUpLeft",
     "tags": [
       "arrow",
       "back",
@@ -1280,6 +1366,8 @@
   },
   {
     "name": "ArrowCornerUpRight",
+    "kebabName": "arrow-corner-up-right",
+    "componentName": "ArrowCornerUpRight",
     "tags": [
       "arrow",
       "corner",
@@ -1310,6 +1398,8 @@
   },
   {
     "name": "ArrowDown",
+    "kebabName": "arrow-down",
+    "componentName": "ArrowDown",
     "tags": [
       "arrow",
       "direction",
@@ -1341,6 +1431,8 @@
   },
   {
     "name": "ArrowDownLeft",
+    "kebabName": "arrow-down-left",
+    "componentName": "ArrowDownLeft",
     "tags": [
       "arrow",
       "corner",
@@ -1371,6 +1463,8 @@
   },
   {
     "name": "ArrowDownRight",
+    "kebabName": "arrow-down-right",
+    "componentName": "ArrowDownRight",
     "tags": [
       "arrow",
       "corner",
@@ -1401,6 +1495,8 @@
   },
   {
     "name": "ArrowLeft",
+    "kebabName": "arrow-left",
+    "componentName": "ArrowLeft",
     "tags": [
       "arrow",
       "back",
@@ -1432,6 +1528,8 @@
   },
   {
     "name": "ArrowLeftRight",
+    "kebabName": "arrow-left-right",
+    "componentName": "ArrowLeftRight",
     "tags": [
       "arrow",
       "exchange",
@@ -1462,6 +1560,8 @@
   },
   {
     "name": "ArrowLineDown",
+    "kebabName": "arrow-line-down",
+    "componentName": "ArrowLineDown",
     "tags": [
       "arrow-down",
       "download",
@@ -1491,6 +1591,8 @@
   },
   {
     "name": "ArrowLineLeft",
+    "kebabName": "arrow-line-left",
+    "componentName": "ArrowLineLeft",
     "tags": [
       "arrow",
       "back",
@@ -1521,6 +1623,8 @@
   },
   {
     "name": "ArrowLineRight",
+    "kebabName": "arrow-line-right",
+    "componentName": "ArrowLineRight",
     "tags": [
       "arrow",
       "end",
@@ -1551,6 +1655,8 @@
   },
   {
     "name": "ArrowLineUp",
+    "kebabName": "arrow-line-up",
+    "componentName": "ArrowLineUp",
     "tags": [
       "arrow",
       "beginning",
@@ -1582,6 +1688,8 @@
   },
   {
     "name": "ArrowRight",
+    "kebabName": "arrow-right",
+    "componentName": "ArrowRight",
     "tags": [
       "arrow",
       "direction",
@@ -1613,6 +1721,8 @@
   },
   {
     "name": "ArrowSquareDown",
+    "kebabName": "arrow-square-down",
+    "componentName": "ArrowSquareDown",
     "tags": [
       "arrow",
       "button",
@@ -1644,6 +1754,8 @@
   },
   {
     "name": "ArrowSquareDownLeft",
+    "kebabName": "arrow-square-down-left",
+    "componentName": "ArrowSquareDownLeft",
     "tags": [
       "arrow",
       "corner",
@@ -1675,6 +1787,8 @@
   },
   {
     "name": "ArrowSquareDownRight",
+    "kebabName": "arrow-square-down-right",
+    "componentName": "ArrowSquareDownRight",
     "tags": [
       "arrow",
       "corner",
@@ -1706,6 +1820,8 @@
   },
   {
     "name": "ArrowSquareLeft",
+    "kebabName": "arrow-square-left",
+    "componentName": "ArrowSquareLeft",
     "tags": [
       "arrow",
       "back",
@@ -1737,6 +1853,8 @@
   },
   {
     "name": "ArrowSquareRight",
+    "kebabName": "arrow-square-right",
+    "componentName": "ArrowSquareRight",
     "tags": [
       "arrow",
       "direction",
@@ -1768,6 +1886,8 @@
   },
   {
     "name": "ArrowSquareUp",
+    "kebabName": "arrow-square-up",
+    "componentName": "ArrowSquareUp",
     "tags": [
       "arrow",
       "collapse",
@@ -1799,6 +1919,8 @@
   },
   {
     "name": "ArrowSquareUpLeft",
+    "kebabName": "arrow-square-up-left",
+    "componentName": "ArrowSquareUpLeft",
     "tags": [
       "arrow",
       "corner",
@@ -1830,6 +1952,8 @@
   },
   {
     "name": "ArrowSquareUpRight",
+    "kebabName": "arrow-square-up-right",
+    "componentName": "ArrowSquareUpRight",
     "tags": [
       "arrow",
       "corner",
@@ -1861,6 +1985,8 @@
   },
   {
     "name": "ArrowULeft",
+    "kebabName": "arrow-u-left",
+    "componentName": "ArrowULeft",
     "tags": [
       "arrow",
       "back",
@@ -1892,6 +2018,8 @@
   },
   {
     "name": "ArrowULeftTop",
+    "kebabName": "arrow-u-left-top",
+    "componentName": "ArrowULeftTop",
     "tags": [
       "arrow",
       "back",
@@ -1923,6 +2051,8 @@
   },
   {
     "name": "ArrowURight",
+    "kebabName": "arrow-u-right",
+    "componentName": "ArrowURight",
     "tags": [
       "arrow",
       "curve",
@@ -1954,6 +2084,8 @@
   },
   {
     "name": "ArrowURightTop",
+    "kebabName": "arrow-u-right-top",
+    "componentName": "ArrowURightTop",
     "tags": [
       "arrow",
       "curve",
@@ -1985,6 +2117,8 @@
   },
   {
     "name": "ArrowUp",
+    "kebabName": "arrow-up",
+    "componentName": "ArrowUp",
     "tags": [
       "arrow",
       "collapse",
@@ -2016,6 +2150,8 @@
   },
   {
     "name": "ArrowUpDown",
+    "kebabName": "arrow-up-down",
+    "componentName": "ArrowUpDown",
     "tags": [
       "arrow",
       "down",
@@ -2046,6 +2182,8 @@
   },
   {
     "name": "ArrowUpLeft",
+    "kebabName": "arrow-up-left",
+    "componentName": "ArrowUpLeft",
     "tags": [
       "arrow",
       "corner",
@@ -2076,6 +2214,8 @@
   },
   {
     "name": "ArrowUpLeftDownRight",
+    "kebabName": "arrow-up-left-down-right",
+    "componentName": "ArrowUpLeftDownRight",
     "tags": [
       "arrow",
       "diagonal",
@@ -2106,6 +2246,8 @@
   },
   {
     "name": "ArrowUpRight",
+    "kebabName": "arrow-up-right",
+    "componentName": "ArrowUpRight",
     "tags": [
       "arrow",
       "diagonal",
@@ -2137,6 +2279,8 @@
   },
   {
     "name": "ArrowUpRightDownLeft",
+    "kebabName": "arrow-up-right-down-left",
+    "componentName": "ArrowUpRightDownLeft",
     "tags": [
       "arrow",
       "diagonal",
@@ -2167,6 +2311,8 @@
   },
   {
     "name": "ArrowsLeftRight",
+    "kebabName": "arrows-left-right",
+    "componentName": "ArrowsLeftRight",
     "tags": [
       "compress",
       "contract",
@@ -2197,6 +2343,8 @@
   },
   {
     "name": "ArrowsUpDown",
+    "kebabName": "arrows-up-down",
+    "componentName": "ArrowsUpDown",
     "tags": [
       "arrows",
       "compare",
@@ -2228,6 +2376,8 @@
   },
   {
     "name": "Astrisk",
+    "kebabName": "astrisk",
+    "componentName": "Astrisk",
     "tags": [
       "asterisk",
       "important",
@@ -2257,6 +2407,8 @@
   },
   {
     "name": "AstriskAlt",
+    "kebabName": "astrisk-alt",
+    "componentName": "AstriskAlt",
     "tags": [
       "asterisk",
       "important",
@@ -2286,6 +2438,8 @@
   },
   {
     "name": "AtSign",
+    "kebabName": "at-sign",
+    "componentName": "AtSign",
     "tags": [
       "appointments",
       "calendar",
@@ -2320,6 +2474,8 @@
   },
   {
     "name": "Atom",
+    "kebabName": "atom",
+    "componentName": "Atom",
     "tags": [
       "atom",
       "chemistry",
@@ -2351,6 +2507,8 @@
   },
   {
     "name": "AtomAi",
+    "kebabName": "atom-ai",
+    "componentName": "AtomAi",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -2382,6 +2540,8 @@
   },
   {
     "name": "AtomOrbit",
+    "kebabName": "atom-orbit",
+    "componentName": "AtomOrbit",
     "tags": [
       "atom",
       "connection",
@@ -2415,6 +2575,8 @@
   },
   {
     "name": "AudioBars",
+    "kebabName": "audio-bars",
+    "componentName": "AudioBars",
     "tags": [
       "audio",
       "levels",
@@ -2445,6 +2607,8 @@
   },
   {
     "name": "AudioBarsCircle",
+    "kebabName": "audio-bars-circle",
+    "componentName": "AudioBarsCircle",
     "tags": [
       "audio",
       "levels",
@@ -2475,6 +2639,8 @@
   },
   {
     "name": "AudioBarsSquare",
+    "kebabName": "audio-bars-square",
+    "componentName": "AudioBarsSquare",
     "tags": [
       "audio",
       "levels",
@@ -2505,6 +2671,8 @@
   },
   {
     "name": "AwardStar",
+    "kebabName": "award-star",
+    "componentName": "AwardStar",
     "tags": [
       "achievement",
       "award",
@@ -2536,6 +2704,8 @@
   },
   {
     "name": "Backslash",
+    "kebabName": "backslash",
+    "componentName": "Backslash",
     "tags": [
       "diagonal",
       "divide",
@@ -2565,6 +2735,8 @@
   },
   {
     "name": "Bag",
+    "kebabName": "bag",
+    "componentName": "Bag",
     "tags": [
       "cart",
       "checkout",
@@ -2594,6 +2766,8 @@
   },
   {
     "name": "Bank",
+    "kebabName": "bank",
+    "componentName": "Bank",
     "tags": [
       "bank",
       "building",
@@ -2624,6 +2798,8 @@
   },
   {
     "name": "Banner",
+    "kebabName": "banner",
+    "componentName": "Banner",
     "tags": [
       "bookmark",
       "crest",
@@ -2655,6 +2831,8 @@
   },
   {
     "name": "Barricade",
+    "kebabName": "barricade",
+    "componentName": "Barricade",
     "tags": [
       "barrier",
       "blockade",
@@ -2687,6 +2865,8 @@
   },
   {
     "name": "Baseball",
+    "kebabName": "baseball",
+    "componentName": "Baseball",
     "tags": [
       "activity",
       "ball",
@@ -2717,6 +2897,8 @@
   },
   {
     "name": "Basket",
+    "kebabName": "basket",
+    "componentName": "Basket",
     "tags": [
       "add to cart",
       "basket",
@@ -2746,6 +2928,8 @@
   },
   {
     "name": "Basketball",
+    "kebabName": "basketball",
+    "componentName": "Basketball",
     "tags": [
       "activity",
       "ball",
@@ -2776,6 +2960,8 @@
   },
   {
     "name": "Battery",
+    "kebabName": "battery",
+    "componentName": "Battery",
     "tags": [
       "battery",
       "charge",
@@ -2806,6 +2992,8 @@
   },
   {
     "name": "BatteryFull",
+    "kebabName": "battery-full",
+    "componentName": "BatteryFull",
     "tags": [
       "battery",
       "charge",
@@ -2835,6 +3023,8 @@
   },
   {
     "name": "BatteryHalf",
+    "kebabName": "battery-half",
+    "componentName": "BatteryHalf",
     "tags": [
       "battery",
       "charge",
@@ -2865,6 +3055,8 @@
   },
   {
     "name": "BatteryLow",
+    "kebabName": "battery-low",
+    "componentName": "BatteryLow",
     "tags": [
       "battery",
       "charge",
@@ -2895,6 +3087,8 @@
   },
   {
     "name": "Bell",
+    "kebabName": "bell",
+    "componentName": "Bell",
     "tags": [
       "alarm",
       "alert",
@@ -2924,6 +3118,8 @@
   },
   {
     "name": "BellDot",
+    "kebabName": "bell-dot",
+    "componentName": "BellDot",
     "tags": [
       "alert",
       "badge",
@@ -2953,6 +3149,8 @@
   },
   {
     "name": "BellOff",
+    "kebabName": "bell-off",
+    "componentName": "BellOff",
     "tags": [
       "alert-off",
       "disable-sound",
@@ -2981,6 +3179,8 @@
   },
   {
     "name": "BellX",
+    "kebabName": "bell-x",
+    "componentName": "BellX",
     "tags": [
       "alert-remove",
       "clear-notification",
@@ -3009,6 +3209,8 @@
   },
   {
     "name": "Birdhouse",
+    "kebabName": "birdhouse",
+    "componentName": "Birdhouse",
     "tags": [
       "birdhouse",
       "garden",
@@ -3040,6 +3242,8 @@
   },
   {
     "name": "BladeKunai",
+    "kebabName": "blade-kunai",
+    "componentName": "BladeKunai",
     "tags": [
       "blade",
       "combat",
@@ -3070,6 +3274,8 @@
   },
   {
     "name": "BladeSword",
+    "kebabName": "blade-sword",
+    "componentName": "BladeSword",
     "tags": [
       "attack",
       "battle",
@@ -3100,6 +3306,8 @@
   },
   {
     "name": "Blocks",
+    "kebabName": "blocks",
+    "componentName": "Blocks",
     "tags": [
       "add-on",
       "apps",
@@ -3131,6 +3339,8 @@
   },
   {
     "name": "Bluetooth",
+    "kebabName": "bluetooth",
+    "componentName": "Bluetooth",
     "tags": [
       "bluetooth",
       "connection",
@@ -3160,6 +3370,8 @@
   },
   {
     "name": "Bolt",
+    "kebabName": "bolt",
+    "componentName": "Bolt",
     "tags": [
       "adjust",
       "configure",
@@ -3189,6 +3401,8 @@
   },
   {
     "name": "BookClosed",
+    "kebabName": "book-closed",
+    "componentName": "BookClosed",
     "tags": [
       "book",
       "education",
@@ -3219,6 +3433,8 @@
   },
   {
     "name": "BookOpen",
+    "kebabName": "book-open",
+    "componentName": "BookOpen",
     "tags": [
       "book",
       "education",
@@ -3250,6 +3466,8 @@
   },
   {
     "name": "BookOpenFold",
+    "kebabName": "book-open-fold",
+    "componentName": "BookOpenFold",
     "tags": [
       "book",
       "education",
@@ -3281,6 +3499,8 @@
   },
   {
     "name": "BookOpenText",
+    "kebabName": "book-open-text",
+    "componentName": "BookOpenText",
     "tags": [
       "book",
       "education",
@@ -3312,6 +3532,8 @@
   },
   {
     "name": "Bookmark",
+    "kebabName": "bookmark",
+    "componentName": "Bookmark",
     "tags": [
       "bookmark",
       "favorite",
@@ -3344,6 +3566,8 @@
   },
   {
     "name": "Bottle",
+    "kebabName": "bottle",
+    "componentName": "Bottle",
     "tags": [
       "alcohol",
       "bar",
@@ -3374,6 +3598,8 @@
   },
   {
     "name": "BottleLabel",
+    "kebabName": "bottle-label",
+    "componentName": "BottleLabel",
     "tags": [
       "alcohol",
       "bar",
@@ -3404,6 +3630,8 @@
   },
   {
     "name": "BoundingBox",
+    "kebabName": "bounding-box",
+    "componentName": "BoundingBox",
     "tags": [
       "crop",
       "edit",
@@ -3434,6 +3662,8 @@
   },
   {
     "name": "Boxes",
+    "kebabName": "boxes",
+    "componentName": "Boxes",
     "tags": [
       "3d",
       "architecture",
@@ -3464,6 +3694,8 @@
   },
   {
     "name": "BracketsCurly",
+    "kebabName": "brackets-curly",
+    "componentName": "BracketsCurly",
     "tags": [
       "braces",
       "code",
@@ -3494,6 +3726,8 @@
   },
   {
     "name": "BracketsCurlyCircle",
+    "kebabName": "brackets-curly-circle",
+    "componentName": "BracketsCurlyCircle",
     "tags": [
       "braces",
       "code",
@@ -3524,6 +3758,8 @@
   },
   {
     "name": "BracketsCurlySquare",
+    "kebabName": "brackets-curly-square",
+    "componentName": "BracketsCurlySquare",
     "tags": [
       "braces",
       "code",
@@ -3554,6 +3790,8 @@
   },
   {
     "name": "BracketsSquare",
+    "kebabName": "brackets-square",
+    "componentName": "BracketsSquare",
     "tags": [
       "array",
       "brackets",
@@ -3584,6 +3822,8 @@
   },
   {
     "name": "BracketsSquareCircle",
+    "kebabName": "brackets-square-circle",
+    "componentName": "BracketsSquareCircle",
     "tags": [
       "array",
       "brackets",
@@ -3614,6 +3854,8 @@
   },
   {
     "name": "BracketsSquareSquare",
+    "kebabName": "brackets-square-square",
+    "componentName": "BracketsSquareSquare",
     "tags": [
       "array",
       "brackets",
@@ -3644,6 +3886,8 @@
   },
   {
     "name": "Brain",
+    "kebabName": "brain",
+    "componentName": "Brain",
     "tags": [
       "business",
       "career",
@@ -3675,6 +3919,8 @@
   },
   {
     "name": "BrainCircuit",
+    "kebabName": "brain-circuit",
+    "componentName": "BrainCircuit",
     "tags": [
       "ai",
       "algorithm",
@@ -3704,6 +3950,8 @@
   },
   {
     "name": "BrickWall",
+    "kebabName": "brick-wall",
+    "componentName": "BrickWall",
     "tags": [
       "barrier",
       "block",
@@ -3735,6 +3983,8 @@
   },
   {
     "name": "Briefcase",
+    "kebabName": "briefcase",
+    "componentName": "Briefcase",
     "tags": [
       "business",
       "career",
@@ -3766,6 +4016,8 @@
   },
   {
     "name": "BrightnessHigh",
+    "kebabName": "brightness-high",
+    "componentName": "BrightnessHigh",
     "tags": [
       "brightness",
       "daylight",
@@ -3796,6 +4048,8 @@
   },
   {
     "name": "BrightnessLow",
+    "kebabName": "brightness-low",
+    "componentName": "BrightnessLow",
     "tags": [
       "brightness",
       "display",
@@ -3824,6 +4078,8 @@
   },
   {
     "name": "BrightnessMedium",
+    "kebabName": "brightness-medium",
+    "componentName": "BrightnessMedium",
     "tags": [
       "brightness",
       "display",
@@ -3852,6 +4108,8 @@
   },
   {
     "name": "Browser",
+    "kebabName": "browser",
+    "componentName": "Browser",
     "tags": [
       "browser",
       "internet",
@@ -3880,6 +4138,8 @@
   },
   {
     "name": "BrowserPlus",
+    "kebabName": "browser-plus",
+    "componentName": "BrowserPlus",
     "tags": [
       "add",
       "browser",
@@ -3912,6 +4172,8 @@
   },
   {
     "name": "BrowserX",
+    "kebabName": "browser-x",
+    "componentName": "BrowserX",
     "tags": [
       "browser",
       "cancel",
@@ -3944,6 +4206,8 @@
   },
   {
     "name": "Bubble",
+    "kebabName": "bubble",
+    "componentName": "Bubble",
     "tags": [
       "3d",
       "ball",
@@ -3978,6 +4242,8 @@
   },
   {
     "name": "Building",
+    "kebabName": "building",
+    "componentName": "Building",
     "tags": [
       "business",
       "city",
@@ -4009,6 +4275,8 @@
   },
   {
     "name": "Calculator",
+    "kebabName": "calculator",
+    "componentName": "Calculator",
     "tags": [
       "billing",
       "calculate",
@@ -4039,6 +4307,8 @@
   },
   {
     "name": "Calendar",
+    "kebabName": "calendar",
+    "componentName": "Calendar",
     "tags": [
       "appointments",
       "calendar",
@@ -4069,6 +4339,8 @@
   },
   {
     "name": "CalendarBlank",
+    "kebabName": "calendar-blank",
+    "componentName": "CalendarBlank",
     "tags": [
       "appointments",
       "calendar",
@@ -4099,6 +4371,8 @@
   },
   {
     "name": "CalendarClock",
+    "kebabName": "calendar-clock",
+    "componentName": "CalendarClock",
     "tags": [
       "appointments",
       "calendar",
@@ -4130,6 +4404,8 @@
   },
   {
     "name": "CalendarFold",
+    "kebabName": "calendar-fold",
+    "componentName": "CalendarFold",
     "tags": [
       "appointments",
       "calendar",
@@ -4160,6 +4436,8 @@
   },
   {
     "name": "CalendarMinus",
+    "kebabName": "calendar-minus",
+    "componentName": "CalendarMinus",
     "tags": [
       "appointments",
       "calendar",
@@ -4190,6 +4468,8 @@
   },
   {
     "name": "CalendarOff",
+    "kebabName": "calendar-off",
+    "componentName": "CalendarOff",
     "tags": [
       "appointments",
       "calendar",
@@ -4224,6 +4504,8 @@
   },
   {
     "name": "CalendarPlus",
+    "kebabName": "calendar-plus",
+    "componentName": "CalendarPlus",
     "tags": [
       "add",
       "calendar",
@@ -4254,6 +4536,8 @@
   },
   {
     "name": "CalendarSlash",
+    "kebabName": "calendar-slash",
+    "componentName": "CalendarSlash",
     "tags": [
       "block",
       "calendar",
@@ -4284,6 +4568,8 @@
   },
   {
     "name": "CalendarX",
+    "kebabName": "calendar-x",
+    "componentName": "CalendarX",
     "tags": [
       "block",
       "calendar",
@@ -4314,6 +4600,8 @@
   },
   {
     "name": "Camera",
+    "kebabName": "camera",
+    "componentName": "Camera",
     "tags": [
       "camera",
       "capture",
@@ -4343,6 +4631,8 @@
   },
   {
     "name": "CameraOff",
+    "kebabName": "camera-off",
+    "componentName": "CameraOff",
     "tags": [
       "camera",
       "capture",
@@ -4373,6 +4663,8 @@
   },
   {
     "name": "Can",
+    "kebabName": "can",
+    "componentName": "Can",
     "tags": [
       "aluminum",
       "beer",
@@ -4403,6 +4695,8 @@
   },
   {
     "name": "CanLabel",
+    "kebabName": "can-label",
+    "componentName": "CanLabel",
     "tags": [
       "aluminum",
       "beer",
@@ -4433,6 +4727,8 @@
   },
   {
     "name": "Candle",
+    "kebabName": "candle",
+    "componentName": "Candle",
     "tags": [
       "ambiance",
       "candle",
@@ -4463,6 +4759,8 @@
   },
   {
     "name": "CapsLock",
+    "kebabName": "caps-lock",
+    "componentName": "CapsLock",
     "tags": [
       "analytics",
       "data",
@@ -4494,6 +4792,8 @@
   },
   {
     "name": "CardHolder",
+    "kebabName": "card-holder",
+    "componentName": "CardHolder",
     "tags": [
       "account",
       "card",
@@ -4525,6 +4825,8 @@
   },
   {
     "name": "ChartArea",
+    "kebabName": "chart-area",
+    "componentName": "ChartArea",
     "tags": [
       "analytics",
       "chart",
@@ -4556,6 +4858,8 @@
   },
   {
     "name": "ChartBar",
+    "kebabName": "chart-bar",
+    "componentName": "ChartBar",
     "tags": [
       "analytics",
       "bar",
@@ -4587,6 +4891,8 @@
   },
   {
     "name": "ChartBarAsc",
+    "kebabName": "chart-bar-asc",
+    "componentName": "ChartBarAsc",
     "tags": [
       "analytics",
       "bar",
@@ -4618,6 +4924,8 @@
   },
   {
     "name": "ChartBarDesc",
+    "kebabName": "chart-bar-desc",
+    "componentName": "ChartBarDesc",
     "tags": [
       "analytics",
       "bar",
@@ -4649,6 +4957,8 @@
   },
   {
     "name": "ChartBarRow",
+    "kebabName": "chart-bar-row",
+    "componentName": "ChartBarRow",
     "tags": [
       "analytics",
       "bar",
@@ -4680,6 +4990,8 @@
   },
   {
     "name": "ChartBarRowAsc",
+    "kebabName": "chart-bar-row-asc",
+    "componentName": "ChartBarRowAsc",
     "tags": [
       "analytics",
       "bar",
@@ -4711,6 +5023,8 @@
   },
   {
     "name": "ChartBarRowDesc",
+    "kebabName": "chart-bar-row-desc",
+    "componentName": "ChartBarRowDesc",
     "tags": [
       "analytics",
       "bar",
@@ -4742,6 +5056,8 @@
   },
   {
     "name": "ChartBarSquare",
+    "kebabName": "chart-bar-square",
+    "componentName": "ChartBarSquare",
     "tags": [
       "analytics",
       "bars",
@@ -4772,6 +5088,8 @@
   },
   {
     "name": "ChartBarXY",
+    "kebabName": "chart-bar-x-y",
+    "componentName": "ChartBarXY",
     "tags": [
       "analytics",
       "bar",
@@ -4803,6 +5121,8 @@
   },
   {
     "name": "ChartCandle",
+    "kebabName": "chart-candle",
+    "componentName": "ChartCandle",
     "tags": [
       "analytics",
       "data",
@@ -4834,6 +5154,8 @@
   },
   {
     "name": "ChartCandleAlt",
+    "kebabName": "chart-candle-alt",
+    "componentName": "ChartCandleAlt",
     "tags": [
       "analytics",
       "data",
@@ -4865,6 +5187,8 @@
   },
   {
     "name": "ChartDonut",
+    "kebabName": "chart-donut",
+    "componentName": "ChartDonut",
     "tags": [
       "analytics",
       "chart",
@@ -4896,6 +5220,8 @@
   },
   {
     "name": "ChartLine",
+    "kebabName": "chart-line",
+    "componentName": "ChartLine",
     "tags": [
       "analytics",
       "chart",
@@ -4928,6 +5254,8 @@
   },
   {
     "name": "ChartLineBar",
+    "kebabName": "chart-line-bar",
+    "componentName": "ChartLineBar",
     "tags": [
       "analytics",
       "chart",
@@ -4959,6 +5287,8 @@
   },
   {
     "name": "ChartLineDesc",
+    "kebabName": "chart-line-desc",
+    "componentName": "ChartLineDesc",
     "tags": [
       "analytics",
       "chart",
@@ -4991,6 +5321,8 @@
   },
   {
     "name": "ChartLineXY",
+    "kebabName": "chart-line-x-y",
+    "componentName": "ChartLineXY",
     "tags": [
       "analytics",
       "chart",
@@ -5023,6 +5355,8 @@
   },
   {
     "name": "ChartLineXYDesc",
+    "kebabName": "chart-line-x-y-desc",
+    "componentName": "ChartLineXYDesc",
     "tags": [
       "analytics",
       "chart",
@@ -5055,6 +5389,8 @@
   },
   {
     "name": "ChartPie",
+    "kebabName": "chart-pie",
+    "componentName": "ChartPie",
     "tags": [
       "analytics",
       "chart",
@@ -5085,6 +5421,8 @@
   },
   {
     "name": "ChartPieAlt",
+    "kebabName": "chart-pie-alt",
+    "componentName": "ChartPieAlt",
     "tags": [
       "analytics",
       "chart",
@@ -5116,6 +5454,8 @@
   },
   {
     "name": "ChartScatter",
+    "kebabName": "chart-scatter",
+    "componentName": "ChartScatter",
     "tags": [
       "analytics",
       "chart",
@@ -5148,6 +5488,8 @@
   },
   {
     "name": "ChartWaterfall",
+    "kebabName": "chart-waterfall",
+    "componentName": "ChartWaterfall",
     "tags": [
       "analytics",
       "chart",
@@ -5180,6 +5522,8 @@
   },
   {
     "name": "ChartWaterfallX",
+    "kebabName": "chart-waterfall-x",
+    "componentName": "ChartWaterfallX",
     "tags": [
       "analytics",
       "chart",
@@ -5212,6 +5556,8 @@
   },
   {
     "name": "ChartWaterfallXY",
+    "kebabName": "chart-waterfall-x-y",
+    "componentName": "ChartWaterfallXY",
     "tags": [
       "analytics",
       "chart",
@@ -5244,6 +5590,8 @@
   },
   {
     "name": "ChatBox",
+    "kebabName": "chat-box",
+    "componentName": "ChatBox",
     "tags": [
       "bubble",
       "chat",
@@ -5274,6 +5622,8 @@
   },
   {
     "name": "ChatBoxAlert",
+    "kebabName": "chat-box-alert",
+    "componentName": "ChatBoxAlert",
     "tags": [
       "alert",
       "chat",
@@ -5304,6 +5654,8 @@
   },
   {
     "name": "ChatBoxCheck",
+    "kebabName": "chat-box-check",
+    "componentName": "ChatBoxCheck",
     "tags": [
       "approved",
       "check",
@@ -5335,6 +5687,8 @@
   },
   {
     "name": "ChatBoxDashed",
+    "kebabName": "chat-box-dashed",
+    "componentName": "ChatBoxDashed",
     "tags": [
       "chat",
       "comment",
@@ -5368,6 +5722,8 @@
   },
   {
     "name": "ChatBoxDot",
+    "kebabName": "chat-box-dot",
+    "componentName": "ChatBoxDot",
     "tags": [
       "bubble",
       "chat",
@@ -5401,6 +5757,8 @@
   },
   {
     "name": "ChatBoxDots",
+    "kebabName": "chat-box-dots",
+    "componentName": "ChatBoxDots",
     "tags": [
       "bubble",
       "chat",
@@ -5431,6 +5789,8 @@
   },
   {
     "name": "ChatBoxOff",
+    "kebabName": "chat-box-off",
+    "componentName": "ChatBoxOff",
     "tags": [
       "blocked",
       "chat",
@@ -5460,6 +5820,8 @@
   },
   {
     "name": "ChatBoxPlus",
+    "kebabName": "chat-box-plus",
+    "componentName": "ChatBoxPlus",
     "tags": [
       "add",
       "annotation",
@@ -5490,6 +5852,8 @@
   },
   {
     "name": "ChatBoxQuestion",
+    "kebabName": "chat-box-question",
+    "componentName": "ChatBoxQuestion",
     "tags": [
       "assistance",
       "chat",
@@ -5520,6 +5884,8 @@
   },
   {
     "name": "ChatBoxText",
+    "kebabName": "chat-box-text",
+    "componentName": "ChatBoxText",
     "tags": [
       "bubble",
       "chat",
@@ -5550,6 +5916,8 @@
   },
   {
     "name": "ChatBubble",
+    "kebabName": "chat-bubble",
+    "componentName": "ChatBubble",
     "tags": [
       "bubble",
       "chat",
@@ -5580,6 +5948,8 @@
   },
   {
     "name": "ChatBubbleAlert",
+    "kebabName": "chat-bubble-alert",
+    "componentName": "ChatBubbleAlert",
     "tags": [
       "alert",
       "chat",
@@ -5610,6 +5980,8 @@
   },
   {
     "name": "ChatBubbleCheck",
+    "kebabName": "chat-bubble-check",
+    "componentName": "ChatBubbleCheck",
     "tags": [
       "approved",
       "check",
@@ -5641,6 +6013,8 @@
   },
   {
     "name": "ChatBubbleDashed",
+    "kebabName": "chat-bubble-dashed",
+    "componentName": "ChatBubbleDashed",
     "tags": [
       "bubble",
       "chat",
@@ -5675,6 +6049,8 @@
   },
   {
     "name": "ChatBubbleDot",
+    "kebabName": "chat-bubble-dot",
+    "componentName": "ChatBubbleDot",
     "tags": [
       "bubble",
       "chat",
@@ -5708,6 +6084,8 @@
   },
   {
     "name": "ChatBubbleDots",
+    "kebabName": "chat-bubble-dots",
+    "componentName": "ChatBubbleDots",
     "tags": [
       "bubble",
       "chat",
@@ -5738,6 +6116,8 @@
   },
   {
     "name": "ChatBubbleOff",
+    "kebabName": "chat-bubble-off",
+    "componentName": "ChatBubbleOff",
     "tags": [
       "blocked",
       "chat",
@@ -5767,6 +6147,8 @@
   },
   {
     "name": "ChatBubblePlus",
+    "kebabName": "chat-bubble-plus",
+    "componentName": "ChatBubblePlus",
     "tags": [
       "add",
       "annotation",
@@ -5797,6 +6179,8 @@
   },
   {
     "name": "ChatBubbleQuestion",
+    "kebabName": "chat-bubble-question",
+    "componentName": "ChatBubbleQuestion",
     "tags": [
       "assistance",
       "chat",
@@ -5827,6 +6211,8 @@
   },
   {
     "name": "ChatBubbleText",
+    "kebabName": "chat-bubble-text",
+    "componentName": "ChatBubbleText",
     "tags": [
       "bubble",
       "chat",
@@ -5857,6 +6243,8 @@
   },
   {
     "name": "ChatMessages",
+    "kebabName": "chat-messages",
+    "componentName": "ChatMessages",
     "tags": [
       "chat",
       "comments",
@@ -5887,6 +6275,8 @@
   },
   {
     "name": "Check",
+    "kebabName": "check",
+    "componentName": "Check",
     "tags": [
       "accept",
       "approved",
@@ -5917,6 +6307,8 @@
   },
   {
     "name": "CheckBadge",
+    "kebabName": "check-badge",
+    "componentName": "CheckBadge",
     "tags": [
       "approval",
       "badge",
@@ -5947,6 +6339,8 @@
   },
   {
     "name": "CheckCircle",
+    "kebabName": "check-circle",
+    "componentName": "CheckCircle",
     "tags": [
       "complete",
       "done",
@@ -5976,6 +6370,8 @@
   },
   {
     "name": "CheckSquare",
+    "kebabName": "check-square",
+    "componentName": "CheckSquare",
     "tags": [
       "complete",
       "done",
@@ -6005,6 +6401,8 @@
   },
   {
     "name": "Checklist",
+    "kebabName": "checklist",
+    "componentName": "Checklist",
     "tags": [
       "checklist",
       "complete",
@@ -6036,6 +6434,8 @@
   },
   {
     "name": "ChecklistChecked",
+    "kebabName": "checklist-checked",
+    "componentName": "ChecklistChecked",
     "tags": [
       "checked",
       "checklist",
@@ -6067,6 +6467,8 @@
   },
   {
     "name": "ChecklistUnchecked",
+    "kebabName": "checklist-unchecked",
+    "componentName": "ChecklistUnchecked",
     "tags": [
       "checklist",
       "incomplete",
@@ -6097,6 +6499,8 @@
   },
   {
     "name": "ChevronCircleDown",
+    "kebabName": "chevron-circle-down",
+    "componentName": "ChevronCircleDown",
     "tags": [
       "caret",
       "chevron",
@@ -6126,6 +6530,8 @@
   },
   {
     "name": "ChevronCircleLeft",
+    "kebabName": "chevron-circle-left",
+    "componentName": "ChevronCircleLeft",
     "tags": [
       "back",
       "caret",
@@ -6155,6 +6561,8 @@
   },
   {
     "name": "ChevronCircleRight",
+    "kebabName": "chevron-circle-right",
+    "componentName": "ChevronCircleRight",
     "tags": [
       "caret",
       "chevron",
@@ -6184,6 +6592,8 @@
   },
   {
     "name": "ChevronCircleUp",
+    "kebabName": "chevron-circle-up",
+    "componentName": "ChevronCircleUp",
     "tags": [
       "caret",
       "chevron",
@@ -6213,6 +6623,8 @@
   },
   {
     "name": "ChevronDown",
+    "kebabName": "chevron-down",
+    "componentName": "ChevronDown",
     "tags": [
       "arrow",
       "caret",
@@ -6244,6 +6656,8 @@
   },
   {
     "name": "ChevronFullCircleDown",
+    "kebabName": "chevron-full-circle-down",
+    "componentName": "ChevronFullCircleDown",
     "tags": [
       "arrow",
       "caret",
@@ -6275,6 +6689,8 @@
   },
   {
     "name": "ChevronFullCircleLeft",
+    "kebabName": "chevron-full-circle-left",
+    "componentName": "ChevronFullCircleLeft",
     "tags": [
       "back",
       "caret",
@@ -6304,6 +6720,8 @@
   },
   {
     "name": "ChevronFullCircleRight",
+    "kebabName": "chevron-full-circle-right",
+    "componentName": "ChevronFullCircleRight",
     "tags": [
       "chevron",
       "circle",
@@ -6332,6 +6750,8 @@
   },
   {
     "name": "ChevronFullCircleUp",
+    "kebabName": "chevron-full-circle-up",
+    "componentName": "ChevronFullCircleUp",
     "tags": [
       "caret",
       "chevron",
@@ -6361,6 +6781,8 @@
   },
   {
     "name": "ChevronFullDown",
+    "kebabName": "chevron-full-down",
+    "componentName": "ChevronFullDown",
     "tags": [
       "caret",
       "down",
@@ -6390,6 +6812,8 @@
   },
   {
     "name": "ChevronFullInward",
+    "kebabName": "chevron-full-inward",
+    "componentName": "ChevronFullInward",
     "tags": [
       "caret",
       "chevrons",
@@ -6421,6 +6845,8 @@
   },
   {
     "name": "ChevronFullLeft",
+    "kebabName": "chevron-full-left",
+    "componentName": "ChevronFullLeft",
     "tags": [
       "back",
       "caret",
@@ -6449,6 +6875,8 @@
   },
   {
     "name": "ChevronFullOutward",
+    "kebabName": "chevron-full-outward",
+    "componentName": "ChevronFullOutward",
     "tags": [
       "caret",
       "chevrons",
@@ -6481,6 +6909,8 @@
   },
   {
     "name": "ChevronFullRight",
+    "kebabName": "chevron-full-right",
+    "componentName": "ChevronFullRight",
     "tags": [
       "arrow",
       "caret",
@@ -6511,6 +6941,8 @@
   },
   {
     "name": "ChevronFullSquareDown",
+    "kebabName": "chevron-full-square-down",
+    "componentName": "ChevronFullSquareDown",
     "tags": [
       "chevron",
       "collapse",
@@ -6541,6 +6973,8 @@
   },
   {
     "name": "ChevronFullSquareLeft",
+    "kebabName": "chevron-full-square-left",
+    "componentName": "ChevronFullSquareLeft",
     "tags": [
       "arrow",
       "back",
@@ -6571,6 +7005,8 @@
   },
   {
     "name": "ChevronFullSquareRight",
+    "kebabName": "chevron-full-square-right",
+    "componentName": "ChevronFullSquareRight",
     "tags": [
       "chevron",
       "direction",
@@ -6599,6 +7035,8 @@
   },
   {
     "name": "ChevronFullSquareUp",
+    "kebabName": "chevron-full-square-up",
+    "componentName": "ChevronFullSquareUp",
     "tags": [
       "chevron",
       "collapse",
@@ -6627,6 +7065,8 @@
   },
   {
     "name": "ChevronFullUp",
+    "kebabName": "chevron-full-up",
+    "componentName": "ChevronFullUp",
     "tags": [
       "caret",
       "collapse",
@@ -6655,6 +7095,8 @@
   },
   {
     "name": "ChevronInward",
+    "kebabName": "chevron-inward",
+    "componentName": "ChevronInward",
     "tags": [
       "caret",
       "chevrons",
@@ -6686,6 +7128,8 @@
   },
   {
     "name": "ChevronLeft",
+    "kebabName": "chevron-left",
+    "componentName": "ChevronLeft",
     "tags": [
       "arrow-left",
       "back",
@@ -6716,6 +7160,8 @@
   },
   {
     "name": "ChevronOutward",
+    "kebabName": "chevron-outward",
+    "componentName": "ChevronOutward",
     "tags": [
       "caret",
       "chevrons",
@@ -6748,6 +7194,8 @@
   },
   {
     "name": "ChevronRight",
+    "kebabName": "chevron-right",
+    "componentName": "ChevronRight",
     "tags": [
       "arrow-right",
       "caret",
@@ -6778,6 +7226,8 @@
   },
   {
     "name": "ChevronSquareDown",
+    "kebabName": "chevron-square-down",
+    "componentName": "ChevronSquareDown",
     "tags": [
       "arrow-down",
       "caret",
@@ -6809,6 +7259,8 @@
   },
   {
     "name": "ChevronSquareLeft",
+    "kebabName": "chevron-square-left",
+    "componentName": "ChevronSquareLeft",
     "tags": [
       "arrow-left",
       "back",
@@ -6839,6 +7291,8 @@
   },
   {
     "name": "ChevronSquareRight",
+    "kebabName": "chevron-square-right",
+    "componentName": "ChevronSquareRight",
     "tags": [
       "arrow-right",
       "caret",
@@ -6869,6 +7323,8 @@
   },
   {
     "name": "ChevronSquareUp",
+    "kebabName": "chevron-square-up",
+    "componentName": "ChevronSquareUp",
     "tags": [
       "arrow-up",
       "caret",
@@ -6899,6 +7355,8 @@
   },
   {
     "name": "ChevronUp",
+    "kebabName": "chevron-up",
+    "componentName": "ChevronUp",
     "tags": [
       "arrow-up",
       "caret",
@@ -6929,6 +7387,8 @@
   },
   {
     "name": "ChevronsDown",
+    "kebabName": "chevrons-down",
+    "componentName": "ChevronsDown",
     "tags": [
       "chevrons",
       "double arrow",
@@ -6959,6 +7419,8 @@
   },
   {
     "name": "ChevronsLeft",
+    "kebabName": "chevrons-left",
+    "componentName": "ChevronsLeft",
     "tags": [
       "back",
       "chevrons",
@@ -6989,6 +7451,8 @@
   },
   {
     "name": "ChevronsLeftRightEllipsis",
+    "kebabName": "chevrons-left-right-ellipsis",
+    "componentName": "ChevronsLeftRightEllipsis",
     "tags": [
       "code",
       "connectivity",
@@ -7022,6 +7486,8 @@
   },
   {
     "name": "ChevronsRight",
+    "kebabName": "chevrons-right",
+    "componentName": "ChevronsRight",
     "tags": [
       "chevrons",
       "double arrow",
@@ -7052,6 +7518,8 @@
   },
   {
     "name": "ChevronsUp",
+    "kebabName": "chevrons-up",
+    "componentName": "ChevronsUp",
     "tags": [
       "chevrons",
       "double arrow",
@@ -7082,6 +7550,8 @@
   },
   {
     "name": "Circle",
+    "kebabName": "circle",
+    "componentName": "Circle",
     "tags": [
       "bullet",
       "circle",
@@ -7113,6 +7583,8 @@
   },
   {
     "name": "CircleChecker",
+    "kebabName": "circle-checker",
+    "componentName": "CircleChecker",
     "tags": [
       "alignment",
       "calibrate",
@@ -7141,6 +7613,8 @@
   },
   {
     "name": "CircleDash",
+    "kebabName": "circle-dash",
+    "componentName": "CircleDash",
     "tags": [
       "loading",
       "outline",
@@ -7168,6 +7642,8 @@
   },
   {
     "name": "CircleDashSimple",
+    "kebabName": "circle-dash-simple",
+    "componentName": "CircleDashSimple",
     "tags": [
       "loading",
       "outline",
@@ -7195,6 +7671,8 @@
   },
   {
     "name": "CircleDivide",
+    "kebabName": "circle-divide",
+    "componentName": "CircleDivide",
     "tags": [
       "adjust",
       "brightness",
@@ -7226,6 +7704,8 @@
   },
   {
     "name": "CircleDivideAlt",
+    "kebabName": "circle-divide-alt",
+    "componentName": "CircleDivideAlt",
     "tags": [
       "adjust",
       "brightness",
@@ -7257,6 +7737,8 @@
   },
   {
     "name": "CircleDivideCross",
+    "kebabName": "circle-divide-cross",
+    "componentName": "CircleDivideCross",
     "tags": [
       "globe",
       "location",
@@ -7285,6 +7767,8 @@
   },
   {
     "name": "CircleDots",
+    "kebabName": "circle-dots",
+    "componentName": "CircleDots",
     "tags": [
       "loading",
       "outline",
@@ -7312,6 +7796,8 @@
   },
   {
     "name": "CircleNotch",
+    "kebabName": "circle-notch",
+    "componentName": "CircleNotch",
     "tags": [
       "busy",
       "indicator",
@@ -7343,6 +7829,8 @@
   },
   {
     "name": "CirclePlaceholder",
+    "kebabName": "circle-placeholder",
+    "componentName": "CirclePlaceholder",
     "tags": [
       "draft",
       "empty",
@@ -7372,6 +7860,8 @@
   },
   {
     "name": "CircleSlash",
+    "kebabName": "circle-slash",
+    "componentName": "CircleSlash",
     "tags": [
       "ban",
       "block",
@@ -7403,6 +7893,8 @@
   },
   {
     "name": "CirclesThree",
+    "kebabName": "circles-three",
+    "componentName": "CirclesThree",
     "tags": [
       "cluster",
       "group",
@@ -7431,6 +7923,8 @@
   },
   {
     "name": "City",
+    "kebabName": "city",
+    "componentName": "City",
     "tags": [
       "buildings",
       "city",
@@ -7462,6 +7956,8 @@
   },
   {
     "name": "Cli",
+    "kebabName": "cli",
+    "componentName": "Cli",
     "tags": [
       "bash",
       "code",
@@ -7493,6 +7989,8 @@
   },
   {
     "name": "CliCircle",
+    "kebabName": "cli-circle",
+    "componentName": "CliCircle",
     "tags": [
       "bash",
       "code",
@@ -7524,6 +8022,8 @@
   },
   {
     "name": "CliSquare",
+    "kebabName": "cli-square",
+    "componentName": "CliSquare",
     "tags": [
       "bash",
       "code",
@@ -7555,6 +8055,8 @@
   },
   {
     "name": "Clipboard",
+    "kebabName": "clipboard",
+    "componentName": "Clipboard",
     "tags": [
       "checklist",
       "clipboard",
@@ -7585,6 +8087,8 @@
   },
   {
     "name": "ClipboardText",
+    "kebabName": "clipboard-text",
+    "componentName": "ClipboardText",
     "tags": [
       "checklist",
       "clipboard",
@@ -7616,6 +8120,8 @@
   },
   {
     "name": "Clock",
+    "kebabName": "clock",
+    "componentName": "Clock",
     "tags": [
       "5",
       "alarm",
@@ -7648,6 +8154,8 @@
   },
   {
     "name": "Clock1",
+    "kebabName": "clock-1",
+    "componentName": "Clock1",
     "tags": [
       "1",
       "alarm",
@@ -7680,6 +8188,8 @@
   },
   {
     "name": "Clock10",
+    "kebabName": "clock-10",
+    "componentName": "Clock10",
     "tags": [
       "10",
       "alarm",
@@ -7712,6 +8222,8 @@
   },
   {
     "name": "Clock11",
+    "kebabName": "clock-11",
+    "componentName": "Clock11",
     "tags": [
       "clock",
       "deadline",
@@ -7741,6 +8253,8 @@
   },
   {
     "name": "Clock12",
+    "kebabName": "clock-12",
+    "componentName": "Clock12",
     "tags": [
       "12",
       "alarm",
@@ -7773,6 +8287,8 @@
   },
   {
     "name": "Clock2",
+    "kebabName": "clock-2",
+    "componentName": "Clock2",
     "tags": [
       "2",
       "alarm",
@@ -7805,6 +8321,8 @@
   },
   {
     "name": "Clock3",
+    "kebabName": "clock-3",
+    "componentName": "Clock3",
     "tags": [
       "3",
       "alarm",
@@ -7837,6 +8355,8 @@
   },
   {
     "name": "Clock4",
+    "kebabName": "clock-4",
+    "componentName": "Clock4",
     "tags": [
       "4",
       "alarm",
@@ -7869,6 +8389,8 @@
   },
   {
     "name": "Clock6",
+    "kebabName": "clock-6",
+    "componentName": "Clock6",
     "tags": [
       "6",
       "alarm",
@@ -7901,6 +8423,8 @@
   },
   {
     "name": "Clock7",
+    "kebabName": "clock-7",
+    "componentName": "Clock7",
     "tags": [
       "7",
       "alarm",
@@ -7933,6 +8457,8 @@
   },
   {
     "name": "Clock8",
+    "kebabName": "clock-8",
+    "componentName": "Clock8",
     "tags": [
       "8",
       "alarm",
@@ -7965,6 +8491,8 @@
   },
   {
     "name": "Clock9",
+    "kebabName": "clock-9",
+    "componentName": "Clock9",
     "tags": [
       "9",
       "alarm",
@@ -7997,6 +8525,8 @@
   },
   {
     "name": "Cloud",
+    "kebabName": "cloud",
+    "componentName": "Cloud",
     "tags": [
       "cloud",
       "data",
@@ -8028,6 +8558,8 @@
   },
   {
     "name": "CloudDownload",
+    "kebabName": "cloud-download",
+    "componentName": "CloudDownload",
     "tags": [
       "backup",
       "cloud",
@@ -8059,6 +8591,8 @@
   },
   {
     "name": "CloudUpload",
+    "kebabName": "cloud-upload",
+    "componentName": "CloudUpload",
     "tags": [
       "backup",
       "cloud",
@@ -8090,6 +8624,8 @@
   },
   {
     "name": "CloudX",
+    "kebabName": "cloud-x",
+    "componentName": "CloudX",
     "tags": [
       "cancel",
       "clear",
@@ -8121,6 +8657,8 @@
   },
   {
     "name": "Code",
+    "kebabName": "code",
+    "componentName": "Code",
     "tags": [
       "code",
       "developer",
@@ -8150,6 +8688,8 @@
   },
   {
     "name": "CodeCircle",
+    "kebabName": "code-circle",
+    "componentName": "CodeCircle",
     "tags": [
       "code",
       "developer",
@@ -8179,6 +8719,8 @@
   },
   {
     "name": "CodeSquare",
+    "kebabName": "code-square",
+    "componentName": "CodeSquare",
     "tags": [
       "code",
       "developer",
@@ -8208,6 +8750,8 @@
   },
   {
     "name": "CoffeeMug",
+    "kebabName": "coffee-mug",
+    "componentName": "CoffeeMug",
     "tags": [
       "beverage",
       "break",
@@ -8238,6 +8782,8 @@
   },
   {
     "name": "Coin",
+    "kebabName": "coin",
+    "componentName": "Coin",
     "tags": [
       "cash",
       "coin",
@@ -8268,6 +8814,8 @@
   },
   {
     "name": "Collapse",
+    "kebabName": "collapse",
+    "componentName": "Collapse",
     "tags": [
       "compress",
       "contract",
@@ -8298,6 +8846,8 @@
   },
   {
     "name": "CollapseSimple",
+    "kebabName": "collapse-simple",
+    "componentName": "CollapseSimple",
     "tags": [
       "arrows",
       "collapse",
@@ -8328,6 +8878,8 @@
   },
   {
     "name": "CollapseSimpleAlt",
+    "kebabName": "collapse-simple-alt",
+    "componentName": "CollapseSimpleAlt",
     "tags": [
       "arrows",
       "collapse",
@@ -8358,6 +8910,8 @@
   },
   {
     "name": "Command",
+    "kebabName": "command",
+    "componentName": "Command",
     "tags": [
       "apple",
       "control",
@@ -8387,6 +8941,8 @@
   },
   {
     "name": "CommentBubble",
+    "kebabName": "comment-bubble",
+    "componentName": "CommentBubble",
     "tags": [
       "bubble",
       "chat",
@@ -8418,6 +8974,8 @@
   },
   {
     "name": "Compass",
+    "kebabName": "compass",
+    "componentName": "Compass",
     "tags": [
       "compass",
       "direction",
@@ -8447,6 +9005,8 @@
   },
   {
     "name": "Component",
+    "kebabName": "component",
+    "componentName": "Component",
     "tags": [
       "asset",
       "component",
@@ -8475,6 +9035,8 @@
   },
   {
     "name": "Connection",
+    "kebabName": "connection",
+    "componentName": "Connection",
     "tags": [
       "connection",
       "distribute",
@@ -8506,6 +9068,8 @@
   },
   {
     "name": "ConnectionAlt",
+    "kebabName": "connection-alt",
+    "componentName": "ConnectionAlt",
     "tags": [
       "connection",
       "distribute",
@@ -8537,6 +9101,8 @@
   },
   {
     "name": "ContactBook",
+    "kebabName": "contact-book",
+    "componentName": "ContactBook",
     "tags": [
       "account",
       "address book",
@@ -8567,6 +9133,8 @@
   },
   {
     "name": "Contrast",
+    "kebabName": "contrast",
+    "componentName": "Contrast",
     "tags": [
       "adjust",
       "brightness",
@@ -8599,6 +9167,8 @@
   },
   {
     "name": "CoolS",
+    "kebabName": "cool-s",
+    "componentName": "CoolS",
     "tags": [
       "graffiti",
       "letter",
@@ -8633,6 +9203,8 @@
   },
   {
     "name": "Copy",
+    "kebabName": "copy",
+    "componentName": "Copy",
     "tags": [
       "clone",
       "copy",
@@ -8661,6 +9233,8 @@
   },
   {
     "name": "Cpu",
+    "kebabName": "cpu",
+    "componentName": "Cpu",
     "tags": [
       "chip",
       "computing",
@@ -8690,6 +9264,8 @@
   },
   {
     "name": "CpuAmd",
+    "kebabName": "cpu-amd",
+    "componentName": "CpuAmd",
     "tags": [
       "chip",
       "computing",
@@ -8719,6 +9295,8 @@
   },
   {
     "name": "CreditCard",
+    "kebabName": "credit-card",
+    "componentName": "CreditCard",
     "tags": [
       "card",
       "checkout",
@@ -8749,6 +9327,8 @@
   },
   {
     "name": "CreditCardAlt",
+    "kebabName": "credit-card-alt",
+    "componentName": "CreditCardAlt",
     "tags": [
       "card",
       "checkout",
@@ -8779,6 +9359,8 @@
   },
   {
     "name": "Crop",
+    "kebabName": "crop",
+    "componentName": "Crop",
     "tags": [
       "adjust",
       "crop",
@@ -8808,6 +9390,8 @@
   },
   {
     "name": "Crosshair",
+    "kebabName": "crosshair",
+    "componentName": "Crosshair",
     "tags": [
       "aim",
       "crosshair",
@@ -8835,6 +9419,8 @@
   },
   {
     "name": "Cube",
+    "kebabName": "cube",
+    "componentName": "Cube",
     "tags": [
       "3d",
       "box",
@@ -8863,6 +9449,8 @@
   },
   {
     "name": "CubeDash",
+    "kebabName": "cube-dash",
+    "componentName": "CubeDash",
     "tags": [
       "3d object",
       "3d scan",
@@ -8893,6 +9481,8 @@
   },
   {
     "name": "CubePackage",
+    "kebabName": "cube-package",
+    "componentName": "CubePackage",
     "tags": [
       "box",
       "delivery",
@@ -8922,6 +9512,8 @@
   },
   {
     "name": "CubePackageSimple",
+    "kebabName": "cube-package-simple",
+    "componentName": "CubePackageSimple",
     "tags": [
       "box",
       "delivery",
@@ -8951,6 +9543,8 @@
   },
   {
     "name": "CubicGraph",
+    "kebabName": "cubic-graph",
+    "componentName": "CubicGraph",
     "tags": [
       "analytics",
       "chart",
@@ -8982,6 +9576,8 @@
   },
   {
     "name": "Cup",
+    "kebabName": "cup",
+    "componentName": "Cup",
     "tags": [
       "beverage",
       "break",
@@ -9012,6 +9608,8 @@
   },
   {
     "name": "CurrencyCent",
+    "kebabName": "currency-cent",
+    "componentName": "CurrencyCent",
     "tags": [
       "billing",
       "cent",
@@ -9043,6 +9641,8 @@
   },
   {
     "name": "CurrencyCircleDollar",
+    "kebabName": "currency-circle-dollar",
+    "componentName": "CurrencyCircleDollar",
     "tags": [
       "billing",
       "cost",
@@ -9074,6 +9674,8 @@
   },
   {
     "name": "CurrencyDollar",
+    "kebabName": "currency-dollar",
+    "componentName": "CurrencyDollar",
     "tags": [
       "billing",
       "cost",
@@ -9105,6 +9707,8 @@
   },
   {
     "name": "CurrencyEuro",
+    "kebabName": "currency-euro",
+    "componentName": "CurrencyEuro",
     "tags": [
       "cash",
       "currency",
@@ -9135,6 +9739,8 @@
   },
   {
     "name": "CurrencyEuroCirlce",
+    "kebabName": "currency-euro-cirlce",
+    "componentName": "CurrencyEuroCirlce",
     "tags": [
       "cash",
       "currency",
@@ -9165,6 +9771,8 @@
   },
   {
     "name": "Cursor",
+    "kebabName": "cursor",
+    "componentName": "Cursor",
     "tags": [
       "arrow",
       "click",
@@ -9195,6 +9803,8 @@
   },
   {
     "name": "CursorClick",
+    "kebabName": "cursor-click",
+    "componentName": "CursorClick",
     "tags": [
       "action",
       "choose",
@@ -9226,6 +9836,8 @@
   },
   {
     "name": "CursorNavigation",
+    "kebabName": "cursor-navigation",
+    "componentName": "CursorNavigation",
     "tags": [
       "action",
       "choose",
@@ -9257,6 +9869,8 @@
   },
   {
     "name": "CursorOg",
+    "kebabName": "cursor-og",
+    "componentName": "CursorOg",
     "tags": [
       "arrow",
       "click",
@@ -9285,6 +9899,8 @@
   },
   {
     "name": "CursorPointer",
+    "kebabName": "cursor-pointer",
+    "componentName": "CursorPointer",
     "tags": [
       "click",
       "cursor",
@@ -9314,6 +9930,8 @@
   },
   {
     "name": "CursorText",
+    "kebabName": "cursor-text",
+    "componentName": "CursorText",
     "tags": [
       "cursor",
       "edit",
@@ -9343,6 +9961,8 @@
   },
   {
     "name": "CursorTextAlt",
+    "kebabName": "cursor-text-alt",
+    "componentName": "CursorTextAlt",
     "tags": [
       "cursor",
       "edit",
@@ -9372,6 +9992,8 @@
   },
   {
     "name": "CurveBezier",
+    "kebabName": "curve-bezier",
+    "componentName": "CurveBezier",
     "tags": [
       "anchor",
       "animation",
@@ -9405,6 +10027,8 @@
   },
   {
     "name": "CurveEase",
+    "kebabName": "curve-ease",
+    "componentName": "CurveEase",
     "tags": [
       "animation",
       "bezier",
@@ -9437,6 +10061,8 @@
   },
   {
     "name": "Cylinder",
+    "kebabName": "cylinder",
+    "componentName": "Cylinder",
     "tags": [
       "backend",
       "data",
@@ -9465,6 +10091,8 @@
   },
   {
     "name": "DataTable",
+    "kebabName": "data-table",
+    "componentName": "DataTable",
     "tags": [
       "columns",
       "data",
@@ -9495,6 +10123,8 @@
   },
   {
     "name": "Database",
+    "kebabName": "database",
+    "componentName": "Database",
     "tags": [
       "backend",
       "data",
@@ -9523,6 +10153,8 @@
   },
   {
     "name": "DatabaseBan",
+    "kebabName": "database-ban",
+    "componentName": "DatabaseBan",
     "tags": [
       "backend",
       "block",
@@ -9552,6 +10184,8 @@
   },
   {
     "name": "DatabasePlus",
+    "kebabName": "database-plus",
+    "componentName": "DatabasePlus",
     "tags": [
       "add",
       "backend",
@@ -9582,6 +10216,8 @@
   },
   {
     "name": "DatabaseSparkle",
+    "kebabName": "database-sparkle",
+    "componentName": "DatabaseSparkle",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -9613,6 +10249,8 @@
   },
   {
     "name": "DatabaseX",
+    "kebabName": "database-x",
+    "componentName": "DatabaseX",
     "tags": [
       "backend",
       "data",
@@ -9643,6 +10281,8 @@
   },
   {
     "name": "Delete",
+    "kebabName": "delete",
+    "componentName": "Delete",
     "tags": [
       "backspace",
       "cancel",
@@ -9674,6 +10314,8 @@
   },
   {
     "name": "DeviceDesktop",
+    "kebabName": "device-desktop",
+    "componentName": "DeviceDesktop",
     "tags": [
       "computer",
       "desktop",
@@ -9703,6 +10345,8 @@
   },
   {
     "name": "DeviceLaptop",
+    "kebabName": "device-laptop",
+    "componentName": "DeviceLaptop",
     "tags": [
       "computer",
       "device",
@@ -9732,6 +10376,8 @@
   },
   {
     "name": "DevicePhone",
+    "kebabName": "device-phone",
+    "componentName": "DevicePhone",
     "tags": [
       "call",
       "device",
@@ -9761,6 +10407,8 @@
   },
   {
     "name": "DeviceTablet",
+    "kebabName": "device-tablet",
+    "componentName": "DeviceTablet",
     "tags": [
       "android",
       "device",
@@ -9790,6 +10438,8 @@
   },
   {
     "name": "Diamond",
+    "kebabName": "diamond",
+    "componentName": "Diamond",
     "tags": [
       "diamond",
       "geometry",
@@ -9819,6 +10469,8 @@
   },
   {
     "name": "Document",
+    "kebabName": "document",
+    "componentName": "Document",
     "tags": [
       "content",
       "data",
@@ -9850,6 +10502,8 @@
   },
   {
     "name": "DocumentCopy",
+    "kebabName": "document-copy",
+    "componentName": "DocumentCopy",
     "tags": [
       "content",
       "data",
@@ -9881,6 +10535,8 @@
   },
   {
     "name": "DocumentDetail",
+    "kebabName": "document-detail",
+    "componentName": "DocumentDetail",
     "tags": [
       "content",
       "data",
@@ -9912,6 +10568,8 @@
   },
   {
     "name": "DocumentSearch",
+    "kebabName": "document-search",
+    "componentName": "DocumentSearch",
     "tags": [
       "document",
       "file search",
@@ -9941,6 +10599,8 @@
   },
   {
     "name": "DollarBill",
+    "kebabName": "dollar-bill",
+    "componentName": "DollarBill",
     "tags": [
       "banknote",
       "bill",
@@ -9971,6 +10631,8 @@
   },
   {
     "name": "Download",
+    "kebabName": "download",
+    "componentName": "Download",
     "tags": [
       "arrow-down",
       "download",
@@ -10000,6 +10662,8 @@
   },
   {
     "name": "DraftingCompass",
+    "kebabName": "drafting-compass",
+    "componentName": "DraftingCompass",
     "tags": [
       "alignment",
       "angle",
@@ -10031,6 +10695,8 @@
   },
   {
     "name": "DragHandle",
+    "kebabName": "drag-handle",
+    "componentName": "DragHandle",
     "tags": [
       "drag",
       "grip",
@@ -10061,6 +10727,8 @@
   },
   {
     "name": "Droplet",
+    "kebabName": "droplet",
+    "componentName": "Droplet",
     "tags": [
       "drop",
       "droplet",
@@ -10089,6 +10757,8 @@
   },
   {
     "name": "Duplicate",
+    "kebabName": "duplicate",
+    "componentName": "Duplicate",
     "tags": [
       "clone",
       "copy",
@@ -10116,6 +10786,8 @@
   },
   {
     "name": "DuplicatePlus",
+    "kebabName": "duplicate-plus",
+    "componentName": "DuplicatePlus",
     "tags": [
       "clone",
       "copy",
@@ -10143,6 +10815,8 @@
   },
   {
     "name": "EditSquare",
+    "kebabName": "edit-square",
+    "componentName": "EditSquare",
     "tags": [
       "compose",
       "create",
@@ -10179,6 +10853,8 @@
   },
   {
     "name": "EmoteFrown",
+    "kebabName": "emote-frown",
+    "componentName": "EmoteFrown",
     "tags": [
       "emoji",
       "emote",
@@ -10209,6 +10885,8 @@
   },
   {
     "name": "EmoteGrin",
+    "kebabName": "emote-grin",
+    "componentName": "EmoteGrin",
     "tags": [
       "emoji",
       "emote",
@@ -10240,6 +10918,8 @@
   },
   {
     "name": "EmoteNeutral",
+    "kebabName": "emote-neutral",
+    "componentName": "EmoteNeutral",
     "tags": [
       "emoji",
       "emote",
@@ -10270,6 +10950,8 @@
   },
   {
     "name": "EmoteSad",
+    "kebabName": "emote-sad",
+    "componentName": "EmoteSad",
     "tags": [
       "emoji",
       "emote",
@@ -10300,6 +10982,8 @@
   },
   {
     "name": "EmoteSmile",
+    "kebabName": "emote-smile",
+    "componentName": "EmoteSmile",
     "tags": [
       "emoji",
       "emote",
@@ -10330,6 +11014,8 @@
   },
   {
     "name": "EmoteSurprised",
+    "kebabName": "emote-surprised",
+    "componentName": "EmoteSurprised",
     "tags": [
       "emoji",
       "emote",
@@ -10360,6 +11046,8 @@
   },
   {
     "name": "ExclamationPoint",
+    "kebabName": "exclamation-point",
+    "componentName": "ExclamationPoint",
     "tags": [
       "alert",
       "attention",
@@ -10389,6 +11077,8 @@
   },
   {
     "name": "Expand",
+    "kebabName": "expand",
+    "componentName": "Expand",
     "tags": [
       "arrows",
       "enlarge",
@@ -10420,6 +11110,8 @@
   },
   {
     "name": "ExpandSimple",
+    "kebabName": "expand-simple",
+    "componentName": "ExpandSimple",
     "tags": [
       "arrows",
       "diagonal",
@@ -10450,6 +11142,8 @@
   },
   {
     "name": "ExpandSimpleAlt",
+    "kebabName": "expand-simple-alt",
+    "componentName": "ExpandSimpleAlt",
     "tags": [
       "arrows",
       "diagonal",
@@ -10480,6 +11174,8 @@
   },
   {
     "name": "Eye",
+    "kebabName": "eye",
+    "componentName": "Eye",
     "tags": [
       "display",
       "preview",
@@ -10510,6 +11206,8 @@
   },
   {
     "name": "EyeClosed",
+    "kebabName": "eye-closed",
+    "componentName": "EyeClosed",
     "tags": [
       "conceal",
       "eye",
@@ -10542,6 +11240,8 @@
   },
   {
     "name": "EyeOff",
+    "kebabName": "eye-off",
+    "componentName": "EyeOff",
     "tags": [
       "conceal",
       "eye",
@@ -10574,6 +11274,8 @@
   },
   {
     "name": "FastForward",
+    "kebabName": "fast-forward",
+    "componentName": "FastForward",
     "tags": [
       "ahead",
       "arrow",
@@ -10609,6 +11311,8 @@
   },
   {
     "name": "Figma",
+    "kebabName": "figma",
+    "componentName": "Figma",
     "tags": [
       "brand",
       "design",
@@ -10638,6 +11342,8 @@
   },
   {
     "name": "FileCabinet",
+    "kebabName": "file-cabinet",
+    "componentName": "FileCabinet",
     "tags": [
       "archive",
       "cabinet",
@@ -10667,6 +11373,8 @@
   },
   {
     "name": "FilmStrip",
+    "kebabName": "film-strip",
+    "componentName": "FilmStrip",
     "tags": [
       "billing",
       "calculate",
@@ -10697,6 +11405,8 @@
   },
   {
     "name": "Finder",
+    "kebabName": "finder",
+    "componentName": "Finder",
     "tags": [
       "desktop",
       "explore",
@@ -10727,6 +11437,8 @@
   },
   {
     "name": "Flag",
+    "kebabName": "flag",
+    "componentName": "Flag",
     "tags": [
       "bookmark",
       "endpoint",
@@ -10757,6 +11469,8 @@
   },
   {
     "name": "Flame",
+    "kebabName": "flame",
+    "componentName": "Flame",
     "tags": [
       "activity",
       "burn",
@@ -10788,6 +11502,8 @@
   },
   {
     "name": "Flash",
+    "kebabName": "flash",
+    "componentName": "Flash",
     "tags": [
       "boost",
       "charge",
@@ -10817,6 +11533,8 @@
   },
   {
     "name": "Flashlight",
+    "kebabName": "flashlight",
+    "componentName": "Flashlight",
     "tags": [
       "brightness",
       "find",
@@ -10847,6 +11565,8 @@
   },
   {
     "name": "Flask",
+    "kebabName": "flask",
+    "componentName": "Flask",
     "tags": [
       "beaker",
       "chemistry",
@@ -10876,6 +11596,8 @@
   },
   {
     "name": "FlaskFull",
+    "kebabName": "flask-full",
+    "componentName": "FlaskFull",
     "tags": [
       "beaker",
       "chemistry",
@@ -10905,6 +11627,8 @@
   },
   {
     "name": "FlowBranch",
+    "kebabName": "flow-branch",
+    "componentName": "FlowBranch",
     "tags": [
       "branch",
       "decision",
@@ -10934,6 +11658,8 @@
   },
   {
     "name": "FlowDiagram",
+    "kebabName": "flow-diagram",
+    "componentName": "FlowDiagram",
     "tags": [
       "branch",
       "decision",
@@ -10963,6 +11689,8 @@
   },
   {
     "name": "FlowDownArrow",
+    "kebabName": "flow-down-arrow",
+    "componentName": "FlowDownArrow",
     "tags": [
       "arrow",
       "direction",
@@ -10995,6 +11723,8 @@
   },
   {
     "name": "FlowLeftArrow",
+    "kebabName": "flow-left-arrow",
+    "componentName": "FlowLeftArrow",
     "tags": [
       "arrow",
       "back",
@@ -11027,6 +11757,8 @@
   },
   {
     "name": "FlowMerge",
+    "kebabName": "flow-merge",
+    "componentName": "FlowMerge",
     "tags": [
       "branch",
       "combine",
@@ -11057,6 +11789,8 @@
   },
   {
     "name": "FlowRightArrow",
+    "kebabName": "flow-right-arrow",
+    "componentName": "FlowRightArrow",
     "tags": [
       "arrow",
       "direction",
@@ -11089,6 +11823,8 @@
   },
   {
     "name": "FlowSplitArrowDown",
+    "kebabName": "flow-split-arrow-down",
+    "componentName": "FlowSplitArrowDown",
     "tags": [
       "branch",
       "decision",
@@ -11119,6 +11855,8 @@
   },
   {
     "name": "FlowSplitArrowLeft",
+    "kebabName": "flow-split-arrow-left",
+    "componentName": "FlowSplitArrowLeft",
     "tags": [
       "branch",
       "decision",
@@ -11149,6 +11887,8 @@
   },
   {
     "name": "FlowSplitArrowRight",
+    "kebabName": "flow-split-arrow-right",
+    "componentName": "FlowSplitArrowRight",
     "tags": [
       "branch",
       "decision",
@@ -11179,6 +11919,8 @@
   },
   {
     "name": "FlowSplitArrowUp",
+    "kebabName": "flow-split-arrow-up",
+    "componentName": "FlowSplitArrowUp",
     "tags": [
       "branch",
       "decision",
@@ -11209,6 +11951,8 @@
   },
   {
     "name": "FlowSplitDown",
+    "kebabName": "flow-split-down",
+    "componentName": "FlowSplitDown",
     "tags": [
       "branch",
       "flow",
@@ -11240,6 +11984,8 @@
   },
   {
     "name": "FlowSplitLeft",
+    "kebabName": "flow-split-left",
+    "componentName": "FlowSplitLeft",
     "tags": [
       "branch",
       "flow",
@@ -11271,6 +12017,8 @@
   },
   {
     "name": "FlowSplitRight",
+    "kebabName": "flow-split-right",
+    "componentName": "FlowSplitRight",
     "tags": [
       "branch",
       "flow",
@@ -11302,6 +12050,8 @@
   },
   {
     "name": "FlowSplitSquareDown",
+    "kebabName": "flow-split-square-down",
+    "componentName": "FlowSplitSquareDown",
     "tags": [
       "branch",
       "flow",
@@ -11333,6 +12083,8 @@
   },
   {
     "name": "FlowSplitSquareLeft",
+    "kebabName": "flow-split-square-left",
+    "componentName": "FlowSplitSquareLeft",
     "tags": [
       "branch",
       "flow",
@@ -11364,6 +12116,8 @@
   },
   {
     "name": "FlowSplitSquareRight",
+    "kebabName": "flow-split-square-right",
+    "componentName": "FlowSplitSquareRight",
     "tags": [
       "branch",
       "flow",
@@ -11395,6 +12149,8 @@
   },
   {
     "name": "FlowSplitSquareUp",
+    "kebabName": "flow-split-square-up",
+    "componentName": "FlowSplitSquareUp",
     "tags": [
       "branch",
       "flow",
@@ -11426,6 +12182,8 @@
   },
   {
     "name": "FlowSplitUp",
+    "kebabName": "flow-split-up",
+    "componentName": "FlowSplitUp",
     "tags": [
       "branch",
       "flow",
@@ -11457,6 +12215,8 @@
   },
   {
     "name": "FlowUpArrow",
+    "kebabName": "flow-up-arrow",
+    "componentName": "FlowUpArrow",
     "tags": [
       "arrow",
       "direction",
@@ -11489,6 +12249,8 @@
   },
   {
     "name": "Flower",
+    "kebabName": "flower",
+    "componentName": "Flower",
     "tags": [
       "blossom",
       "decoration",
@@ -11518,6 +12280,8 @@
   },
   {
     "name": "Folder",
+    "kebabName": "folder",
+    "componentName": "Folder",
     "tags": [
       "archive",
       "directory",
@@ -11548,6 +12312,8 @@
   },
   {
     "name": "FolderOpen",
+    "kebabName": "folder-open",
+    "componentName": "FolderOpen",
     "tags": [
       "archive",
       "directory",
@@ -11578,6 +12344,8 @@
   },
   {
     "name": "FolderPlus",
+    "kebabName": "folder-plus",
+    "componentName": "FolderPlus",
     "tags": [
       "add",
       "create",
@@ -11608,6 +12376,8 @@
   },
   {
     "name": "FolderTree",
+    "kebabName": "folder-tree",
+    "componentName": "FolderTree",
     "tags": [
       "collapse",
       "expand",
@@ -11641,6 +12411,8 @@
   },
   {
     "name": "Football",
+    "kebabName": "football",
+    "componentName": "Football",
     "tags": [
       "activity",
       "american football",
@@ -11672,6 +12444,8 @@
   },
   {
     "name": "ForkKnife",
+    "kebabName": "fork-knife",
+    "componentName": "ForkKnife",
     "tags": [
       "cafe",
       "cutlery",
@@ -11703,6 +12477,8 @@
   },
   {
     "name": "Fortress",
+    "kebabName": "fortress",
+    "componentName": "Fortress",
     "tags": [
       "building",
       "castle",
@@ -11733,6 +12509,8 @@
   },
   {
     "name": "Forward",
+    "kebabName": "forward",
+    "componentName": "Forward",
     "tags": [
       "export",
       "external",
@@ -11762,6 +12540,8 @@
   },
   {
     "name": "Frame",
+    "kebabName": "frame",
+    "componentName": "Frame",
     "tags": [
       "border",
       "bounding-box",
@@ -11793,6 +12573,8 @@
   },
   {
     "name": "GaugeDots0Percent",
+    "kebabName": "gauge-dots-0-percent",
+    "componentName": "GaugeDots0Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -11828,6 +12610,8 @@
   },
   {
     "name": "GaugeDots100Percent",
+    "kebabName": "gauge-dots-100-percent",
+    "componentName": "GaugeDots100Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -11863,6 +12647,8 @@
   },
   {
     "name": "GaugeDots15Percent",
+    "kebabName": "gauge-dots-15-percent",
+    "componentName": "GaugeDots15Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -11897,6 +12683,8 @@
   },
   {
     "name": "GaugeDots33Percent",
+    "kebabName": "gauge-dots-33-percent",
+    "componentName": "GaugeDots33Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -11931,6 +12719,8 @@
   },
   {
     "name": "GaugeDots50Percent",
+    "kebabName": "gauge-dots-50-percent",
+    "componentName": "GaugeDots50Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -11965,6 +12755,8 @@
   },
   {
     "name": "GaugeDots66Percent",
+    "kebabName": "gauge-dots-66-percent",
+    "componentName": "GaugeDots66Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -11999,6 +12791,8 @@
   },
   {
     "name": "GaugeDots85Percent",
+    "kebabName": "gauge-dots-85-percent",
+    "componentName": "GaugeDots85Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12033,6 +12827,8 @@
   },
   {
     "name": "GaugeLines0Percent",
+    "kebabName": "gauge-lines-0-percent",
+    "componentName": "GaugeLines0Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12068,6 +12864,8 @@
   },
   {
     "name": "GaugeLines100Percent",
+    "kebabName": "gauge-lines-100-percent",
+    "componentName": "GaugeLines100Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12103,6 +12901,8 @@
   },
   {
     "name": "GaugeLines15Percent",
+    "kebabName": "gauge-lines-15-percent",
+    "componentName": "GaugeLines15Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12137,6 +12937,8 @@
   },
   {
     "name": "GaugeLines33Percent",
+    "kebabName": "gauge-lines-33-percent",
+    "componentName": "GaugeLines33Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12171,6 +12973,8 @@
   },
   {
     "name": "GaugeLines50Percent",
+    "kebabName": "gauge-lines-50-percent",
+    "componentName": "GaugeLines50Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12205,6 +13009,8 @@
   },
   {
     "name": "GaugeLines66Percent",
+    "kebabName": "gauge-lines-66-percent",
+    "componentName": "GaugeLines66Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12239,6 +13045,8 @@
   },
   {
     "name": "GaugeLines85Percent",
+    "kebabName": "gauge-lines-85-percent",
+    "componentName": "GaugeLines85Percent",
     "tags": [
       "analytics",
       "dashboard",
@@ -12273,6 +13081,8 @@
   },
   {
     "name": "Gavel",
+    "kebabName": "gavel",
+    "componentName": "Gavel",
     "tags": [
       "admin",
       "decision",
@@ -12303,6 +13113,8 @@
   },
   {
     "name": "Ghost",
+    "kebabName": "ghost",
+    "componentName": "Ghost",
     "tags": [
       "boo",
       "character",
@@ -12332,6 +13144,8 @@
   },
   {
     "name": "Gift",
+    "kebabName": "gift",
+    "componentName": "Gift",
     "tags": [
       "bonus",
       "celebration",
@@ -12363,6 +13177,8 @@
   },
   {
     "name": "GiftBox",
+    "kebabName": "gift-box",
+    "componentName": "GiftBox",
     "tags": [
       "bonus",
       "celebration",
@@ -12394,6 +13210,8 @@
   },
   {
     "name": "GitBranch",
+    "kebabName": "git-branch",
+    "componentName": "GitBranch",
     "tags": [
       "branch",
       "code",
@@ -12425,6 +13243,8 @@
   },
   {
     "name": "GitCommit",
+    "kebabName": "git-commit",
+    "componentName": "GitCommit",
     "tags": [
       "change",
       "code",
@@ -12455,6 +13275,8 @@
   },
   {
     "name": "GitCompare",
+    "kebabName": "git-compare",
+    "componentName": "GitCompare",
     "tags": [
       "branch",
       "changes",
@@ -12486,6 +13308,8 @@
   },
   {
     "name": "GitMerge",
+    "kebabName": "git-merge",
+    "componentName": "GitMerge",
     "tags": [
       "code",
       "git",
@@ -12517,6 +13341,8 @@
   },
   {
     "name": "GitPullRequest",
+    "kebabName": "git-pull-request",
+    "componentName": "GitPullRequest",
     "tags": [
       "branch",
       "code",
@@ -12547,6 +13373,8 @@
   },
   {
     "name": "GitPullRequestClosed",
+    "kebabName": "git-pull-request-closed",
+    "componentName": "GitPullRequestClosed",
     "tags": [
       "closed",
       "code review",
@@ -12576,6 +13404,8 @@
   },
   {
     "name": "GitPullRequestDraft",
+    "kebabName": "git-pull-request-draft",
+    "componentName": "GitPullRequestDraft",
     "tags": [
       "branch",
       "changes",
@@ -12605,6 +13435,8 @@
   },
   {
     "name": "Github",
+    "kebabName": "github",
+    "componentName": "Github",
     "tags": [
       "brand",
       "code",
@@ -12636,6 +13468,8 @@
   },
   {
     "name": "Globe",
+    "kebabName": "globe",
+    "componentName": "Globe",
     "tags": [
       "earth",
       "global",
@@ -12668,6 +13502,8 @@
   },
   {
     "name": "Gradient",
+    "kebabName": "gradient",
+    "componentName": "Gradient",
     "tags": [
       "background",
       "blend",
@@ -12699,6 +13535,8 @@
   },
   {
     "name": "Grid",
+    "kebabName": "grid",
+    "componentName": "Grid",
     "tags": [
       "apps",
       "dashboard",
@@ -12729,6 +13567,8 @@
   },
   {
     "name": "Hammer",
+    "kebabName": "hammer",
+    "componentName": "Hammer",
     "tags": [
       "build",
       "configure",
@@ -12760,6 +13600,8 @@
   },
   {
     "name": "HandLeft",
+    "kebabName": "hand-left",
+    "componentName": "HandLeft",
     "tags": [
       "gesture",
       "grab",
@@ -12790,6 +13632,8 @@
   },
   {
     "name": "HandRight",
+    "kebabName": "hand-right",
+    "componentName": "HandRight",
     "tags": [
       "gesture",
       "grab",
@@ -12820,6 +13664,8 @@
   },
   {
     "name": "HandWave",
+    "kebabName": "hand-wave",
+    "componentName": "HandWave",
     "tags": [
       "gesture",
       "goodbye",
@@ -12849,6 +13695,8 @@
   },
   {
     "name": "Handbag",
+    "kebabName": "handbag",
+    "componentName": "Handbag",
     "tags": [
       "accessory",
       "bag",
@@ -12879,6 +13727,8 @@
   },
   {
     "name": "Hash",
+    "kebabName": "hash",
+    "componentName": "Hash",
     "tags": [
       "channel",
       "grid",
@@ -12910,6 +13760,8 @@
   },
   {
     "name": "HashCircle",
+    "kebabName": "hash-circle",
+    "componentName": "HashCircle",
     "tags": [
       "channel",
       "grid",
@@ -12941,6 +13793,8 @@
   },
   {
     "name": "HashItalic",
+    "kebabName": "hash-italic",
+    "componentName": "HashItalic",
     "tags": [
       "channel",
       "hashtag",
@@ -12971,6 +13825,8 @@
   },
   {
     "name": "HashSquare",
+    "kebabName": "hash-square",
+    "componentName": "HashSquare",
     "tags": [
       "channel",
       "grid",
@@ -13002,6 +13858,8 @@
   },
   {
     "name": "Headphones",
+    "kebabName": "headphones",
+    "componentName": "Headphones",
     "tags": [
       "audio",
       "headset",
@@ -13032,6 +13890,8 @@
   },
   {
     "name": "Heart",
+    "kebabName": "heart",
+    "componentName": "Heart",
     "tags": [
       "favorite",
       "heart",
@@ -13060,6 +13920,8 @@
   },
   {
     "name": "Hexagon",
+    "kebabName": "hexagon",
+    "componentName": "Hexagon",
     "tags": [
       "border",
       "frame",
@@ -13092,6 +13954,8 @@
   },
   {
     "name": "Home",
+    "kebabName": "home",
+    "componentName": "Home",
     "tags": [
       "building",
       "home",
@@ -13123,6 +13987,8 @@
   },
   {
     "name": "Home3d",
+    "kebabName": "home-3d",
+    "componentName": "Home3d",
     "tags": [
       "3d",
       "building",
@@ -13155,6 +14021,8 @@
   },
   {
     "name": "HomeHeart",
+    "kebabName": "home-heart",
+    "componentName": "HomeHeart",
     "tags": [
       "care",
       "favorite",
@@ -13186,6 +14054,8 @@
   },
   {
     "name": "HomePlus",
+    "kebabName": "home-plus",
+    "componentName": "HomePlus",
     "tags": [
       "add",
       "create",
@@ -13217,6 +14087,8 @@
   },
   {
     "name": "HomeSimple",
+    "kebabName": "home-simple",
+    "componentName": "HomeSimple",
     "tags": [
       "cancel",
       "close",
@@ -13248,6 +14120,8 @@
   },
   {
     "name": "HomeX",
+    "kebabName": "home-x",
+    "componentName": "HomeX",
     "tags": [
       "cancel",
       "close",
@@ -13279,6 +14153,8 @@
   },
   {
     "name": "Hourglass",
+    "kebabName": "hourglass",
+    "componentName": "Hourglass",
     "tags": [
       "clock",
       "countdown",
@@ -13309,6 +14185,8 @@
   },
   {
     "name": "HourglassEmpty",
+    "kebabName": "hourglass-empty",
+    "componentName": "HourglassEmpty",
     "tags": [
       "clock",
       "countdown",
@@ -13340,6 +14218,8 @@
   },
   {
     "name": "HourglassFull",
+    "kebabName": "hourglass-full",
+    "componentName": "HourglassFull",
     "tags": [
       "clock",
       "countdown",
@@ -13370,6 +14250,8 @@
   },
   {
     "name": "IdH",
+    "kebabName": "id-h",
+    "componentName": "IdH",
     "tags": [
       "badge",
       "card",
@@ -13399,6 +14281,8 @@
   },
   {
     "name": "IdV",
+    "kebabName": "id-v",
+    "componentName": "IdV",
     "tags": [
       "badge",
       "card",
@@ -13428,6 +14312,8 @@
   },
   {
     "name": "ImageLandscape",
+    "kebabName": "image-landscape",
+    "componentName": "ImageLandscape",
     "tags": [
       "file",
       "gallery",
@@ -13457,6 +14343,8 @@
   },
   {
     "name": "ImagePanorama",
+    "kebabName": "image-panorama",
+    "componentName": "ImagePanorama",
     "tags": [
       "gallery",
       "image",
@@ -13487,6 +14375,8 @@
   },
   {
     "name": "ImagePile",
+    "kebabName": "image-pile",
+    "componentName": "ImagePile",
     "tags": [
       "album",
       "collection",
@@ -13517,6 +14407,8 @@
   },
   {
     "name": "ImageSquare",
+    "kebabName": "image-square",
+    "componentName": "ImageSquare",
     "tags": [
       "file",
       "gallery",
@@ -13546,6 +14438,8 @@
   },
   {
     "name": "ImageStack",
+    "kebabName": "image-stack",
+    "componentName": "ImageStack",
     "tags": [
       "gallery",
       "image",
@@ -13576,6 +14470,8 @@
   },
   {
     "name": "InfoCircle",
+    "kebabName": "info-circle",
+    "componentName": "InfoCircle",
     "tags": [
       "about",
       "details",
@@ -13605,6 +14501,8 @@
   },
   {
     "name": "InfoSquare",
+    "kebabName": "info-square",
+    "componentName": "InfoSquare",
     "tags": [
       "about",
       "details",
@@ -13634,6 +14532,8 @@
   },
   {
     "name": "Key",
+    "kebabName": "key",
+    "componentName": "Key",
     "tags": [
       "access",
       "key",
@@ -13663,6 +14563,8 @@
   },
   {
     "name": "KeyAlt",
+    "kebabName": "key-alt",
+    "componentName": "KeyAlt",
     "tags": [
       "access",
       "key",
@@ -13692,6 +14594,8 @@
   },
   {
     "name": "Keyboard",
+    "kebabName": "keyboard",
+    "componentName": "Keyboard",
     "tags": [
       "form-entry",
       "hardware",
@@ -13722,6 +14626,8 @@
   },
   {
     "name": "Keyhole",
+    "kebabName": "keyhole",
+    "componentName": "Keyhole",
     "tags": [
       "access",
       "authentication",
@@ -13751,6 +14657,8 @@
   },
   {
     "name": "Label",
+    "kebabName": "label",
+    "componentName": "Label",
     "tags": [
       "badge",
       "category",
@@ -13780,6 +14688,8 @@
   },
   {
     "name": "LabelAlt",
+    "kebabName": "label-alt",
+    "componentName": "LabelAlt",
     "tags": [
       "badge",
       "category",
@@ -13809,6 +14719,8 @@
   },
   {
     "name": "LassoDash",
+    "kebabName": "lasso-dash",
+    "componentName": "LassoDash",
     "tags": [
       "area-select",
       "crop",
@@ -13839,6 +14751,8 @@
   },
   {
     "name": "Layers",
+    "kebabName": "layers",
+    "componentName": "Layers",
     "tags": [
       "3d",
       "arrange",
@@ -13868,6 +14782,8 @@
   },
   {
     "name": "LayersAlt",
+    "kebabName": "layers-alt",
+    "componentName": "LayersAlt",
     "tags": [
       "3d",
       "arrange",
@@ -13897,6 +14813,8 @@
   },
   {
     "name": "LayersSimple",
+    "kebabName": "layers-simple",
+    "componentName": "LayersSimple",
     "tags": [
       "3d",
       "arrange",
@@ -13926,6 +14844,8 @@
   },
   {
     "name": "LayoutGrid",
+    "kebabName": "layout-grid",
+    "componentName": "LayoutGrid",
     "tags": [
       "apps",
       "dashboard",
@@ -13955,6 +14875,8 @@
   },
   {
     "name": "LayoutGridCircle",
+    "kebabName": "layout-grid-circle",
+    "componentName": "LayoutGridCircle",
     "tags": [
       "grid",
       "layout",
@@ -13983,6 +14905,8 @@
   },
   {
     "name": "LayoutGridCirclePlus",
+    "kebabName": "layout-grid-circle-plus",
+    "componentName": "LayoutGridCirclePlus",
     "tags": [
       "add",
       "apps",
@@ -14015,6 +14939,8 @@
   },
   {
     "name": "LayoutGridPlus",
+    "kebabName": "layout-grid-plus",
+    "componentName": "LayoutGridPlus",
     "tags": [
       "add",
       "apps",
@@ -14047,6 +14973,8 @@
   },
   {
     "name": "LayoutList",
+    "kebabName": "layout-list",
+    "componentName": "LayoutList",
     "tags": [
       "browse",
       "content",
@@ -14078,6 +15006,8 @@
   },
   {
     "name": "LayoutMasonry",
+    "kebabName": "layout-masonry",
+    "componentName": "LayoutMasonry",
     "tags": [
       "apps",
       "categories",
@@ -14108,6 +15038,8 @@
   },
   {
     "name": "LayoutPanelLeft",
+    "kebabName": "layout-panel-left",
+    "componentName": "LayoutPanelLeft",
     "tags": [
       "browse",
       "content",
@@ -14138,6 +15070,8 @@
   },
   {
     "name": "LayoutPanelRight",
+    "kebabName": "layout-panel-right",
+    "componentName": "LayoutPanelRight",
     "tags": [
       "browse",
       "content",
@@ -14168,6 +15102,8 @@
   },
   {
     "name": "Leaf",
+    "kebabName": "leaf",
+    "componentName": "Leaf",
     "tags": [
       "agriculture",
       "eco",
@@ -14198,6 +15134,8 @@
   },
   {
     "name": "Lightbulb",
+    "kebabName": "lightbulb",
+    "componentName": "Lightbulb",
     "tags": [
       "bulb",
       "creativity",
@@ -14228,6 +15166,8 @@
   },
   {
     "name": "LightbulbOn",
+    "kebabName": "lightbulb-on",
+    "componentName": "LightbulbOn",
     "tags": [
       "active",
       "creativity",
@@ -14258,6 +15198,8 @@
   },
   {
     "name": "LineSegment",
+    "kebabName": "line-segment",
+    "componentName": "LineSegment",
     "tags": [
       "connect",
       "geometry",
@@ -14289,6 +15231,8 @@
   },
   {
     "name": "LineSegmentH",
+    "kebabName": "line-segment-h",
+    "componentName": "LineSegmentH",
     "tags": [
       "connect",
       "geometry",
@@ -14320,6 +15264,8 @@
   },
   {
     "name": "LineSegmentV",
+    "kebabName": "line-segment-v",
+    "componentName": "LineSegmentV",
     "tags": [
       "connect",
       "geometry",
@@ -14351,6 +15297,8 @@
   },
   {
     "name": "LineWeight",
+    "kebabName": "line-weight",
+    "componentName": "LineWeight",
     "tags": [
       "adjust stroke",
       "border width",
@@ -14380,6 +15328,8 @@
   },
   {
     "name": "Link",
+    "kebabName": "link",
+    "componentName": "Link",
     "tags": [
       "attach",
       "chain",
@@ -14409,6 +15359,8 @@
   },
   {
     "name": "LinkOff",
+    "kebabName": "link-off",
+    "componentName": "LinkOff",
     "tags": [
       "broken-link",
       "disable-link",
@@ -14438,6 +15390,8 @@
   },
   {
     "name": "List",
+    "kebabName": "list",
+    "componentName": "List",
     "tags": [
       "article",
       "bulleted",
@@ -14466,6 +15420,8 @@
   },
   {
     "name": "ListBullet",
+    "kebabName": "list-bullet",
+    "componentName": "ListBullet",
     "tags": [
       "bulleted",
       "content",
@@ -14495,6 +15451,8 @@
   },
   {
     "name": "ListBulletSimple",
+    "kebabName": "list-bullet-simple",
+    "componentName": "ListBulletSimple",
     "tags": [
       "bulleted",
       "content",
@@ -14524,6 +15482,8 @@
   },
   {
     "name": "ListCheck",
+    "kebabName": "list-check",
+    "componentName": "ListCheck",
     "tags": [
       "checklist",
       "completed",
@@ -14554,6 +15514,8 @@
   },
   {
     "name": "ListCheckSimple",
+    "kebabName": "list-check-simple",
+    "componentName": "ListCheckSimple",
     "tags": [
       "checklist",
       "completed",
@@ -14584,6 +15546,8 @@
   },
   {
     "name": "ListContract",
+    "kebabName": "list-contract",
+    "componentName": "ListContract",
     "tags": [
       "collapse",
       "compact",
@@ -14614,6 +15578,8 @@
   },
   {
     "name": "ListExpand",
+    "kebabName": "list-expand",
+    "componentName": "ListExpand",
     "tags": [
       "details",
       "dropdown",
@@ -14644,6 +15610,8 @@
   },
   {
     "name": "ListMinus",
+    "kebabName": "list-minus",
+    "componentName": "ListMinus",
     "tags": [
       "clear",
       "delete",
@@ -14675,6 +15643,8 @@
   },
   {
     "name": "ListPlus",
+    "kebabName": "list-plus",
+    "componentName": "ListPlus",
     "tags": [
       "add",
       "create",
@@ -14706,6 +15676,8 @@
   },
   {
     "name": "ListSimple",
+    "kebabName": "list-simple",
+    "componentName": "ListSimple",
     "tags": [
       "article",
       "bulleted",
@@ -14734,6 +15706,8 @@
   },
   {
     "name": "ListTree",
+    "kebabName": "list-tree",
+    "componentName": "ListTree",
     "tags": [
       "collapse",
       "expand",
@@ -14767,6 +15741,8 @@
   },
   {
     "name": "ListX",
+    "kebabName": "list-x",
+    "componentName": "ListX",
     "tags": [
       "cancel",
       "clear",
@@ -14798,6 +15774,8 @@
   },
   {
     "name": "Lock",
+    "kebabName": "lock",
+    "componentName": "Lock",
     "tags": [
       "authentication",
       "closed",
@@ -14829,6 +15807,8 @@
   },
   {
     "name": "LockOpen",
+    "kebabName": "lock-open",
+    "componentName": "LockOpen",
     "tags": [
       "access",
       "authentication",
@@ -14859,6 +15839,8 @@
   },
   {
     "name": "LockPassword",
+    "kebabName": "lock-password",
+    "componentName": "LockPassword",
     "tags": [
       "authentication",
       "lock-password",
@@ -14890,6 +15872,8 @@
   },
   {
     "name": "LockPasswordOpen",
+    "kebabName": "lock-password-open",
+    "componentName": "LockPasswordOpen",
     "tags": [
       "access",
       "authentication",
@@ -14920,6 +15904,8 @@
   },
   {
     "name": "Lotus",
+    "kebabName": "lotus",
+    "componentName": "Lotus",
     "tags": [
       "calm",
       "flower",
@@ -14950,6 +15936,8 @@
   },
   {
     "name": "MacWindow",
+    "kebabName": "mac-window",
+    "componentName": "MacWindow",
     "tags": [
       "application",
       "browser",
@@ -14979,6 +15967,8 @@
   },
   {
     "name": "MacWindowCursor",
+    "kebabName": "mac-window-cursor",
+    "componentName": "MacWindowCursor",
     "tags": [
       "click",
       "cursor",
@@ -15009,6 +15999,8 @@
   },
   {
     "name": "Mail",
+    "kebabName": "mail",
+    "componentName": "Mail",
     "tags": [
       "communication",
       "contact",
@@ -15037,6 +16029,8 @@
   },
   {
     "name": "MailBadge",
+    "kebabName": "mail-badge",
+    "componentName": "MailBadge",
     "tags": [
       "email",
       "inbox",
@@ -15066,6 +16060,8 @@
   },
   {
     "name": "MailMinus",
+    "kebabName": "mail-minus",
+    "componentName": "MailMinus",
     "tags": [
       "communication",
       "contact",
@@ -15096,6 +16092,8 @@
   },
   {
     "name": "MailOpen",
+    "kebabName": "mail-open",
+    "componentName": "MailOpen",
     "tags": [
       "email",
       "inbox",
@@ -15124,6 +16122,8 @@
   },
   {
     "name": "MailPlus",
+    "kebabName": "mail-plus",
+    "componentName": "MailPlus",
     "tags": [
       "communication",
       "contact",
@@ -15155,6 +16155,8 @@
   },
   {
     "name": "MailX",
+    "kebabName": "mail-x",
+    "componentName": "MailX",
     "tags": [
       "communication",
       "contact",
@@ -15185,6 +16187,8 @@
   },
   {
     "name": "Mailbox",
+    "kebabName": "mailbox",
+    "componentName": "Mailbox",
     "tags": [
       "email",
       "inbox",
@@ -15214,6 +16218,8 @@
   },
   {
     "name": "Map",
+    "kebabName": "map",
+    "componentName": "Map",
     "tags": [
       "directions",
       "explore",
@@ -15245,6 +16251,8 @@
   },
   {
     "name": "MapPin",
+    "kebabName": "map-pin",
+    "componentName": "MapPin",
     "tags": [
       "location",
       "map",
@@ -15273,6 +16281,8 @@
   },
   {
     "name": "MapPinMinus",
+    "kebabName": "map-pin-minus",
+    "componentName": "MapPinMinus",
     "tags": [
       "delete",
       "location",
@@ -15301,6 +16311,8 @@
   },
   {
     "name": "MapPinPlus",
+    "kebabName": "map-pin-plus",
+    "componentName": "MapPinPlus",
     "tags": [
       "add",
       "location",
@@ -15329,6 +16341,8 @@
   },
   {
     "name": "MapPinned",
+    "kebabName": "map-pinned",
+    "componentName": "MapPinned",
     "tags": [
       "directions",
       "explore",
@@ -15362,6 +16376,8 @@
   },
   {
     "name": "Matcha",
+    "kebabName": "matcha",
+    "componentName": "Matcha",
     "tags": [
       "beverage",
       "bowl",
@@ -15392,6 +16408,8 @@
   },
   {
     "name": "Medal",
+    "kebabName": "medal",
+    "componentName": "Medal",
     "tags": [
       "achievement",
       "award",
@@ -15422,6 +16440,8 @@
   },
   {
     "name": "MedalStar",
+    "kebabName": "medal-star",
+    "componentName": "MedalStar",
     "tags": [
       "achievement",
       "award",
@@ -15452,6 +16472,8 @@
   },
   {
     "name": "MedicalCross",
+    "kebabName": "medical-cross",
+    "componentName": "MedicalCross",
     "tags": [
       "add",
       "clinic",
@@ -15482,6 +16504,8 @@
   },
   {
     "name": "Menu",
+    "kebabName": "menu",
+    "componentName": "Menu",
     "tags": [
       "hamburger",
       "list",
@@ -15510,6 +16534,8 @@
   },
   {
     "name": "MenuAlt",
+    "kebabName": "menu-alt",
+    "componentName": "MenuAlt",
     "tags": [
       "hamburger",
       "list",
@@ -15538,6 +16564,8 @@
   },
   {
     "name": "MenuSimpleAlt",
+    "kebabName": "menu-simple-alt",
+    "componentName": "MenuSimpleAlt",
     "tags": [
       "hamburger",
       "list",
@@ -15566,6 +16594,8 @@
   },
   {
     "name": "Mic",
+    "kebabName": "mic",
+    "componentName": "Mic",
     "tags": [
       "audio",
       "input",
@@ -15597,6 +16627,8 @@
   },
   {
     "name": "MicOff",
+    "kebabName": "mic-off",
+    "componentName": "MicOff",
     "tags": [
       "audio",
       "disable",
@@ -15628,6 +16660,8 @@
   },
   {
     "name": "Microscope",
+    "kebabName": "microscope",
+    "componentName": "Microscope",
     "tags": [
       "analysis",
       "biology",
@@ -15658,6 +16692,8 @@
   },
   {
     "name": "Minimize",
+    "kebabName": "minimize",
+    "componentName": "Minimize",
     "tags": [
       "collapse",
       "compress",
@@ -15687,6 +16723,8 @@
   },
   {
     "name": "Minus",
+    "kebabName": "minus",
+    "componentName": "Minus",
     "tags": [
       "collapse",
       "dash",
@@ -15717,6 +16755,8 @@
   },
   {
     "name": "MinusCircle",
+    "kebabName": "minus-circle",
+    "componentName": "MinusCircle",
     "tags": [
       "collapse",
       "dash",
@@ -15747,6 +16787,8 @@
   },
   {
     "name": "MinusSquare",
+    "kebabName": "minus-square",
+    "componentName": "MinusSquare",
     "tags": [
       "checkbox",
       "collapse",
@@ -15779,6 +16821,8 @@
   },
   {
     "name": "MoonCrescent",
+    "kebabName": "moon-crescent",
+    "componentName": "MoonCrescent",
     "tags": [
       "bedtime",
       "dark",
@@ -15808,6 +16852,8 @@
   },
   {
     "name": "MoonStar",
+    "kebabName": "moon-star",
+    "componentName": "MoonStar",
     "tags": [
       "bedtime",
       "dark",
@@ -15837,6 +16883,8 @@
   },
   {
     "name": "More",
+    "kebabName": "more",
+    "componentName": "More",
     "tags": [
       "actions",
       "kebab",
@@ -15866,6 +16914,8 @@
   },
   {
     "name": "MoreCircle",
+    "kebabName": "more-circle",
+    "componentName": "MoreCircle",
     "tags": [
       "actions",
       "kebab",
@@ -15895,6 +16945,8 @@
   },
   {
     "name": "MoreCircleV",
+    "kebabName": "more-circle-v",
+    "componentName": "MoreCircleV",
     "tags": [
       "actions",
       "kebab",
@@ -15924,6 +16976,8 @@
   },
   {
     "name": "MoreSquare",
+    "kebabName": "more-square",
+    "componentName": "MoreSquare",
     "tags": [
       "actions",
       "kebab",
@@ -15953,6 +17007,8 @@
   },
   {
     "name": "MoreSquareV",
+    "kebabName": "more-square-v",
+    "componentName": "MoreSquareV",
     "tags": [
       "actions",
       "kebab",
@@ -15982,6 +17038,8 @@
   },
   {
     "name": "MoreV",
+    "kebabName": "more-v",
+    "componentName": "MoreV",
     "tags": [
       "actions",
       "kebab",
@@ -16011,6 +17069,8 @@
   },
   {
     "name": "Move",
+    "kebabName": "move",
+    "componentName": "Move",
     "tags": [
       "adjust",
       "arrows",
@@ -16042,6 +17102,8 @@
   },
   {
     "name": "Music",
+    "kebabName": "music",
+    "componentName": "Music",
     "tags": [
       "audio",
       "melody",
@@ -16071,6 +17133,8 @@
   },
   {
     "name": "NodeMap",
+    "kebabName": "node-map",
+    "componentName": "NodeMap",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -16106,6 +17170,8 @@
   },
   {
     "name": "Note",
+    "kebabName": "note",
+    "componentName": "Note",
     "tags": [
       "annotation",
       "comment",
@@ -16138,6 +17204,8 @@
   },
   {
     "name": "NoteText",
+    "kebabName": "note-text",
+    "componentName": "NoteText",
     "tags": [
       "annotation",
       "comment",
@@ -16171,6 +17239,8 @@
   },
   {
     "name": "Notebook",
+    "kebabName": "notebook",
+    "componentName": "Notebook",
     "tags": [
       "book",
       "documentation",
@@ -16201,6 +17271,8 @@
   },
   {
     "name": "NotebookLog",
+    "kebabName": "notebook-log",
+    "componentName": "NotebookLog",
     "tags": [
       "binder",
       "diary",
@@ -16232,6 +17304,8 @@
   },
   {
     "name": "OptionKey",
+    "kebabName": "option-key",
+    "componentName": "OptionKey",
     "tags": [
       "command",
       "key",
@@ -16261,6 +17335,8 @@
   },
   {
     "name": "OverlappingCircles",
+    "kebabName": "overlapping-circles",
+    "componentName": "OverlappingCircles",
     "tags": [
       "compare",
       "connection",
@@ -16291,6 +17367,8 @@
   },
   {
     "name": "OverlappingCirclesDash",
+    "kebabName": "overlapping-circles-dash",
+    "componentName": "OverlappingCirclesDash",
     "tags": [
       "compare",
       "connection",
@@ -16321,6 +17399,8 @@
   },
   {
     "name": "PaintPalette",
+    "kebabName": "paint-palette",
+    "componentName": "PaintPalette",
     "tags": [
       "art",
       "color",
@@ -16351,6 +17431,8 @@
   },
   {
     "name": "PanelBottomFloating",
+    "kebabName": "panel-bottom-floating",
+    "componentName": "PanelBottomFloating",
     "tags": [
       "bottom-panel",
       "footer",
@@ -16381,6 +17463,8 @@
   },
   {
     "name": "PanelLeftFloating",
+    "kebabName": "panel-left-floating",
+    "componentName": "PanelLeftFloating",
     "tags": [
       "layout",
       "navigation",
@@ -16410,6 +17494,8 @@
   },
   {
     "name": "PanelRightFloating",
+    "kebabName": "panel-right-floating",
+    "componentName": "PanelRightFloating",
     "tags": [
       "layout",
       "navigation",
@@ -16439,6 +17525,8 @@
   },
   {
     "name": "PanelTopFloating",
+    "kebabName": "panel-top-floating",
+    "componentName": "PanelTopFloating",
     "tags": [
       "layout",
       "panel",
@@ -16468,6 +17556,8 @@
   },
   {
     "name": "PanelsLeftBottom",
+    "kebabName": "panels-left-bottom",
+    "componentName": "PanelsLeftBottom",
     "tags": [
       "arrangement",
       "bottom-panel",
@@ -16498,6 +17588,8 @@
   },
   {
     "name": "PanelsLeftTop",
+    "kebabName": "panels-left-top",
+    "componentName": "PanelsLeftTop",
     "tags": [
       "arrangement",
       "layout",
@@ -16528,6 +17620,8 @@
   },
   {
     "name": "PanelsRightBottom",
+    "kebabName": "panels-right-bottom",
+    "componentName": "PanelsRightBottom",
     "tags": [
       "arrangement",
       "bottom-panel",
@@ -16558,6 +17652,8 @@
   },
   {
     "name": "PanelsRightTop",
+    "kebabName": "panels-right-top",
+    "componentName": "PanelsRightTop",
     "tags": [
       "arrangement",
       "layout",
@@ -16588,6 +17684,8 @@
   },
   {
     "name": "Paperclip",
+    "kebabName": "paperclip",
+    "componentName": "Paperclip",
     "tags": [
       "attach",
       "attachment",
@@ -16617,6 +17715,8 @@
   },
   {
     "name": "Pause",
+    "kebabName": "pause",
+    "componentName": "Pause",
     "tags": [
       "audio",
       "break",
@@ -16647,6 +17747,8 @@
   },
   {
     "name": "PauseCircle",
+    "kebabName": "pause-circle",
+    "componentName": "PauseCircle",
     "tags": [
       "audio",
       "break",
@@ -16677,6 +17779,8 @@
   },
   {
     "name": "PawPrint",
+    "kebabName": "paw-print",
+    "componentName": "PawPrint",
     "tags": [
       "animal",
       "cat",
@@ -16706,6 +17810,8 @@
   },
   {
     "name": "Peace",
+    "kebabName": "peace",
+    "componentName": "Peace",
     "tags": [
       "anti-war",
       "calm",
@@ -16736,6 +17842,8 @@
   },
   {
     "name": "Pedestal",
+    "kebabName": "pedestal",
+    "componentName": "Pedestal",
     "tags": [
       "base",
       "column",
@@ -16769,6 +17877,8 @@
   },
   {
     "name": "Pen",
+    "kebabName": "pen",
+    "componentName": "Pen",
     "tags": [
       "annotation",
       "compose",
@@ -16799,6 +17909,8 @@
   },
   {
     "name": "PenNib",
+    "kebabName": "pen-nib",
+    "componentName": "PenNib",
     "tags": [
       "create",
       "design",
@@ -16829,6 +17941,8 @@
   },
   {
     "name": "Pencil",
+    "kebabName": "pencil",
+    "componentName": "Pencil",
     "tags": [
       "annotation",
       "compose",
@@ -16860,6 +17974,8 @@
   },
   {
     "name": "PencilLine",
+    "kebabName": "pencil-line",
+    "componentName": "PencilLine",
     "tags": [
       "annotation",
       "compose",
@@ -16891,6 +18007,8 @@
   },
   {
     "name": "PencilRuler",
+    "kebabName": "pencil-ruler",
+    "componentName": "PencilRuler",
     "tags": [
       "create",
       "design",
@@ -16922,6 +18040,8 @@
   },
   {
     "name": "PencilTip",
+    "kebabName": "pencil-tip",
+    "componentName": "PencilTip",
     "tags": [
       "annotation",
       "compose",
@@ -16953,6 +18073,8 @@
   },
   {
     "name": "Percent",
+    "kebabName": "percent",
+    "componentName": "Percent",
     "tags": [
       "discount",
       "finance",
@@ -16983,6 +18105,8 @@
   },
   {
     "name": "PercentCircle",
+    "kebabName": "percent-circle",
+    "componentName": "PercentCircle",
     "tags": [
       "discount",
       "finance",
@@ -17013,6 +18137,8 @@
   },
   {
     "name": "PercentSquare",
+    "kebabName": "percent-square",
+    "componentName": "PercentSquare",
     "tags": [
       "discount",
       "finance",
@@ -17043,6 +18169,8 @@
   },
   {
     "name": "Phone",
+    "kebabName": "phone",
+    "componentName": "Phone",
     "tags": [
       "call",
       "communication",
@@ -17072,6 +18200,8 @@
   },
   {
     "name": "PhoneIncoming",
+    "kebabName": "phone-incoming",
+    "componentName": "PhoneIncoming",
     "tags": [
       "answer",
       "call-in",
@@ -17100,6 +18230,8 @@
   },
   {
     "name": "PhoneOff",
+    "kebabName": "phone-off",
+    "componentName": "PhoneOff",
     "tags": [
       "call-end",
       "decline",
@@ -17128,6 +18260,8 @@
   },
   {
     "name": "PhoneOutgoing",
+    "kebabName": "phone-outgoing",
+    "componentName": "PhoneOutgoing",
     "tags": [
       "call-out",
       "dial-out",
@@ -17156,6 +18290,8 @@
   },
   {
     "name": "Pie",
+    "kebabName": "pie",
+    "componentName": "Pie",
     "tags": [
       "bakery",
       "dessert",
@@ -17185,6 +18321,8 @@
   },
   {
     "name": "Pilcrow",
+    "kebabName": "pilcrow",
+    "componentName": "Pilcrow",
     "tags": [
       "content",
       "editor",
@@ -17214,6 +18352,8 @@
   },
   {
     "name": "Play",
+    "kebabName": "play",
+    "componentName": "Play",
     "tags": [
       "audio",
       "media",
@@ -17243,6 +18383,8 @@
   },
   {
     "name": "PlayCircle",
+    "kebabName": "play-circle",
+    "componentName": "PlayCircle",
     "tags": [
       "audio",
       "media",
@@ -17272,6 +18414,8 @@
   },
   {
     "name": "PlayRectangle",
+    "kebabName": "play-rectangle",
+    "componentName": "PlayRectangle",
     "tags": [
       "audio",
       "media",
@@ -17301,6 +18445,8 @@
   },
   {
     "name": "Playlist",
+    "kebabName": "playlist",
+    "componentName": "Playlist",
     "tags": [
       "audio",
       "media",
@@ -17330,6 +18476,8 @@
   },
   {
     "name": "Plug",
+    "kebabName": "plug",
+    "componentName": "Plug",
     "tags": [
       "cable",
       "charge",
@@ -17360,6 +18508,8 @@
   },
   {
     "name": "Plus",
+    "kebabName": "plus",
+    "componentName": "Plus",
     "tags": [
       "add",
       "create",
@@ -17389,6 +18539,8 @@
   },
   {
     "name": "PlusCircle",
+    "kebabName": "plus-circle",
+    "componentName": "PlusCircle",
     "tags": [
       "add",
       "create",
@@ -17418,6 +18570,8 @@
   },
   {
     "name": "PlusSquare",
+    "kebabName": "plus-square",
+    "componentName": "PlusSquare",
     "tags": [
       "add",
       "create",
@@ -17447,6 +18601,8 @@
   },
   {
     "name": "PoundSterling",
+    "kebabName": "pound-sterling",
+    "componentName": "PoundSterling",
     "tags": [
       "billing",
       "currency",
@@ -17477,6 +18633,8 @@
   },
   {
     "name": "PoundSterlingCircle",
+    "kebabName": "pound-sterling-circle",
+    "componentName": "PoundSterlingCircle",
     "tags": [
       "billing",
       "currency",
@@ -17507,6 +18665,8 @@
   },
   {
     "name": "PushPin",
+    "kebabName": "push-pin",
+    "componentName": "PushPin",
     "tags": [
       "bookmark",
       "location",
@@ -17539,6 +18699,8 @@
   },
   {
     "name": "PushPinAlt",
+    "kebabName": "push-pin-alt",
+    "componentName": "PushPinAlt",
     "tags": [
       "bookmark",
       "location",
@@ -17571,6 +18733,8 @@
   },
   {
     "name": "QrCode",
+    "kebabName": "qr-code",
+    "componentName": "QrCode",
     "tags": [
       "access",
       "authentication",
@@ -17602,6 +18766,8 @@
   },
   {
     "name": "QuestionMark",
+    "kebabName": "question-mark",
+    "componentName": "QuestionMark",
     "tags": [
       "assistance",
       "help",
@@ -17631,6 +18797,8 @@
   },
   {
     "name": "QuestionMarkCircle",
+    "kebabName": "question-mark-circle",
+    "componentName": "QuestionMarkCircle",
     "tags": [
       "assistance",
       "help",
@@ -17660,6 +18828,8 @@
   },
   {
     "name": "Quote",
+    "kebabName": "quote",
+    "componentName": "Quote",
     "tags": [
       "blockquote",
       "citation",
@@ -17690,6 +18860,8 @@
   },
   {
     "name": "QuoteOpening",
+    "kebabName": "quote-opening",
+    "componentName": "QuoteOpening",
     "tags": [
       "blockquote",
       "citation",
@@ -17720,6 +18892,8 @@
   },
   {
     "name": "Receipt",
+    "kebabName": "receipt",
+    "componentName": "Receipt",
     "tags": [
       "bill",
       "expense",
@@ -17750,6 +18924,8 @@
   },
   {
     "name": "ReceiptAlt",
+    "kebabName": "receipt-alt",
+    "componentName": "ReceiptAlt",
     "tags": [
       "bill",
       "expense",
@@ -17780,6 +18956,8 @@
   },
   {
     "name": "Rectangle",
+    "kebabName": "rectangle",
+    "componentName": "Rectangle",
     "tags": [
       "box",
       "container",
@@ -17808,6 +18986,8 @@
   },
   {
     "name": "RectangleDashed",
+    "kebabName": "rectangle-dashed",
+    "componentName": "RectangleDashed",
     "tags": [
       "area",
       "border",
@@ -17841,6 +19021,8 @@
   },
   {
     "name": "Repeat",
+    "kebabName": "repeat",
+    "componentName": "Repeat",
     "tags": [
       "audio",
       "bidirectional",
@@ -17875,6 +19057,8 @@
   },
   {
     "name": "Reply",
+    "kebabName": "reply",
+    "componentName": "Reply",
     "tags": [
       "answer",
       "arrow-left",
@@ -17904,6 +19088,8 @@
   },
   {
     "name": "Rewind",
+    "kebabName": "rewind",
+    "componentName": "Rewind",
     "tags": [
       "arrow",
       "audio",
@@ -17939,6 +19125,8 @@
   },
   {
     "name": "Robot",
+    "kebabName": "robot",
+    "componentName": "Robot",
     "tags": [
       "agent",
       "ai",
@@ -17970,6 +19158,8 @@
   },
   {
     "name": "RobotHumanoid",
+    "kebabName": "robot-humanoid",
+    "componentName": "RobotHumanoid",
     "tags": [
       "agent",
       "ai",
@@ -18002,6 +19192,8 @@
   },
   {
     "name": "Rocket",
+    "kebabName": "rocket",
+    "componentName": "Rocket",
     "tags": [
       "growth",
       "launch",
@@ -18032,6 +19224,8 @@
   },
   {
     "name": "RotateCircleLeft",
+    "kebabName": "rotate-circle-left",
+    "componentName": "RotateCircleLeft",
     "tags": [
       "arrow",
       "back",
@@ -18061,6 +19255,8 @@
   },
   {
     "name": "RotateCircleRight",
+    "kebabName": "rotate-circle-right",
+    "componentName": "RotateCircleRight",
     "tags": [
       "arrow",
       "forward",
@@ -18091,6 +19287,8 @@
   },
   {
     "name": "RotateLeft",
+    "kebabName": "rotate-left",
+    "componentName": "RotateLeft",
     "tags": [
       "arrow",
       "back",
@@ -18120,6 +19318,8 @@
   },
   {
     "name": "RotateRight",
+    "kebabName": "rotate-right",
+    "componentName": "RotateRight",
     "tags": [
       "arrow",
       "forward",
@@ -18150,6 +19350,8 @@
   },
   {
     "name": "RotationLeft",
+    "kebabName": "rotation-left",
+    "componentName": "RotationLeft",
     "tags": [
       "refresh",
       "reload",
@@ -18179,6 +19381,8 @@
   },
   {
     "name": "RotationRight",
+    "kebabName": "rotation-right",
+    "componentName": "RotationRight",
     "tags": [
       "cycle",
       "refresh",
@@ -18208,6 +19412,8 @@
   },
   {
     "name": "RouteArrow",
+    "kebabName": "route-arrow",
+    "componentName": "RouteArrow",
     "tags": [
       "connection",
       "direction",
@@ -18242,6 +19448,8 @@
   },
   {
     "name": "Ruler",
+    "kebabName": "ruler",
+    "componentName": "Ruler",
     "tags": [
       "design",
       "dimensions",
@@ -18273,6 +19481,8 @@
   },
   {
     "name": "Rulers",
+    "kebabName": "rulers",
+    "componentName": "Rulers",
     "tags": [
       "design",
       "dimensions",
@@ -18304,6 +19514,8 @@
   },
   {
     "name": "Save",
+    "kebabName": "save",
+    "componentName": "Save",
     "tags": [
       "arrow down",
       "download",
@@ -18337,6 +19549,8 @@
   },
   {
     "name": "Scan",
+    "kebabName": "scan",
+    "componentName": "Scan",
     "tags": [
       "corners",
       "crop",
@@ -18374,6 +19588,8 @@
   },
   {
     "name": "ScanBarcode",
+    "kebabName": "scan-barcode",
+    "componentName": "ScanBarcode",
     "tags": [
       "barcode",
       "checkout",
@@ -18405,6 +19621,8 @@
   },
   {
     "name": "ScanCamera",
+    "kebabName": "scan-camera",
+    "componentName": "ScanCamera",
     "tags": [
       "barcode",
       "camera",
@@ -18435,6 +19653,8 @@
   },
   {
     "name": "ScanCube",
+    "kebabName": "scan-cube",
+    "componentName": "ScanCube",
     "tags": [
       "barcode",
       "box",
@@ -18466,6 +19686,8 @@
   },
   {
     "name": "ScanDashed",
+    "kebabName": "scan-dashed",
+    "componentName": "ScanDashed",
     "tags": [
       "barcode",
       "camera",
@@ -18495,6 +19717,8 @@
   },
   {
     "name": "ScanDocument",
+    "kebabName": "scan-document",
+    "componentName": "ScanDocument",
     "tags": [
       "camera",
       "capture",
@@ -18525,6 +19749,8 @@
   },
   {
     "name": "ScanEye",
+    "kebabName": "scan-eye",
+    "componentName": "ScanEye",
     "tags": [
       "detect",
       "focus",
@@ -18556,6 +19782,8 @@
   },
   {
     "name": "ScanFace",
+    "kebabName": "scan-face",
+    "componentName": "ScanFace",
     "tags": [
       "authentication",
       "biometric",
@@ -18586,6 +19814,8 @@
   },
   {
     "name": "ScanLine",
+    "kebabName": "scan-line",
+    "componentName": "ScanLine",
     "tags": [
       "capture",
       "copy",
@@ -18615,6 +19845,8 @@
   },
   {
     "name": "ScanPlus",
+    "kebabName": "scan-plus",
+    "componentName": "ScanPlus",
     "tags": [
       "add",
       "capture",
@@ -18645,6 +19877,8 @@
   },
   {
     "name": "ScanSearch",
+    "kebabName": "scan-search",
+    "componentName": "ScanSearch",
     "tags": [
       "code",
       "detect",
@@ -18675,6 +19909,8 @@
   },
   {
     "name": "ScanText",
+    "kebabName": "scan-text",
+    "componentName": "ScanText",
     "tags": [
       "capture",
       "detect",
@@ -18705,6 +19941,8 @@
   },
   {
     "name": "Scissors",
+    "kebabName": "scissors",
+    "componentName": "Scissors",
     "tags": [
       "crop",
       "cut",
@@ -18734,6 +19972,8 @@
   },
   {
     "name": "Screwdriver",
+    "kebabName": "screwdriver",
+    "componentName": "Screwdriver",
     "tags": [
       "configure",
       "customization",
@@ -18764,6 +20004,8 @@
   },
   {
     "name": "Scribble",
+    "kebabName": "scribble",
+    "componentName": "Scribble",
     "tags": [
       "doodle",
       "draw",
@@ -18795,6 +20037,8 @@
   },
   {
     "name": "Scroll",
+    "kebabName": "scroll",
+    "componentName": "Scroll",
     "tags": [
       "ancient",
       "contract",
@@ -18825,6 +20069,8 @@
   },
   {
     "name": "ScrollText",
+    "kebabName": "scroll-text",
+    "componentName": "ScrollText",
     "tags": [
       "ancient",
       "contract",
@@ -18855,6 +20101,8 @@
   },
   {
     "name": "Search",
+    "kebabName": "search",
+    "componentName": "Search",
     "tags": [
       "discover",
       "explore",
@@ -18887,6 +20135,8 @@
   },
   {
     "name": "SearchCircle",
+    "kebabName": "search-circle",
+    "componentName": "SearchCircle",
     "tags": [
       "discover",
       "explore",
@@ -18919,6 +20169,8 @@
   },
   {
     "name": "SearchSquare",
+    "kebabName": "search-square",
+    "componentName": "SearchSquare",
     "tags": [
       "discover",
       "explore",
@@ -18951,6 +20203,8 @@
   },
   {
     "name": "Seedling",
+    "kebabName": "seedling",
+    "componentName": "Seedling",
     "tags": [
       "agriculture",
       "eco",
@@ -18981,6 +20235,8 @@
   },
   {
     "name": "SelectField",
+    "kebabName": "select-field",
+    "componentName": "SelectField",
     "tags": [
       "choice",
       "dropdown",
@@ -19011,6 +20267,8 @@
   },
   {
     "name": "Send",
+    "kebabName": "send",
+    "componentName": "Send",
     "tags": [
       "chat",
       "forward",
@@ -19041,6 +20299,8 @@
   },
   {
     "name": "SendH",
+    "kebabName": "send-h",
+    "componentName": "SendH",
     "tags": [
       "chat",
       "forward",
@@ -19071,6 +20331,8 @@
   },
   {
     "name": "SendV",
+    "kebabName": "send-v",
+    "componentName": "SendV",
     "tags": [
       "chat",
       "forward",
@@ -19101,6 +20363,8 @@
   },
   {
     "name": "Settings",
+    "kebabName": "settings",
+    "componentName": "Settings",
     "tags": [
       "configure",
       "control",
@@ -19132,6 +20396,8 @@
   },
   {
     "name": "Share",
+    "kebabName": "share",
+    "componentName": "Share",
     "tags": [
       "export",
       "external",
@@ -19163,6 +20429,8 @@
   },
   {
     "name": "Shield",
+    "kebabName": "shield",
+    "componentName": "Shield",
     "tags": [
       "defense",
       "guard",
@@ -19191,6 +20459,8 @@
   },
   {
     "name": "ShieldAlert",
+    "kebabName": "shield-alert",
+    "componentName": "ShieldAlert",
     "tags": [
       "caution",
       "protection issue",
@@ -19220,6 +20490,8 @@
   },
   {
     "name": "ShieldBan",
+    "kebabName": "shield-ban",
+    "componentName": "ShieldBan",
     "tags": [
       "defense",
       "guard",
@@ -19250,6 +20522,8 @@
   },
   {
     "name": "ShieldCheck",
+    "kebabName": "shield-check",
+    "componentName": "ShieldCheck",
     "tags": [
       "approval",
       "privacy",
@@ -19280,6 +20554,8 @@
   },
   {
     "name": "ShieldHalf",
+    "kebabName": "shield-half",
+    "componentName": "ShieldHalf",
     "tags": [
       "defense",
       "guard",
@@ -19308,6 +20584,8 @@
   },
   {
     "name": "ShieldSlash",
+    "kebabName": "shield-slash",
+    "componentName": "ShieldSlash",
     "tags": [
       "no privacy",
       "protection disabled",
@@ -19336,6 +20614,8 @@
   },
   {
     "name": "Shuffle",
+    "kebabName": "shuffle",
+    "componentName": "Shuffle",
     "tags": [
       "audio",
       "media",
@@ -19367,6 +20647,8 @@
   },
   {
     "name": "SidebarLeft",
+    "kebabName": "sidebar-left",
+    "componentName": "SidebarLeft",
     "tags": [
       "content",
       "drawer",
@@ -19401,6 +20683,8 @@
   },
   {
     "name": "SidebarRight",
+    "kebabName": "sidebar-right",
+    "componentName": "SidebarRight",
     "tags": [
       "content",
       "drawer",
@@ -19435,6 +20719,8 @@
   },
   {
     "name": "SignIn",
+    "kebabName": "sign-in",
+    "componentName": "SignIn",
     "tags": [
       "access",
       "account",
@@ -19465,6 +20751,8 @@
   },
   {
     "name": "SignInAlt",
+    "kebabName": "sign-in-alt",
+    "componentName": "SignInAlt",
     "tags": [
       "access",
       "account",
@@ -19495,6 +20783,8 @@
   },
   {
     "name": "SignOut",
+    "kebabName": "sign-out",
+    "componentName": "SignOut",
     "tags": [
       "account",
       "arrow right",
@@ -19525,6 +20815,8 @@
   },
   {
     "name": "SignOutAlt",
+    "kebabName": "sign-out-alt",
+    "componentName": "SignOutAlt",
     "tags": [
       "account",
       "arrow right",
@@ -19555,6 +20847,8 @@
   },
   {
     "name": "SignalAltHigh",
+    "kebabName": "signal-alt-high",
+    "componentName": "SignalAltHigh",
     "tags": [
       "3g",
       "4g",
@@ -19588,6 +20882,8 @@
   },
   {
     "name": "SignalAltLow",
+    "kebabName": "signal-alt-low",
+    "componentName": "SignalAltLow",
     "tags": [
       "3g",
       "4g",
@@ -19621,6 +20917,8 @@
   },
   {
     "name": "SignalAltMedium",
+    "kebabName": "signal-alt-medium",
+    "componentName": "SignalAltMedium",
     "tags": [
       "3g",
       "4g",
@@ -19654,6 +20952,8 @@
   },
   {
     "name": "SignalHigh",
+    "kebabName": "signal-high",
+    "componentName": "SignalHigh",
     "tags": [
       "3g",
       "4g",
@@ -19687,6 +20987,8 @@
   },
   {
     "name": "SignalLow",
+    "kebabName": "signal-low",
+    "componentName": "SignalLow",
     "tags": [
       "3g",
       "4g",
@@ -19720,6 +21022,8 @@
   },
   {
     "name": "SignalMedium",
+    "kebabName": "signal-medium",
+    "componentName": "SignalMedium",
     "tags": [
       "3g",
       "4g",
@@ -19753,6 +21057,8 @@
   },
   {
     "name": "SignalZero",
+    "kebabName": "signal-zero",
+    "componentName": "SignalZero",
     "tags": [
       "3g",
       "4g",
@@ -19786,6 +21092,8 @@
   },
   {
     "name": "Signature",
+    "kebabName": "signature",
+    "componentName": "Signature",
     "tags": [
       "doodle",
       "draw",
@@ -19817,6 +21125,8 @@
   },
   {
     "name": "SignatureX",
+    "kebabName": "signature-x",
+    "componentName": "SignatureX",
     "tags": [
       "doodle",
       "draw",
@@ -19848,6 +21158,8 @@
   },
   {
     "name": "SkipBack",
+    "kebabName": "skip-back",
+    "componentName": "SkipBack",
     "tags": [
       "audio",
       "backward",
@@ -19881,6 +21193,8 @@
   },
   {
     "name": "SkipForward",
+    "kebabName": "skip-forward",
+    "componentName": "SkipForward",
     "tags": [
       "audio",
       "control",
@@ -19913,6 +21227,8 @@
   },
   {
     "name": "Slash",
+    "kebabName": "slash",
+    "componentName": "Slash",
     "tags": [
       "diagonal",
       "divide",
@@ -19942,6 +21258,8 @@
   },
   {
     "name": "Sliders",
+    "kebabName": "sliders",
+    "componentName": "Sliders",
     "tags": [
       "adjust",
       "controls",
@@ -19976,6 +21294,8 @@
   },
   {
     "name": "SlidersV",
+    "kebabName": "sliders-v",
+    "componentName": "SlidersV",
     "tags": [
       "adjust",
       "controls",
@@ -20010,6 +21330,8 @@
   },
   {
     "name": "Snowflake",
+    "kebabName": "snowflake",
+    "componentName": "Snowflake",
     "tags": [
       "a/c",
       "cold",
@@ -20041,6 +21363,8 @@
   },
   {
     "name": "SoccerBall",
+    "kebabName": "soccer-ball",
+    "componentName": "SoccerBall",
     "tags": [
       "activity",
       "ball",
@@ -20072,6 +21396,8 @@
   },
   {
     "name": "SoccerField",
+    "kebabName": "soccer-field",
+    "componentName": "SoccerField",
     "tags": [
       "field",
       "football",
@@ -20102,6 +21428,8 @@
   },
   {
     "name": "Sort",
+    "kebabName": "sort",
+    "componentName": "Sort",
     "tags": [
       "descending",
       "high-to-low",
@@ -20131,6 +21459,8 @@
   },
   {
     "name": "SortAscending",
+    "kebabName": "sort-ascending",
+    "componentName": "SortAscending",
     "tags": [
       "ascending",
       "list",
@@ -20160,6 +21490,8 @@
   },
   {
     "name": "SortAscendingNarrow",
+    "kebabName": "sort-ascending-narrow",
+    "componentName": "SortAscendingNarrow",
     "tags": [
       "ascending",
       "list",
@@ -20189,6 +21521,8 @@
   },
   {
     "name": "SortNarrow",
+    "kebabName": "sort-narrow",
+    "componentName": "SortNarrow",
     "tags": [
       "descending",
       "high-to-low",
@@ -20218,6 +21552,8 @@
   },
   {
     "name": "Sparkle",
+    "kebabName": "sparkle",
+    "componentName": "Sparkle",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -20249,6 +21585,8 @@
   },
   {
     "name": "SparkleCircle",
+    "kebabName": "sparkle-circle",
+    "componentName": "SparkleCircle",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -20280,6 +21618,8 @@
   },
   {
     "name": "SparkleSquare",
+    "kebabName": "sparkle-square",
+    "componentName": "SparkleSquare",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -20311,6 +21651,8 @@
   },
   {
     "name": "Sparkles",
+    "kebabName": "sparkles",
+    "componentName": "Sparkles",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -20342,6 +21684,8 @@
   },
   {
     "name": "SparklesAlt",
+    "kebabName": "sparkles-alt",
+    "componentName": "SparklesAlt",
     "tags": [
       "ai",
       "artificial intelligence",
@@ -20373,6 +21717,8 @@
   },
   {
     "name": "Speaker",
+    "kebabName": "speaker",
+    "componentName": "Speaker",
     "tags": [
       "audio",
       "media",
@@ -20402,6 +21748,8 @@
   },
   {
     "name": "SpeakerHigh",
+    "kebabName": "speaker-high",
+    "componentName": "SpeakerHigh",
     "tags": [
       "audio",
       "loud",
@@ -20432,6 +21780,8 @@
   },
   {
     "name": "SpeakerLow",
+    "kebabName": "speaker-low",
+    "componentName": "SpeakerLow",
     "tags": [
       "audio",
       "low",
@@ -20462,6 +21812,8 @@
   },
   {
     "name": "SpeakerMedium",
+    "kebabName": "speaker-medium",
+    "componentName": "SpeakerMedium",
     "tags": [
       "audio",
       "media",
@@ -20492,6 +21844,8 @@
   },
   {
     "name": "SpeakerOff",
+    "kebabName": "speaker-off",
+    "componentName": "SpeakerOff",
     "tags": [
       "audio",
       "disable",
@@ -20523,6 +21877,8 @@
   },
   {
     "name": "Spinner",
+    "kebabName": "spinner",
+    "componentName": "Spinner",
     "tags": [
       "loading",
       "pending",
@@ -20552,6 +21908,8 @@
   },
   {
     "name": "Spiral",
+    "kebabName": "spiral",
+    "componentName": "Spiral",
     "tags": [
       "assistance",
       "chat",
@@ -20582,6 +21940,8 @@
   },
   {
     "name": "Square",
+    "kebabName": "square",
+    "componentName": "Square",
     "tags": [
       "border",
       "box",
@@ -20620,6 +21980,8 @@
   },
   {
     "name": "SquareDashed",
+    "kebabName": "square-dashed",
+    "componentName": "SquareDashed",
     "tags": [
       "area",
       "border",
@@ -20653,6 +22015,8 @@
   },
   {
     "name": "SquarePlaceholder",
+    "kebabName": "square-placeholder",
+    "componentName": "SquarePlaceholder",
     "tags": [
       "draft",
       "empty",
@@ -20682,6 +22046,8 @@
   },
   {
     "name": "SquareSlash",
+    "kebabName": "square-slash",
+    "componentName": "SquareSlash",
     "tags": [
       "blocked",
       "disabled",
@@ -20711,6 +22077,8 @@
   },
   {
     "name": "Stairs",
+    "kebabName": "stairs",
+    "componentName": "Stairs",
     "tags": [
       "climb",
       "down",
@@ -20741,6 +22109,8 @@
   },
   {
     "name": "Star",
+    "kebabName": "star",
+    "componentName": "Star",
     "tags": [
       "bookmark",
       "favorite",
@@ -20770,6 +22140,8 @@
   },
   {
     "name": "StarHalf",
+    "kebabName": "star-half",
+    "componentName": "StarHalf",
     "tags": [
       "half",
       "partial",
@@ -20796,6 +22168,8 @@
   },
   {
     "name": "StopCircle",
+    "kebabName": "stop-circle",
+    "componentName": "StopCircle",
     "tags": [
       "audio",
       "button",
@@ -20827,6 +22201,8 @@
   },
   {
     "name": "Stopwatch",
+    "kebabName": "stopwatch",
+    "componentName": "Stopwatch",
     "tags": [
       "duration",
       "elapsed",
@@ -20857,6 +22233,8 @@
   },
   {
     "name": "Store",
+    "kebabName": "store",
+    "componentName": "Store",
     "tags": [
       "business",
       "commerce",
@@ -20888,6 +22266,8 @@
   },
   {
     "name": "Sunrise",
+    "kebabName": "sunrise",
+    "componentName": "Sunrise",
     "tags": [
       "daylight",
       "horizon",
@@ -20919,6 +22299,8 @@
   },
   {
     "name": "SwatchBook",
+    "kebabName": "swatch-book",
+    "componentName": "SwatchBook",
     "tags": [
       "appointments",
       "calendar",
@@ -20949,6 +22331,8 @@
   },
   {
     "name": "Tag",
+    "kebabName": "tag",
+    "componentName": "Tag",
     "tags": [
       "badge",
       "category",
@@ -20978,6 +22362,8 @@
   },
   {
     "name": "TallyMarks",
+    "kebabName": "tally-marks",
+    "componentName": "TallyMarks",
     "tags": [
       "count",
       "mark",
@@ -21009,6 +22395,8 @@
   },
   {
     "name": "Target",
+    "kebabName": "target",
+    "componentName": "Target",
     "tags": [
       "aim",
       "bullseye",
@@ -21042,6 +22430,8 @@
   },
   {
     "name": "Telescope",
+    "kebabName": "telescope",
+    "componentName": "Telescope",
     "tags": [
       "astronomy",
       "discovery",
@@ -21072,6 +22462,8 @@
   },
   {
     "name": "TennisBall",
+    "kebabName": "tennis-ball",
+    "componentName": "TennisBall",
     "tags": [
       "activity",
       "ball",
@@ -21102,6 +22494,8 @@
   },
   {
     "name": "TestTube",
+    "kebabName": "test-tube",
+    "componentName": "TestTube",
     "tags": [
       "beaker",
       "chemistry",
@@ -21131,6 +22525,8 @@
   },
   {
     "name": "TestTubeFull",
+    "kebabName": "test-tube-full",
+    "componentName": "TestTubeFull",
     "tags": [
       "beaker",
       "chemistry",
@@ -21160,6 +22556,8 @@
   },
   {
     "name": "Text",
+    "kebabName": "text",
+    "componentName": "Text",
     "tags": [
       "content",
       "font",
@@ -21189,6 +22587,8 @@
   },
   {
     "name": "TextAlignCenter",
+    "kebabName": "text-align-center",
+    "componentName": "TextAlignCenter",
     "tags": [
       "alignment",
       "center align",
@@ -21219,6 +22619,8 @@
   },
   {
     "name": "TextAlignJustify",
+    "kebabName": "text-align-justify",
+    "componentName": "TextAlignJustify",
     "tags": [
       "alignment",
       "document",
@@ -21249,6 +22651,8 @@
   },
   {
     "name": "TextAlignLeft",
+    "kebabName": "text-align-left",
+    "componentName": "TextAlignLeft",
     "tags": [
       "alignment",
       "document",
@@ -21279,6 +22683,8 @@
   },
   {
     "name": "TextAlignRight",
+    "kebabName": "text-align-right",
+    "componentName": "TextAlignRight",
     "tags": [
       "alignment",
       "document",
@@ -21309,6 +22715,8 @@
   },
   {
     "name": "TextB",
+    "kebabName": "text-b",
+    "componentName": "TextB",
     "tags": [
       "bold",
       "emphasis",
@@ -21338,6 +22746,8 @@
   },
   {
     "name": "TextField",
+    "kebabName": "text-field",
+    "componentName": "TextField",
     "tags": [
       "cursor",
       "editor",
@@ -21367,6 +22777,8 @@
   },
   {
     "name": "TextItalic",
+    "kebabName": "text-italic",
+    "componentName": "TextItalic",
     "tags": [
       "emphasis",
       "font",
@@ -21396,6 +22808,8 @@
   },
   {
     "name": "TextQuote",
+    "kebabName": "text-quote",
+    "componentName": "TextQuote",
     "tags": [
       "blockquote",
       "citation",
@@ -21427,6 +22841,8 @@
   },
   {
     "name": "TextSearch",
+    "kebabName": "text-search",
+    "componentName": "TextSearch",
     "tags": [
       "find",
       "highlight",
@@ -21457,6 +22873,8 @@
   },
   {
     "name": "TextSparkle",
+    "kebabName": "text-sparkle",
+    "componentName": "TextSparkle",
     "tags": [
       "ai",
       "auto",
@@ -21488,6 +22906,8 @@
   },
   {
     "name": "TextSquare",
+    "kebabName": "text-square",
+    "componentName": "TextSquare",
     "tags": [
       "content",
       "font",
@@ -21517,6 +22937,8 @@
   },
   {
     "name": "TextStrikethrough",
+    "kebabName": "text-strikethrough",
+    "componentName": "TextStrikethrough",
     "tags": [
       "editor",
       "formatting",
@@ -21546,6 +22968,8 @@
   },
   {
     "name": "TextUnderline",
+    "kebabName": "text-underline",
+    "componentName": "TextUnderline",
     "tags": [
       "emphasis",
       "font",
@@ -21575,6 +22999,8 @@
   },
   {
     "name": "ThermometerHigh",
+    "kebabName": "thermometer-high",
+    "componentName": "ThermometerHigh",
     "tags": [
       "climate",
       "cold",
@@ -21604,6 +23030,8 @@
   },
   {
     "name": "ThermometerLow",
+    "kebabName": "thermometer-low",
+    "componentName": "ThermometerLow",
     "tags": [
       "climate",
       "cold",
@@ -21633,6 +23061,8 @@
   },
   {
     "name": "ThermometerMedium",
+    "kebabName": "thermometer-medium",
+    "componentName": "ThermometerMedium",
     "tags": [
       "climate",
       "cold",
@@ -21662,6 +23092,8 @@
   },
   {
     "name": "ThumbsDown",
+    "kebabName": "thumbs-down",
+    "componentName": "ThumbsDown",
     "tags": [
       "decline",
       "disapprove",
@@ -21691,6 +23123,8 @@
   },
   {
     "name": "ThumbsUp",
+    "kebabName": "thumbs-up",
+    "componentName": "ThumbsUp",
     "tags": [
       "agree",
       "approve",
@@ -21720,6 +23154,8 @@
   },
   {
     "name": "Ticket",
+    "kebabName": "ticket",
+    "componentName": "Ticket",
     "tags": [
       "admit",
       "coupon",
@@ -21750,6 +23186,8 @@
   },
   {
     "name": "Timer",
+    "kebabName": "timer",
+    "componentName": "Timer",
     "tags": [
       "alarm",
       "clock",
@@ -21779,6 +23217,8 @@
   },
   {
     "name": "ToggleOff",
+    "kebabName": "toggle-off",
+    "componentName": "ToggleOff",
     "tags": [
       "control",
       "inactive",
@@ -21808,6 +23248,8 @@
   },
   {
     "name": "ToggleOn",
+    "kebabName": "toggle-on",
+    "componentName": "ToggleOn",
     "tags": [
       "active",
       "control",
@@ -21837,6 +23279,8 @@
   },
   {
     "name": "Toggles",
+    "kebabName": "toggles",
+    "componentName": "Toggles",
     "tags": [
       "active",
       "control",
@@ -21867,6 +23311,8 @@
   },
   {
     "name": "Toolbox",
+    "kebabName": "toolbox",
+    "componentName": "Toolbox",
     "tags": [
       "configuration",
       "construction",
@@ -21898,6 +23344,8 @@
   },
   {
     "name": "Tools",
+    "kebabName": "tools",
+    "componentName": "Tools",
     "tags": [
       "configuration",
       "customize",
@@ -21930,6 +23378,8 @@
   },
   {
     "name": "ToyBrick",
+    "kebabName": "toy-brick",
+    "componentName": "ToyBrick",
     "tags": [
       "block",
       "build",
@@ -21959,6 +23409,8 @@
   },
   {
     "name": "Trash",
+    "kebabName": "trash",
+    "componentName": "Trash",
     "tags": [
       "bin",
       "cleanup",
@@ -21989,6 +23441,8 @@
   },
   {
     "name": "Tree",
+    "kebabName": "tree",
+    "componentName": "Tree",
     "tags": [
       "christmas",
       "eco",
@@ -22022,6 +23476,8 @@
   },
   {
     "name": "TreeDeciduous",
+    "kebabName": "tree-deciduous",
+    "componentName": "TreeDeciduous",
     "tags": [
       "deciduous",
       "eco",
@@ -22054,6 +23510,8 @@
   },
   {
     "name": "TreePalm",
+    "kebabName": "tree-palm",
+    "componentName": "TreePalm",
     "tags": [
       "beach",
       "island",
@@ -22085,6 +23543,8 @@
   },
   {
     "name": "TrendDown",
+    "kebabName": "trend-down",
+    "componentName": "TrendDown",
     "tags": [
       "analytics",
       "chart",
@@ -22116,6 +23576,8 @@
   },
   {
     "name": "TrendUp",
+    "kebabName": "trend-up",
+    "componentName": "TrendUp",
     "tags": [
       "analytics",
       "chart",
@@ -22147,6 +23609,8 @@
   },
   {
     "name": "Triangle",
+    "kebabName": "triangle",
+    "componentName": "Triangle",
     "tags": [
       "arrow",
       "border",
@@ -22179,6 +23643,8 @@
   },
   {
     "name": "TriangleDown",
+    "kebabName": "triangle-down",
+    "componentName": "TriangleDown",
     "tags": [
       "arrow",
       "direction",
@@ -22211,6 +23677,8 @@
   },
   {
     "name": "Trophy",
+    "kebabName": "trophy",
+    "componentName": "Trophy",
     "tags": [
       "achievement",
       "award",
@@ -22241,6 +23709,8 @@
   },
   {
     "name": "Truck",
+    "kebabName": "truck",
+    "componentName": "Truck",
     "tags": [
       "cargo",
       "delivery",
@@ -22273,6 +23743,8 @@
   },
   {
     "name": "Tv",
+    "kebabName": "tv",
+    "componentName": "Tv",
     "tags": [
       "display",
       "media",
@@ -22302,6 +23774,8 @@
   },
   {
     "name": "TvPlayAlt",
+    "kebabName": "tv-play-alt",
+    "componentName": "TvPlayAlt",
     "tags": [
       "media",
       "play",
@@ -22331,6 +23805,8 @@
   },
   {
     "name": "Umbrella",
+    "kebabName": "umbrella",
+    "componentName": "Umbrella",
     "tags": [
       "coverage",
       "forecast",
@@ -22360,6 +23836,8 @@
   },
   {
     "name": "Upload",
+    "kebabName": "upload",
+    "componentName": "Upload",
     "tags": [
       "arrow-up",
       "export",
@@ -22389,6 +23867,8 @@
   },
   {
     "name": "User",
+    "kebabName": "user",
+    "componentName": "User",
     "tags": [
       "account",
       "avatar",
@@ -22418,6 +23898,8 @@
   },
   {
     "name": "UserBan",
+    "kebabName": "user-ban",
+    "componentName": "UserBan",
     "tags": [
       "account",
       "avatar",
@@ -22449,6 +23931,8 @@
   },
   {
     "name": "UserCircle",
+    "kebabName": "user-circle",
+    "componentName": "UserCircle",
     "tags": [
       "account",
       "avatar",
@@ -22477,6 +23961,8 @@
   },
   {
     "name": "UserCircleDashed",
+    "kebabName": "user-circle-dashed",
+    "componentName": "UserCircleDashed",
     "tags": [
       "account",
       "avatar",
@@ -22509,6 +23995,8 @@
   },
   {
     "name": "UserMinus",
+    "kebabName": "user-minus",
+    "componentName": "UserMinus",
     "tags": [
       "account",
       "avatar",
@@ -22540,6 +24028,8 @@
   },
   {
     "name": "UserPlus",
+    "kebabName": "user-plus",
+    "componentName": "UserPlus",
     "tags": [
       "account",
       "add",
@@ -22571,6 +24061,8 @@
   },
   {
     "name": "UserSettings",
+    "kebabName": "user-settings",
+    "componentName": "UserSettings",
     "tags": [
       "account",
       "avatar",
@@ -22602,6 +24094,8 @@
   },
   {
     "name": "UserX",
+    "kebabName": "user-x",
+    "componentName": "UserX",
     "tags": [
       "account",
       "avatar",
@@ -22633,6 +24127,8 @@
   },
   {
     "name": "Users",
+    "kebabName": "users",
+    "componentName": "Users",
     "tags": [
       "community",
       "contacts",
@@ -22662,6 +24158,8 @@
   },
   {
     "name": "UsersThree",
+    "kebabName": "users-three",
+    "componentName": "UsersThree",
     "tags": [
       "collaboration",
       "community",
@@ -22693,6 +24191,8 @@
   },
   {
     "name": "Video",
+    "kebabName": "video",
+    "componentName": "Video",
     "tags": [
       "call",
       "camera",
@@ -22722,6 +24222,8 @@
   },
   {
     "name": "VideoOff",
+    "kebabName": "video-off",
+    "componentName": "VideoOff",
     "tags": [
       "call",
       "camera",
@@ -22753,6 +24255,8 @@
   },
   {
     "name": "Volleyball",
+    "kebabName": "volleyball",
+    "componentName": "Volleyball",
     "tags": [
       "activity",
       "ball",
@@ -22783,6 +24287,8 @@
   },
   {
     "name": "Wand",
+    "kebabName": "wand",
+    "componentName": "Wand",
     "tags": [
       "effect",
       "highlight",
@@ -22813,6 +24319,8 @@
   },
   {
     "name": "Warehouse",
+    "kebabName": "warehouse",
+    "componentName": "Warehouse",
     "tags": [
       "building",
       "delivery",
@@ -22842,6 +24350,8 @@
   },
   {
     "name": "WaveSine",
+    "kebabName": "wave-sine",
+    "componentName": "WaveSine",
     "tags": [
       "audio",
       "curve",
@@ -22872,6 +24382,8 @@
   },
   {
     "name": "WaveSquare",
+    "kebabName": "wave-square",
+    "componentName": "WaveSquare",
     "tags": [
       "audio",
       "digital",
@@ -22902,6 +24414,8 @@
   },
   {
     "name": "WaveTriangle",
+    "kebabName": "wave-triangle",
+    "componentName": "WaveTriangle",
     "tags": [
       "audio",
       "frequency",
@@ -22932,6 +24446,8 @@
   },
   {
     "name": "Wifi",
+    "kebabName": "wifi",
+    "componentName": "Wifi",
     "tags": [
       "connectivity",
       "hotspot",
@@ -22961,6 +24477,8 @@
   },
   {
     "name": "WifiSlash",
+    "kebabName": "wifi-slash",
+    "componentName": "WifiSlash",
     "tags": [
       "connection",
       "disable",
@@ -22990,6 +24508,8 @@
   },
   {
     "name": "WineBottle",
+    "kebabName": "wine-bottle",
+    "componentName": "WineBottle",
     "tags": [
       "alcohol",
       "bar",
@@ -23020,6 +24540,8 @@
   },
   {
     "name": "WineBottleLabel",
+    "kebabName": "wine-bottle-label",
+    "componentName": "WineBottleLabel",
     "tags": [
       "alcohol",
       "bar",
@@ -23050,6 +24572,8 @@
   },
   {
     "name": "WineGlass",
+    "kebabName": "wine-glass",
+    "componentName": "WineGlass",
     "tags": [
       "alcohol",
       "bar",
@@ -23080,6 +24604,8 @@
   },
   {
     "name": "Wrench",
+    "kebabName": "wrench",
+    "componentName": "Wrench",
     "tags": [
       "configure",
       "customization",
@@ -23111,6 +24637,8 @@
   },
   {
     "name": "WristWatch",
+    "kebabName": "wrist-watch",
+    "componentName": "WristWatch",
     "tags": [
       "clock",
       "hours",
@@ -23141,6 +24669,8 @@
   },
   {
     "name": "X",
+    "kebabName": "x",
+    "componentName": "X",
     "tags": [
       "cancel",
       "close",
@@ -23170,6 +24700,8 @@
   },
   {
     "name": "XCircle",
+    "kebabName": "x-circle",
+    "componentName": "XCircle",
     "tags": [
       "cancel",
       "close",
@@ -23199,6 +24731,8 @@
   },
   {
     "name": "XSquare",
+    "kebabName": "x-square",
+    "componentName": "XSquare",
     "tags": [
       "cancel",
       "close",
@@ -23228,6 +24762,8 @@
   },
   {
     "name": "YinYang",
+    "kebabName": "yin-yang",
+    "componentName": "YinYang",
     "tags": [
       "cancel",
       "close",

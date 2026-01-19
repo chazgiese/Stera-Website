@@ -121,6 +121,7 @@ async function generateIconData() {
     if (!iconGroups.has(cleanName)) {
       iconGroups.set(cleanName, {
         name: cleanName,
+        kebabName: iconMeta.name, // Extract kebab-case name from metadata
         tags: new Set(),
         weights: new Set(),
         supportsDuotone: false,
@@ -187,6 +188,8 @@ async function generateIconData() {
     
     const iconData = {
       name: cleanName,
+      kebabName: iconGroup.kebabName,
+      componentName: cleanName,
       tags: Array.from(iconGroup.tags),
       versionAdded: iconGroup.earliestVersion,
       weights: Array.from(iconGroup.weights).sort(),
