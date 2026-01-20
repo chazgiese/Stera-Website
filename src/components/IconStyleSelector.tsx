@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { CheckCircle, ChevronDown, LayoutGridCircle } from 'stera-icons';
+import { CheckCircle, ChevronDown, LayoutGridCircle } from 'stera-icons/dynamic-variants';
 import clsx from 'clsx';
 
 interface IconStyleSelectorProps {

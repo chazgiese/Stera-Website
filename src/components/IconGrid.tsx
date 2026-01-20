@@ -2,7 +2,7 @@
 
 import { IconData } from '@/types/icon';
 import IconCard from './IconCard';
-import { SquareDashed } from 'stera-icons';
+import { SquareDashed } from 'stera-icons/dynamic-variants';
 
 interface IconGridProps {
   icons: IconData[];

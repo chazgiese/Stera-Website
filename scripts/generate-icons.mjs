@@ -141,10 +141,14 @@ async function generateIconData() {
       iconGroup.supportsDuotone = true;
     }
     
-    // Create a variant key for tracking version info
+    // Create a variant key for tracking version info and component names
     const variantKey = duotone ? `${weight}-duotone` : weight;
     if (!iconGroup.variantVersionAdded[variantKey]) {
-      iconGroup.variantVersionAdded[variantKey] = versionAdded;
+      iconGroup.variantVersionAdded[variantKey] = {
+        version: versionAdded,
+        componentName: iconMeta.variantComponentName,
+        fileName: iconMeta.fileName?.replace('.tsx', '')
+      };
     }
     
     // Update earliest version
@@ -179,8 +183,8 @@ async function generateIconData() {
     iconGroup.tags.add(cleanName);
     
     // Add "*new*" tag if any variant was added in the current version
-    const hasNewVariant = Object.values(iconGroup.variantVersionAdded).some(version => 
-      version !== 'unknown' && isVersionEqual(version, currentVersion)
+    const hasNewVariant = Object.values(iconGroup.variantVersionAdded).some(variantInfo => 
+      variantInfo.version !== 'unknown' && isVersionEqual(variantInfo.version, currentVersion)
     );
     if (hasNewVariant) {
       iconGroup.tags.add('*new*');

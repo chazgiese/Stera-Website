@@ -1,6 +1,6 @@
 'use client';
 
-import { Search, X } from 'stera-icons';
+import { Search, X } from 'stera-icons/dynamic-variants';
 import { useState } from 'react';
 
 interface SearchBarProps {

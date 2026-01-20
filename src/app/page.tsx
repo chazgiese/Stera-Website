@@ -222,7 +222,7 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-sm text-zinc-500 dark:text-zinc-600">
             <p>
-              made with <Scribble weight="fill" className="w-4 h-4 inline-block" />
+              made with <Scribble className="w-4 h-4 inline-block" />
               {' '}by{' '}
               <a
                 href="https://github.com/chazgiese"

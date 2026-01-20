@@ -1,11 +1,40 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XCircle, Copy, Download, CheckCircle } from 'stera-icons';
+import { XCircle, Copy, Download, CheckCircle } from 'stera-icons/dynamic-variants';
 import { IconData } from '@/types/icon';
 import DynamicIcon from './DynamicIcon';
 import WeightSelector from './WeightSelector';
 import DuotoneToggle from './DuotoneToggle';
+
+// CodeSection component for syntax-highlighted code blocks with copy functionality
+interface CodeSectionProps {
+  title: string;
+  copyText: string;
+  copyId: string;
+  copied: string | null;
+  onCopy: (text: string, id: string) => void;
+  children: React.ReactNode;
+}
+
+function CodeSection({ title, copyText, copyId, copied, onCopy, children }: CodeSectionProps) {
+  return (
+    <div className="mb-6">
+      <div className="flex items-center justify-between mb-2">
+        <h3 className="text-xs font-medium text-zinc-900 dark:text-zinc-400">{title}</h3>
+        <button
+          onClick={() => onCopy(copyText, copyId)}
+          className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
+        >
+          {copied === copyId ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
+        </button>
+      </div>
+      <pre className="py-1 text-sm overflow-x-auto">
+        <code className="text-zinc-800 dark:text-zinc-200">{children}</code>
+      </pre>
+    </div>
+  );
+}
 
 interface IconDetailModalProps {
   icon: IconData | null;
@@ -51,31 +80,51 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
     }
   };
 
-  // Parse the icon name to get component name
-  // In v7.0.0+, component names no longer have the 'Icon' suffix
-  const componentName = icon.name;
-  const prettyName = componentName;
-  const importCode = `import { ${componentName} } from 'stera-icons/${componentName}';`;
+  // Get variant info from the icon's variants field
+  const variantKey = currentDuotone ? `${currentWeight}-duotone` : currentWeight;
+  const variantInfo = icon.variants[variantKey];
+
+  // Get naming components from variant info
+  const baseName = icon.componentName || icon.name;
+  const fileName = variantInfo?.fileName || variantInfo?.componentName || icon.name;
+  const prettyName = baseName;
   
-  // Generate usage code based on weight and duotone
-  const getUsageCode = (weight: 'regular' | 'bold' | 'fill', duotone: boolean) => {
-    const props: string[] = [];
-    
-    if (weight !== 'regular') {
-      props.push(`weight="${weight}"`);
-    }
-    
-    if (duotone) {
-      props.push('duotone');
-    }
-    
-    props.push(`size={${iconSize}}`);
-    
-    const propsString = props.length > 0 ? ` ${props.join(' ')}` : '';
-    return `<${componentName}${propsString} />`;
-  };
-  
-  const usageCode = getUsageCode(currentWeight, currentDuotone);
+  // Derive the display name (omits "Regular" for cleaner code examples)
+  let displayVariantName: string;
+  if (currentWeight === 'regular') {
+    displayVariantName = currentDuotone ? `${baseName}Duotone` : baseName;
+  } else {
+    displayVariantName = variantInfo?.componentName || icon.name;
+  }
+
+  // Naming conventions
+  const prefixedName = `Si${displayVariantName}`;
+  const suffixedName = `${displayVariantName}Icon`;
+
+  // Generate code strings for each section (clean versions for copying)
+  const recommendedCode = `import { ${prefixedName} } from 'stera-icons';
+
+<${prefixedName} size={${iconSize}} />`;
+
+  const aliasesCode = `// Base
+<${displayVariantName} />
+
+// Prefix (Recommended)
+<${prefixedName} />
+
+// Suffix
+<${suffixedName} />`;
+
+  // For dynamic variants, use base component name with props
+  const dynamicWeightProp = currentWeight !== 'regular' ? ` weight="${currentWeight}"` : '';
+  const dynamicDuotoneProp = currentDuotone ? ' duotone' : '';
+  const dynamicVariantsCode = `import { Si${baseName} } from 'stera-icons/dynamic-variants';
+
+<Si${baseName}${dynamicWeightProp}${dynamicDuotoneProp} size={${iconSize}} />`;
+
+  const subpathImportCode = `import { ${prefixedName} } from 'stera-icons/icons/${fileName}';
+
+<${prefixedName} size={${iconSize}} />`;
 
   const getSVGData = () => {
     const svgElement = document.querySelector('#icon-preview svg');
@@ -209,37 +258,130 @@ export default function IconDetailModal({ icon, isOpen, onClose, weight: initial
                 </div>
               </div>
 
-              {/* Import */}
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-xs font-medium text-zinc-900 dark:text-zinc-400">Import</h3>
-                  <button
-                    onClick={() => copyToClipboard(importCode, 'import')}
-                    className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
-                  >
-                    {copied === 'import' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
-                  </button>
-                </div>
-                <pre className="py-1 text-sm overflow-x-auto">
-                  <code className="text-zinc-800 dark:text-zinc-200">{importCode}</code>
-                </pre>
-              </div>
+              {/* Recommended Usage */}
+              <CodeSection
+                title="Recommended Usage"
+                copyText={recommendedCode}
+                copyId="recommended"
+                copied={copied}
+                onCopy={copyToClipboard}
+              >
+                <span className="syntax-keyword">import</span>
+                <span className="syntax-punctuation">{' { '}</span>
+                <span className="syntax-component">{prefixedName}</span>
+                <span className="syntax-punctuation">{' } '}</span>
+                <span className="syntax-keyword">from</span>
+                <span className="syntax-punctuation">{' '}</span>
+                <span className="syntax-string">&apos;stera-icons&apos;</span>
+                <span className="syntax-punctuation">;</span>
+                {'\n\n'}
+                <span className="syntax-punctuation">{'<'}</span>
+                <span className="syntax-component">{prefixedName}</span>
+                <span className="syntax-punctuation">{' '}</span>
+                <span className="syntax-prop">size</span>
+                <span className="syntax-punctuation">=</span>
+                <span className="syntax-punctuation">{'{'}</span>
+                <span className="syntax-value">{iconSize}</span>
+                <span className="syntax-punctuation">{'}'}</span>
+                <span className="syntax-punctuation">{' />'}</span>
+              </CodeSection>
 
-              {/* Usage */}
-              <div>
-                <div className="flex items-center justify-between h-10">
-                  <h3 className="text-xs font-medium text-zinc-900 dark:text-zinc-400">Usage</h3>
-                  <button
-                    onClick={() => copyToClipboard(usageCode, 'usage')}
-                    className="flex items-center gap-1 px-2 py-2 text-xs text-zinc-400 hover:text-zinc-500 dark:hover:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-lg transition-colors"
-                  >
-                    {copied === 'usage' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
-                  </button>
-                </div>
-                <pre className="py-1 text-sm overflow-x-auto">
-                  <code className="text-zinc-800 dark:text-zinc-200">{usageCode}</code>
-                </pre>
-              </div>
+              {/* Aliases */}
+              <CodeSection
+                title="Aliases"
+                copyText={aliasesCode}
+                copyId="aliases"
+                copied={copied}
+                onCopy={copyToClipboard}
+              >
+                <span className="syntax-comment">{'// Base'}</span>
+                {'\n'}
+                <span className="syntax-punctuation">{'<'}</span>
+                <span className="syntax-component">{displayVariantName}</span>
+                <span className="syntax-punctuation">{' />'}</span>
+                {'\n\n'}
+                <span className="syntax-comment">{'// Prefix (Recommended)'}</span>
+                {'\n'}
+                <span className="syntax-punctuation">{'<'}</span>
+                <span className="syntax-component">{prefixedName}</span>
+                <span className="syntax-punctuation">{' />'}</span>
+                {'\n\n'}
+                <span className="syntax-comment">{'// Suffix'}</span>
+                {'\n'}
+                <span className="syntax-punctuation">{'<'}</span>
+                <span className="syntax-component">{suffixedName}</span>
+                <span className="syntax-punctuation">{' />'}</span>
+              </CodeSection>
+
+              {/* Dynamic Variants */}
+              <CodeSection
+                title="Dynamic Variants"
+                copyText={dynamicVariantsCode}
+                copyId="dynamic"
+                copied={copied}
+                onCopy={copyToClipboard}
+              >
+                <span className="syntax-keyword">import</span>
+                <span className="syntax-punctuation">{' { '}</span>
+                <span className="syntax-component">Si{baseName}</span>
+                <span className="syntax-punctuation">{' } '}</span>
+                <span className="syntax-keyword">from</span>
+                <span className="syntax-punctuation">{' '}</span>
+                <span className="syntax-string">&apos;stera-icons/dynamic-variants&apos;</span>
+                <span className="syntax-punctuation">;</span>
+                {'\n\n'}
+                <span className="syntax-punctuation">{'<'}</span>
+                <span className="syntax-component">Si{baseName}</span>
+                {currentWeight !== 'regular' && (
+                  <>
+                    <span className="syntax-punctuation">{' '}</span>
+                    <span className="syntax-prop">weight</span>
+                    <span className="syntax-punctuation">=</span>
+                    <span className="syntax-string">&quot;{currentWeight}&quot;</span>
+                  </>
+                )}
+                {currentDuotone && (
+                  <>
+                    <span className="syntax-punctuation">{' '}</span>
+                    <span className="syntax-prop">duotone</span>
+                  </>
+                )}
+                <span className="syntax-punctuation">{' '}</span>
+                <span className="syntax-prop">size</span>
+                <span className="syntax-punctuation">=</span>
+                <span className="syntax-punctuation">{'{'}</span>
+                <span className="syntax-value">{iconSize}</span>
+                <span className="syntax-punctuation">{'}'}</span>
+                <span className="syntax-punctuation">{' />'}</span>
+              </CodeSection>
+
+              {/* Subpath Import */}
+              <CodeSection
+                title="Subpath Import"
+                copyText={subpathImportCode}
+                copyId="subpath"
+                copied={copied}
+                onCopy={copyToClipboard}
+              >
+                <span className="syntax-keyword">import</span>
+                <span className="syntax-punctuation">{' { '}</span>
+                <span className="syntax-component">{prefixedName}</span>
+                <span className="syntax-punctuation">{' } '}</span>
+                <span className="syntax-keyword">from</span>
+                <span className="syntax-punctuation">{' '}</span>
+                <span className="syntax-string">&apos;stera-icons/icons/{fileName}&apos;</span>
+                <span className="syntax-punctuation">;</span>
+                {'\n\n'}
+                <span className="syntax-punctuation">{'<'}</span>
+                <span className="syntax-component">{prefixedName}</span>
+                <span className="syntax-punctuation">{' '}</span>
+                <span className="syntax-prop">size</span>
+                <span className="syntax-punctuation">=</span>
+                <span className="syntax-punctuation">{'{'}</span>
+                <span className="syntax-value">{iconSize}</span>
+                <span className="syntax-punctuation">{'}'}</span>
+                <span className="syntax-punctuation">{' />'}</span>
+              </CodeSection>
             </div>
           </div>
         </div>
