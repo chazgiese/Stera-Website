@@ -43,7 +43,8 @@ export default function SearchBar({
           focus:bg-black/5
           transition-all duration-200
           dark:text-zinc-400
-          text-sm/4"
+          md:text-sm/4
+          text-base"
       />
       <Search 
         weight="bold"
