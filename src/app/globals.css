@@ -27,60 +27,31 @@ body {
 
 /* Syntax highlighting for code blocks */
 .syntax-keyword {
-  color: #8b5cf6; /* purple-500 */
+  color: #71717A;
 }
 
 .syntax-component {
-  color: #22c55e; /* green-500 */
+  color: #D4D4D8;
 }
 
 .syntax-string {
-  color: #f59e0b; /* amber-500 */
+  color: #D4D4D8;
 }
 
 .syntax-prop {
-  color: #06b6d4; /* cyan-500 */
+  color: #71717A;
 }
 
 .syntax-value {
-  color: #f97316; /* orange-500 */
+  color: #71717A;
 }
 
 .syntax-comment {
-  color: #6b7280; /* gray-500 */
+  color: #3F3F46;
   font-style: italic;
 }
 
 .syntax-punctuation {
-  color: #a1a1aa; /* zinc-400 */
+  color: #3F3F46;
 }
 
-@media (prefers-color-scheme: dark) {
-  .syntax-keyword {
-    color: #a78bfa; /* purple-400 */
-  }
-
-  .syntax-component {
-    color: #4ade80; /* green-400 */
-  }
-
-  .syntax-string {
-    color: #fbbf24; /* amber-400 */
-  }
-
-  .syntax-prop {
-    color: #22d3ee; /* cyan-400 */
-  }
-
-  .syntax-value {
-    color: #fb923c; /* orange-400 */
-  }
-
-  .syntax-comment {
-    color: #9ca3af; /* gray-400 */
-  }
-
-  .syntax-punctuation {
-    color: #71717a; /* zinc-500 */
-  }
-}

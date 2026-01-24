@@ -75,7 +75,7 @@ export default function IconStyleSelector({
         <div className="absolute top-full right-0 mt-2 w-[200px] backdrop-blur-sm dark:bg-white/4 bg-black/3 rounded-2xl shadow-lg inset-shadow-stera-light dark:inset-shadow-stera-dark z-50 overflow-clip">
           <div className="py-1">
             {/* Weight Section */}
-            <div className="px-3 py-2 text-xs text-zinc-500 dark:text-zinc-400">
+            <div className="px-4 py-2 text-xs text-zinc-500 dark:text-zinc-400">
               Weight
             </div>
             <ul role="listbox">
@@ -108,7 +108,7 @@ export default function IconStyleSelector({
             <div className="border-t border-zinc-300 dark:border-zinc-800 my-1" />
             
             {/* Duotone Section */}
-            <div className="px-3 py-2 text-xs text-zinc-500 dark:text-zinc-400">
+            <div className="px-4 py-2 text-xs text-zinc-500 dark:text-zinc-400">
               Duotone
             </div>
             <ul role="listbox">

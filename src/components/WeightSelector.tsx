@@ -18,7 +18,7 @@ export default function WeightSelector({
   ];
 
   return (
-    <div className="relative flex flex-1 min-w-0 items-center bg-zinc-200 dark:bg-zinc-950 rounded-full p-1">
+    <div className="relative flex flex-1 min-w-0 items-center bg-zinc-900 dark:bg-zinc-950 rounded-full p-1">
       {weights.map((weight) => (
         <button
           key={weight.key}
@@ -27,8 +27,8 @@ export default function WeightSelector({
             'relative flex-1 p-2 text-xs/4 font-medium rounded-full transition-all',
             'focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 focus:ring-offset-zinc-900',
             selectedWeight === weight.key
-              ? 'bg-zinc-800 dark:bg-zinc-800 text-zinc-200 dark:text-zinc-300'
-              : 'text-zinc-500 dark:text-zinc-500 hover:text-zinc-400 dark:hover:text-zinc-400'
+              ? 'bg-zinc-50 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-300'
+              : 'text-zinc-50 dark:text-zinc-500 dark:hover:text-zinc-400'
           )}
           role="radio"
           aria-checked={selectedWeight === weight.key}

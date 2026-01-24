@@ -71,7 +71,7 @@ export default function IconDetailModal({
       <div className="fixed inset-0" onClick={onClose} />
 
       {/* Modal */}
-      <div className="relative flex flex-col w-md overflow-y-scroll shadow-si-dark backdrop-blur-sm rounded-3xl bg-white dark:bg-white/4">
+      <div className="relative flex flex-col w-md overflow-y-scroll shadow-si-dark shadow-si-light backdrop-blur-sm rounded-3xl bg-black/3 dark:bg-white/4">
         {/* Header */}
         <div className="flex-shrink-0 sticky top-0 left-0 right-0 z-10 rounded-t-3xl">
           <div className="flex items-center pl-6 pr-4 py-4 gap-3">
@@ -81,21 +81,21 @@ export default function IconDetailModal({
             <div className="flex items-center gap-2">
               <button
                 onClick={() => copyToClipboard(handleGetSVGData(), 'svg')}
-                className="p-2 hover:bg-zinc-100 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-500 dark:text-zinc-50"
+                className="p-2 hover:bg-black/4 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-900 dark:text-zinc-50"
                 title="Copy SVG"
               >
                 {copied === 'svg' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
               </button>
               <button
                 onClick={handleDownloadSVG}
-                className="p-2 hover:bg-zinc-100 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-500 dark:text-zinc-50"
+                className="p-2 hover:bg-black/4 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-900 dark:text-zinc-50"
                 title="Download SVG"
               >
                 <Download weight="bold" duotone size={16} />
               </button>
               <button
                 onClick={onClose}
-                className="p-2 hover:bg-zinc-100 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-500 dark:text-zinc-50"
+                className="p-2 hover:bg-black/4 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-900 dark:text-zinc-50"
               >
                 <XCircle weight="fill" duotone size={16} />
               </button>
@@ -109,7 +109,7 @@ export default function IconDetailModal({
           <div className="pt-2 pb-12">
             <div 
               id="icon-preview"
-              className="flex items-center justify-center text-zinc-950 dark:text-zinc-200"
+              className="flex items-center justify-center text-zinc-900 dark:text-zinc-200"
             >
               <DynamicIcon 
                 iconName={icon.kebabName} 
@@ -126,7 +126,7 @@ export default function IconDetailModal({
               selectedWeight={currentWeight}
               onWeightChange={setCurrentWeight}
             />
-            <div className="text-zinc-200 dark:text-zinc-950 -mx-8">
+            <div className="text-zinc-900 dark:text-zinc-950 -mx-8">
               <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M56 40C49.5735 40 43.8553 36.9684 40.1963 32.2578C32.7264 22.628 23.2921 22.6207 15.8193 32.2363C12.1611 36.9589 6.43608 39.9999 0 40V0C6.4358 9.66972e-05 12.1611 3.04042 15.8193 7.7627C23.2923 17.3791 32.7262 17.3723 40.1963 7.74219C43.8553 3.03164 49.5735 0 56 0V40Z" fill="currentColor"/>
               </svg>
@@ -143,15 +143,17 @@ export default function IconDetailModal({
               <h3 className="text-xs font-medium text-zinc-900 dark:text-zinc-400">Tags</h3>
             </div>
             <div className="flex px-4">
-              <div className="w-full dark:bg-zinc-950 p-3 overflow-y-scroll rounded-xl">
-                {icon.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-zinc-800 dark:text-zinc-400 text-sm"
-                  >
-                    {tag}
-                  </span>
-                ))}
+              <div className="w-full bg-zinc-900 dark:bg-zinc-950 p-3 overflow-y-scroll rounded-xl">
+                <span className="text-zinc-300 text-sm">
+                  {icon.tags.map((tag, index) => (
+                    <span key={tag}>
+                      {tag}
+                      {index < icon.tags.length - 1 && (
+                        <span className="text-zinc-500">, </span>
+                      )}
+                    </span>
+                  ))}
+                </span>
               </div>
             </div>
           </div>
