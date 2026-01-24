@@ -1,9 +1,8 @@
 'use client';
 
-import { DynamicIcon as SteraDynamicIcon } from 'stera-icons/dynamic';
-import type { DynamicIconProps as SteraDynamicIconProps } from 'stera-icons/dynamic';
+import { iconMap, type DynamicVariantProps } from '@/data/iconComponents';
 
-interface DynamicIconProps extends Omit<SteraDynamicIconProps, 'name'> {
+interface DynamicIconProps extends Omit<DynamicVariantProps, 'weight'> {
   iconName: string;       // kebab-case icon name (e.g., "chart-bar-x-y")
   weight?: 'regular' | 'bold' | 'fill';
   duotone?: boolean;
@@ -15,14 +14,11 @@ export default function DynamicIcon({
   duotone = false, 
   ...props 
 }: DynamicIconProps) {
-  return (
-    <SteraDynamicIcon 
-      name={iconName} 
-      weight={weight} 
-      duotone={duotone} 
-      {...props} 
-    />
-  );
+  const IconComponent = iconMap[iconName];
+  
+  if (!IconComponent) {
+    return null;
+  }
+  
+  return <IconComponent weight={weight} duotone={duotone} {...props} />;
 }
-
-export type { DynamicIconProps };
