@@ -71,7 +71,7 @@ export default function IconDetailModal({
       <div className="fixed inset-0" onClick={onClose} />
 
       {/* Modal */}
-      <div className="relative flex flex-col w-md overflow-y-scroll shadow-si-dark shadow-si-light backdrop-blur-sm rounded-3xl bg-black/3 dark:bg-white/4">
+      <div className="relative flex flex-col w-md overflow-y-scroll dark:shadow-si-dark shadow-si-light backdrop-blur-sm rounded-3xl bg-black/3 dark:bg-white/4">
         {/* Header */}
         <div className="flex-shrink-0 sticky top-0 left-0 right-0 z-10 rounded-t-3xl">
           <div className="flex items-center pl-6 pr-4 py-4 gap-3">
