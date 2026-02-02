@@ -22,11 +22,17 @@ export const metadata: Metadata = {
   description: "Open source icon library for Figma and React",
   icons: {
     icon: [
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/favicon-light-96x96.png',
+        href: '/favicon-light-96x96.png',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/favicon-dark-96x96.png',
+        href: '/favicon-dark-96x96.png',
+      },
     ],
-    shortcut: '/favicon.ico', // Fallback for older browsers
   },
   openGraph: {
     title: "Stera ✻ Icons",
