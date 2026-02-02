@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XCircle, Copy, Download, CheckCircle } from 'stera-icons/dynamic-variants';
+import { X, Copy, Download, CheckCircle } from 'stera-icons/dynamic-variants';
 import { IconData } from '@/types/icon';
 import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
 import { getSVGData, downloadSVG, getSVGFilename } from '@/utils/svgExport';
@@ -74,30 +74,30 @@ export default function IconDetailModal({
       <div className="relative flex flex-col w-md overflow-y-scroll dark:shadow-si-dark shadow-si-light backdrop-blur-sm rounded-3xl bg-black/3 dark:bg-white/4">
         {/* Header */}
         <div className="flex-shrink-0 sticky top-0 left-0 right-0 z-10 rounded-t-3xl">
-          <div className="flex items-center pl-6 pr-4 py-4 gap-3">
+          <div className="flex items-center pl-6 pr-4 pt-4 pb-8 gap-3">
             <h2 className="text-base font-bold text-zinc-900 dark:text-zinc-50 flex-1">
               {prettyName}
             </h2>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center p-1 gap-1 -mt-1 rounded-full bg-white dark:bg-black shadow-si-light dark:shadow-si-dark">
               <button
                 onClick={() => copyToClipboard(handleGetSVGData(), 'svg')}
-                className="p-2 hover:bg-black/4 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-900 dark:text-zinc-50"
+                className="p-2 hover:bg-black/6 dark:hover:bg-white/12 rounded-full transition-colors text-zinc-900 dark:text-zinc-50"
                 title="Copy SVG"
               >
                 {copied === 'svg' ? <CheckCircle weight="fill" duotone size={16} /> : <Copy weight="bold" duotone size={16} />}
               </button>
               <button
                 onClick={handleDownloadSVG}
-                className="p-2 hover:bg-black/4 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-900 dark:text-zinc-50"
+                className="p-2 hover:bg-black/6 dark:hover:bg-white/12 rounded-full transition-colors text-zinc-900 dark:text-zinc-50"
                 title="Download SVG"
               >
                 <Download weight="bold" duotone size={16} />
               </button>
               <button
                 onClick={onClose}
-                className="p-2 hover:bg-black/4 dark:hover:bg-black/32 rounded-lg transition-colors text-zinc-900 dark:text-zinc-50"
+                className="p-2 hover:bg-black/6 dark:hover:bg-white/12 rounded-full transition-colors text-zinc-900 dark:text-zinc-50"
               >
-                <XCircle weight="fill" duotone size={16} />
+                <X weight="bold" size={16} />
               </button>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function IconDetailModal({
         {/* Content */}
         <div className="flex flex-col flex-1 gap-4 pb-6 rounded-b-3xl">
           {/* Icon Preview */}
-          <div className="pt-2 pb-12">
+          <div className="pt-5 pb-12">
             <div 
               id="icon-preview"
               className="flex items-center justify-center text-zinc-900 dark:text-zinc-200"

@@ -189,7 +189,7 @@ function HomeContent() {
             href="https://www.figma.com/community/file/1548871823641702097/stera-icons"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-zinc-200 cursor-default"
+            className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-black/5 cursor-default"
           >
             <Figma className="w-4 h-4" />
           </a>
@@ -197,7 +197,7 @@ function HomeContent() {
             href="https://github.com/chazgiese/Stera-Icons"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-zinc-200 cursor-default"
+            className="flex items-center text-sm p-2 text-zinc-900 dark:text-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors rounded-full dark:hover:bg-white/8 hover:bg-black/5 cursor-default"
           >
             <Github className="w-4 h-4" />
           </a>

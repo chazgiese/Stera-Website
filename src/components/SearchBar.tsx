@@ -60,7 +60,7 @@ export default function SearchBar({
             right-1
             p-3
             dark:hover:text-zinc-100 dark:text-zinc-400
-            hover:bg-gray-100 dark:hover:bg-zinc-800
+            hover:bg-black/5 dark:hover:bg-white/8
             rounded-full
             transition-colors"
           aria-label="Clear search"
