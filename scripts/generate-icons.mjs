@@ -90,6 +90,7 @@ async function generateIconData() {
   const invalidIcons = [];
   const deprecatedIcons = [];
   let newIconsCount = 0;
+  let updatedIconsCount = 0;
   
   // Group icons by component name to collect all weight/duotone combinations
   const iconGroups = new Map();
@@ -190,6 +191,14 @@ async function generateIconData() {
       iconGroup.tags.add('*new*');
     }
     
+    // Add "*updated*" tag if icon was updated in current version but not new
+    const wasUpdatedInCurrentVersion = iconGroup.latestVersionUpdated !== 'unknown' && 
+      isVersionEqual(iconGroup.latestVersionUpdated, currentVersion);
+    if (wasUpdatedInCurrentVersion && !hasNewVariant) {
+      iconGroup.tags.add('*updated*');
+      updatedIconsCount++;
+    }
+    
     const iconData = {
       name: cleanName,
       kebabName: iconGroup.kebabName,
@@ -220,6 +229,7 @@ async function generateIconData() {
   }
   
   console.log(`✨ Tagged ${newIconsCount} icons as "*new*" for version ${currentVersion}`);
+  console.log(`🔄 Tagged ${updatedIconsCount} icons as "*updated*" for version ${currentVersion}`);
   console.log(`✅ Generated data for ${result.length} valid icons`);
   return result;
 }
